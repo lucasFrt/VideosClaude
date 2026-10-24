@@ -41,11 +41,11 @@ nome = "O que mudaria"
 cena = "O Zé paga o pão pelo celular e a maquininha aceita a moeda dourada, mas a etiqueta continua em R$; cartão '9 em cada 10 não usaram (El Salvador, 2024)' sobre um mapa simplificado sem bandeira, e a plaquinha 'Obrigatório' de lá vira 'Opcional'; por fim, uma alavanca de juros num painel genérico 'Banco Central' fica mais leve à medida que moedas douradas substituem as de real, e o Zé fica preocupado."
 
   [[bloco.frase]]
-  fala = "No curto prazo, talvez pouca coisa mudasse: em El Salvador, que usa o dólar, mais de 9 em cada 10 pessoas não usaram Bitcoin em 2024."
+  fala = "No curto prazo, talvez pouco mudasse: em El Salvador, que usa o dólar, mais de 9 em cada 10 pessoas não usaram Bitcoin em 2024."
   marcacao = "PROJEÇÃO"
   fontes = ["F8", "F10", "F6"]
   tela = "9 em cada 10 não usaram (El Salvador, 2024)"
-  voz = "No curto prazo, talvez pouca coisa mudasse: em El Salvador, que usa o dólar, mais de nove em cada dez pessoas não usaram Bitcoin em dois mil e vinte e quatro."
+  voz = "No curto prazo, talvez pouco mudasse: em El Salvador, que usa o dólar, mais de nove em cada dez pessoas não usaram Bitcoin em dois mil e vinte e quatro."
 
   [[bloco.frase]]
   fala = "Depois, a obrigação de aceitar caiu por lá."
@@ -73,7 +73,7 @@ cena = "Balança 3D equilibrada: no prato verde, um cadeado sobre uma pilha de m
   voz = "Quem defende aponta que ninguém emite além de vinte e um milhões de bitcoins, e o real perdeu mais de oitenta e cinco por cento do poder de compra desde o Plano Real."
 
   [[bloco.frase]]
-  fala = "Quem critica aponta que salário e aluguel pedem preço estável, e o Bitcoin já caiu quase dois terços do valor num ano e, no ano seguinte, mais que dobrou."
+  fala = "Quem critica aponta que salário e aluguel pedem preço estável, e o Bitcoin caiu quase dois terços do valor num ano e, no ano seguinte, mais que dobrou."
   marcacao = "ARGUMENTO CONTRA"
   fontes = ["F14"]
   tela = "−64% em 2022 · +155% em 2023"

@@ -52,30 +52,30 @@ cena = "A pilha de ouro cresce até a altura das notas enquanto um saco de dóla
   voz = "E o ouro oscila: em janeiro, o grama passou de cento e sessenta dólares; em outubro, estava perto de cento e trinta."
 
   [[bloco.frase]]
-  fala = "Preso a ele, o real cairia junto, e o dólar e o celular importado ficariam mais caros aqui."
+  fala = "Preso a ele, o real cairia junto, e o dólar e o celular importado ficariam mais caros."
   marcacao = "PROJEÇÃO"
   fontes = ["F5", "F6"]
 
 [[bloco]]
 nome = "A balança"
-cena = "Balança 3D equilibrada: prato verde (a favor) à esquerda, com um carrinho de supermercado cuja etiqueta de preço fica parada enquanto um calendário de 1880 a 1913 passa rápido; prato coral (contra) à direita, com uma chaminé de fábrica que volta a soltar fumaça quando o Zé solta uma corrente dourada presa ao pulso. Cada prato acende na sua frase. No termômetro, os pratos apagam, a balança segue equilibrada e um termômetro ao lado marca 'quase consenso contra'."
+cena = "Balança 3D equilibrada: prato verde (a favor) à esquerda, com um carrinho de supermercado cuja etiqueta de preço fica parada enquanto um calendário de 1880 a 1914 passa rápido; prato coral (contra) à direita, com uma chaminé de fábrica que volta a soltar fumaça quando o Zé solta uma corrente dourada presa ao pulso. Cada prato acende na sua frase. No termômetro, os pratos apagam, a balança segue equilibrada e um termômetro ao lado marca 'quase consenso contra'."
 
   [[bloco.frase]]
   fala = "Agora, vamos colocar na balança."
   marcacao = "BORDÃO"
 
   [[bloco.frase]]
-  fala = "Quem defende aponta que, nos Estados Unidos, no padrão-ouro antes da Primeira Guerra, a inflação média foi de só 0,1% ao ano: o dinheiro dependia do ouro."
+  fala = "Quem defende aponta que, nos Estados Unidos, antes da Primeira Guerra, a inflação média foi de só 0,1% ao ano: o dinheiro dependia do ouro."
   marcacao = "ARGUMENTO A FAVOR"
   fontes = ["F11"]
   tela = "EUA, 1880–1914: inflação média de 0,1% ao ano"
-  voz = "Quem defende aponta que, nos Estados Unidos, no padrão-ouro antes da Primeira Guerra, a inflação média foi de só zero vírgula um por cento ao ano: o dinheiro dependia do ouro."
+  voz = "Quem defende aponta que, nos Estados Unidos, antes da Primeira Guerra, a inflação média foi de só zero vírgula um por cento ao ano: o dinheiro dependia do ouro."
 
   [[bloco.frase]]
-  fala = "Quem critica aponta que, na crise de 1929, os países que largaram o ouro mais cedo voltaram a produzir e a crescer antes, livres dessa amarra."
+  fala = "Quem critica aponta que, na crise de 1929, os países que largaram o ouro mais cedo voltaram a crescer antes, livres dessa amarra."
   marcacao = "ARGUMENTO CONTRA"
   fontes = ["F12", "F14"]
-  voz = "Quem critica aponta que, na crise de mil novecentos e vinte e nove, os países que largaram o ouro mais cedo voltaram a produzir e a crescer antes, livres dessa amarra."
+  voz = "Quem critica aponta que, na crise de mil novecentos e vinte e nove, os países que largaram o ouro mais cedo voltaram a crescer antes, livres dessa amarra."
 
   [[bloco.frase]]
   fala = "Entre economistas, há quase consenso contra o padrão-ouro: em 2012, num painel dos Estados Unidos, nenhum concordou que ele traria preços mais estáveis e mais emprego."

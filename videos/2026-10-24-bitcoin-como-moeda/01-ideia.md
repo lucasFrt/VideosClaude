@@ -18,14 +18,14 @@ Uma lei federal, aprovada pelo Congresso, dá ao Bitcoin o papel de moeda de cur
 ## Simplificações (o vídeo precisa dizer quais são)
 - O cenário é uma lei "como a de El Salvador em 2021": o Bitcoin vira moeda ao lado do real (o real continua) e toda loja tem que aceitar (dito na frase [PREMISSA] do bloco 2).
 - A tramitação, as exceções (quem não tem acesso à tecnologia), os custos de conversão e a parte tributária ficam de fora.
-- Ninguém sabe quanta gente passaria a usar; o vídeo fala em direção ("talvez pouca coisa mudasse", "ninguém sabe quantos trocariam de moeda; se fossem muitos..."), não em números de previsão (dito no bloco 3).
+- Ninguém sabe quanta gente passaria a usar; o vídeo fala em direção ("talvez pouco mudasse", "ninguém sabe quantos trocariam de moeda; se fossem muitos..."), não em números de previsão (dito no bloco 3).
 - El Salvador é a única evidência direta, mas lá o dia a dia já é em dólar, uma moeda mais estável que o real; o vídeo diz essa diferença na mesma frase do dado.
 
 ## Perguntas que o vídeo precisa responder
 - Hoje o Bitcoin é permitido no Brasil? Quantos brasileiros usam cripto?
 - Obrigar as lojas a aceitar faria as pessoas usarem? O que aconteceu em El Salvador, onde a lei existiu de verdade (e onde o dia a dia já é em dólar), e por que ela recuou?
 - O que acontece com o real e com o Banco Central se muita gente trocar de moeda?
-- Qual o melhor argumento de quem defende (nenhum governo controla a emissão) e de quem critica (preço instável demais para salário e aluguel)?
+- Qual o melhor argumento de quem defende (teto de 21 milhões, contra a inflação que corroeu o real) e de quem critica (preço instável demais para salário e aluguel)?
 - Onde estão os especialistas?
 
 ## Por que este cenário é plausível no Brasil real
