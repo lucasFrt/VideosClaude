@@ -10,10 +10,10 @@
 #   voz       (opcional) a fala escrita como a voz deve ler, com números por extenso
 #
 # As contas (custo, % do PIB, fatia da arrecadação federal, R$ 5.000 por família) estão no
-# 02-fontes.md, seção "Contas do canal". Versões 2 a 4: respostas às rodadas 1 a 3 do crítico (04-revisoes.md).
+# 02-fontes.md, seção "Contas do canal". Versões 2 a 5: respostas às rodadas 1 a 3 do crítico (04-revisoes.md).
 
 titulo = "E se todo brasileiro recebesse uma renda básica?"
-versao = 4
+versao = 5
 
 [[bloco]]
 nome = "Gancho"
@@ -48,6 +48,7 @@ cena = "A mesma rua: agora um envelope verde, diferente do amarelo do contexto, 
   [[bloco.frase]]
   fala = "Aqui, vamos supor R$ 500 por mês para cada pessoa, do bebê ao bilionário, além dos benefícios de hoje, sem exigir nada, pagos com mais impostos."
   marcacao = "PREMISSA"
+  tela = "R$ 500/mês para todos, além dos benefícios de hoje (hipótese)"
   voz = "Aqui, vamos supor quinhentos reais por mês para cada pessoa, do bebê ao bilionário, além dos benefícios de hoje, sem exigir nada, pagos com mais impostos."
 
   [[bloco.frase]]

@@ -67,7 +67,7 @@ Nenhuma objeção CRÍTICA, uma IMPORTANTE nova (R2.1, de correção barata) e d
 | # | Trecho | Nível | Objeção | Base | Resposta do autor | Decisão |
 |---|--------|-------|---------|------|-------------------|---------|
 | R3.1 | Tela do termômetro (30 palavras) com `rodape = ["F15"]` | MENOR | Em 9:16, ninguém lê 30 palavras em cerca de 11 s ouvindo outra coisa. E a primeira metade da fala ("lá fora, a maioria dos estudos vê pouco efeito no trabalho; no Brasil, eles divergem") ficou sem texto e sem fonte na tela: só aparece a metade que pende para o "contra". Sugestão: dois cartões sincronizados. | Raciocínio sobre leitura e recorte; efeito colateral da R2.2. | Procede: a correção da R2.2 deixou a tela desequilibrada. Como o `roteiro.py` exige um só [TERMÔMETRO] e uma tela por frase, o `tela` agora traz os dois cartões ("Cartão 1: Trabalho: lá fora, pouco efeito · no Brasil, os estudos divergem" e "Cartão 2: EUA, 2016, trocar todos os programas por renda universal: 58% contra · 19% em dúvida · 2% a favor · No Brasil, sem pesquisa assim"), e a cena diz que cada um aparece na sua frase. O campo `rodape` saiu, e o rodapé volta a ter as fontes das duas metades. O cartão 2 ainda tem cerca de 20 palavras: conferir a leitura na prévia. | aceita |
-| R3.2 | Cena do bloco 3 ("todas as casas acendem") contra a premissa "além dos benefícios de hoje" | MENOR | A correção só está na voz. A cena vai de "só algumas casas" para "todas as casas acendem", o que sugere ampliar ou substituir o mesmo programa. Sugestão: as casas que já tinham envelope recebem um segundo, e a premissa aparece como texto curto na tela. | Raciocínio sobre a cena; R2.1. | A primeira parte procede: agora um envelope verde, diferente do amarelo do Bolsa Família no contexto, cai em todas as casas, e as que já tinham o amarelo ficam com os dois. O texto da premissa na tela não foi posto: pelo `roteiro.py`, uma PREMISSA não pode ter `tela`, porque todo texto na tela precisa de fonte no rodapé, e escrever a premissa só na `cena` contornaria essa regra. O segundo envelope passa a ideia sem texto. | aceita em parte (sem texto da premissa na tela, por regra do script) |
+| R3.2 | Cena do bloco 3 ("todas as casas acendem") contra a premissa "além dos benefícios de hoje" | MENOR | A correção só está na voz. A cena vai de "só algumas casas" para "todas as casas acendem", o que sugere ampliar ou substituir o mesmo programa. Sugestão: as casas que já tinham envelope recebem um segundo, e a premissa aparece como texto curto na tela. | Raciocínio sobre a cena; R2.1. | A primeira parte procede: agora um envelope verde, diferente do amarelo do Bolsa Família no contexto, cai em todas as casas, e as que já tinham o amarelo ficam com os dois. Na versão 4, o texto da premissa ficou fora da tela, porque o `roteiro.py` não aceitava `tela` numa PREMISSA sem fonte. Depois que o script e o `montar.py` passaram a aceitar (a tela aparece sem rodapé, por ser hipótese), a versão 5 pôs na premissa a tela "R$ 500/mês para todos, além dos benefícios de hoje (hipótese)". | aceita |
 | R3.3 | Rótulo "Bolsa Família: uma etapa" no degrau de baixo | MENOR (sugestão opcional) | No degrau de baixo, o rótulo sugere "a primeira etapa", que o autor rejeitou na R1.1 porque a lei diz só "etapa". A imagem não é falsa, porque a lei manda priorizar os mais necessitados. | F5 e F6; R1.1. | Procede: a cena não deve dizer o que a fala evitou. A escada agora continua para baixo e para cima além do quadro, e o rótulo "Bolsa Família: uma das etapas" fica num degrau no meio do trecho visível. | aceita |
 
 ### Veredito do crítico
@@ -78,6 +78,7 @@ Nenhuma objeção CRÍTICA ou IMPORTANTE nova. As três são MENORES, de ajuste 
 - Cena do bloco 3: a renda básica chega num envelope verde, ao lado do amarelo, nas casas que já recebem benefício.
 - Rótulo da escada: "Bolsa Família: uma das etapas", num degrau do meio.
 - A fala não mudou: 222 palavras, cerca de 79 s.
+- Versão 5: a premissa ganhou a tela "R$ 500/mês para todos, além dos benefícios de hoje (hipótese)", sem rodapé (R3.2).
 
 ## Resumo final para a revisão humana
 
@@ -91,10 +92,10 @@ Nenhuma objeção CRÍTICA ou IMPORTANTE nova. As três são MENORES, de ajuste 
 > - deixa fora a Mongólia (pagamento universal nascido de promessa eleitoral) e Maricá (associada a gestões de um partido).
 > Detalhes em `02-fontes.md`, seção "Contexto que o vídeo evita".
 
-### O que mudou (versão 1 → versão 4)
+### O que mudou (versão 1 → versão 5)
 - **Gancho:** o valor entrou na voz: "R$ 500 por pessoa: quase R$ 1,3 trilhão por ano" (R1.5).
 - **Contexto:** sem "só no papel"; agora "Bolsa Família... por lei, uma etapa da renda para todos" (R1.1), com cena neutra (R2.3, R3.3).
-- **Premissa:** "além dos benefícios de hoje" (R2.1); na cena, um segundo envelope (R3.2).
+- **Premissa:** "além dos benefícios de hoje" (R2.1); na cena, um segundo envelope, e na tela, "R$ 500/mês para todos, além dos benefícios de hoje (hipótese)" (R3.2).
 - **Escala dos impostos:** "quase metade do que o governo federal arrecada" (R$ 2,89 tri em 2025), no lugar de "oito vezes o Bolsa Família" (R1.4).
 - **Bloco 3:** a família comum "poderia devolver parte em impostos"; quem ganha acima da média "tenderia a devolver mais do que recebe" (R1.4).
 - **Balança:** lado contra com o "se" (R1.6); os dois lados com tela e rodapé (R1.2); a troca do Quênia pelo argumento "sem degrau" foi rejeitada, com base (R1.6).

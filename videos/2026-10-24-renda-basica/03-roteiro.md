@@ -1,6 +1,6 @@
 <!-- Gerado pelo scripts/roteiro.py a partir do 03-roteiro.toml. Não edite este arquivo. -->
 # Roteiro — E se todo brasileiro recebesse uma renda básica?
-Versão: 4 · Duração estimada: ~79 s (222 palavras faladas)
+Versão: 5 · Duração estimada: ~79 s (222 palavras faladas)
 
 ## Bloco 1 — Gancho (~8 s)
 Cena: Primeiro quadro já com o contador enorme parando em 'quase R$ 1,3 trilhão por ano', sobre uma pilha alta de notas low-poly genéricas (sem o desenho das cédulas reais); embaixo, menor, a conta '214 milhões × R$ 500 × 12'. O Zé olha para cima, boquiaberto, enquanto a câmera sobe devagar pela pilha.
@@ -19,7 +19,7 @@ Cena: Uma rua low-poly vista de cima: só algumas casas acendem em amarelo e rec
 Cena: A mesma rua: agora um envelope verde, diferente do amarelo do contexto, cai em todas as casas, da casinha do Zé a uma mansão (um bebê num berço também recebe o seu); as casas que já tinham o envelope amarelo continuam com ele e recebem o verde ao lado. Contadores '≈ 10% do PIB' e 'quase metade da arrecadação federal'. O Zé, com a família de quatro, conta quatro notas e devolve uma parte por uma seta coral fina de imposto; na mansão, uma seta coral grossa leva de volta uma pilha maior do que a que chegou. No fim, um relógio girando com um ponto de interrogação em cima da rua.
 
 - **[PREMISSA]** Aqui, vamos supor R$ 500 por mês para cada pessoa, do bebê ao bilionário, além dos benefícios de hoje, sem exigir nada, pagos com mais impostos.
-  - Voz: "Aqui, vamos supor quinhentos reais por mês para cada pessoa, do bebê ao bilionário, além dos benefícios de hoje, sem exigir nada, pagos com mais impostos."
+  - Tela: R$ 500/mês para todos, além dos benefícios de hoje (hipótese) (hipótese do cenário, sem rodapé) · Voz: "Aqui, vamos supor quinhentos reais por mês para cada pessoa, do bebê ao bilionário, além dos benefícios de hoje, sem exigir nada, pagos com mais impostos."
 - **[PROJEÇÃO · F1, F2, F19]** Isso é cerca de 10% de tudo que o país produz, quase metade do que o governo federal arrecada.
   - Tela: ≈ 10% do PIB · quase metade da arrecadação federal (rodapé: Fonte: IBGE, 2026, 2025; Receita Federal, 2025) · Voz: "Isso é cerca de dez por cento de tudo que o país produz, quase metade do que o governo federal arrecada."
 - **[PROJEÇÃO · F1, F19]** Uma família de quatro receberia R$ 2.000 por mês, mas poderia devolver parte em impostos; quem ganha acima da média tenderia a devolver mais do que recebe.
