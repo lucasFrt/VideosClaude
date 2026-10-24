@@ -1,0 +1,95 @@
+# Roteiro: a fonte da verdade do vídeo. Edite este arquivo; o 03-roteiro.md é gerado
+# a partir dele pelo scripts/roteiro.py (não edite o .md à mão).
+#
+# Cada frase tem:
+#   fala      o texto do narrador, como deve ser lido no roteiro (pode ter algarismos)
+#   marcacao  FATO, PROJEÇÃO, PREMISSA, ARGUMENTO A FAVOR, ARGUMENTO CONTRA, TERMÔMETRO ou BORDÃO
+#             (PREMISSA: uma simplificação do cenário, dita no vídeo; vem do 01-ideia.md)
+#   fontes    códigos do 02-fontes.md (obrigatório em tudo, menos BORDÃO e PREMISSA)
+#   tela      (opcional) número ou texto que aparece na tela; o rodapé de fonte sai das fontes
+#   voz       (opcional) a fala escrita como a voz deve ler, com números por extenso
+#
+# Blocos, nesta ordem: Gancho, Contexto, O que mudaria, A balança, Exemplo real (opcional),
+# Encerramento. Duração: 45 a 90 s, mirando em 60 a 75 s (CLAUDE.md, seção 3).
+
+titulo = "E se [pergunta]?"
+versao = 1
+
+[[bloco]]
+nome = "Gancho"
+cena = "O número ou a imagem de impacto já no primeiro quadro; o que acontece e quais componentes aparecem."
+
+  [[bloco.frase]]
+  fala = "[número ou fato de impacto]"
+  marcacao = "FATO"
+  fontes = ["F1"]
+  tela = "[o número como aparece na tela]"
+  voz = "[o número por extenso, como a voz deve ler]"
+
+  [[bloco.frase]]
+  fala = "E se [tema]? Vamos imaginar."
+  marcacao = "BORDÃO"
+
+[[bloco]]
+nome = "Contexto"
+cena = "..."
+
+  [[bloco.frase]]
+  fala = "[como é hoje, em uma frase, com um dado real]"
+  marcacao = "FATO"
+  fontes = ["F2"]
+
+[[bloco]]
+nome = "O que mudaria"
+cena = "..."
+
+  [[bloco.frase]]
+  fala = "[consequência no curto prazo, do ponto de vista do cidadão comum]"
+  marcacao = "PROJEÇÃO"
+  fontes = ["F3"]
+
+  [[bloco.frase]]
+  fala = "[consequência no longo prazo]"
+  marcacao = "PROJEÇÃO"
+  fontes = ["F4"]
+
+[[bloco]]
+nome = "A balança"
+cena = "Balança 3D equilibrada no começo; só inclina se houver marcação explícita."
+
+  [[bloco.frase]]
+  fala = "Agora, vamos colocar na balança."
+  marcacao = "BORDÃO"
+
+  [[bloco.frase]]
+  fala = "[o argumento mais forte de quem defende]"
+  marcacao = "ARGUMENTO A FAVOR"
+  fontes = ["F5"]
+
+  [[bloco.frase]]
+  fala = "[o argumento mais forte de quem critica, com o mesmo tamanho e o mesmo tom]"
+  marcacao = "ARGUMENTO CONTRA"
+  fontes = ["F6"]
+
+  [[bloco.frase]]
+  fala = "[onde os especialistas estão: consenso para um lado, divisão real ou falta de evidência]"
+  marcacao = "TERMÔMETRO"
+  fontes = ["F7"]
+
+# Exemplo real é opcional: apague este bloco se não houver um bom paralelo.
+[[bloco]]
+nome = "Exemplo real"
+cena = "..."
+
+  [[bloco.frase]]
+  fala = "[país ou período parecido, sem exagerar a comparação]"
+  marcacao = "FATO"
+  fontes = ["F8"]
+
+[[bloco]]
+nome = "Encerramento"
+cena = "..."
+
+  [[bloco.frase]]
+  fala = "E aí, você toparia? Me conta nos comentários."
+  marcacao = "BORDÃO"
