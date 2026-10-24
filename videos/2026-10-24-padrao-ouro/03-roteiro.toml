@@ -1,6 +1,6 @@
 # Roteiro: a fonte da verdade do vídeo. O 03-roteiro.md é gerado pelo scripts/roteiro.py.
-# Onda 2, versão 1. F11 e F12 (balança) não foram conferidas por busca: o roteiro.py barra até
-# terem data de acesso. F13 (termômetro) foi conferida só por resumo de terceiros (02-fontes.md).
+# Onda 2, versão 1. F11, F12, F13 e F15 conferidas por busca no segundo turno de pesquisa
+# (02-fontes.md, nota do topo).
 
 titulo = "E se o real voltasse ao padrão-ouro?"
 versao = 1
@@ -52,7 +52,7 @@ cena = "A pilha de ouro cresce até a altura das notas enquanto um saco de dóla
   voz = "E o ouro oscila: em janeiro, o grama passou de cento e sessenta dólares; em outubro, estava perto de cento e trinta."
 
   [[bloco.frase]]
-  fala = "Com o real preso a ele, uma queda assim deixaria o dólar e o celular importado mais caros aqui."
+  fala = "Preso a ele, o real cairia junto, e o dólar e o celular importado ficariam mais caros aqui."
   marcacao = "PROJEÇÃO"
   fontes = ["F5", "F6"]
 
@@ -65,25 +65,35 @@ cena = "Balança 3D equilibrada: prato verde (a favor) à esquerda, com um carri
   marcacao = "BORDÃO"
 
   [[bloco.frase]]
-  fala = "Quem defende aponta que, no padrão-ouro antes da Primeira Guerra, a inflação média ficou perto de zero por décadas, porque o dinheiro novo dependia de ouro novo."
+  fala = "Quem defende aponta que, nos Estados Unidos, no padrão-ouro antes da Primeira Guerra, a inflação média foi de só 0,1% ao ano: o dinheiro dependia do ouro."
   marcacao = "ARGUMENTO A FAVOR"
   fontes = ["F11"]
+  tela = "EUA, 1880–1914: inflação média de 0,1% ao ano"
+  voz = "Quem defende aponta que, nos Estados Unidos, no padrão-ouro antes da Primeira Guerra, a inflação média foi de só zero vírgula um por cento ao ano: o dinheiro dependia do ouro."
 
   [[bloco.frase]]
-  fala = "Quem critica aponta que, na crise de 1929, os países que largaram o ouro mais cedo puderam baixar os juros e se recuperaram mais rápido."
+  fala = "Quem critica aponta que, na crise de 1929, os países que largaram o ouro mais cedo voltaram a produzir e a crescer antes, livres dessa amarra."
   marcacao = "ARGUMENTO CONTRA"
-  fontes = ["F12"]
-  voz = "Quem critica aponta que, na crise de mil novecentos e vinte e nove, os países que largaram o ouro mais cedo puderam baixar os juros e se recuperaram mais rápido."
+  fontes = ["F12", "F14"]
+  voz = "Quem critica aponta que, na crise de mil novecentos e vinte e nove, os países que largaram o ouro mais cedo voltaram a produzir e a crescer antes, livres dessa amarra."
 
   [[bloco.frase]]
   fala = "Entre economistas, há quase consenso contra o padrão-ouro: em 2012, num painel dos Estados Unidos, nenhum concordou que ele traria preços mais estáveis e mais emprego."
   marcacao = "TERMÔMETRO"
   fontes = ["F13"]
+  tela = "Painel de economistas dos EUA, 2012: nenhum a favor"
   voz = "Entre economistas, há quase consenso contra o padrão-ouro: em dois mil e doze, num painel dos Estados Unidos, nenhum concordou que ele traria preços mais estáveis e mais emprego."
 
-# Exemplo real cortado: a crise de 1929 e o padrão-ouro de antes de 1914 já aparecem, com fonte,
-# nos dois lados da balança. A conversibilidade do mil-réis (1906–1914) não foi conferida por
-# busca nesta sessão e ficou de fora (01-ideia.md).
+[[bloco]]
+nome = "Exemplo real"
+cena = "Uma nota antiga genérica, em tom sépia, com a palavra 'OURO' e o ano 1906; o Zé a leva a um guichê antigo e recebe uma moeda dourada. Um calendário vira para 1914 e uma placa 'TROCA SUSPENSA' baixa sobre o guichê."
+
+  [[bloco.frase]]
+  fala = "O Brasil já teve notas trocáveis por ouro, a partir de 1906, e suspendeu a troca na Primeira Guerra."
+  marcacao = "FATO"
+  fontes = ["F15"]
+  tela = "Caixa de Conversão: 1906–1914"
+  voz = "O Brasil já teve notas trocáveis por ouro, a partir de mil novecentos e seis, e suspendeu a troca na Primeira Guerra."
 
 [[bloco]]
 nome = "Encerramento"
