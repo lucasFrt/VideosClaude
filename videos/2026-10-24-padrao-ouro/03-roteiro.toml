@@ -50,7 +50,7 @@ cena = "A pilha de ouro cresce até a altura das notas enquanto um saco de dóla
   fontes = ["F12", "F14"]
 
   [[bloco.frase]]
-  fala = "E o ouro oscila: em pouco mais de um ano, o grama quase dobrou em dólar, e depois voltou a cair."
+  fala = "E o ouro oscila: o grama quase dobrou em dólar em pouco mais de um ano, e depois caiu."
   marcacao = "FATO"
   fontes = ["F16", "F5", "F6"]
   tela = "Ouro, US$ por grama: dez/2024 ≈ 84 · jan/2026 acima de 160 · out/2026 ≈ 132"

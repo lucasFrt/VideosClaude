@@ -1,6 +1,6 @@
 <!-- Gerado pelo scripts/roteiro.py a partir do 03-roteiro.toml. Não edite este arquivo. -->
 # Roteiro — E se o Brasil voltasse ao padrão-ouro?
-Versão: 3 · Duração estimada: ~87 s (243 palavras faladas)
+Versão: 3 · Duração estimada: ~86 s (241 palavras faladas)
 
 ## Bloco 1 — Gancho (~6 s)
 Cena: Primeiro quadro: à esquerda, uma pilha alta de notas genéricas com 'R$'; à direita, uma pilha de barras de ouro com só um terço da altura, e a marca '1/3' entre as duas. O Zé olha de uma pilha para a outra, coçando a cabeça. Câmera sobe devagar.
@@ -16,13 +16,13 @@ Cena: Um cofre genérico com a placa 'Banco Central' em texto simples; ao lado, 
   - Tela: Ouro: cerca de 7% das reservas (2025) (rodapé: Fonte: Banco Central, 2025; WGC, 2026) · Voz: "Hoje, ninguém troca reais por ouro no Banco Central, e o metal é só cerca de sete por cento das reservas."
 - **[PREMISSA]** Aqui, vamos supor que só o Brasil faria essa troca, a um preço fixo.
 
-## Bloco 3 — O que mudaria (~29 s)
+## Bloco 3 — O que mudaria (~28 s)
 Cena: A pilha de ouro cresce até a altura das notas enquanto um saco de dólares ao lado encolhe um pouco (contador 'ouro × 2,8 só para as notas'); atrás, aparece uma pilha muito maior com a etiqueta 'contas, poupança e CDBs'. Depois, um termostato com a palavra 'juros' fica preso por um cadeado dourado; quando o Zé tenta girá-lo para baixo, uma fila de pessoas com notas aparece no guichê do ouro. Por fim, um gráfico de linha do grama de ouro sobe até janeiro e desce até outubro; a etiqueta de um celular importado na mão do Zé desce quando a linha sobe e sobe quando a linha desce.
 
 - **[PROJEÇÃO · F1, F2, F8]** Só para cobrir as notas, o Banco Central teria que quase triplicar o ouro, com dólares das reservas.
   - Tela: Ouro × 2,8 só para as notas · contas, poupança e CDBs (M2): R$ 7,6 tri (jun/2026) (rodapé: Fonte: Banco Central, 2025, 2026)
 - **[PROJEÇÃO · F12, F14]** E os juros ficariam presos à troca: numa crise, baixá-los poderia levar muita gente a trocar reais por ouro.
-- **[FATO · F16, F5, F6]** E o ouro oscila: em pouco mais de um ano, o grama quase dobrou em dólar, e depois voltou a cair.
+- **[FATO · F16, F5, F6]** E o ouro oscila: o grama quase dobrou em dólar em pouco mais de um ano, e depois caiu.
   - Tela: Ouro, US$ por grama: dez/2024 ≈ 84 · jan/2026 acima de 160 · out/2026 ≈ 132 (rodapé: Fonte: Cálculo do canal com dados do BC, 2024–2025; Imprensa, 2026; Reuters, 2026)
 - **[PROJEÇÃO · F16, F5, F6]** Preso a ele, o real seguiria o ouro: ouro em alta, dólar e celular importado mais baratos; ouro em baixa, mais caros.
 
