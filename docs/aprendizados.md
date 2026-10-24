@@ -131,7 +131,7 @@ Cada roteiro teve um agente autor (ondas 1, 2 e 4) e rodadas do crítico (onda 3
 **Resolvido:** o `roteiro.py` passou a exigir que "Acessado em" seja só a data, e fonte não conferida não entra no roteiro. Os autores conferiram tudo no turno seguinte, antes do crítico. Para os próximos lotes: no máximo cinco roteiros ao mesmo tempo, ou começar a pesquisa em turnos diferentes.
 
 ### 29. O que o crítico mais pegou
-Nas 30 rodadas, nenhuma objeção CRÍTICA. As IMPORTANTES se repetiram em quatro tipos:
+Nas 26 rodadas do crítico (dez na primeira, dez na segunda e seis de conferência), nenhuma objeção CRÍTICA. As IMPORTANTES se repetiram em quatro tipos:
 - termômetro apoiado numa pesquisa que perguntou outra coisa, ou sem data, país ou fonte na tela;
 - elo de causa e efeito faltando;
 - lado a favor mais fraco que o contra;
