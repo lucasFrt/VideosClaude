@@ -82,6 +82,7 @@ meu-canal/
 │   ├── roteiro.py             # confere o roteiro e gera o .md de leitura e o texto.txt
 │   ├── narrar.py              # gera narração e palavras.json
 │   ├── montar.py              # monta a composição a partir do roteiro e dos tempos
+│   ├── previa.sh              # da narração à prévia em um comando
 │   ├── ajustar-volume.sh      # põe a narração em −14 LUFS pelo HyperFrames
 │   ├── verificar.sh           # checagens técnicas do vídeo final
 │   ├── hf.sh                  # roda o HyperFrames na composição de um vídeo
@@ -352,6 +353,9 @@ Conforme a seção 4.
 - Usa o edge-tts do `.venv/` automaticamente quando o Python do sistema não o tem. Precisa de internet com WebSocket liberado.
 - `--estimar`: sem voz (quando o edge-tts não alcança a internet), gera só o `palavras.json` com tempos estimados pelo tamanho das palavras e pela pontuação, e deixa a marca `narracao/ESTIMADO`. Serve para montar e revisar o vídeo antes da voz; a narração real substitui tudo.
 
+### scripts/previa.sh
+- `./scripts/previa.sh videos/<pasta>`: roda em sequência `roteiro.py texto`, `narrar.py`, `montar.py`, `ajustar-volume.sh`, o `check` e o render da `previa.mp4`. Use quando o roteiro estiver aprovado e as cenas existirem. `--estimar` faz o mesmo sem voz.
+
 ### scripts/montar.py
 - `python3 scripts/montar.py videos/<pasta>`: lê o `03-roteiro.toml`, o `02-fontes.md` e o `narracao/palavras.json` e gera o `composicao/index.html` (cada cena no seu tempo, a narração com o volume já ajustado preservado), o `tempos.js`, as legendas e as sobreposições (selo de IA e rodapés de fonte).
 - Cria um modelo simples para cada `cenas/bloco-N.html` que faltar; nunca sobrescreve uma cena existente.
@@ -416,7 +420,7 @@ Crie `videos/AAAA-MM-DD-teste/` com 15 segundos usando todos os componentes: o Z
 2. Ondas 1 e 2 (`01-ideia.md`, `02-fontes.md`, `03-roteiro.toml`), até o `roteiro.py checar` passar sem erros.
 3. Ondas 3 e 4 com o subagente `critico`, registrando tudo em `04-revisoes.md`, até no máximo 4 rodadas. O crítico lê `01-ideia.md`, `03-roteiro.md` e `02-fontes.md`; a partir da rodada 2, recebe também a tabela de objeções anteriores com decisão e base. Depois de cada adaptação, rode o `roteiro.py checar` de novo.
 4. 🛑 Revisão humana 1. Parar e esperar.
-5. `python3 scripts/roteiro.py texto videos/<pasta>` e `python3 scripts/narrar.py videos/<pasta>` (sem internet para a voz: `--estimar`, e a voz depois).
+5. `python3 scripts/roteiro.py texto videos/<pasta>` e `python3 scripts/narrar.py videos/<pasta>` (sem internet para a voz: `--estimar`, e a voz depois). Com as cenas prontas, os passos 5 a 7 são um comando só: `./scripts/previa.sh videos/<pasta>`.
 6. `python3 scripts/montar.py videos/<pasta>`, escrever as cenas `cenas/bloco-N.html` com os componentes (tempos de `TEMPOS.bloco(n)`), rodar `scripts/ajustar-volume.sh`, rodar `lint` e `check` pelo `scripts/hf.sh` e conferir os quadros com `snapshot`.
 7. Renderizar `previa.mp4`.
 8. 🛑 Revisão humana 2. Parar e esperar.

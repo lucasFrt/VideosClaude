@@ -39,6 +39,7 @@ python3 scripts/narrar.py videos/<pasta>                # narração + palavras.
 ./scripts/hf.sh videos/<pasta> check --json             # valida a composição
 ./scripts/hf.sh videos/<pasta> preview --background     # pré-visualiza no navegador
 ./scripts/hf.sh videos/<pasta> render --quality draft --output ../previa.mp4
+./scripts/previa.sh videos/<pasta>                      # narração → composição → volume → check → prévia, de uma vez
 ./scripts/hf.sh videos/<pasta> render --quality delivery --output ../final.mp4
 ./scripts/verificar.sh videos/<pasta>                   # confere o final.mp4
 ```

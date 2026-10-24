@@ -10,6 +10,7 @@
       "Bash(./scripts/hf.sh:*)",
       "Bash(./scripts/novo-video.sh:*)",
       "Bash(./scripts/ajustar-volume.sh:*)",
+      "Bash(./scripts/previa.sh:*)",
       "Bash(./scripts/verificar.sh:*)",
       "Bash(./scripts/instalar.sh:*)",
       "Bash(./scripts/roteiro.py:*)",
