@@ -34,12 +34,36 @@ Nenhuma objeção CRÍTICA; quatro IMPORTANTES (O1 a O4) e duas MENORES. Os núm
 - Duração: 217 palavras, cerca de 78 s (igual à versão 1).
 
 ## Rodada 2
-(a fazer: onda 3, rodada 2)
+
+### O que o crítico considerou sólido
+- F1 (214.211.951 habitantes, alta de 0,37%), F19 (arrecadação federal de 2025 em R$ 2,89 tri), F18 (Blog do IBRE de 13/08/2025), F14 (nota Dinte 78: "leve redução" de 2% a 4%, concentrada em ocupações precárias; mulheres 43% da força de trabalho beneficiada e 61% das saídas), F15 (58% contra, 19% em dúvida, 2% a favor, proposta no modelo Murray; 41 ou 43 respondentes) e a Lei 14.601/2023 (art. 1º, § 1º) conferidos.
+- "Não achamos pesquisa assim" no Brasil é honesto: o crítico também não achou.
+- As correções da rodada 1 ficaram certas: valor de R$ 500 na voz do gancho, saída do "só no papel", "no Brasil, eles divergem" (o crítico nota que a divergência é até maior: o Ipea aponta mais efeito nas mulheres, o IBRE nos homens) e "quase metade" da arrecadação (44,5%), que ele não reabre.
+
+### Objeções
+| # | Trecho | Nível | Objeção | Base | Resposta do autor | Decisão |
+|---|--------|-------|---------|------|-------------------|---------|
+| R2.1 | "Aqui, vamos supor R$ 500 por mês para cada pessoa, do bebê ao bilionário, sem exigir nada, pagos com mais impostos." | IMPORTANTE | O vídeo não diz que o Bolsa Família e os outros benefícios continuam; o 01-ideia diz, mas a fala e a tela não. Como o contexto chama o Bolsa Família de "etapa" e a cena mostra uma escada, o espectador pode achar que a renda universal o substitui. Com substituição, famílias de uma pessoa só, hoje no piso de R$ 691, receberiam menos, e o programa é tema de campanha. | 01-ideia.md ("O que fica igual" e premissas); CLAUDE.md, seção 5 (o vídeo diz a simplificação). | Procede. É a premissa que o autor tirou da fala na versão 1 para ganhar tempo, e a mudança do contexto na versão 2 tornou a omissão mais arriscada. A frase agora é: "Aqui, vamos supor R$ 500 por mês para cada pessoa, do bebê ao bilionário, além dos benefícios de hoje, sem exigir nada, pagos com mais impostos." (mais 5 palavras). No 01-ideia, a premissa passou para "Simplificações (o vídeo precisa dizer)". | aceita |
+| R2.2 | Tela do termômetro: "Economistas nos EUA (2016): 58% contra · 19% em dúvida · 2% a favor." | MENOR | O qualificador ("trocar até a aposentadoria") só está na voz. Num print, a tela vira "58% dos economistas são contra a renda básica", e os comentários mostram que parte rejeitava o pacote, não a ideia. Opcional: dizer no rodapé que os estudos brasileiros são sobre o Bolsa Família, que é focalizado. | Base nova em relação à R1.2: o texto da tela não gasta tempo de fala, então o qualificador cabe nela. | Procede, e é base nova de verdade: a R1.2 tratava da fala. A tela agora diz: "Economistas nos EUA (2016) sobre trocar todos os programas, até a aposentadoria, por uma renda universal: 58% contra · 19% em dúvida · 2% a favor. No Brasil, não achamos pesquisa assim." Com o campo novo `rodape = ["F15"]`, o rodapé dessa tela mostra só a fonte do que está escrito nela ("Fonte: Painel IGM, 2016"), e não mais os seis estudos da fala. A sugestão opcional não foi feita: o rodapé só nomeia fontes, e explicar ali que os estudos brasileiros são do Bolsa Família alongaria uma tela que já é a maior do vídeo. A ressalva está no 02-fontes (Termômetro). | aceita (a sugestão opcional não foi feita) |
+| R2.3 | Cena do bloco 2: "escada de três degraus… o primeiro degrau acende, os de cima continuam apagados." | MENOR | A lei não define três etapas, então o número é invenção da cena. Os degraus apagados refazem em imagem o "só no papel" que a R1.1 tirou da fala e, na véspera do segundo turno, podem soar como cobrança. | F5 e F6 falam em "etapas" sem número; a R1.1 já aceitou o risco de recorte. | Procede: a cena contradizia a correção da R1.1. Agora é uma escada em tons neutros que sobe para além do quadro, sem número de degraus; só o de baixo tem rótulo ("Bolsa Família: uma etapa") e nenhum aparece apagado ou quebrado. | aceita |
+
+### Veredito do crítico
+Nenhuma objeção CRÍTICA, uma IMPORTANTE nova (R2.1, de correção barata) e duas MENORES. Os dados e o equilíbrio entre os lados estão corretos. Com a R2.1 corrigida (e, de preferência, a R2.2 e a R2.3), o roteiro fica pronto. Restam as incertezas naturais: F14 e F18 foram conferidos só por resumo, e o vídeo não usa os números deles.
+
+### O que mudou na versão 3
+- A premissa diz que a renda básica vem "além dos benefícios de hoje".
+- A tela do termômetro tem o qualificador da pergunta do painel, e o rodapé sai só com a fonte dela (Painel IGM, 2016).
+- A escada do contexto não tem número de degraus nem degraus apagados.
+- Duração: 222 palavras, cerca de 79 s.
+
+## Rodada 3
+(a fazer: conferir a R2.1)
 
 ## Resumo final para a revisão humana
-- O que mudou: ver "O que mudou na versão 2" (provisório até a rodada 2).
+- O que mudou: ver "O que mudou na versão 2" e "O que mudou na versão 3" (provisório até a rodada 3).
 - O que ficou em aberto:
   - o número exato da nota do Ipea (F14) e o texto completo da FGV IBRE (F18), conferidos só por resumo e imprensa (o vídeo não usa os números);
   - os documentos não foram abertos (tudo por busca): conferir F1, F2, F4, F6, F9, F14, F15, F18 e F19;
   - não foi achada pesquisa com economistas brasileiros sobre renda básica universal;
-  - a duração estimada (cerca de 78 s) está um pouco acima da meta de 75 s.
+  - a tela do termômetro ficou longa (cerca de 30 palavras): conferir a leitura na prévia;
+  - a duração estimada (cerca de 79 s) está acima da meta de 75 s, dentro do máximo de 90 s.
