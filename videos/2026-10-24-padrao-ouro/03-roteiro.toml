@@ -1,9 +1,9 @@
 # Roteiro: a fonte da verdade do vídeo. O 03-roteiro.md é gerado pelo scripts/roteiro.py.
-# Onda 2, versão 1. F11, F12, F13 e F15 conferidas por busca no segundo turno de pesquisa
-# (02-fontes.md, nota do topo).
+# Versão 2: onda 4, rodada 1 (04-revisoes.md). Título trocado (R1.6), oscilação do ouro nos dois
+# sentidos (R1.1), frase dos juros (R1.2) e exemplo real cortado para caber em 90 s (R1.5).
 
-titulo = "E se o real voltasse ao padrão-ouro?"
-versao = 1
+titulo = "E se o Brasil voltasse ao padrão-ouro?"
+versao = 2
 
 [[bloco]]
 nome = "Gancho"
@@ -16,7 +16,7 @@ cena = "Primeiro quadro: à esquerda, uma pilha alta de notas genéricas com 'R$
   tela = "Ouro do Banco Central: R$ 131 bi · Notas e moedas: R$ 368 bi (dez/2025)"
 
   [[bloco.frase]]
-  fala = "E se o real voltasse ao padrão-ouro? Vamos imaginar."
+  fala = "E se o Brasil voltasse ao padrão-ouro? Vamos imaginar."
   marcacao = "BORDÃO"
 
 [[bloco]]
@@ -36,25 +36,29 @@ cena = "Um cofre genérico com a placa 'Banco Central' em texto simples; ao lado
 
 [[bloco]]
 nome = "O que mudaria"
-cena = "A pilha de ouro cresce até a altura das notas enquanto um saco de dólares ao lado encolhe um pouco (contador 'ouro × 2,8'). Depois, um gráfico de linha do preço do grama de ouro sobe até o pico de janeiro e desce até outubro; uma corda liga a linha a uma nota de real, que desce junto. Por fim, a etiqueta de um celular importado na mão do Zé aumenta e ele franze a testa."
+cena = "A pilha de ouro cresce até a altura das notas enquanto um saco de dólares ao lado encolhe um pouco (contador 'ouro × 2,8 só para as notas'); atrás, aparece uma pilha muito maior com a etiqueta 'contas e poupança'. Depois, um termostato com a palavra 'juros' fica preso por um cadeado dourado. Por fim, um gráfico de linha do grama de ouro sobe até janeiro e desce até outubro; a etiqueta de um celular importado na mão do Zé desce quando a linha sobe e sobe quando a linha desce."
 
   [[bloco.frase]]
-  fala = "Para cobrir todas as notas, o Banco Central teria que quase triplicar o ouro, com dólares das reservas."
+  fala = "Só para cobrir as notas, o Banco Central teria que quase triplicar o ouro, com dólares das reservas."
   marcacao = "PROJEÇÃO"
-  fontes = ["F1", "F2"]
-  tela = "Ouro × 2,8"
+  fontes = ["F1", "F2", "F8"]
+  tela = "Ouro × 2,8 só para as notas · contas e poupança: R$ 7,6 tri (jun/2026)"
 
   [[bloco.frase]]
-  fala = "E o ouro oscila: em janeiro, o grama passou de US$ 160; em outubro, estava perto de US$ 130."
+  fala = "E os juros serviriam para defender o ouro: numa crise, não daria para baixá-los à vontade."
+  marcacao = "PROJEÇÃO"
+  fontes = ["F12", "F14"]
+
+  [[bloco.frase]]
+  fala = "E o ouro oscila: em pouco mais de um ano, o grama quase dobrou em dólar, e depois voltou a cair."
   marcacao = "FATO"
-  fontes = ["F5", "F6"]
-  tela = "Ouro, US$ por grama: jan/2026 acima de 160 · out/2026 perto de 132"
-  voz = "E o ouro oscila: em janeiro, o grama passou de cento e sessenta dólares; em outubro, estava perto de cento e trinta."
+  fontes = ["F16", "F5", "F6"]
+  tela = "Ouro, US$ por grama: dez/2024 ≈ 84 · jan/2026 acima de 160 · out/2026 ≈ 132"
 
   [[bloco.frase]]
-  fala = "Preso a ele, o real cairia junto, e o dólar e o celular importado ficariam mais caros."
+  fala = "Preso a ele, o real seguiria o ouro: ouro em alta, dólar e celular importado mais baratos; ouro em baixa, mais caros."
   marcacao = "PROJEÇÃO"
-  fontes = ["F5", "F6"]
+  fontes = ["F16", "F5", "F6"]
 
 [[bloco]]
 nome = "A balança"
@@ -65,35 +69,28 @@ cena = "Balança 3D equilibrada: prato verde (a favor) à esquerda, com um carri
   marcacao = "BORDÃO"
 
   [[bloco.frase]]
-  fala = "Quem defende aponta que, nos Estados Unidos, antes da Primeira Guerra, a inflação média foi de só 0,1% ao ano: o dinheiro dependia do ouro."
+  fala = "Quem defende aponta que, nos Estados Unidos, com o dólar preso ao ouro antes da Primeira Guerra, a inflação média foi de 0,1% ao ano."
   marcacao = "ARGUMENTO A FAVOR"
   fontes = ["F11"]
   tela = "EUA, 1880–1914: inflação média de 0,1% ao ano"
-  voz = "Quem defende aponta que, nos Estados Unidos, antes da Primeira Guerra, a inflação média foi de só zero vírgula um por cento ao ano: o dinheiro dependia do ouro."
+  voz = "Quem defende aponta que, nos Estados Unidos, com o dólar preso ao ouro antes da Primeira Guerra, a inflação média foi de zero vírgula um por cento ao ano."
 
   [[bloco.frase]]
-  fala = "Quem critica aponta que, na crise de 1929, os países que largaram o ouro mais cedo voltaram a crescer antes, livres dessa amarra."
+  fala = "Quem critica aponta que, na crise de 1929, os países que largaram o ouro mais cedo voltaram a produzir e a crescer antes."
   marcacao = "ARGUMENTO CONTRA"
   fontes = ["F12", "F14"]
-  voz = "Quem critica aponta que, na crise de mil novecentos e vinte e nove, os países que largaram o ouro mais cedo voltaram a crescer antes, livres dessa amarra."
+  voz = "Quem critica aponta que, na crise de mil novecentos e vinte e nove, os países que largaram o ouro mais cedo voltaram a produzir e a crescer antes."
 
   [[bloco.frase]]
-  fala = "Entre economistas, há quase consenso contra o padrão-ouro: em 2012, num painel dos Estados Unidos, nenhum concordou que ele traria preços mais estáveis e mais emprego."
+  fala = "Entre economistas, há quase consenso contra o padrão-ouro: em 2012, num painel de universidades americanas, nenhum concordou que ele traria preços mais estáveis e mais emprego aos Estados Unidos."
   marcacao = "TERMÔMETRO"
   fontes = ["F13"]
-  tela = "Painel de economistas dos EUA, 2012: nenhum a favor"
-  voz = "Entre economistas, há quase consenso contra o padrão-ouro: em dois mil e doze, num painel dos Estados Unidos, nenhum concordou que ele traria preços mais estáveis e mais emprego."
+  tela = "Painel de economistas de universidades dos EUA, 2012, sobre os EUA: nenhum a favor"
+  voz = "Entre economistas, há quase consenso contra o padrão-ouro: em dois mil e doze, num painel de universidades americanas, nenhum concordou que ele traria preços mais estáveis e mais emprego aos Estados Unidos."
 
-[[bloco]]
-nome = "Exemplo real"
-cena = "Uma nota antiga genérica, em tom sépia, com a palavra 'OURO' e o ano 1906; o Zé a leva a um guichê antigo e recebe uma moeda dourada. Um calendário vira para 1914 e uma placa 'TROCA SUSPENSA' baixa sobre o guichê."
-
-  [[bloco.frase]]
-  fala = "O Brasil já teve notas trocáveis por ouro, a partir de 1906, e suspendeu a troca na Primeira Guerra."
-  marcacao = "FATO"
-  fontes = ["F15"]
-  tela = "Caixa de Conversão: 1906–1914"
-  voz = "O Brasil já teve notas trocáveis por ouro, a partir de mil novecentos e seis, e suspendeu a troca na Primeira Guerra."
+# Exemplo real cortado na versão 2 (R1.5): com a frase dos juros (R1.2) e a oscilação nos dois
+# sentidos (R1.1), o bloco levaria o vídeo a cerca de 91 s. Regra do CLAUDE.md, seção 3: corta-se o
+# exemplo antes de apertar a balança. A Caixa de Conversão (F15) continua registrada no 02-fontes.md.
 
 [[bloco]]
 nome = "Encerramento"
