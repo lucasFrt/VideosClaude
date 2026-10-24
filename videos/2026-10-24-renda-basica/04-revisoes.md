@@ -1,18 +1,45 @@
 # Revisões
 
+> O crítico só pôde conferir os dados por busca (as páginas não abrem no ambiente na nuvem). Na onda 4, o autor também conferiu por busca as bases novas que o crítico trouxe (FGV IBRE, arrecadação federal, carga tributária, nota do Ipea) e o que tinha ficado pendente na onda 2.
+
 ## Rodada 1
+
 ### O que o crítico considerou sólido
-- ...
+- F1 (214.211.951 habitantes em 1º/07/2026), F2 (PIB de 2025 de R$ 12,7 tri), F3 (cerca de R$ 158 bi para o Bolsa Família em 2026; algumas fontes dão R$ 159,5 bi, e "umas oito vezes" se mantém) e F4 (19,29 milhões de famílias em set/2026) conferidos.
+- As contas do canal batem: 10,1% do PIB, 8,1 vezes o Bolsa Família e R$ 5.549 por família.
+- F9 (no Quênia, o total de trabalho não mudou; a ligação dos autores com a GiveDirectly está declarada), F13 (queda de 3,9 a 4,1 pontos na participação e de 1 a 2 horas por semana) e F15 (58% contra, 19% em dúvida, 2% a favor; proposta no modelo de Murray, com o fim de todas as transferências; o comentário de Maskin) conferidos.
+- Não reconferiu: as leis (F5 a F7), F8, F10 a F12 e F16.
+
 ### Objeções
 | # | Trecho | Nível | Objeção | Base | Resposta do autor | Decisão |
 |---|--------|-------|---------|------|-------------------|---------|
-| R1.1 | ... | CRÍTICA | ... | ... | ... | aceita / rejeitada (motivo) |
+| R1.1 | "A renda para todos está numa lei de 2004, mas só no papel." | IMPORTANTE | "Só no papel" contradiz o próprio 02-fontes: a Lei 10.835 prevê etapas, começando pelos mais necessitados, e a Lei 14.601 diz que o Bolsa Família é uma etapa. Recortada no dia do segundo turno, a frase soa como acusação de descumprimento contra quem governou. | F5 e F6 do próprio roteiro. | Procede: a frase falava da etapa universal, mas, solta, dava a entender que a lei inteira ficou parada, e o risco de recorte é real (registrado em "Contexto que o vídeo evita"). A sugestão "por lei, o Bolsa Família é a primeira" não foi usada: a Lei 14.601 diz "etapa", não "primeira", e a busca não confirma essa ordem. A frase saiu e o contexto virou uma frase só: "Hoje, o Bolsa Família atende só famílias de baixa renda, cerca de 19 milhões: por lei, uma etapa da renda para todos." A tela mostra "renda para todos, em etapas (lei de 2004)". | aceita em parte (sem "a primeira", que a lei não diz) |
+| R1.2 | "nos Estados Unidos, a maioria dos economistas consultados rejeitou trocar todos os programas sociais por uma renda universal." | IMPORTANTE | Faltam o ano (2016) e o tamanho da amostra (cerca de 41). "Programas sociais" esconde que a pergunta acabava com a aposentadoria pública e o Medicare, e comentários como o de Maskin mostram que parte rejeitou o pacote. O "mas" sugere que os economistas discordam dos estudos sobre trabalho, que são outra pergunta. Termômetro e frase do Quênia sem tela, logo sem rodapé. | F15 e comentários do painel (Maskin, Schmalensee, Acemoglu, conferidos pelo autor por busca: basicincome.org, National Review). | Procede quase toda. Na fala: "trocar até a aposentadoria por uma renda universal", e as duas perguntas viraram frases separadas, sem o "mas". Na tela do termômetro: "Economistas nos EUA (2016): 58% contra · 19% em dúvida · 2% a favor. No Brasil, não achamos pesquisa assim.", com rodapé que inclui "Painel IGM, 2016"; a busca por pesquisa com economistas brasileiros, feita nesta rodada, não achou nenhuma. A frase do Quênia ganhou tela ("o total de trabalho não caiu") e rodapé, e o lado contra também, para os dois lados ficarem iguais. Ano e placar ficam na tela, e não na fala, para caber no tempo; o tamanho da amostra (41 ou 43, conforme a fonte) fica no 02-fontes. | aceita em parte (ano e placar na tela, não na fala) |
+| R1.3 | "Os estudos, em geral, acham efeito pequeno no trabalho" | IMPORTANTE | Mais consenso do que existe, justamente no Brasil: a FGV IBRE (Duque, ago/2025) achou queda forte na oferta de trabalho de homens jovens no Norte e no Nordeste, e o Ipea (F14) lê o mesmo reajuste de outra forma. O número de F14 (2,2 a 4,7 pontos) não foi confirmado, e a data da nota pode ser 2026. | FGV IBRE (Blog do IBRE, 13/08/2025); repositório do Ipea (mar/2026). | Procede. O autor confirmou por busca: o Blog do IBRE diz que o programa reduz "fortemente" a oferta de trabalho masculina, sobretudo de homens de 14 a 30 anos no Norte e no Nordeste, com "intenso efeito negativo" no emprego formal (nova F18). A nota do Ipea é de Vale e Veras Soares, versão final de mar/2026 (DOI 10.38116/nt-dinte78); o resumo fala em "leve redução", "entre 2% e 4%", concentrada em trabalhos precários. F14 foi corrigida (data 2026, link do repositório, número com a ressalva da unidade), e o vídeo não usa o número. A fala agora é: "Lá fora, a maioria dos estudos vê pouco efeito no trabalho; no Brasil, eles divergem." | aceita |
+| R1.4 | "Uma família de quatro receberia dois mil reais por mês, e quem ganha acima da média tenderia a pagar mais imposto do que recebe." Cena: o Zé feliz, só a mansão paga. | IMPORTANTE | O benefício é concreto e o financiamento, abstrato. O Zé só ganha e só a mansão paga, mas, com imposto sobre consumo, o Zé também paga. Falta a escala dos impostos: a arrecadação federal de 2025 foi de R$ 2,89 tri (R$ 1,29 tri é cerca de 44%) e a carga tributária, de 32,4% do PIB. | Receita Federal (arrecadação de 2025); Tesouro (carga de 2025, estimativa). | Procede. O autor confirmou por busca: R$ 2,887 tri de arrecadação federal em 2025 (nova F19) e carga de 32,40% do PIB, estimativa preliminar do Tesouro de abr/2026 (nova F20). "Umas oito vezes o Bolsa Família" deu lugar a "quase metade do que o governo federal arrecada" (o Bolsa Família continua no contexto e no lado contra). A frase da família agora diz que ela "poderia devolver parte em impostos" e que quem ganha acima da média "tenderia a devolver mais do que recebe". Na cena, o Zé também devolve uma parte por uma seta fina, e a mansão, por uma seta grossa. A conta da carga (de 32,4% para cerca de 42,5% do PIB) ficou no 02-fontes. | aceita |
+| R1.5 | "Quase um vírgula três trilhão de reais por ano." (gancho) | MENOR | A voz não diz que são R$ 500: num recorte dos 3 primeiros segundos, o número parece o custo de qualquer renda básica. Só a tela traz a conta. | Raciocínio sobre recorte. | Procede. A sugestão ("Quinhentos reais para cada brasileiro custariam...", 13 palavras) passaria do limite de 4 s da primeira frase, então a fala ficou "R$ 500 por pessoa: quase R$ 1,3 trilhão por ano." (11 palavras). | aceita com ajuste |
+| R1.6 | "o mesmo dinheiro daria mais de cinco mil reais mensais a cada família do Bolsa Família." | MENOR | A conta está certa, mas, solta, a frase parece promessa ao público do programa, que é assunto de campanha, e perde o "se". Sugestão extra: trocar o Quênia, no lado a favor, pelo argumento "sem degrau" (não perder o benefício ao começar a trabalhar). | Raciocínio sobre recorte; F5. | O "se" procede: agora é "se fosse só para aquelas famílias, daria mais de R$ 5.000 por mês a cada uma", sem o nome do programa na frase (a tela diz "Só para 19 milhões de famílias"). A troca do Quênia não foi feita, por dois motivos: o lado a favor ficaria só com o desenho da lei, sem estudo, enquanto o lado contra tem dado (o brief proíbe um lado com estudo e o outro sem); e, dito em 13 palavras, o "sem degrau" daria a entender que hoje quem arruma emprego perde o Bolsa Família na hora, o que não é verdade por causa da regra de proteção, que mantém 50% do benefício por até dois anos (nova F22). O argumento ficou no 02-fontes. | aceita em parte (troca do Quênia rejeitada, com base) |
+
 ### Veredito do crítico
-...
+Nenhuma objeção CRÍTICA; quatro IMPORTANTES (O1 a O4) e duas MENORES. Os números centrais (R$ 1,29 tri, 10% do PIB, 8 vezes o Bolsa Família, R$ 5.000 por família) estão corretos. O trabalho é calibrar o termômetro e o bloco 3 e neutralizar a frase de 2004. O roteiro ainda não está pronto.
+
+### O que mudou na versão 2
+- Gancho com o valor na voz: "R$ 500 por pessoa: quase R$ 1,3 trilhão por ano."
+- Contexto numa frase só, sem "só no papel": o Bolsa Família é, por lei, uma etapa da renda para todos.
+- Escala dos impostos: "quase metade do que o governo federal arrecada" (F19), no lugar de "umas oito vezes o Bolsa Família".
+- A família comum também pode pagar parte da conta; a cena mostra isso.
+- Termômetro: "Lá fora, a maioria dos estudos vê pouco efeito no trabalho; no Brasil, eles divergem. Nos Estados Unidos, a maioria dos economistas consultados rejeitou trocar até a aposentadoria por uma renda universal." Ano, placar e a falta de pesquisa brasileira aparecem na tela.
+- Lado contra com o "se"; os dois lados ganharam tela e rodapé.
+- 02-fontes: F14 corrigida (Ipea, mar/2026); novas F18 (FGV IBRE), F19 (arrecadação), F20 (carga tributária), F21 (Irã), F22 (regra de proteção) e F23 (Mongólia). Irã e Mongólia ficam fora do vídeo (pagos com energia ou mineração, não com impostos; a Mongólia nasceu de promessa eleitoral).
+- Duração: 217 palavras, cerca de 78 s (igual à versão 1).
 
 ## Rodada 2
-...
+(a fazer: onda 3, rodada 2)
 
 ## Resumo final para a revisão humana
-- O que mudou:
+- O que mudou: ver "O que mudou na versão 2" (provisório até a rodada 2).
 - O que ficou em aberto:
+  - o número exato da nota do Ipea (F14) e o texto completo da FGV IBRE (F18), conferidos só por resumo e imprensa (o vídeo não usa os números);
+  - os documentos não foram abertos (tudo por busca): conferir F1, F2, F4, F6, F9, F14, F15, F18 e F19;
+  - não foi achada pesquisa com economistas brasileiros sobre renda básica universal;
+  - a duração estimada (cerca de 78 s) está um pouco acima da meta de 75 s.

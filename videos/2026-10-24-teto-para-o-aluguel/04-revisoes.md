@@ -60,10 +60,13 @@ Nenhuma objeção CRÍTICA. Uma IMPORTANTE nova (R2.1), que se corrige com "esti
 
 ## Rodada 3
 
-> Registro feito a partir do resumo da resposta do crítico que o coordenador me mandou; não recebi o texto completo desta rodada.
+> Rodada curta de conferência, pedida pelo próprio crítico na rodada 2. O autor registrou a partir de um resumo; o coordenador completou abaixo com o texto do crítico.
 
 ### O que o crítico considerou sólido
-- As correções da rodada 2 (R2.1 a R2.4) ficaram certas e não criaram erro novo.
+- R2.1 ficou certa: "os autores estimam que quem chegou depois pagou cerca de 5% a mais" bate com o resumo da Stanford GSB ("the researchers estimated..."); o −15% e o "quase 20%" estão no AER e no NBER; a tela "(estimativa)" está correta.
+- O termômetro da versão 3 bate com F8 (12 de 16) e com as ressalvas; o rodapé com as três fontes corresponde ao que a voz diz; "que varia de lugar para lugar" resolveu R2.2(b).
+- Nova busca de contexto de campanha: nenhuma proposta de teto de aluguel apareceu (busca não exaustiva; confirmação humana continua necessária).
+- Fontes das buscas: Stanford GSB ("Rent control's winners and losers"), resumo do AER 2019 (AEA), Diamond, McQuade e Qian (NBER).
 
 ### Objeções
 | # | Trecho | Nível | Objeção | Base | Resposta do autor | Decisão |
