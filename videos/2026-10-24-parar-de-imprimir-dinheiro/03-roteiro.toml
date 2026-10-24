@@ -1,9 +1,9 @@
 # Roteiro: a fonte da verdade do vídeo. Edite este arquivo; o 03-roteiro.md é gerado
 # a partir dele pelo scripts/roteiro.py (não edite o .md à mão).
-#
+# Versão 2: respostas à rodada 1 do crítico (04-revisoes.md).
 
 titulo = "E se o Brasil parasse de imprimir dinheiro?"
-versao = 1
+versao = 2
 
 [[bloco]]
 nome = "Gancho"
@@ -24,7 +24,7 @@ nome = "Contexto"
 cena = "Notas velhas e rasgadas entram numa trituradora enquanto notas novas saem da impressora, uma por uma; depois um livro grosso com a etiqueta 'Constituição' fecha um cadeado no cofre com a etiqueta 'Banco Central'; por fim, o Zé recebe um empréstimo na agência genérica da cidade e o valor aparece como saldo na tela do celular dele."
 
   [[bloco.frase]]
-  fala = "É o que o Banco Central solta por ano, e a maior parte só troca nota gasta."
+  fala = "É o que sai por ano, e a maior parte só troca nota gasta."
   marcacao = "FATO"
   fontes = ["F1", "F5", "F6"]
 
@@ -40,28 +40,28 @@ cena = "Notas velhas e rasgadas entram numa trituradora enquanto notas novas sae
 
 [[bloco]]
 nome = "O que mudaria"
-cena = "O cofre 'Banco Central' com o contador 'R$ 447 bilhões' trava com um cadeado; no fim do ano, o Zé na fila do caixa eletrônico enquanto um medidor de juros sobe aos saltos; depois a vitrine da cidade com o preço do pão descendo devagar (Zé feliz) e o boleto de uma dívida que fica maior ao lado do contracheque dele (Zé preocupado)."
+cena = "O cofre 'Banco Central' com o contador 'R$ 447 bilhões' trava com um cadeado; no Natal, o Zé na fila do caixa eletrônico enquanto uma barra 'saldo dos bancos no BC' encolhe e um medidor 'juros entre bancos' sobe aos saltos, e a etiqueta de juros de um crediário na vitrine sobe junto; depois a agência da cidade empresta mais devagar e o preço do pão na vitrine desce devagar (Zé feliz); por fim, o contracheque do Zé fica parado enquanto o boleto de uma dívida parece maior ao lado dele (Zé preocupado)."
 
   [[bloco.frase]]
-  fala = "Aqui, vamos supor que o Banco Central congela o dinheiro que só ele cria, notas e saldo dos bancos nele, e o resto fica igual."
+  fala = "Aqui, vamos supor que o Banco Central congela as notas e o saldo dos bancos nele, e o resto fica igual."
   marcacao = "PREMISSA"
   fontes = ["F2"]
   tela = "R$ 447 bilhões (fim de 2025)"
 
   [[bloco.frase]]
-  fala = "No Natal, quando todo mundo saca mais, o Banco Central não poderia soltar mais, e os juros poderiam saltar."
+  fala = "No Natal, os saques encolheriam o saldo dos bancos no Banco Central: os juros entre bancos poderiam saltar e encarecer o crédito."
   marcacao = "PROJEÇÃO"
-  fontes = ["F2", "F11"]
+  fontes = ["F2", "F5", "F11"]
 
   [[bloco.frase]]
-  fala = "No longo prazo, se a economia crescer e esse dinheiro não, os preços tenderiam a subir menos ou até cair. Ninguém sabe quanto."
+  fala = "No longo prazo, com esse dinheiro parado, os bancos emprestariam mais devagar, e o pão tenderia a subir menos ou até baixar. Ninguém sabe quanto."
   marcacao = "PROJEÇÃO"
-  fontes = ["F9", "F13"]
+  fontes = ["F8", "F9", "F13"]
 
   [[bloco.frase]]
-  fala = "O pão poderia baixar, mas o salário subiria menos, e as dívidas pesariam mais."
+  fala = "Mas salário quase não cai junto: pode custar empregos, e as dívidas pesariam mais."
   marcacao = "PROJEÇÃO"
-  fontes = ["F9", "F14"]
+  fontes = ["F22", "F14"]
 
 [[bloco]]
 nome = "A balança"
@@ -72,19 +72,20 @@ cena = "Balança 3D equilibrada: prato verde (a favor) à esquerda e coral (cont
   marcacao = "BORDÃO"
 
   [[bloco.frase]]
-  fala = "Quem defende aponta que, em mais de cem países, quem criou mais dinheiro teve mais inflação: uma regra fixa evitaria isso."
+  fala = "Quem defende aponta que uma regra fixa tira a tentação de criar dinheiro, e que, em mais de cem países, mais dinheiro veio com mais inflação."
   marcacao = "ARGUMENTO A FAVOR"
-  fontes = ["F9", "F19"]
+  fontes = ["F24", "F19", "F9"]
 
   [[bloco.frase]]
-  fala = "Quem critica aponta que, nos anos oitenta, bancos centrais tentaram controlar a quantidade de dinheiro e desistiram: a ligação com os preços mudava demais."
+  fala = "Quem critica aponta que, nos anos oitenta, Estados Unidos, Canadá e Inglaterra tentaram controlar a quantidade de dinheiro e desistiram: a ligação com os preços mudava."
   marcacao = "ARGUMENTO CONTRA"
   fontes = ["F11", "F17", "F18"]
 
   [[bloco.frase]]
-  fala = "Entre os economistas, há quase consenso: criar dinheiro sem limite para pagar gastos gera inflação. Já travar esse dinheiro tem pouco apoio: os grandes bancos centrais preferem os juros."
+  fala = "Num painel de economistas americanos, ninguém achou que dá para gastar sem limite criando dinheiro. Sobre congelar esse dinheiro, não achamos pesquisa; os grandes bancos centrais preferem os juros."
   marcacao = "TERMÔMETRO"
-  fontes = ["F10", "F20", "F9", "F11", "F17", "F18", "F13", "F8", "F16"]
+  fontes = ["F10", "F8", "F11", "F16"]
+  tela = "Ninguém a favor (painel de economistas dos EUA, 2019)"
 
 # Exemplo real cortado na versão 1 para caber perto de 75 s (CLAUDE.md, seção 3): os paralelos
 # mais próximos (as metas de quantidade de moeda dos EUA, do Canadá e da Inglaterra nos anos 1980,
