@@ -1,9 +1,9 @@
 # Roteiro: a fonte da verdade do vídeo. O 03-roteiro.md é gerado pelo scripts/roteiro.py.
-# Versão 2: onda 4, rodada 1 (04-revisoes.md). Título trocado (R1.6), oscilação do ouro nos dois
-# sentidos (R1.1), frase dos juros (R1.2) e exemplo real cortado para caber em 90 s (R1.5).
+# Versão 3: onda 4, rodada 2 (04-revisoes.md). Rótulo do M2 corrigido (R2.2), frase dos juros com o
+# elo da troca (R2.1), mecanismo de volta ao pró e juros no contra (R2.3), rodapé do cálculo (R2.4).
 
 titulo = "E se o Brasil voltasse ao padrão-ouro?"
-versao = 2
+versao = 3
 
 [[bloco]]
 nome = "Gancho"
@@ -36,16 +36,16 @@ cena = "Um cofre genérico com a placa 'Banco Central' em texto simples; ao lado
 
 [[bloco]]
 nome = "O que mudaria"
-cena = "A pilha de ouro cresce até a altura das notas enquanto um saco de dólares ao lado encolhe um pouco (contador 'ouro × 2,8 só para as notas'); atrás, aparece uma pilha muito maior com a etiqueta 'contas e poupança'. Depois, um termostato com a palavra 'juros' fica preso por um cadeado dourado. Por fim, um gráfico de linha do grama de ouro sobe até janeiro e desce até outubro; a etiqueta de um celular importado na mão do Zé desce quando a linha sobe e sobe quando a linha desce."
+cena = "A pilha de ouro cresce até a altura das notas enquanto um saco de dólares ao lado encolhe um pouco (contador 'ouro × 2,8 só para as notas'); atrás, aparece uma pilha muito maior com a etiqueta 'contas, poupança e CDBs'. Depois, um termostato com a palavra 'juros' fica preso por um cadeado dourado; quando o Zé tenta girá-lo para baixo, uma fila de pessoas com notas aparece no guichê do ouro. Por fim, um gráfico de linha do grama de ouro sobe até janeiro e desce até outubro; a etiqueta de um celular importado na mão do Zé desce quando a linha sobe e sobe quando a linha desce."
 
   [[bloco.frase]]
   fala = "Só para cobrir as notas, o Banco Central teria que quase triplicar o ouro, com dólares das reservas."
   marcacao = "PROJEÇÃO"
   fontes = ["F1", "F2", "F8"]
-  tela = "Ouro × 2,8 só para as notas · contas e poupança: R$ 7,6 tri (jun/2026)"
+  tela = "Ouro × 2,8 só para as notas · contas, poupança e CDBs (M2): R$ 7,6 tri (jun/2026)"
 
   [[bloco.frase]]
-  fala = "E os juros serviriam para defender o ouro: numa crise, não daria para baixá-los à vontade."
+  fala = "E os juros ficariam presos à troca: numa crise, baixá-los poderia levar muita gente a trocar reais por ouro."
   marcacao = "PROJEÇÃO"
   fontes = ["F12", "F14"]
 
@@ -69,17 +69,17 @@ cena = "Balança 3D equilibrada: prato verde (a favor) à esquerda, com um carri
   marcacao = "BORDÃO"
 
   [[bloco.frase]]
-  fala = "Quem defende aponta que, nos Estados Unidos, com o dólar preso ao ouro antes da Primeira Guerra, a inflação média foi de 0,1% ao ano."
+  fala = "Quem defende aponta que, nos Estados Unidos antes da Primeira Guerra, com o dólar preso ao ouro e sem imprimir dinheiro à vontade, a inflação média foi de 0,1% ao ano."
   marcacao = "ARGUMENTO A FAVOR"
   fontes = ["F11"]
   tela = "EUA, 1880–1914: inflação média de 0,1% ao ano"
-  voz = "Quem defende aponta que, nos Estados Unidos, com o dólar preso ao ouro antes da Primeira Guerra, a inflação média foi de zero vírgula um por cento ao ano."
+  voz = "Quem defende aponta que, nos Estados Unidos antes da Primeira Guerra, com o dólar preso ao ouro e sem imprimir dinheiro à vontade, a inflação média foi de zero vírgula um por cento ao ano."
 
   [[bloco.frase]]
-  fala = "Quem critica aponta que, na crise de 1929, os países que largaram o ouro mais cedo voltaram a produzir e a crescer antes."
+  fala = "Quem critica aponta que, na crise de 1929, os países que largaram o ouro mais cedo e puderam baixar os juros voltaram a crescer antes."
   marcacao = "ARGUMENTO CONTRA"
   fontes = ["F12", "F14"]
-  voz = "Quem critica aponta que, na crise de mil novecentos e vinte e nove, os países que largaram o ouro mais cedo voltaram a produzir e a crescer antes."
+  voz = "Quem critica aponta que, na crise de mil novecentos e vinte e nove, os países que largaram o ouro mais cedo e puderam baixar os juros voltaram a crescer antes."
 
   [[bloco.frase]]
   fala = "Entre economistas, há quase consenso contra o padrão-ouro: em 2012, num painel de universidades americanas, nenhum concordou que ele traria preços mais estáveis e mais emprego aos Estados Unidos."
