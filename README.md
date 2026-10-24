@@ -28,6 +28,10 @@ O instalador confere as ferramentas, instala o HyperFrames (com o FFmpeg dele) e
 
 Pronto: abra a pasta no VS Code e inicie o Claude Code. As permissões dos scripts do projeto já estão em `.claude/settings.json`.
 
+## Pelo celular (GitHub Actions)
+
+A narração e a prévia também rodam nos servidores do GitHub, sem computador: no app ou no site do GitHub, **Actions → "Narração e prévia" → Run workflow**, informe a pasta do vídeo (ex.: `videos/2026-10-24-fim-das-tarifas-de-importacao`) e escolha se quer renderizar a prévia. A narração volta para o repositório sozinha; a prévia fica em "Artifacts", na página da execução.
+
 ## Comandos do dia a dia
 
 ```bash
@@ -49,5 +53,5 @@ python3 scripts/narrar.py videos/<pasta>                # narração + palavras.
 - Instalação pronta e testada: render, determinismo e volume conferidos, sem chamar o FFmpeg diretamente.
 - Roteiro estruturado com checagem automática (`scripts/roteiro.py`), gerador de composição (`scripts/montar.py`) e critérios de validação (`docs/validacao.md`).
 - Componentes prontos: Zé, balança, contador, legendas, rodapé de fonte, selo de IA, palco 3D, objetos e cartões.
-- **Protótipo completo** em `videos/2026-10-24-fim-das-tarifas-de-importacao/`: tema real com fontes, uma rodada do crítico, prévia de 79 s com tempos estimados e **sem voz** (o edge-tts não funciona na nuvem). Para pôr a voz: `narrar.py`, `montar.py`, `ajustar-volume.sh` e render.
+- **Protótipo completo** em `videos/2026-10-24-fim-das-tarifas-de-importacao/`: tema real com fontes, uma rodada do crítico e prévia de 81 s **com a voz oficial** (narração gerada pelo GitHub Actions, já que o edge-tts não funciona na nuvem).
 - Propostas esperando decisão: `docs/aprendizados.md`, itens marcados **[proposta]**.

@@ -356,6 +356,10 @@ Conforme a seção 4.
 ### scripts/previa.sh
 - `./scripts/previa.sh videos/<pasta>`: roda em sequência `roteiro.py texto`, `narrar.py`, `montar.py`, `ajustar-volume.sh`, o `check` e o render da `previa.mp4`. Use quando o roteiro estiver aprovado e as cenas existirem. `--estimar` faz o mesmo sem voz.
 
+### .github/workflows/previa.yml (GitHub Actions)
+- "Narração e prévia": disparo manual (também pelo celular), com a pasta do vídeo. Roda nos servidores do GitHub, que têm a internet que a voz precisa: gera a narração, remonta a composição, ajusta o volume e devolve os arquivos ao repositório; com "renderizar", roda o `previa.sh` e guarda a prévia nos artifacts da execução.
+- É o caminho quando a sessão do Claude Code está num ambiente sem acesso à voz (como o da nuvem).
+
 ### scripts/montar.py
 - `python3 scripts/montar.py videos/<pasta>`: lê o `03-roteiro.toml`, o `02-fontes.md` e o `narracao/palavras.json` e gera o `composicao/index.html` (cada cena no seu tempo, a narração com o volume já ajustado preservado), o `tempos.js`, as legendas e as sobreposições (selo de IA e rodapés de fonte).
 - Cria um modelo simples para cada `cenas/bloco-N.html` que faltar; nunca sobrescreve uma cena existente.

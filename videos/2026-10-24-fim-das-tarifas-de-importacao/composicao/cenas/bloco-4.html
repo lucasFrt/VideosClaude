@@ -1,5 +1,5 @@
 <!-- Bloco 4 — A balança. Começa equilibrada; cada prato acende no seu argumento, com cartões do
-     mesmo tamanho para os dois lados; no termômetro, os pratos apagam e ela termina
+     mesmo tamanho para os dois lados; no termômetro, pratos e rótulos apagam e ela termina
      equilibrada (não há marcação de inclinação no roteiro). Tempos de TEMPOS.bloco(4). -->
 <template>
   <style>
@@ -103,6 +103,9 @@
     const [bordao, favor, contra, termometro] = B.frases;
 
     const { renderer, cena, camera } = criarPalco(document.getElementById("b4-palco"));
+    // Desloca a imagem 200 px para cima (sem mudar a perspectiva): pratos e rótulos ficam acima
+    // da faixa das legendas.
+    camera.setViewOffset(1080, 1920, 0, 200, 1080, 1920);
     const balanca = criarBalanca({ escala: 0.8 });
     cena.add(balanca.grupo);
     const roteiro = {
@@ -128,6 +131,7 @@
     tl.fromTo("#b4-favor", { opacity: 0, y: 40 }, { opacity: 1, y: 0, duration: 0.4, ease: "power3.out" }, favor.inicio + 0.2);
     tl.fromTo("#b4-contra", { opacity: 0, y: 40 }, { opacity: 1, y: 0, duration: 0.4, ease: "power3.out" }, contra.inicio + 0.2);
     tl.to(["#b4-favor", "#b4-contra"], { opacity: 0, y: -30, duration: 0.3 }, termometro.inicio - 0.2);
+    tl.to(["#b4-rot-favor", "#b4-rot-contra"], { opacity: 0, duration: 0.3 }, termometro.inicio - 0.2);
     tl.fromTo("#b4-termo", { opacity: 0, y: 40 }, { opacity: 1, y: 0, duration: 0.4, ease: "power3.out" }, termometro.inicio + 0.1);
     tl.fromTo("#b4-b1", { scaleX: 0 }, { scaleX: 1, duration: 1.0, ease: "power2.out" }, termometro.inicio + 0.6);
     const segunda = termometro.inicio + 0.5 * (termometro.fim - termometro.inicio);

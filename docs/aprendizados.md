@@ -113,3 +113,15 @@ O crítico apontou, com razão, que as simplificações do cenário precisam ser
 O texto branco do rodapé sumia sobre o carro branco.
 **Resolvido:** o rodapé ganhou um fundo escuro discreto.
 
+### 25. Voz pelo GitHub Actions
+A sessão na nuvem não alcança o serviço de voz, e você queria resolver pelo celular. Rodar o projeto inteiro no celular não é viável (render precisa de Node, Python e Chrome).
+**Resolvido:** o workflow `.github/workflows/previa.yml` roda a narração (e, se pedido, a prévia) nos servidores do GitHub e devolve os arquivos ao repositório. O repositório é público, então os minutos do Actions são gratuitos; os registros das execuções também ficam públicos.
+**[proposta]** Como o modo é de validação ("nada é publicado"), considerar deixar o repositório privado: roteiros, fontes e cenas hoje estão visíveis para qualquer pessoa. No privado, o Actions continua grátis dentro da cota mensal da conta.
+
+### 26. A voz do edge-tts tem picos altos
+Na primeira narração real (via GitHub Actions), o `normalize-audio` só pôde subir o ganho 1,5 dB: mais que isso, os picos passariam do limite (`limitedBy: true-peak`). A prévia saiu em −16,7 LUFS, não em −14; dá para ouvir, só um pouco mais baixa que outros vídeos no feed.
+**Resolvido em parte:** o `ajustar-volume.sh` agora mostra quantos LUFS o vídeo vai ter e avisa quando os picos limitam o ganho. Para a prévia, basta. Para um final, o `verificar.sh` reprova e a narração precisa de menos picos; como a voz vai ser trocada pela sua, isso fica para quando ela existir (gravação com um limitador de picos resolve).
+
+### 27. Tempos estimados × voz real
+O ritmo estimado (`narrar.py --estimar`) ficou perto do real: 225 palavras em 79,6 s de fala real (2,83 palavras/s), contra 79 s estimados. As cenas se ajustaram sozinhas aos tempos novos porque usam `TEMPOS`. Só uma coisa quebrou: com as frases em outros momentos, o `check` mostrou os rótulos "a favor"/"contra" da balança em cima das legendas.
+**Resolvido:** a cena da balança desloca a imagem 3D 200 px para cima (`camera.setViewOffset`, sem mudar a perspectiva), e os rótulos somem junto com o destaque dos pratos quando o termômetro entra. Regra para as próximas cenas: nada de texto da cena na faixa das legendas (de cerca de y = 1050 a 1260).

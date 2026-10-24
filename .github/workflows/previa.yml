@@ -77,6 +77,8 @@ jobs:
             echo "Nada mudou."
           else
             git commit -m "Narração de $PASTA (gerada no GitHub Actions)"
+            # Se alguém empurrou algo para o ramo durante a execução, põe a narração por cima.
+            git pull --rebase origin "$GITHUB_REF_NAME"
             git push
           fi
 

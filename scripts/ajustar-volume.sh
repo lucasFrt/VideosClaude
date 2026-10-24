@@ -26,4 +26,17 @@ CANAIS="$("$RAIZ/scripts/hf.sh" audio "$NARRACAO" --json 2>/dev/null |
 ALVO=-14
 [ "$CANAIS" = 1 ] && ALVO=-17
 
-exec "$RAIZ/scripts/hf.sh" "$PASTA" normalize-audio --target narracao --lufs="$ALVO" --write
+# O normalize-audio não sobe o ganho além do que os picos permitem (limitedBy: true-peak);
+# nesse caso o vídeo sai mais baixo que −14 LUFS e o verificar.sh vai reprovar o final.
+"$RAIZ/scripts/hf.sh" "$PASTA" normalize-audio --target narracao --lufs="$ALVO" --write --json 2>/dev/null |
+  node -e '
+    const r = JSON.parse(require("fs").readFileSync(0, "utf8"));
+    if (!r.ok) { console.error("O normalize-audio falhou:", JSON.stringify(r)); process.exit(1); }
+    const final = r.projectedLufs + (Number(process.argv[1]) === 1 ? 3 : 0);
+    console.log(`Narração: ganho ${r.gainDb.toFixed(1)} dB, volume ${r.volume.toFixed(3)}, ` +
+                `deve sair em ${final.toFixed(1)} LUFS no vídeo.`);
+    if (r.limitedBy === "true-peak" && final < -15) {
+      console.log("Aviso: os picos da narração limitaram o ganho; o vídeo vai sair abaixo de −14 LUFS " +
+                  "(ok para prévia; para o final, a narração precisa de menos picos).");
+    }
+  ' "$CANAIS"
