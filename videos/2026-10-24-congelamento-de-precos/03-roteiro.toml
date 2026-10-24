@@ -37,7 +37,7 @@ cena = "Contador da comida no mercado subindo até +4,2% em 12 meses, com a etiq
   fontes = ["F4", "F5", "F6"]
 
   [[bloco.frase]]
-  fala = "Aqui, vamos supor que a lei congela, por um ano, o preço do básico no mercado; o resto segue livre."
+  fala = "Aqui, vamos supor que a lei congela o preço do básico no mercado por um ano; o resto segue livre."
   marcacao = "PREMISSA"
 
 [[bloco]]
@@ -50,18 +50,18 @@ cena = "Zé feliz diante das etiquetas paradas; depois uma barra de custo (diese
   fontes = ["F8", "F12"]
 
   [[bloco.frase]]
-  fala = "Mas, se o custo passasse do preço, vender aqui daria prejuízo: o produto poderia faltar, ser exportado ou sair com ágio, um extra por fora."
+  fala = "Mas, se o custo passasse do preço, o produto poderia faltar, ser exportado ou sair com ágio, um extra por fora."
   marcacao = "PROJEÇÃO"
   fontes = ["F13", "F14", "F15", "F19", "F9"]
 
   [[bloco.frase]]
-  fala = "Em 1986, com tudo congelado e consumo em alta, faltou carne e leite; na Argentina, com controles focados, não, mas surgiram versões mais caras."
+  fala = "Em 1986, num congelamento geral, com consumo em alta, faltou carne e leite; na Argentina, com controles focados, não, mas surgiram versões mais caras."
   marcacao = "FATO"
   fontes = ["F1", "F13", "F14", "F8"]
-  voz = "Em oitenta e seis, com tudo congelado e consumo em alta, faltou carne e leite; na Argentina, com controles focados, não, mas surgiram versões mais caras."
+  voz = "Em oitenta e seis, num congelamento geral, com consumo em alta, faltou carne e leite; na Argentina, com controles focados, não, mas surgiram versões mais caras."
 
   [[bloco.frase]]
-  fala = "Quando o congelamento acabasse, os preços tenderiam a pular para alcançar os custos."
+  fala = "Quando o congelamento acabasse, os preços tenderiam a pular; quanto, dependeria dos custos."
   marcacao = "PROJEÇÃO"
   fontes = ["F8", "F12", "F13"]
 

@@ -1,6 +1,6 @@
 <!-- Gerado pelo scripts/roteiro.py a partir do 03-roteiro.toml. Não edite este arquivo. -->
 # Roteiro — E se o governo congelasse o preço da comida?
-Versão: 2 · Duração estimada: ~79 s (222 palavras faladas)
+Versão: 2 · Duração estimada: ~78 s (218 palavras faladas)
 
 ## Bloco 1 — Gancho (~6 s)
 Cena: Primeiro quadro: numa prateleira de mercado, etiquetas de preço presas dentro de blocos de gelo, com '1986' enorme em amarelo; o Zé surpreso, de lado. Na pergunta, o gelo some e a câmera passa para um carrinho de compras de hoje.
@@ -15,16 +15,16 @@ Cena: Contador da comida no mercado subindo até +4,2% em 12 meses, com a etique
 - **[FATO · F2]** Em um ano, a comida do mercado subiu em média 4,2%.
   - Tela: Alimentação no domicílio (IPCA): +4,2% em 12 meses, até set/2026 (rodapé: Fonte: IBGE, 2026) · Voz: "Em um ano, a comida do mercado subiu em média quatro vírgula dois por cento."
 - **[FATO · F4, F5, F6]** Hoje, congelar exigiria mudar a lei, e a Constituição protege a livre iniciativa.
-- **[PREMISSA]** Aqui, vamos supor que a lei congela, por um ano, o preço do básico no mercado; o resto segue livre.
+- **[PREMISSA]** Aqui, vamos supor que a lei congela o preço do básico no mercado por um ano; o resto segue livre.
 
-## Bloco 3 — O que mudaria (~26 s)
+## Bloco 3 — O que mudaria (~25 s)
 Cena: Zé feliz diante das etiquetas paradas; depois uma barra de custo (diesel, adubo) sobe e passa da etiqueta congelada, um espaço vazio aparece na prateleira, uma caixa sai num navio genérico e uma etiqueta extra 'por fora' surge ao lado; em seguida, lado a lado, '1986: congelamento geral' com a prateleira vazia e 'Argentina: controles focados' com a prateleira cheia, mas com uma embalagem nova e mais cara; por fim o gelo derrete e as etiquetas pulam para cima, com o Zé preocupado.
 
 - **[PROJEÇÃO · F8, F12]** No começo, arroz, feijão e leite parariam de subir.
-- **[PROJEÇÃO · F13, F14, F15, F19, F9]** Mas, se o custo passasse do preço, vender aqui daria prejuízo: o produto poderia faltar, ser exportado ou sair com ágio, um extra por fora.
-- **[FATO · F1, F13, F14, F8]** Em 1986, com tudo congelado e consumo em alta, faltou carne e leite; na Argentina, com controles focados, não, mas surgiram versões mais caras.
-  - Voz: "Em oitenta e seis, com tudo congelado e consumo em alta, faltou carne e leite; na Argentina, com controles focados, não, mas surgiram versões mais caras."
-- **[PROJEÇÃO · F8, F12, F13]** Quando o congelamento acabasse, os preços tenderiam a pular para alcançar os custos.
+- **[PROJEÇÃO · F13, F14, F15, F19, F9]** Mas, se o custo passasse do preço, o produto poderia faltar, ser exportado ou sair com ágio, um extra por fora.
+- **[FATO · F1, F13, F14, F8]** Em 1986, num congelamento geral, com consumo em alta, faltou carne e leite; na Argentina, com controles focados, não, mas surgiram versões mais caras.
+  - Voz: "Em oitenta e seis, num congelamento geral, com consumo em alta, faltou carne e leite; na Argentina, com controles focados, não, mas surgiram versões mais caras."
+- **[PROJEÇÃO · F8, F12, F13]** Quando o congelamento acabasse, os preços tenderiam a pular; quanto, dependeria dos custos.
 
 ## Bloco 4 — A balança (~28 s)
 Cena: Balança 3D equilibrada: prato verde (a favor) à esquerda e coral (contra) à direita; cada prato acende na sua frase; no termômetro, os dois pratos apagam, aparece o resultado da pesquisa em dois números e ela termina equilibrada.

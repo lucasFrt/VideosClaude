@@ -1,6 +1,6 @@
 <!-- Gerado pelo scripts/roteiro.py a partir do 03-roteiro.toml. Não edite este arquivo. -->
 # Roteiro — E se o aluguel tivesse um teto?
-Versão: 3 · Duração estimada: ~80 s (224 palavras faladas)
+Versão: 3 · Duração estimada: ~79 s (221 palavras faladas)
 
 ## Bloco 1 — Gancho (~6 s)
 Cena: Primeiro quadro já com o número +9% enorme sobre uma placa genérica de 'Aluga-se' na janela de um prédio low-poly; o Zé, com uma chave na mão, olha o número crescer.
@@ -25,7 +25,7 @@ Cena: O Zé tranquilo na sala, com a conta do aluguel subindo devagar, colada na
 - **[PROJEÇÃO · F6, F8, F9]** Com o tempo, alguns donos poderiam vender, parar de alugar ou cuidar menos do imóvel.
 - **[PROJEÇÃO · F6, F8, F9]** Quem procura casa acharia menos opções; quanto, ninguém sabe: os estudos são de fora.
 
-## Bloco 4 — A balança (~38 s)
+## Bloco 4 — A balança (~36 s)
 Cena: Balança 3D equilibrada: prato verde (a favor) à esquerda e coral (contra) à direita; cada prato acende na sua frase com o seu número (quase 20% de um lado; −15% e +5% marcado como estimativa do outro); no termômetro, os dois apagam, aparece o número da revisão de estudos e ela termina equilibrada.
 
 - **[BORDÃO]** Agora, vamos colocar na balança.
@@ -33,8 +33,8 @@ Cena: Balança 3D equilibrada: prato verde (a favor) à esquerda e coral (contra
   - Tela: quase 20% mais chance de ficar no endereço (rodapé: Fonte: Diamond, McQuade e Qian, 1994–2010) · Voz: "Quem defende aponta que, em San Francisco, o morador protegido pelo teto teve quase vinte por cento mais chance de ficar no mesmo endereço, e menos inquilinos saíram da cidade."
 - **[ARGUMENTO CONTRA · F6]** Quem critica aponta que, em San Francisco, a oferta de aluguel nos prédios com teto caiu 15%, e os autores estimam que quem chegou depois pagou cerca de 5% a mais.
   - Tela: oferta dos prédios com teto −15% · quem chegou depois +5% (estimativa) (rodapé: Fonte: Diamond, McQuade e Qian, 1994–2010) · Voz: "Quem critica aponta que, em San Francisco, a oferta de aluguel nos prédios com teto caiu quinze por cento, e os autores estimam que quem chegou depois pagou cerca de cinco por cento a mais."
-- **[TERMÔMETRO · F8, F11, F7]** Os estudos mostram as duas coisas, mas a maioria vê a oferta cair com o tempo, e pesquisas com economistas nos EUA também; a dúvida é o tamanho, que varia de lugar para lugar.
-  - Tela: 12 de 16 estudos: menos oferta de aluguel (rodapé: Fonte: Kholodilin, 2024; Alston, Kearl e Vaughan, 1992; Painel IGM, 2012) · Voz: "Os estudos mostram as duas coisas, mas a maioria vê a oferta cair com o tempo, e pesquisas com economistas nos Estados Unidos também; a dúvida é o tamanho, que varia de lugar para lugar."
+- **[TERMÔMETRO · F8, F11, F7]** Os estudos mostram as duas coisas, mas a maioria vê a oferta cair, e pesquisas com economistas nos EUA também; a dúvida é o tamanho, que varia de lugar para lugar.
+  - Tela: 12 de 16 estudos: menos oferta de aluguel (rodapé: Fonte: Kholodilin, 2024; Alston, Kearl e Vaughan, 1992; Painel IGM, 2012) · Voz: "Os estudos mostram as duas coisas, mas a maioria vê a oferta cair, e pesquisas com economistas nos Estados Unidos também; a dúvida é o tamanho, que varia de lugar para lugar."
 
 ## Bloco 5 — Encerramento (~3 s)
 Cena: O Zé na porta de casa, chave na mão, ombros levantados, olhando para a câmera, esperando a resposta.

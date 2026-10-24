@@ -26,7 +26,7 @@
 
 ## Termômetro
 Os estudos confirmam os dois efeitos da balança: o teto segura o aluguel de quem já mora (F8, F6, F9) e, na maioria dos casos, reduz a oferta de aluguel com o tempo (F8: 12 de 16 estudos sobre oferta; F6: −15% em San Francisco). Os economistas consultados nos EUA vão na mesma linha (F11: 93% em 1992 dizem que um teto reduz a quantidade e a qualidade da moradia; F7: só 1 de 41 viu efeito positivo na moradia acessível em 2012). Há consenso sobre a direção do efeito na oferta; o que varia entre os estudos é o tamanho, que depende do desenho e do país (F8).
-Frase do roteiro (versão 3): "Os estudos mostram as duas coisas, mas a maioria deles vê a oferta cair com o tempo, e pesquisas com economistas nos EUA também; a dúvida é o tamanho, que muda de lugar para lugar." A tela mostra o dado da revisão (F8), não o do painel, porque o painel F7 perguntou outra coisa.
+Frase do roteiro (versão 3): "Os estudos mostram as duas coisas, mas a maioria vê a oferta cair, e pesquisas com economistas nos EUA também; a dúvida é o tamanho, que varia de lugar para lugar." A tela mostra o dado da revisão (F8), não o do painel, porque o painel F7 perguntou outra coisa.
 Ressalvas:
 - os painéis são de economistas que trabalham nos EUA, e a fala diz isso; as datas (1992 e 2012) aparecem só no rodapé. F10 (2024), o mais recente e o mais próximo do desenho do cenário, vai na mesma direção (62% concordam que reduziria a oferta, 7% discordam), mas continua fora por causa da campanha americana; se a revisão humana achar que um rodapé "Clark Center, 2024" não remete à campanha, ele pode entrar; não foi encontrada pesquisa com economistas brasileiros sobre teto de aluguel;
 - F11 é antigo (1992) e avaliou um teto para o valor do aluguel, mais duro que o do cenário;

@@ -33,7 +33,7 @@ Uma lei aprovada pelo Congresso manda o Banco Central parar de emitir cédulas e
 - Com tanto Pix, quanto dinheiro vivo ainda circula?
 - O que mudaria no dia a dia do cidadão comum (pão, feira, troco)?
 - Quem teria mais dificuldade?
-- O que se ganharia (menos roubo, sonegação mais difícil)?
+- O que se ganharia (menos crime de rua, sonegação mais difícil)? E o crime sumiria ou mudaria de forma?
 - O que se perderia (o plano B quando a energia ou o sistema caem, a privacidade de pagar sem registro)?
 - O que dizem os bancos centrais e os estudos?
 - Algum país chegou perto? (A Suécia é o caso mais próximo, F9 e F10. Índia e Nigéria não acabaram com o dinheiro: trocaram as notas às pressas, e servem de alerta sobre transição rápida. O bloco de exemplo real ficou de fora do vídeo por tempo; a Espanha, no apagão de 2025, aparece no lado contra da balança.)

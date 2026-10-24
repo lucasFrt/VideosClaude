@@ -30,7 +30,7 @@ Cena: Balança 3D equilibrada: prato verde (a favor) à esquerda e coral (contra
 
 - **[BORDÃO]** Agora, vamos colocar na balança.
 - **[ARGUMENTO A FAVOR · F24, F19, F9]** Quem defende aponta que uma regra fixa tira a tentação de criar dinheiro, e que, em mais de cem países, mais dinheiro veio com mais inflação.
-- **[ARGUMENTO CONTRA · F11, F17, F18]** Quem critica aponta que, nos anos oitenta, Estados Unidos, Canadá e Inglaterra tentaram controlar a quantidade de dinheiro e desistiram: a ligação com os preços mudava.
+- **[ARGUMENTO CONTRA · F11, F17, F18]** Quem critica aponta que, nos anos oitenta, Estados Unidos, Canadá e Inglaterra tentaram controlar a quantidade de dinheiro e desistiram: a ligação com os preços falhava.
 - **[TERMÔMETRO · F10, F8, F11, F16]** Num painel de economistas americanos, ninguém achou que dá para gastar sem limite criando dinheiro. Sobre congelar, não achamos pesquisa; os grandes bancos centrais preferem os juros.
   - Tela: Ninguém a favor (painel de economistas dos EUA, 2019) (rodapé: Fonte: Clark Center, 2019; Banco da Inglaterra, 2014; Fed, 1979–1982; Banco Central, 2025–2026)
 

@@ -4,10 +4,10 @@
 # Exemplo real cortado já na versão 1 para caber em 90 s (CLAUDE.md, seção 3): a Espanha
 # aparece no lado contra; Suécia, Índia e Nigéria ficaram no 02-fontes (F9, F10, F16 a F19);
 # Índia e Nigéria explicam o "anos de prazo" da premissa.
-# Versão 2: rodada 1 do crítico (04-revisoes.md).
+# Versão 2: rodada 1 do crítico; versão 3: rodada 2 (04-revisoes.md).
 
 titulo = "E se o dinheiro em papel acabasse no Brasil?"
-versao = 2
+versao = 3
 
 [[bloco]]
 nome = "Gancho"
@@ -74,17 +74,17 @@ cena = "Balança 3D equilibrada: prato verde (a favor) à esquerda com um cofre 
   marcacao = "BORDÃO"
 
   [[bloco.frase]]
-  fala = "Quem defende aponta que menos dinheiro na rua dá menos roubo: num estudo americano, trocar benefício em papel por cartão cortou o crime em cerca de 9%."
+  fala = "Quem defende aponta que menos dinheiro na rua dá menos crime: num estudo americano, trocar benefício em papel por cartão cortou os crimes em cerca de 9%."
   marcacao = "ARGUMENTO A FAVOR"
   fontes = ["F13"]
   tela = "crime −9% (condados do Missouri, EUA)"
-  voz = "Quem defende aponta que menos dinheiro na rua dá menos roubo: num estudo americano, trocar benefício em papel por cartão cortou o crime em cerca de nove por cento."
+  voz = "Quem defende aponta que menos dinheiro na rua dá menos crime: num estudo americano, trocar benefício em papel por cartão cortou os crimes em cerca de nove por cento."
 
   [[bloco.frase]]
-  fala = "Quem critica aponta que, sem dinheiro vivo, some o plano B: no apagão da Espanha, as transações com cartão caíram mais da metade naquele dia."
+  fala = "Quem critica aponta que, sem dinheiro vivo, some o plano B: no apagão da Espanha, as transações com cartão caíram mais da metade enquanto faltou luz."
   marcacao = "ARGUMENTO CONTRA"
   fontes = ["F14", "F24"]
-  tela = "cartão −55% no dia do apagão (Espanha, 2025)"
+  tela = "cartão −55% durante o apagão (Espanha, 2025)"
 
   [[bloco.frase]]
   fala = "Numa pesquisa com economistas alemães, em 2016, só 2% apoiaram acabar de vez com o dinheiro vivo. Já o efeito sobre crime e sonegação num país inteiro é incerto: parte do crime pode virar golpe digital."

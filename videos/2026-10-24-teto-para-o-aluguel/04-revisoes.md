@@ -31,7 +31,32 @@ Nenhuma objeção CRÍTICA; duas IMPORTANTES (R1.1 e R1.2), ambas de calibraçã
 - Duração estimada: cerca de 77 s (215 palavras), 1 s a mais que a versão 1.
 
 ## Rodada 2
-...
+
+### O que o crítico considerou sólido
+- F1 conferido de novo: +9,13% contra IPCA de 4,58% e IGP-M de 3,34%; no ano, +7,11% contra +3,95%; 36 cidades. Um agregador traz IPCA de 4,57%, diferença de arredondamento.
+- F6 ("quase 20%" e −15%) e F8 (12 de 16 e 15 de 20) batem com os resumos.
+- Berlim: a corte anulou o teto por falta de competência do estado (decisão de 25/03/2021, divulgada em 15/04/2021, 2 BvF 1/20). Saiu o "não conferido" de F9 e do 01-ideia; conferi também por busca (LTO, CMS e comunicado da corte reproduzido pela BBU).
+- Campanha: nova busca sem candidatura de 2026 com proposta de teto de aluguel; as ressalvas do 02-fontes continuam valendo.
+- As correções R1.1, R1.2 e R1.4 ficaram certas e não criaram erro.
+
+### Objeções
+| # | Trecho | Nível | Objeção | Base | Resposta do autor | Decisão |
+|---|--------|-------|---------|------|-------------------|---------|
+| R2.1 | "...e quem chegou depois pagou cerca de cinco por cento a mais." (tela "+5%") | IMPORTANTE | O −15% e o 20% são medidos nos dados, mas o 5,1% é estimativa dos autores (a perda de oferta "likely drove up market rents in the long run") e vale para o aluguel de mercado da cidade. Como estava, o roteiro tratava uma estimativa como dado medido, e só no lado contra. | Resumos do AER 109(9), 2019, e do NBER w24181; Cato. | Procede. Agora: "...e os autores estimam que quem chegou depois pagou cerca de 5% a mais", com "(estimativa)" na tela. Mantive "quem chegou depois" porque é como o resumo da Stanford descreve o efeito ("renters who came later paid about 5% more than they would have in the absence of rent control"). Em F6, o efeito no preço aparece como estimativa, separado do que é medido. A divisão do custo citada via Cato (58% para quem já morava, 42% para futuros moradores) não apareceu nas minhas buscas: ficou registrada como não conferida e não entra no roteiro. | aceita |
+| R2.2 | Termômetro: "economistas ouvidos nos EUA vão na mesma linha; a dúvida é o tamanho." | MENOR | (a) A frase se apoia em pesquisas de 1992 e 2012 sem dizer as datas; o painel de 2024 (F10), o mais próximo do cenário, ficou fora. (b) "A dúvida é o tamanho" omite que 4 dos 16 estudos não acham efeito ou acham efeito positivo, e que o tamanho varia por país e método (F8). | F8; F10 (62% contra 7%). | (a) Procede em parte. Troquei para "pesquisas com economistas nos EUA", e as datas aparecem no rodapé. F10 continua fora para não remeter a uma campanha; no 02-fontes ficou registrado como opção para a revisão humana. (b) Procede. Agora: "a dúvida é o tamanho, que varia de lugar para lugar". "A maioria" já indica que nem todos os estudos acham o efeito. Para o tempo não crescer, tirei "com o tempo" do termômetro, porque o bloco 3 já diz isso. | aceita em parte (a); aceita (b) |
+| R2.3 | Bloco 3 e pratos da balança | MENOR | No bloco 3, o benefício tinha 1 frase (9 palavras) e o custo, 2 frases (31 palavras); o prato verde mostra 1 número e o coral, 2. | F6 (menos mobilidade e menos saída da cidade). | Procede no bloco 3. Agora: "Quem já aluga teria previsibilidade na renovação e menos risco de ter que se mudar." (F6). Não acrescentei um segundo número ao prato verde: F6 tem um só achado medido do lado a favor, a marca "(estimativa)" da R2.1 já reduz a assimetria (como o crítico disse), e as falas da balança continuam com tamanho parecido (30 e 35 palavras). | aceita em parte |
+| R2.4 | Rodapés dos blocos 2 e 3 | MENOR | (a) "Fonte: FipeZAP, 2026" cobre também o IPCA, que é do IBGE. (b) O "1 em cada 4 lares" vem só do IBGE, mas o rodapé juntava IBGE, Diamond e Kholodilin. | IBGE (IPCA de set./2026: 4,58%). | Procede. (a) Nova fonte F13 (IPCA, IBGE, conferido por busca: 4,58% em 12 meses), e o rodapé virou "FipeZAP, 2026; IBGE, 2026". (b) Tirei da frase do bloco 3 a tela "1 em cada 4 lares" e a fonte F3, e agora o rodapé (só F6) corresponde ao que a frase diz. O dado continua em F3 no 02-fontes. | aceita |
+
+### Veredito do crítico
+Nenhuma objeção CRÍTICA. Uma IMPORTANTE nova (R2.1), que se corrige com "estimam" e a marca "estimativa" na tela, e três MENORES opcionais. "Com a R2.1 corrigida, o roteiro está pronto para a revisão humana", restando as incertezas naturais e a confirmação humana do contexto de campanha. O crítico sugere uma rodada curta de conferência, porque a R2.1 mudou uma frase.
+
+### O que mudou na versão 3
+- Balança: o 5% do lado contra virou estimativa dos autores, na fala e na tela.
+- Termômetro: "Os estudos mostram as duas coisas, mas a maioria vê a oferta cair, e pesquisas com economistas nos EUA também; a dúvida é o tamanho, que varia de lugar para lugar."
+- Bloco 3: o benefício ganhou "menos risco de ter que se mudar"; para compensar o tempo, foram encurtados "alguns donos poderiam" e "acharia".
+- Bloco 2: o IPCA tem fonte própria (F13); a premissa foi encurtada ("para quem já mora, aumento só até a inflação, e nada de trocar de inquilino só para cobrar mais"), sem mudar o sentido.
+- 02-fontes: F6 separa o medido do estimado; F9 com o motivo e o número da decisão; F13 novo; ressalvas do termômetro atualizadas.
+- Duração estimada: cerca de 79 s (221 palavras), 2 s a mais que a versão 2. Se for preciso chegar mais perto de 75 s, o próximo corte é "que varia de lugar para lugar" (−2 s).
 
 ## Resumo final para a revisão humana
 - O que mudou:
