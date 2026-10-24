@@ -25,9 +25,9 @@ Uma lei aprovada pelo Congresso manda o Banco Central parar de emitir cédulas e
 
 ## Simplificações (o vídeo precisa dizer quais são)
 - É um exercício: o Banco Central não anunciou nada disso, e circulam manchetes falsas dizendo o contrário (02-fontes, "Contexto que o vídeo evita"). O vídeo diz "Aqui é só um exercício".
-- A lei e o prazo de transição cabem em uma frase: "vamos supor uma lei que acabe com notas e moedas, com anos para depositar tudo, sem perder valor".
+- A lei e o prazo de transição cabem em uma frase: "vamos supor uma lei que acabe com notas e moedas, com anos para depositar tudo, sem perder valor nem sigilo bancário".
 - O vídeo não trata de moeda digital do Banco Central nem da diferença entre dinheiro do Banco Central e saldo no banco.
-- O tamanho dos efeitos é incerto; o vídeo fala de direção, e o termômetro diz que o efeito sobre crime e sonegação num país inteiro ainda é incerto.
+- O tamanho dos efeitos é incerto; o vídeo fala de direção, e o termômetro diz que o efeito sobre crime e sonegação num país inteiro é incerto (parte do crime pode virar golpe digital).
 
 ## Perguntas que o vídeo precisa responder
 - Com tanto Pix, quanto dinheiro vivo ainda circula?
@@ -36,7 +36,7 @@ Uma lei aprovada pelo Congresso manda o Banco Central parar de emitir cédulas e
 - O que se ganharia (menos roubo, sonegação mais difícil)?
 - O que se perderia (o plano B quando a energia ou o sistema caem, a privacidade de pagar sem registro)?
 - O que dizem os bancos centrais e os estudos?
-- Algum país chegou perto? (A Suécia é o caso mais próximo, F9 e F10. Índia e Nigéria não acabaram com o dinheiro: trocaram as notas às pressas, e servem de alerta sobre transição rápida. O bloco de exemplo real ficou de fora do vídeo por tempo; a Suécia aparece no termômetro.)
+- Algum país chegou perto? (A Suécia é o caso mais próximo, F9 e F10. Índia e Nigéria não acabaram com o dinheiro: trocaram as notas às pressas, e servem de alerta sobre transição rápida. O bloco de exemplo real ficou de fora do vídeo por tempo; a Espanha, no apagão de 2025, aparece no lado contra da balança.)
 
 ## Por que este cenário é plausível no Brasil real
 - **Juridicamente possível:** a Constituição não exige dinheiro físico; o curso legal está em lei ordinária, que o Congresso pode mudar (F6, F7, F8). O Congresso já discute limites ao uso de dinheiro vivo em pagamentos grandes (02-fontes, "Contexto que o vídeo evita"), o que mostra que o tema existe, mesmo que ninguém proponha o fim total.
