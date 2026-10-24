@@ -35,11 +35,11 @@ nome = "Contexto"
 cena = "Uma rua low-poly vista de cima: só algumas casas acendem em amarelo e recebem um envelope genérico (sem logotipo de programa ou de banco), com o contador '19 milhões de famílias'. Depois, uma folha com '2004' sai de uma gaveta e volta para ela, empoeirada."
 
   [[bloco.frase]]
-  fala = "Hoje, o Bolsa Família paga só a famílias de baixa renda: cerca de 19 milhões."
+  fala = "Hoje, o Bolsa Família atende só famílias de baixa renda: cerca de 19 milhões."
   marcacao = "FATO"
   fontes = ["F4", "F6"]
   tela = "19 milhões de famílias"
-  voz = "Hoje, o Bolsa Família paga só a famílias de baixa renda: cerca de dezenove milhões."
+  voz = "Hoje, o Bolsa Família atende só famílias de baixa renda: cerca de dezenove milhões."
 
   [[bloco.frase]]
   fala = "A renda para todos está numa lei de 2004, mas só no papel."
@@ -53,9 +53,9 @@ nome = "O que mudaria"
 cena = "A mesma rua: agora todas as casas acendem, da casinha do Zé a uma mansão, e um envelope cai em cada uma (um bebê num berço também recebe o seu). Contadores '≈ 10% do PIB' e '≈ 8 vezes o Bolsa Família'. O Zé, com a família de quatro, conta quatro notas, feliz; na mansão, uma seta coral leva de volta, em impostos, uma pilha maior do que a que chegou. No fim, um relógio girando com um ponto de interrogação em cima da rua."
 
   [[bloco.frase]]
-  fala = "Aqui, vamos supor R$ 500 por mês para cada pessoa, do bebê ao bilionário, sem condição, pagos com mais impostos."
+  fala = "Aqui, vamos supor R$ 500 por mês para cada pessoa, do bebê ao bilionário, sem exigir nada, pagos com mais impostos."
   marcacao = "PREMISSA"
-  voz = "Aqui, vamos supor quinhentos reais por mês para cada pessoa, do bebê ao bilionário, sem condição, pagos com mais impostos."
+  voz = "Aqui, vamos supor quinhentos reais por mês para cada pessoa, do bebê ao bilionário, sem exigir nada, pagos com mais impostos."
 
   [[bloco.frase]]
   fala = "Isso dá cerca de 10% de tudo que o país produz num ano, umas oito vezes o Bolsa Família."
@@ -65,13 +65,13 @@ cena = "A mesma rua: agora todas as casas acendem, da casinha do Zé a uma mans�
   voz = "Isso dá cerca de dez por cento de tudo que o país produz num ano, umas oito vezes o Bolsa Família."
 
   [[bloco.frase]]
-  fala = "Uma família de quatro receberia R$ 2.000 por mês, e quem ganha mais tenderia a pagar mais imposto do que recebe."
+  fala = "Uma família de quatro receberia R$ 2.000 por mês, e quem ganha acima da média tenderia a pagar mais imposto do que recebe."
   marcacao = "PROJEÇÃO"
   fontes = ["F1", "F2"]
-  voz = "Uma família de quatro receberia dois mil reais por mês, e quem ganha mais tenderia a pagar mais imposto do que recebe."
+  voz = "Uma família de quatro receberia dois mil reais por mês, e quem ganha acima da média tenderia a pagar mais imposto do que recebe."
 
   [[bloco.frase]]
-  fala = "No longo prazo, ninguém sabe ao certo como a economia reagiria a uma mudança desse tamanho."
+  fala = "No longo prazo, ninguém sabe ao certo como a economia reagiria a algo desse tamanho."
   marcacao = "PROJEÇÃO"
   fontes = ["F8", "F9", "F13", "F14"]
 

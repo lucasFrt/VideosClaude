@@ -1,6 +1,5 @@
 # Roteiro: a fonte da verdade do vídeo. O 03-roteiro.md é gerado pelo scripts/roteiro.py.
-# Fontes marcadas com ⚠ no 02-fontes.md (F1, F4, F6, F11, F12, F13) não foram conferidas nesta
-# sessão (limite de buscas): confirmar na onda 3 ou na revisão humana.
+# Todas as fontes foram conferidas por busca em 2026-10-24 (os documentos não foram abertos).
 
 titulo = "E se o governo congelasse o preço da comida?"
 versao = 1
@@ -25,11 +24,11 @@ nome = "Contexto"
 cena = "Contador da comida no mercado subindo até +4,2% em 12 meses (rodapé IBGE); depois um livro genérico escrito 'Constituição' ao lado de uma etiqueta com 'preço livre'; por fim o Zé põe etiquetas congeladas só no arroz, no feijão e no leite, e o resto da prateleira continua com etiquetas normais."
 
   [[bloco.frase]]
-  fala = "Hoje, o preço é livre, e a comida do mercado subiu cerca de 4% em doze meses."
+  fala = "Hoje, o preço é livre, e a comida do mercado subiu cerca de 4% em um ano."
   marcacao = "FATO"
   fontes = ["F2", "F4"]
   tela = "Comida no mercado: +4,2% em 12 meses (até set/2026)"
-  voz = "Hoje, o preço é livre, e a comida do mercado subiu cerca de quatro por cento em doze meses."
+  voz = "Hoje, o preço é livre, e a comida do mercado subiu cerca de quatro por cento em um ano."
 
   [[bloco.frase]]
   fala = "Congelar exigiria mudar a lei, e a Constituição protege a livre iniciativa."
@@ -50,9 +49,9 @@ cena = "Zé feliz diante das etiquetas paradas; depois uma barra de custo (diese
   fontes = ["F8", "F12"]
 
   [[bloco.frase]]
-  fala = "Mas, se o custo passasse do preço, vender daria prejuízo: o produto poderia faltar ou sair com ágio, um extra cobrado por fora."
+  fala = "Mas, se o custo passasse do preço, vender daria prejuízo: o produto poderia faltar ou sair com ágio, cobrado por fora."
   marcacao = "PROJEÇÃO"
-  fontes = ["F13", "F9"]
+  fontes = ["F13", "F14", "F15", "F9"]
 
   [[bloco.frase]]
   fala = "Ninguém sabe o tamanho exato, mas, no fim do congelamento, os preços tenderiam a pular."
@@ -70,7 +69,7 @@ cena = "Balança 3D equilibrada: prato verde (a favor) à esquerda e coral (cont
   [[bloco.frase]]
   fala = "Quem defende aponta que o alívio chega na hora e que, na Argentina, os produtos controlados continuaram nas prateleiras."
   marcacao = "ARGUMENTO A FAVOR"
-  fontes = ["F8", "F11"]
+  fontes = ["F8", "F12", "F11"]
 
   [[bloco.frase]]
   fala = "Quem critica aponta que, na Argentina, o efeito na inflação foi pequeno e passageiro, e surgiram versões novas mais caras."
@@ -80,7 +79,7 @@ cena = "Balança 3D equilibrada: prato verde (a favor) à esquerda e coral (cont
   [[bloco.frase]]
   fala = "Em pesquisas nos Estados Unidos, a maioria dos economistas é contra limitar preços por lei. Uma minoria defende controles breves e focados, em emergências."
   marcacao = "TERMÔMETRO"
-  fontes = ["F9", "F10", "F11"]
+  fontes = ["F9", "F10", "F16", "F11"]
 
 [[bloco]]
 nome = "Exemplo real"
@@ -89,10 +88,10 @@ cena = "Calendário de 1986; a prateleira com etiquetas congeladas e, em seguida
   [[bloco.frase]]
   fala = "No Plano Cruzado, a inflação despencou no começo, mas meses depois faltavam carne e leite, e no ano seguinte ela voltou."
   marcacao = "FATO"
-  fontes = ["F1", "F12", "F13"]
+  fontes = ["F1", "F12", "F13", "F14"]
 
   [[bloco.frase]]
-  fala = "Só que lá tudo foi congelado, com inflação bem maior e consumo em alta."
+  fala = "Mas lá o congelamento foi geral, com inflação bem maior e consumo em alta."
   marcacao = "FATO"
   fontes = ["F1", "F12", "F13", "F2"]
 
