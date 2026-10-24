@@ -20,7 +20,7 @@ Para cobrir todas as notas e moedas, o Banco Central teria que ter cerca de 2,8 
 - A cobertura é de todas as notas, com ouro comprado com dólares das reservas (dito na primeira frase do bloco 3).
 - O tamanho dos efeitos no preço do dólar e dos importados é incerto: o vídeo dá a direção, sem número de previsão.
 
-Fica de fora do vídeo, sem mudar a direção dos efeitos: os detalhes da lei e da transição; os depósitos bancários (que seguem trocáveis por notas, como hoje); e o efeito da compra brasileira no preço do ouro. Comprar cerca de 300 toneladas não é pouco: em 2025, todos os bancos centrais juntos compraram entre cerca de 690 e 850 toneladas, conforme a estimativa (WGC e BCE, F10). Uma compra desse tamanho poderia encarecer o ouro e a própria conta da troca.
+Fica de fora do vídeo, sem mudar a direção dos efeitos: os detalhes da lei e da transição; os depósitos bancários (que seguem trocáveis por notas, como hoje); e o efeito da compra brasileira no preço do ouro. Comprar cerca de 300 toneladas não é pouco: em 2025, todos os bancos centrais juntos compraram entre cerca de 680 e 850 toneladas, conforme a estimativa (WGC e BCE, F10). Uma compra desse tamanho poderia encarecer o ouro e a própria conta da troca.
 
 ## Perguntas que o vídeo precisa responder
 - Quanto ouro o Banco Central tem, comparado com o dinheiro em circulação?

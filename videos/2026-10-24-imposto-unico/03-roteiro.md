@@ -6,14 +6,14 @@ Versão: 1 · Duração estimada: ~78 s (218 palavras faladas)
 Cena: Primeiro quadro já com dois cofrinhos ligados por uma seta: uma moeda sai do cofrinho do Zé e vai para o da padaria, e cada cofrinho perde uma fatia amarela com o número 2,81%; o Zé olha surpreso. Sem celular, aplicativo ou símbolo de pagamento.
 
 - **[FATO · F1]** Quase 3%, duas vezes.
-  - Tela: 2,81% de quem paga + 2,81% de quem recebe (rodapé: Fonte: Proponentes do imposto único) · Voz: "Quase três por cento, duas vezes."
+  - Tela: 2,81% de quem paga + 2,81% de quem recebe (rodapé: Fonte: Proponentes do imposto único, 2019) · Voz: "Quase três por cento, duas vezes."
 - **[BORDÃO]** E se o Brasil tivesse um imposto único? Vamos imaginar.
 
 ## Bloco 2 — Contexto (~17 s)
 Cena: Uma pilha de guias e boletos de impostos ao lado do Zé; um carimbo antigo com 'CPMF 0,38%' e o contador do ano parando em 2007; depois a pilha se junta num único boleto, com um cadeado de 'Constituição' que se abre.
 
 - **[FATO · F2, F3]** O Brasil já teve a CPMF: até 0,38% do dinheiro que saía das contas, além dos outros impostos.
-  - Tela: CPMF: até 0,38% (1997–2007) (rodapé: Fonte: Ipea; BNDES) · Voz: "O Brasil já teve a CPMF: até zero vírgula trinta e oito por cento do dinheiro que saía das contas, além dos outros impostos."
+  - Tela: CPMF: até 0,38% (1997–2007) (rodapé: Fonte: Ipea, 2017; BNDES, 2000) · Voz: "O Brasil já teve a CPMF: até zero vírgula trinta e oito por cento do dinheiro que saía das contas, além dos outros impostos."
 - **[PREMISSA]** Aqui, vamos supor que a Constituição muda e que o imposto único substitui todos os outros, arrecadando o mesmo, pelo cálculo de quem defende.
 
 ## Bloco 3 — O que mudaria (~22 s)

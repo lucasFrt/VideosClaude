@@ -6,7 +6,7 @@ Versão: 1 · Duração estimada: ~77 s (216 palavras faladas)
 Cena: Primeiro quadro já com o contador '4,6 milhões' enorme sobre uma nuvem de celulares low-poly; o Zé, surpreso, segura um celular onde gira uma moeda dourada genérica (sem o logotipo oficial do Bitcoin). Na pergunta, a moeda dourada pousa no balcão ao lado de uma moeda de real.
 
 - **[FATO · F1]** Num só mês, mais de 4,6 milhões de brasileiros usaram criptomoedas.
-  - Tela: 4,6 milhões em um mês (jun. 2026) (rodapé: Fonte: Receita Federal) · Voz: "Num só mês, mais de quatro vírgula seis milhões de brasileiros usaram criptomoedas."
+  - Tela: 4,6 milhões em um mês (jun. 2026) (rodapé: Fonte: Receita Federal, 2026) · Voz: "Num só mês, mais de quatro vírgula seis milhões de brasileiros usaram criptomoedas."
 - **[BORDÃO]** E se o Brasil adotasse o Bitcoin como moeda? Vamos imaginar.
 
 ## Bloco 2 — Contexto (~13 s)
@@ -20,7 +20,7 @@ Cena: O Zé paga o pão pelo celular e a maquininha aceita a moeda dourada, mas 
 
 - **[PROJEÇÃO · F6, F10]** No curto prazo, a padaria aceitaria, mas o preço do pão provavelmente seguiria em real.
 - **[FATO · F8, F6]** Em El Salvador, que usa o dólar, mais de 9 em cada 10 pessoas não usaram Bitcoin em 2024.
-  - Tela: 9 em cada 10 não usaram (2024) (rodapé: Fonte: UCA (Iudop); Bloomberg) · Voz: "Em El Salvador, que usa o dólar, mais de nove em cada dez pessoas não usaram Bitcoin em dois mil e vinte e quatro."
+  - Tela: 9 em cada 10 não usaram (2024) (rodapé: Fonte: UCA (Iudop), 2024; Bloomberg, 2022) · Voz: "Em El Salvador, que usa o dólar, mais de nove em cada dez pessoas não usaram Bitcoin em dois mil e vinte e quatro."
 - **[PROJEÇÃO · F11]** No longo prazo, ninguém sabe quanta gente trocaria de moeda; se fosse muita, o Banco Central perderia força contra a inflação.
 
 ## Bloco 4 — A balança (~31 s)
@@ -30,7 +30,7 @@ Cena: Balança 3D equilibrada: no prato verde, um cadeado sobre uma pilha de moe
 - **[ARGUMENTO A FAVOR · F16, F21]** Quem defende aponta que nenhum governo pode imprimir Bitcoin, que tem limite de 21 milhões, e que isso protegeria a poupança da inflação.
   - Tela: 21 milhões (limite) (rodapé: Fonte: bitcoin.org; CRS (EUA)) · Voz: "Quem defende aponta que nenhum governo pode imprimir Bitcoin, que tem limite de vinte e um milhões, e que isso protegeria a poupança da inflação."
 - **[ARGUMENTO CONTRA · F14]** Quem critica aponta que salário e aluguel pedem preço estável, e o Bitcoin perdeu quase dois terços do valor num ano e, no seguinte, mais que dobrou.
-  - Tela: −64% em 2022 · +155% em 2023 (rodapé: Fonte: DQYDJ (preços de mercado))
+  - Tela: −64% em 2022 · +155% em 2023 (rodapé: Fonte: DQYDJ (preços de mercado), 2022–2023)
 - **[TERMÔMETRO · F11, F17, F18]** O FMI recomenda que nenhum país dê ao Bitcoin papel de moeda, e a maioria dos economistas consultados vê pouca utilidade nele como dinheiro. Como investimento, há mais incerteza.
   - Voz: "O efe eme i recomenda que nenhum país dê ao Bitcoin papel de moeda, e a maioria dos economistas consultados vê pouca utilidade nele como dinheiro. Como investimento, há mais incerteza."
 

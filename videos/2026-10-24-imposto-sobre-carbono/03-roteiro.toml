@@ -1,94 +1,98 @@
-# Roteiro: a fonte da verdade do vídeo. Edite este arquivo; o 03-roteiro.md é gerado
-# a partir dele pelo scripts/roteiro.py (não edite o .md à mão).
-#
-# Cada frase tem:
-#   fala      o texto do narrador, como deve ser lido no roteiro (pode ter algarismos)
-#   marcacao  FATO, PROJEÇÃO, PREMISSA, ARGUMENTO A FAVOR, ARGUMENTO CONTRA, TERMÔMETRO ou BORDÃO
-#             (PREMISSA: uma simplificação do cenário, dita no vídeo; vem do 01-ideia.md)
-#   fontes    códigos do 02-fontes.md (obrigatório em tudo, menos BORDÃO e PREMISSA)
-#   tela      (opcional) número ou texto que aparece na tela; o rodapé de fonte sai das fontes
-#   voz       (opcional) a fala escrita como a voz deve ler, com números por extenso
-#
-# Blocos, nesta ordem: Gancho, Contexto, O que mudaria, A balança, Exemplo real (opcional),
-# Encerramento. Duração: 45 a 90 s, mirando em 60 a 75 s (CLAUDE.md, seção 3).
+# Roteiro: a fonte da verdade do vídeo. O 03-roteiro.md é gerado pelo scripts/roteiro.py.
+# Versão 1 (onda 2). ATENÇÃO: as fontes F7 em diante não foram conferidas nesta sessão (limite de
+# buscas); o roteiro.py barra até alguém conferir e preencher a data de acesso no 02-fontes.md.
 
-titulo = "E se [pergunta]?"
+titulo = "E se o Brasil cobrasse um imposto sobre carbono?"
 versao = 1
 
 [[bloco]]
 nome = "Gancho"
-cena = "O número ou a imagem de impacto já no primeiro quadro; o que acontece e quais componentes aparecem."
+cena = "Primeiro quadro já com uma bomba de combustível low-poly cujo visor marca '+R$ 0,30 por litro?' em amarelo; o Zé, surpreso, segura a mangueira; do escapamento de um carro sai uma nuvem cinza de cubos."
 
   [[bloco.frase]]
-  fala = "[número ou fato de impacto]"
-  marcacao = "FATO"
-  fontes = ["F1"]
-  tela = "[o número como aparece na tela]"
-  voz = "[o número por extenso, como a voz deve ler]"
+  fala = "Gasolina: uns 30 centavos a mais por litro."
+  marcacao = "PROJEÇÃO"
+  fontes = ["F1", "F3"]
+  tela = "+R$ 0,30 por litro?"
+  voz = "Gasolina: uns trinta centavos a mais por litro."
 
   [[bloco.frase]]
-  fala = "E se [tema]? Vamos imaginar."
+  fala = "E se o carbono pagasse imposto? Vamos imaginar."
   marcacao = "BORDÃO"
 
 [[bloco]]
 nome = "Contexto"
-cena = "..."
+cena = "Uma fábrica low-poly ganha uma tampa com a etiqueta 'teto'; depois, colunas de blocos 3D das emissões: desmatamento e agropecuária juntos (amarelo, quase 70%) ao lado de uma coluna menor de energia (branca); o Zé olha de baixo."
 
   [[bloco.frase]]
-  fala = "[como é hoje, em uma frase, com um dado real]"
+  fala = "Hoje, o Brasil não tem esse imposto: só uma lei recente que vai pôr um teto para as empresas que mais poluem."
   marcacao = "FATO"
-  fontes = ["F2"]
+  fontes = ["F7", "F8"]
+
+  [[bloco.frase]]
+  fala = "E quase 70% das nossas emissões vêm do desmatamento e da agropecuária."
+  marcacao = "FATO"
+  fontes = ["F4", "F5"]
+  tela = "Quase 70% das emissões brutas: desmatamento + agropecuária"
+  voz = "E quase setenta por cento das nossas emissões vêm do desmatamento e da agropecuária."
 
 [[bloco]]
 nome = "O que mudaria"
-cena = "..."
+cena = "Etiqueta 'R$ 200 por tonelada (suposição)' sobre a nuvem de cubos; moedas iguais voltam para várias casinhas iguais; contadores na bomba (gasolina e diesel); o Zé troca a mangueira pela de etanol e sorri; um caminhão passa e a etiqueta de preço numa caixa sobe um pouco; por fim, árvores e gado ficam do lado de fora de um cercado onde estão a bomba e a fábrica."
 
   [[bloco.frase]]
-  fala = "[consequência no curto prazo, do ponto de vista do cidadão comum]"
+  fala = "Aqui, vamos supor R$ 200 por tonelada de gás carbônico dos combustíveis fósseis, com o dinheiro devolvido em partes iguais a cada pessoa."
+  marcacao = "PREMISSA"
+  voz = "Aqui, vamos supor duzentos reais por tonelada de gás carbônico dos combustíveis fósseis, com o dinheiro devolvido em partes iguais a cada pessoa."
+
+  [[bloco.frase]]
+  fala = "Seriam uns 30 centavos a mais no litro da gasolina e uns 45 no diesel."
   marcacao = "PROJEÇÃO"
-  fontes = ["F3"]
+  fontes = ["F1", "F2", "F3"]
+  tela = "Gasolina +R$ 0,30/l · Diesel +R$ 0,45/l"
+  voz = "Seriam uns trinta centavos a mais no litro da gasolina e uns quarenta e cinco no diesel."
 
   [[bloco.frase]]
-  fala = "[consequência no longo prazo]"
+  fala = "O etanol e os carros econômicos ganhariam vantagem, e o frete mais caro pesaria um pouco nos preços."
+  marcacao = "PROJEÇÃO"
+  fontes = ["F2", "F3"]
+
+  [[bloco.frase]]
+  fala = "Como esse imposto não pega essas duas fontes, o corte no total teria limite."
   marcacao = "PROJEÇÃO"
   fontes = ["F4"]
 
 [[bloco]]
 nome = "A balança"
-cena = "Balança 3D equilibrada no começo; só inclina se houver marcação explícita."
+cena = "Balança 3D equilibrada: prato verde (a favor) à esquerda e coral (contra) à direita; o verde acende com o Zé recebendo um envelope de moedas; o coral acende com um carro numa estrada longa de interior e uma fábrica; no termômetro, os dois apagam e ela termina equilibrada."
 
   [[bloco.frase]]
   fala = "Agora, vamos colocar na balança."
   marcacao = "BORDÃO"
 
   [[bloco.frase]]
-  fala = "[o argumento mais forte de quem defende]"
+  fala = "Quem defende aponta que cada um cortaria emissões do jeito mais barato e que, com a devolução, os mais pobres tenderiam a receber mais do que pagam."
   marcacao = "ARGUMENTO A FAVOR"
-  fontes = ["F5"]
+  fontes = ["F9", "F10", "F19", "F20"]
 
   [[bloco.frase]]
-  fala = "[o argumento mais forte de quem critica, com o mesmo tamanho e o mesmo tom]"
+  fala = "Quem critica aponta que, mesmo com a devolução, perderia quem depende muito do carro ou do frete, como no interior, e a indústria que concorre lá fora."
   marcacao = "ARGUMENTO CONTRA"
-  fontes = ["F6"]
+  fontes = ["F18", "F17", "F22"]
 
   [[bloco.frase]]
-  fala = "[onde os especialistas estão: consenso para um lado, divisão real ou falta de evidência]"
+  fala = "Entre os economistas, há amplo consenso de que cobrar pelo carbono é o jeito mais barato de cortar emissões. Já o tamanho do corte varia muito de país para país."
   marcacao = "TERMÔMETRO"
-  fontes = ["F7"]
+  fontes = ["F9", "F10", "F24", "F11", "F12"]
 
-# Exemplo real é opcional: apague este bloco se não houver um bom paralelo.
-[[bloco]]
-nome = "Exemplo real"
-cena = "..."
-
-  [[bloco.frase]]
-  fala = "[país ou período parecido, sem exagerar a comparação]"
-  marcacao = "FATO"
-  fontes = ["F8"]
+# Exemplo real cortado na versão 1 para ficar perto de 75 s (CLAUDE.md, seção 3) e porque as fontes
+# da Suécia, da França e do Canadá (F13 a F17) não puderam ser conferidas nesta sessão. Se voltar,
+# a ideia é uma frase só: a Suécia cobra desde 1991; a França cancelou a alta em 2018 depois dos
+# protestos; o Canadá zerou a cobrança na bomba em 2025, mesmo devolvendo o dinheiro.
 
 [[bloco]]
 nome = "Encerramento"
-cena = "..."
+cena = "Zé de frente para a câmera, ao lado da bomba, ombros levantados, esperando a resposta."
 
   [[bloco.frase]]
   fala = "E aí, você toparia? Me conta nos comentários."

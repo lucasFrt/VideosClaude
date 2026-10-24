@@ -6,14 +6,14 @@ Versão: 1 · Duração estimada: ~81 s (226 palavras faladas)
 Cena: Primeiro quadro: numa prateleira de mercado, etiquetas de preço presas dentro de blocos de gelo, com '1986' enorme em amarelo; o Zé surpreso, de lado. Na pergunta, o gelo some e a câmera passa para um carrinho de compras de hoje.
 
 - **[FATO · F1]** 1986: preços congelados.
-  - Tela: 1986: preços congelados (rodapé: Fonte: Decreto-Lei 2.283/1986) · Voz: "Oitenta e seis: preços congelados."
+  - Tela: 1986: preços congelados (rodapé: Fonte: Decreto-Lei 2.283/1986, 1986) · Voz: "Oitenta e seis: preços congelados."
 - **[BORDÃO]** E se o governo congelasse o preço da comida? Vamos imaginar.
 
 ## Bloco 2 — Contexto (~19 s)
 Cena: Contador da comida no mercado subindo até +4,2% em 12 meses (rodapé IBGE); depois um livro genérico escrito 'Constituição' ao lado de uma etiqueta com 'preço livre'; por fim o Zé põe etiquetas congeladas só no arroz, no feijão e no leite, e o resto da prateleira continua com etiquetas normais.
 
 - **[FATO · F2, F4]** Hoje, o preço é livre, e a comida do mercado subiu cerca de 4% em doze meses.
-  - Tela: Comida no mercado: +4,2% em 12 meses (até set/2026) (rodapé: Fonte: IBGE; Lei 13.874/2019) · Voz: "Hoje, o preço é livre, e a comida do mercado subiu cerca de quatro por cento em doze meses."
+  - Tela: Comida no mercado: +4,2% em 12 meses (até set/2026) (rodapé: Fonte: IBGE, 2026; Lei 13.874/2019, 2019) · Voz: "Hoje, o preço é livre, e a comida do mercado subiu cerca de quatro por cento em doze meses."
 - **[FATO · F5, F4, F6]** Congelar exigiria mudar a lei, e a Constituição protege a livre iniciativa.
 - **[PREMISSA]** Aqui, vamos supor que a lei congela, por um ano, o preço de alimentos básicos no mercado; o resto segue livre.
 

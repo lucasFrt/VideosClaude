@@ -138,6 +138,10 @@ def checar(pasta):
         f = fontes.get(codigo)
         if f and (vazio(f["link"]) or vazio(f["acessado"])):
             erros.append(f"fonte {codigo}: falta link ou data de acesso no 02-fontes.md")
+        elif f and not re.fullmatch(r"\d{4}-\d{2}-\d{2}", f["acessado"]):
+            # "Acessado em" só leva a data (AAAA-MM-DD): fonte não conferida não entra no vídeo.
+            erros.append(f"fonte {codigo}: 'Acessado em' precisa ser só a data (AAAA-MM-DD), "
+                         f"não '{f['acessado']}'; fonte não conferida fica de fora do roteiro")
 
     por_nome = {b.get("nome"): b.get("frase", []) for b in blocos}
     marcadas = lambda nome, m: [f for f in por_nome.get(nome, []) if f.get("marcacao") == m]  # noqa: E731
@@ -196,12 +200,15 @@ def checar(pasta):
 
 def rodape(codigos, fontes):
     """Texto do rodapé de fonte ("Fonte: IBGE, 2025"), igual no 03-roteiro.md e no vídeo."""
-    partes = []
+    # A mesma fonte citada por vários códigos aparece uma vez só ("Banco Central, 2024, 2025").
+    anos_por_fonte = {}
     for c in codigos:
         f = fontes.get(c, {})
+        anos = anos_por_fonte.setdefault(f.get("fonte", c), [])
         ano = re.search(r"\d{4}(?:[–-]\d{4})?", f.get("data", ""))
-        partes.append(f.get("fonte", c) + (f", {ano.group(0)}" if ano else ""))
-    return "Fonte: " + "; ".join(partes)
+        if ano and ano.group(0) not in anos:
+            anos.append(ano.group(0))
+    return "Fonte: " + "; ".join(", ".join([nome] + anos) for nome, anos in anos_por_fonte.items())
 
 
 def gerar_md(pasta, roteiro):
