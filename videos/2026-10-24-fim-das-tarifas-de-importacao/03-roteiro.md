@@ -6,14 +6,14 @@ Versão: 2 · Duração estimada: ~80 s (225 palavras faladas)
 Cena: Primeiro quadro já com o número 12% enorme sobre um contêiner de carga; o Zé surpreso olhando para ele.
 
 - **[FATO · F1]** Em média, 12% de imposto na fronteira.
-  - Tela: 12% (média) (rodapé: Fonte: OMC) · Voz: "Em média, doze por cento de imposto na fronteira."
+  - Tela: 12% (média) (rodapé: Fonte: OMC, 2025) · Voz: "Em média, doze por cento de imposto na fronteira."
 - **[BORDÃO]** E se o Brasil zerasse esse imposto? Vamos imaginar.
 
 ## Bloco 2 — Contexto (~18 s)
 Cena: Contador do carro (35%) e da arrecadação (R$ 90 bi por ano); depois os quatro países do Mercosul ligados por uma tarifa comum.
 
 - **[FATO · F2, F3]** Hoje ele chega a 35% nos carros e rende ao governo cerca de R$ 90 bilhões por ano.
-  - Tela: R$ 90 bi por ano (rodapé: Fonte: Gecex/Camex; Receita Federal) · Voz: "Hoje ele chega a trinta e cinco por cento nos carros e rende ao governo cerca de noventa bilhões de reais por ano."
+  - Tela: R$ 90 bi por ano (rodapé: Fonte: Gecex/Camex, 2026; Receita Federal, 2025) · Voz: "Hoje ele chega a trinta e cinco por cento nos carros e rende ao governo cerca de noventa bilhões de reais por ano."
 - **[FATO · F7]** Na vida real, isso dependeria do Mercosul, que tem uma tarifa comum.
 - **[PREMISSA]** Aqui, vamos supor que ele topa e que o câmbio e os outros impostos ficam iguais.
 

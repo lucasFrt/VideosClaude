@@ -176,14 +176,32 @@ def checar(pasta):
     if not DURACAO_MIN <= estimativa <= DURACAO_MAX:
         avisos.append(f"duração estimada {estimativa:.0f} s fora de {DURACAO_MIN}–{DURACAO_MAX} s "
                       "(estimativa; a real sai da narração)")
-    for nome, limite in (("Gancho", 6), ("Encerramento", 6)):
+    # CLAUDE.md, seção 3: o impacto nos primeiros 3 s (o bordão vem logo depois e leva ~3 s
+    # sozinho) e o encerramento nos últimos 5 s. Limites com folga, porque são estimativas.
+    gancho = por_nome.get("Gancho", [])
+    if gancho:
+        segundos = palavras(falado(gancho[0])) / PALAVRAS_POR_SEGUNDO
+        if segundos > 4:
+            avisos.append(f"Gancho: a primeira frase (o impacto) leva cerca de {segundos:.0f} s; "
+                          "o ideal é até 3 s")
+    for nome, limite in (("Gancho", 8), ("Encerramento", 6)):
         segundos = sum(palavras(falado(f)) for f in por_nome.get(nome, [])) / PALAVRAS_POR_SEGUNDO
         if segundos > limite:
-            avisos.append(f"{nome}: cerca de {segundos:.0f} s de fala; o ideal é até {limite - 2} s")
+            avisos.append(f"{nome}: cerca de {segundos:.0f} s de fala; o ideal é até {limite} s")
 
     roteiro["_fontes"] = fontes
     roteiro["_palavras"] = total
     return roteiro
+
+
+def rodape(codigos, fontes):
+    """Texto do rodapé de fonte ("Fonte: IBGE, 2025"), igual no 03-roteiro.md e no vídeo."""
+    partes = []
+    for c in codigos:
+        f = fontes.get(c, {})
+        ano = re.search(r"\d{4}(?:[–-]\d{4})?", f.get("data", ""))
+        partes.append(f.get("fonte", c) + (f", {ano.group(0)}" if ano else ""))
+    return "Fonte: " + "; ".join(partes)
 
 
 def gerar_md(pasta, roteiro):
@@ -207,8 +225,7 @@ def gerar_md(pasta, roteiro):
             linhas.append(f"- **[{etiqueta}]** {frase.get('fala', '')}")
             detalhes = []
             if frase.get("tela"):
-                rodape = "; ".join(roteiro["_fontes"].get(c, {}).get("fonte", c) for c in codigos)
-                detalhes.append(f"Tela: {frase['tela']} (rodapé: Fonte: {rodape})")
+                detalhes.append(f"Tela: {frase['tela']} (rodapé: {rodape(codigos, roteiro['_fontes'])})")
             if frase.get("voz"):
                 detalhes.append(f"Voz: \"{frase['voz']}\"")
             if detalhes:

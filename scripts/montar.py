@@ -81,15 +81,6 @@ def tempos(roteiro, palavras):
     } for n, bloco in enumerate(blocos, 1)], total
 
 
-def rodape(codigos, fontes):
-    partes = []
-    for c in codigos:
-        f = fontes.get(c, {})
-        ano = re.search(r"\d{4}(?:[–-]\d{4})?", f.get("data", ""))
-        partes.append(f.get("fonte", c) + (f", {ano.group(0)}" if ano else ""))
-    return "Fonte: " + "; ".join(partes)
-
-
 def grupos_de_legenda(palavras):
     grupos, atual = [], []
     for p in palavras:
@@ -162,7 +153,7 @@ def gerar_sobreposicoes(blocos, fontes, total):
             # Fica visível da frase até o fim do bloco: o número continua na tela nesse tempo.
             elementos.append(f'    <div id="sob-fonte-{n}" class="clip rodape-fonte" data-start="{segundos(frase["inicio"])}" '
                              f'data-duration="{segundos(bloco["fim"] - frase["inicio"])}">'
-                             f'{html.escape(rodape(frase["fontes"], fontes))}</div>')
+                             f'{html.escape(rot.rodape(frase["fontes"], fontes))}</div>')
     return f"""<!-- Gerado pelo scripts/montar.py a partir do roteiro e do palavras.json. Não edite. -->
 <template>
   <style>
