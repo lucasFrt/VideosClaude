@@ -1,0 +1,86 @@
+/* Tema do canal: paleta, fontes, tamanhos e áreas seguras (ESTRUTURA.md, seção 5).
+   Todos os componentes usam estas variáveis; não repita valores soltos. */
+
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 800;
+  font-style: normal;
+  src: url("../assets/fontes/Montserrat-ExtraBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-style: normal;
+  src: url("../assets/fontes/Montserrat-SemiBold.ttf") format("truetype");
+}
+
+:root {
+  /* Paleta */
+  --fundo: #1B2A41;
+  --destaque: #FFC93C;
+  --positivo: #3DDC97;
+  --negativo: #FF6B6B;
+  --texto: #FFFFFF;
+  --contorno: #0B1424; /* contorno escuro das legendas */
+
+  /* Formato: 1080x1920, 30 fps */
+  --largura: 1080px;
+  --altura: 1920px;
+  --fps: 30;
+
+  /* Área segura: a interface do Instagram, TikTok e Shorts cobre estas faixas */
+  --seguro-topo: 220px;
+  --seguro-baixo: 420px;
+  --seguro-direita: 140px;
+  --seguro-esquerda: 0px;
+  /* Respiro entre o texto e a borda da área segura (estético, não é área segura) */
+  --margem: 48px;
+  /* Centro horizontal da área segura (a legenda centraliza aqui, não no meio da tela) */
+  --seguro-centro-x: calc((var(--largura) - var(--seguro-direita) + var(--seguro-esquerda)) / 2);
+
+  /* Fontes */
+  --fonte: "Montserrat", sans-serif;
+  --peso-titulo: 800; /* ExtraBold: legendas e títulos */
+  --peso-rodape: 600; /* SemiBold: rodapés */
+
+  /* Tamanhos */
+  --tamanho-titulo: 112px;
+  --tamanho-numero: 150px;
+  --tamanho-legenda: 84px;
+  --tamanho-rodape: 30px;
+  --tamanho-selo: 26px;
+  --espessura-contorno: 10px;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: var(--largura);
+  height: var(--altura);
+  overflow: hidden;
+  background: var(--fundo);
+  color: var(--texto);
+  font-family: var(--fonte);
+  font-weight: var(--peso-titulo);
+}
+
+/* Caixa que ocupa exatamente a área segura, já com o respiro. */
+.area-segura {
+  position: absolute;
+  top: calc(var(--seguro-topo) + var(--margem));
+  bottom: calc(var(--seguro-baixo) + var(--margem));
+  left: calc(var(--seguro-esquerda) + var(--margem));
+  right: calc(var(--seguro-direita) + var(--margem));
+}
+
+.fonte-titulo {
+  font-family: var(--fonte);
+  font-weight: var(--peso-titulo);
+}
+
+.fonte-rodape {
+  font-family: var(--fonte);
+  font-weight: var(--peso-rodape);
+}
