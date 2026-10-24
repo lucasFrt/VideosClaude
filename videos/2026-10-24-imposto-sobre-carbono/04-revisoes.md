@@ -35,8 +35,66 @@ Nenhuma objeção CRÍTICA. Cinco IMPORTANTES (O1 a O5, aqui R1.1 a R1.5), todas
 - Duração: de cerca de 75 s (210 palavras) para cerca de 82 s (229 palavras). O exemplo real continua cortado.
 
 ## Rodada 2
-(pendente)
+
+### O que o crítico considerou sólido
+- A devolução de cerca de R$ 400 por pessoa por ano fecha como ordem de grandeza (427 Mt × R$ 200 ≈ R$ 85 bi; ÷ 213,4 milhões ≈ R$ 400). A população bate com o IBGE (213.421.037), os erros de cobertura tendem a se compensar, como diz a F31, e "começaria em" e "ordem de grandeza" estão bem calibrados.
+- Garaffa e outros (2021): o aumento de 4,5% na renda das famílias de baixa renda, com a receita transferida, aparece no WP 10476 do Banco Mundial. O vídeo diz só "segundo estudos", então a fonte não cria risco.
+- As correções da rodada 1 (condicional na voz, 33 e 46 centavos, "repassado inteiro", F29, gado e solo) estão certas. Nada foi reaberto.
+
+### Objeções
+| # | Trecho | Nível | Objeção | Base | Resposta do autor | Decisão |
+|---|--------|-------|---------|------|-------------------|---------|
+| R2.1 | Termômetro: "Entre economistas, há amplo consenso, medido sobretudo nos Estados Unidos, de que cobrar pelo carbono corta emissões mais barato que impor regras. Já o tamanho do corte varia muito entre estudos." | IMPORTANTE | O CLAUDE.md (seção 3) pede o termômetro "com fonte", mas o espectador não vê de onde vem o "amplo consenso", e é a frase que mais pode circular recortada. | CLAUDE.md, seção 3. Reforço opcional: Drupp, Nesje e Schmidt (2024), com mais de 400 especialistas de quase 40 países. | Procede. O termômetro ganhou um `tela` de 15 palavras, fiel à fala: "Amplo consenso, medido sobretudo nos EUA: cobrar pelo carbono corta emissões mais barato que regras". Ganhou também `rodape = ["F10", "F9", "F24"]`, e o rodapé fica "Fonte: Painel IGM/Clark Center (EUA), 2011; Declaração de economistas (EUA), 2019; IPCC, 2022". A voz e o tempo não mudaram. O exemplo do crítico citava também Döbbeling-Hildebrandt (F12), que sustenta a segunda metade da fala; como a tela mostra só a primeira metade, F12 fica nas fontes da frase, mas não no rodapé. Drupp e outros foi conferido por busca e entrou como F35. Não entrou no rodapé porque, como o crítico disse, apoia o preço de carbono, não a comparação com regras. | aceita |
+| R2.2 | F32: "O desenho é transferência para os mais pobres, não divisão igual por pessoa." | MENOR | O Banco Mundial fala em "baixa renda", e um trabalho do BID cita Garaffa como devolução igual por pessoa. O desenho exato é incerto. | Banco Mundial WP 10476; BID (segundo o crítico). | Procede. A F32 agora diz "desenho da devolução não confirmado", com as duas leituras atribuídas ao crítico, porque não conferi o trabalho do BID. Isso corrige também o que a R1.7 dizia sobre F32. O F20 continua descrito como ampliação de programas de transferência, como a busca confirmou. O vídeo não muda. | aceita |
+| R2.3 | "Onde há disputa" (02-fontes), sem o uso da receita | MENOR | Os especialistas se dividem sobre o que fazer com o dinheiro, e a ficha não registra isso. | Drupp, Nesje e Schmidt (CESifo WP 11424): primeira escolha de 24% para transferências às famílias mais afetadas e de 15% para transferências iguais; P&D verde lidera (59%) quando se aceitam várias respostas. | Procede em parte. Registrei na ficha (F36, "Onde há disputa" e F27) o que a busca confirmou, no trabalho companheiro da mesma pesquisa (CESifo WP 10620; Environmental and Resource Economics, 2025): P&D verde é o uso mais escolhido, logo seguido de transferências às famílias mais atingidas; a devolução igual a todos tem bem menos apoio; as transferências somam cerca de 40% das recomendações; e economistas recomendam devolução igual mais que os outros especialistas. Os percentuais exatos (24%, 15% e 59%) e o número do working paper citado pelo crítico não foram confirmados e não entraram como dado. A voz não muda: a devolução igual é uma escolha do cenário, dita como [PREMISSA]. | aceita em parte |
+
+### Veredito do crítico
+Nenhuma objeção CRÍTICA. A única IMPORTANTE nova (R2.1) se resolve com o rodapé do termômetro, sem mudar conteúdo nem duração. Aplicada a R2.1, o crítico não vê razão para outra rodada de conteúdo.
+
+### O que mudou na versão 3
+- O termômetro ganhou texto na tela e rodapé de fonte (F10, F9, F24). A voz e a duração ficam iguais (cerca de 82 s, 229 palavras).
+- Na ficha: F32 com o desenho marcado como incerto; F35 e F36 (pesquisa internacional de Drupp e outros, sobre o nível do preço e o uso do dinheiro); nomes de fonte em português no rodapé ("Painel IGM/Clark Center (EUA)", "Declaração de economistas (EUA)").
 
 ## Resumo final para a revisão humana
-- O que mudou: (preencher ao fim das rodadas)
-- O que ficou em aberto: (preencher ao fim das rodadas)
+
+### O que mudou (da versão 1 para a 3)
+- **Gancho:** o condicional passou a estar também na voz ("Gasolina: seriam uns 33 centavos a mais por litro"), o bordão diz o tema inteiro e o rodapé diz que a conta é do canal (F29), não de um órgão do governo.
+- **Números:** "uns 30" virou "uns 33" na gasolina, e o diesel ficou em "uns 46". O repasse total à bomba é dito na voz ("repassado inteiro").
+- **Devolução:** nova frase com a ordem de grandeza (cerca de R$ 400 por pessoa por ano; F30, F31), colada ao custo na bomba.
+- **Agropecuária:** só ficam de fora as emissões do gado e do solo; o diesel do campo paga.
+- **Balança:** o lado a favor ficou calibrado ("tenderiam a ganhar, segundo estudos") e ganhou um estudo brasileiro (F32). O lado contra saiu de "como no interior", que não se confirmou, para "inclusive parte dos mais pobres" (F18, F26) e "a indústria pesada" (F23).
+- **Termômetro:** diz "medido sobretudo nos Estados Unidos", compara com regras, diz "varia muito entre estudos" e mostra texto na tela com rodapé de fonte.
+- **Duração:** de cerca de 75 s para cerca de 82 s. O exemplo real continua cortado; as fontes da Suécia, da França e do Canadá estão conferidas (F13 a F17), se quiser de volta.
+
+### O que ficou em aberto
+- Nenhum documento foi aberto: tudo foi conferido pelo texto das buscas.
+- Não há pesquisa com economistas brasileiros; o IPCC (F24) foi conferido por uma apresentação de um dos autores, não pelo relatório.
+- A devolução igual por pessoa é escolha do cenário. Os especialistas se dividem sobre o uso do dinheiro (F36), e o vídeo não diz isso.
+- O repasse total à bomba tem base nos EUA (F34), não no Brasil.
+- A devolução de R$ 400 é ordem de grandeza (F31), feita pelo canal.
+- O botijão de gás (cerca de R$ 7,80 a mais, F25) ficou fora do vídeo, embora pese para os mais pobres.
+- O desenho da devolução em Garaffa e outros (F32) não foi confirmado. O vídeo diz só "segundo estudos".
+
+### Contexto de campanha (véspera do segundo turno)
+- **Mercado de carbono nos planos dos candidatos:** cinco dos seis principais candidatos a presidente incluem o mercado de carbono nos programas de governo (Migalhas; 02-fontes, "Contexto que o vídeo evita"). O vídeo só descreve a lei que já existe ("uma lei recente que vai limitar quem mais polui"), sem propostas, nomes ou tramitação. Não foi achado candidato propondo imposto sobre carbono em combustível.
+- **Gancho com a gasolina:** é o trecho mais fácil de circular como "aumento da gasolina". O crítico aceitou as correções (condicional na voz, "(cenário)" na tela, rodapé do canal, devolução logo depois), mas a decisão final é sua. A alternativa, com o fato do CO2 por litro, está no 02-fontes.
+- Também ficam fora do vídeo: os estudos do governo sobre uma taxação própria em reação ao CBAM (F8), o projeto de um deputado e o caso policial ligado à tramitação da lei do SBCE.
+
+### Links principais para abrir
+- F1, EPA (CO2 por litro): https://www.epa.gov/greenvehicles/greenhouse-gas-emissions-typical-passenger-vehicle
+- F3, misturas E30 e B15: https://eixos.com.br/combustiveis-e-bioenergia/biocombustiveis/governo-oficializa-aumento-do-etanol-na-gasolina-e-b15-a-partir-de-1o-de-agosto/
+- F4, SEEG 14 (emissões de 2025): https://www.jb.com.br/brasil/meio-ambiente/2026/10/1061300-emissoes-do-brasil-caem-9-em-2025-e-atingem-menor-nivel-desde-2012.html
+- F7, Lei 15.042/2024: https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/l15042.htm, e o estado da regulamentação: https://noticias.portaldaindustria.com.br/noticias/sustentabilidade/competitividade-industrial-e-o-foco-da-cni-para-o-mercado-de-carbono-na-spcw-2026/
+- F9, declaração dos economistas: https://birdie.clcouncil.org/economists-statement/
+- F10, painel IGM/Clark Center: https://kentclarkcenter.org/?p=2167
+- F12, meta-análise de 2024: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11099057/
+- F18, Douenne (2020): https://ideas.repec.org/a/sae/enejou/v41y2020i3p231-254.html
+- F26, América Latina (MCC/BID): https://www.pik-potsdam.de/@@multilingual-selector/f9be7b8d92be4df7ad3830c4e9b03bc6/en
+- F30, IBGE (população): https://educa.ibge.gov.br/jovens/materias-especiais/23077-populacao-estimada-passa-213-milhoes.html
+- F32, Garaffa e outros (2021): https://ideas.repec.org/a/eee/eneeco/v101y2021ics0140988321002954.html
+
+### As quatro perguntas da revisão humana (CLAUDE.md, seção 6)
+- **Os dois lados têm o mesmo espaço e o mesmo tom?** Sim. São 25 palavras a favor e 26 contra, com o mesmo verbo ("Quem defende aponta que" / "Quem critica aponta que"), e os dois partem da devolução. Os dois têm base de estudo: a favor, F9, F10, F32, F16, F18 e F20; contra, F18, F26 e F23. A balança termina equilibrada.
+- **O termômetro reflete onde os especialistas estão, com fonte?** Sim, com ressalvas. Diz o consenso (cobrar pelo carbono corta emissões mais barato que regras), onde ele foi medido ("sobretudo nos Estados Unidos") e a disputa real (o tamanho do corte varia muito entre estudos: F11 contra F12). Desde a versão 3, a fonte aparece no rodapé. Faltam uma pesquisa com brasileiros e a leitura direta do IPCC.
+- **Alguma frase pode ser recortada e circular com sentido distorcido?** O risco maior é o gancho com a gasolina, já mitigado; veja o contexto de campanha acima. "Quase 70% das nossas emissões vêm do desmatamento e da agropecuária" pode ser usada no debate sobre o agro: é dado do SEEG, a tela diz "brutas" e a frase do bloco 3 explica que só o gado e o solo ficam de fora. O termômetro agora carrega a ressalva na tela.
+- **Todo número tem fonte e está atualizado?** Sim. SEEG de 2025 (divulgado em outubro de 2026), IBGE de 2025, misturas de 2025 e 2026 e fatores físicos da EPA, que não envelhecem. Os valores na bomba (F29) e a devolução (F31) são contas do canal, com os passos no 02-fontes e o rodapé "Cálculo do canal". O fator da EPA é da gasolina dos EUA; uma diferença pequena para a brasileira cabe no "uns".
