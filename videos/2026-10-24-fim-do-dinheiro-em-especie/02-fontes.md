@@ -55,7 +55,7 @@
 Base: a pesquisa com economistas mais próxima da pergunta, o Painel ifo/FAZ de março de 2016 (F22), que o crítico achou na rodada 1 (eu não tinha achado: procurei no Clark Center e no Centre for Macroeconomics). Nele, cerca de 2% de 195 professores alemães apoiaram acabar de vez com o dinheiro vivo; a divisão real foi sobre pôr um teto (54% contra, 44% a favor). Ela converge com o resto:
 - o defensor acadêmico mais citado de usar menos dinheiro (F15) propõe tirar só as notas grandes;
 - bancos centrais defendem proteger o dinheiro vivo e recomendam uma reserva em casa (F10, F11, F24, F25);
-- o efeito sobre crime e sonegação num país inteiro é incerto: o estudo do Missouri (F13) é local e não mediu golpes (fraude não entra na conta); F15 e F21 são argumentos; a Índia não "pegou" o dinheiro escondido (F17); e, no Brasil, os golpes registrados crescem enquanto os roubos caem (F23).
+- o efeito sobre crime e sonegação num país inteiro é incerto: o estudo do Missouri (F13) é local, e o resumo dele não fala de golpes ou fraude (não conferi no texto completo); F15 e F21 são argumentos; a Índia não "pegou" o dinheiro escondido (F17); e, no Brasil, os golpes registrados crescem enquanto os roubos caem (F23).
 
 Frase do vídeo: "Numa pesquisa com economistas alemães, em 2016, só 2% apoiaram acabar de vez com o dinheiro vivo. Já o efeito sobre crime e sonegação num país inteiro é incerto: parte do crime pode virar golpe digital."
 

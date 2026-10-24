@@ -62,7 +62,7 @@ cena = "O Zé recebe o salário e um robô-caixa do banco tira uma fatia na hora
   fontes = ["F5", "F4", "F10"]
 
   [[bloco.frase]]
-  fala = "No longo prazo, parte das empresas juntaria etapas e parte das pessoas usaria dinheiro vivo; para compensar, a alíquota subiria, ninguém sabe quanto."
+  fala = "No longo prazo, algumas empresas juntariam etapas e mais gente usaria dinheiro vivo; para compensar, a alíquota subiria, ninguém sabe quanto."
   marcacao = "PROJEÇÃO"
   fontes = ["F5", "F6", "F7"]
 
@@ -75,7 +75,7 @@ cena = "Balança 3D equilibrada: prato verde (a favor) à esquerda e coral (cont
   marcacao = "BORDÃO"
 
   [[bloco.frase]]
-  fala = "Quem defende aponta que, com todo mundo pagando, até quem sonega, quem já paga pagaria menos; e sacar dinheiro vivo custaria o dobro."
+  fala = "Quem defende aponta que, com todo mundo pagando, até quem hoje sonega, quem já paga pagaria menos; e sacar dinheiro vivo custaria o dobro."
   marcacao = "ARGUMENTO A FAVOR"
   fontes = ["F1", "F13", "F9"]
 
@@ -85,7 +85,7 @@ cena = "Balança 3D equilibrada: prato verde (a favor) à esquerda e coral (cont
   fontes = ["F6", "F3"]
 
   [[bloco.frase]]
-  fala = "Estudos do FMI, da OCDE e do Banco Central concordam: baixo como a CPMF, esse imposto arrecada, mas cada aumento afasta dinheiro dos bancos. Como imposto único, nenhum país testou."
+  fala = "Estudos do FMI, da OCDE e do Banco Central concordam: baixo como a CPMF, esse imposto arrecada, mas cada aumento afasta dinheiro dos bancos. Como imposto único, que se saiba, nenhum país testou."
   marcacao = "TERMÔMETRO"
   fontes = ["F8", "F7", "F6", "F4"]
 

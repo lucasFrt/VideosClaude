@@ -1,6 +1,5 @@
 # Roteiro: a fonte da verdade do vídeo. O 03-roteiro.md é gerado pelo scripts/roteiro.py.
-# Versão 1 (onda 2). ATENÇÃO: as fontes F7 em diante não foram conferidas nesta sessão (limite de
-# buscas); o roteiro.py barra até alguém conferir e preencher a data de acesso no 02-fontes.md.
+# Versão 1 (onda 2). Todas as fontes conferidas por busca em 2026-10-24 (ver o 02-fontes.md).
 
 titulo = "E se o Brasil cobrasse um imposto sobre carbono?"
 versao = 1
@@ -41,9 +40,9 @@ nome = "O que mudaria"
 cena = "Etiqueta 'R$ 200 por tonelada (suposição)' sobre a nuvem de cubos; moedas iguais voltam para várias casinhas iguais; contadores na bomba (gasolina e diesel); o Zé troca a mangueira pela de etanol e sorri; um caminhão passa e a etiqueta de preço numa caixa sobe um pouco; por fim, árvores e gado ficam do lado de fora de um cercado onde estão a bomba e a fábrica."
 
   [[bloco.frase]]
-  fala = "Aqui, vamos supor R$ 200 por tonelada de gás carbônico dos combustíveis fósseis, com o dinheiro devolvido em partes iguais a cada pessoa."
+  fala = "Aqui, vamos supor R$ 200 por tonelada de gás carbônico dos combustíveis fósseis, com o dinheiro devolvido igualmente a cada pessoa."
   marcacao = "PREMISSA"
-  voz = "Aqui, vamos supor duzentos reais por tonelada de gás carbônico dos combustíveis fósseis, com o dinheiro devolvido em partes iguais a cada pessoa."
+  voz = "Aqui, vamos supor duzentos reais por tonelada de gás carbônico dos combustíveis fósseis, com o dinheiro devolvido igualmente a cada pessoa."
 
   [[bloco.frase]]
   fala = "Seriam uns 30 centavos a mais no litro da gasolina e uns 45 no diesel."
@@ -64,7 +63,7 @@ cena = "Etiqueta 'R$ 200 por tonelada (suposição)' sobre a nuvem de cubos; moe
 
 [[bloco]]
 nome = "A balança"
-cena = "Balança 3D equilibrada: prato verde (a favor) à esquerda e coral (contra) à direita; o verde acende com o Zé recebendo um envelope de moedas; o coral acende com um carro numa estrada longa de interior e uma fábrica; no termômetro, os dois apagam e ela termina equilibrada."
+cena = "Balança 3D equilibrada: prato verde (a favor) à esquerda e coral (contra) à direita; o verde acende com o Zé recebendo um envelope de moedas; o coral acende com um carro numa estrada longa, um caminhão e uma fábrica com chaminé; no termômetro, os dois apagam e ela termina equilibrada."
 
   [[bloco.frase]]
   fala = "Agora, vamos colocar na balança."
@@ -73,20 +72,20 @@ cena = "Balança 3D equilibrada: prato verde (a favor) à esquerda e coral (cont
   [[bloco.frase]]
   fala = "Quem defende aponta que cada um cortaria emissões do jeito mais barato e que, com a devolução, os mais pobres sairiam ganhando, em média."
   marcacao = "ARGUMENTO A FAVOR"
-  fontes = ["F9", "F10", "F19", "F20"]
+  fontes = ["F9", "F10", "F16", "F18", "F20"]
 
   [[bloco.frase]]
-  fala = "Quem critica aponta que, mesmo com a devolução, perderia quem depende muito do carro ou do frete, como no interior, e a indústria exportadora."
+  fala = "Quem critica aponta que, mesmo com a devolução, perderia quem depende muito do carro ou do frete, inclusive parte dos mais pobres, e a indústria pesada."
   marcacao = "ARGUMENTO CONTRA"
-  fontes = ["F18", "F17", "F22"]
+  fontes = ["F18", "F26", "F23", "F22"]
 
   [[bloco.frase]]
   fala = "Entre os economistas, há amplo consenso de que cobrar pelo carbono é o jeito mais barato de cortar emissões. Já o tamanho do corte varia muito entre países."
   marcacao = "TERMÔMETRO"
   fontes = ["F9", "F10", "F24", "F11", "F12"]
 
-# Exemplo real cortado na versão 1 para ficar perto de 75 s (CLAUDE.md, seção 3) e porque as fontes
-# da Suécia, da França e do Canadá (F13 a F17) não puderam ser conferidas nesta sessão. Se voltar,
+# Exemplo real cortado na versão 1 para ficar perto de 75 s (CLAUDE.md, seção 3). As fontes da
+# Suécia, da França e do Canadá estão conferidas no 02-fontes (F13 a F17). Se voltar,
 # a ideia é uma frase só: a Suécia cobra desde 1991; a França cancelou a alta em 2018 depois dos
 # protestos; o Canadá zerou a cobrança na bomba em 2025, mesmo devolvendo o dinheiro.
 

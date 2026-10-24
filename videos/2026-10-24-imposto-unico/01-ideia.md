@@ -3,7 +3,7 @@
 ## A pergunta exata
 **Versão escolhida:** o imposto único sobre movimentação financeira, a mais conhecida no Brasil. Cada vez que o dinheiro passa de uma conta para outra (pagamento, transferência, salário que cai na conta, compra no cartão), o banco desconta na hora uma alíquota fixa de quem paga e outra de quem recebe, e repassa ao governo. Esse imposto substitui todos os tributos de hoje, da União, dos estados e dos municípios.
 
-**Alíquota usada:** cerca de 2,81% de quem paga e 2,81% de quem recebe. É a conta de quem defende a ideia (proposta divulgada em 2019) para manter a arrecadação total no nível atual (F1). Não foi encontrada estimativa independente da alíquota para substituir tudo; o vídeo diz que a conta é de quem defende.
+**Alíquota usada:** cerca de 2,81% de quem paga e 2,81% de quem recebe, ou seja, 5,62% por operação, quase 15 vezes a CPMF (0,38%). É a conta de quem defende a ideia (manifesto de 2019, F13; o número já circulava em 2009) para manter a arrecadação total, que os proponentes põem em cerca de 35% do PIB; a carga oficial de 2025 foi de 32,4% (F15). Na proposta de 2019, o saque em dinheiro pagaria o dobro. Não foi encontrada estimativa independente da alíquota para substituir tudo; o vídeo diz que a conta é de quem defende, e críticos de 2019 acharam a alíquota insuficiente (02-fontes, "Posições").
 
 **Desde quando e em que escala:** a partir de uma mudança na Constituição, em todo o país. O vídeo olha para a situação depois que o imposto já está valendo e não detalha a transição.
 
@@ -29,7 +29,7 @@ Ditas na frase [PREMISSA] do bloco 2:
 Ditas no bloco 3:
 - que o tamanho exato dos efeitos é incerto ("ninguém sabe quanto").
 
-Não detalhadas no vídeo (ficam aqui): a regra de partilha entre os governos, a transição, as isenções e a regressividade (quem paga mais em proporção da renda), que é disputada entre os estudos (F9 contra F4).
+Não detalhadas no vídeo (ficam aqui): a regra de partilha entre os governos, a transição, as isenções e a regressividade (quem paga mais em proporção da renda): F9 a considera menor que a dos tributos que o imposto substituiria, e não achamos estudo crítico confirmado sobre esse ponto.
 
 ## Perguntas que o vídeo precisa responder
 - Como seria cobrado e de quanto seria?
