@@ -32,8 +32,8 @@ Rodar o `verificar.sh` duas vezes no mesmo arquivo não prova nada, e os bytes d
 **Resolvido:** o `verificar.sh` grava o MD5 dos quadros e do áudio decodificados e avisa se o render seguinte saiu idêntico. Testado: dois renders da mesma cena 3D deram o mesmo MD5.
 
 ### 8. Volume em −14 LUFS
-Nenhuma etapa gerava esse nível, e o HyperFrames mixa em estéreo: uma narração mono sai cerca de 3 dB mais alta no vídeo final (medido: −34,2 → −31,5 LUFS).
-**Resolvido:** o `narrar.py` converte para estéreo e normaliza em −14 LUFS (loudnorm em duas passagens, modo linear, que não mexe nos tempos). Teste de ponta a ponta com voz falsa: −14,4 LUFS no `final.mp4`.
+Nenhuma etapa gerava esse nível. Primeiro resolvi no `narrar.py` com o FFmpeg; depois troquei pelo HyperFrames (item 15).
+**Resolvido:** o `scripts/ajustar-volume.sh` usa o `normalize-audio` do HyperFrames. Limitação dele: mede a narração mono, mas a toca nos dois canais, o que soma 3 dB (medido: alvo −14 deu −11,1 no vídeo final). O script compensa usando −17 para áudio mono: o vídeo final sai em −14,1 LUFS.
 
 ### 9. Three.js
 O `three.min.js` só existe até a r159 e gera um aviso de "deprecated" em todo `check`.
@@ -56,3 +56,16 @@ O ESTRUTURA.md reserva 220 px no topo, 420 px embaixo e 140 px à direita. A ski
 
 ### 14. Windows
 Scripts com fim de linha CRLF quebram no Git Bash: o `.gitattributes` força LF. Links simbólicos exigem o Modo de Desenvolvedor; sem ele, o `hf.sh` copia as pastas a cada execução.
+
+### 15. Só HyperFrames, sem FFmpeg direto (decisão sua)
+Os scripts chamavam o FFmpeg e o FFprobe diretamente (normalizar a narração, medir o vídeo final, tirar quadros, gerar o áudio do teste), e o README pedia para instalar o FFmpeg.
+**Resolvido:**
+- Volume: `normalize-audio` do HyperFrames (`scripts/ajustar-volume.sh`).
+- Medir áudio do vídeo final: `hyperframes audio`.
+- Quadros de amostra: `hyperframes snapshot --against final.mp4`.
+- Resolução, fps e codecs: `scripts/mp4info.py`, que lê o cabeçalho do MP4 em Python puro.
+- Determinismo: SHA-256 do arquivo (dois renders da mesma composição saem com os mesmos bytes).
+- O áudio do teste do instalador agora vem pronto em `scripts/teste-ambiente/narracao/`.
+
+O HyperFrames não funciona sem FFmpeg (é com ele que codifica o MP4; só a renderização na nuvem paga da HeyGen dispensa). Por isso o FFmpeg agora vem pelo npm, com versão fixa (`ffmpeg-static` e `@ffprobe-installer/ffprobe`), e o `scripts/ambiente.sh` aponta o HyperFrames para ele: ninguém instala o FFmpeg no sistema. O `.claude/settings.json` proíbe o Claude Code de chamar `ffmpeg` e `ffprobe`.
+Testado com um `ffmpeg` e um `ffprobe` falsos na frente do PATH, que acusariam qualquer chamada: instalador, ajuste de volume, dois renders finais e duas verificações rodaram sem nenhuma chamada a eles.

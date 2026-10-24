@@ -8,13 +8,13 @@ Vídeos curtos (45–60 s, 1080x1920) que explicam ideias econômicas mostrando 
 
 ## Preparar uma máquina
 
-Precisa de: Git, Node.js 22+, Python 3.10+ e FFmpeg.
+Precisa de: Git, Node.js 22+ e Python 3.10+. O FFmpeg que o HyperFrames usa por dentro vem junto pelo npm; não instale nem use à parte.
 
 | Sistema | Como instalar |
 |---|---|
-| macOS | `brew install node python ffmpeg` |
-| Windows | Git for Windows (traz o Git Bash), `winget install OpenJS.NodeJS.LTS Python.Python.3.12 Gyan.FFmpeg`. Opcional: ativar o Modo de Desenvolvedor, para o `hf.sh` usar links em vez de cópias |
-| Linux | `sudo apt install nodejs python3 python3-venv ffmpeg` (Node 22+ pelo nodejs.org se a distribuição tiver um mais velho) |
+| macOS | `brew install node python` |
+| Windows | Git for Windows (traz o Git Bash), `winget install OpenJS.NodeJS.LTS Python.Python.3.12`. Opcional: ativar o Modo de Desenvolvedor, para o `hf.sh` usar links em vez de cópias |
+| Linux | `sudo apt install nodejs python3 python3-venv` (Node 22+ pelo nodejs.org se a distribuição tiver um mais velho) |
 
 Depois, num terminal (no Windows, o Git Bash):
 
@@ -24,7 +24,7 @@ cd VideosClaude
 ./scripts/instalar.sh
 ```
 
-O instalador confere as ferramentas, instala o HyperFrames e o edge-tts nas versões fixas, baixa o Chrome que o HyperFrames usa, confere bibliotecas e fontes, renderiza um teste de 3 s e testa a voz. Pode rodar de novo sempre que quiser.
+O instalador confere as ferramentas, instala o HyperFrames (com o FFmpeg dele) e o edge-tts nas versões fixas, baixa o Chrome que o HyperFrames usa, confere bibliotecas e fontes, renderiza um teste de 3 s e testa a voz. Pode rodar de novo sempre que quiser.
 
 Pronto: abra a pasta no VS Code e inicie o Claude Code. As permissões dos scripts do projeto já estão em `.claude/settings.json`.
 
@@ -33,6 +33,7 @@ Pronto: abra a pasta no VS Code e inicie o Claude Code. As permissões dos scrip
 ```bash
 ./scripts/novo-video.sh <slug>                          # cria videos/AAAA-MM-DD-slug/
 python3 scripts/narrar.py videos/<pasta>                # narração + palavras.json (Windows: python)
+./scripts/ajustar-volume.sh videos/<pasta>              # narração em −14 LUFS (via HyperFrames)
 ./scripts/hf.sh videos/<pasta> check --json             # valida a composição
 ./scripts/hf.sh videos/<pasta> preview --background     # pré-visualiza no navegador
 ./scripts/hf.sh videos/<pasta> render --quality draft --output ../previa.mp4

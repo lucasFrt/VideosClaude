@@ -12,7 +12,8 @@ Versões fixas usadas no projeto. Ao atualizar qualquer item, registre aqui a no
 | edge-tts | 7.3.1 | `requirements.txt` (instalado em `.venv/`) |
 | Node.js | 22 ou mais novo | exigência do HyperFrames; testado com 22.22.0 |
 | Python | 3.10 ou mais novo | testado com 3.13.17 |
-| FFmpeg | do sistema | testado com 6.1.1 |
+| FFmpeg | `ffmpeg-static` 5.3.0 (build b6.1.1; no Linux é o FFmpeg 7.0.2 estático) | `package.json`; motor interno do HyperFrames, nunca chamado direto |
+| FFprobe | `@ffprobe-installer/ffprobe` 2.1.2 (binário da plataforma) | `package.json`; idem |
 
 ## Bibliotecas e fontes (em `assets/`, conferidas por `assets/SHA256SUMS`)
 

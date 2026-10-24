@@ -14,4 +14,4 @@ videos/*/composicao/componentes
 videos/*/composicao/narracao
 
 # Saídas do scripts/instalar.sh
-videos/.teste-ambiente/
+videos/.*/

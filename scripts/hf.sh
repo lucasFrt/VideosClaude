@@ -1,8 +1,10 @@
 #!/usr/bin/env bash
-# Roda o HyperFrames na composição de um vídeo (ESTRUTURA.md, seção 6).
-# Uso: ./scripts/hf.sh videos/AAAA-MM-DD-slug <comando> [opções...]
+# Roda o HyperFrames (ESTRUTURA.md, seção 6).
+# Uso: ./scripts/hf.sh videos/AAAA-MM-DD-slug <comando> [opções...]   na composição de um vídeo
+#      ./scripts/hf.sh <comando> [opções...]                          comandos gerais (doctor, browser, docs)
 #   ex.: ./scripts/hf.sh videos/2026-10-26-teste check --json
 #        ./scripts/hf.sh videos/2026-10-26-teste render --quality draft --output ../previa.mp4
+#        ./scripts/hf.sh doctor
 #
 # O HyperFrames só enxerga arquivos a partir da pasta da composição, então antes de
 # cada comando este script liga dentro de composicao/ as pastas compartilhadas:
@@ -10,37 +12,46 @@
 # No Windows sem permissão para links simbólicos, ele copia as pastas e refaz a cópia
 # a cada execução (marcadas com .copia-gerada). Nunca edite essas cópias.
 #
-# Usa sempre o CLI na versão fixa do package.json, com telemetria e atualização
-# automática de versão e de skills desligadas.
+# Usa sempre o CLI e o FFmpeg nas versões fixas do package.json (scripts/ambiente.sh).
 set -euo pipefail
 
-RAIZ="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+source "$(dirname "${BASH_SOURCE[0]}")/ambiente.sh"
 
 erro() {
   echo "ERRO: $*" >&2
   exit 1
 }
 
-if [ $# -lt 2 ]; then
-  echo "Uso: $0 videos/AAAA-MM-DD-slug <comando> [opções...]" >&2
+if [ $# -lt 1 ]; then
+  echo "Uso: $0 [videos/AAAA-MM-DD-slug] <comando> [opções...]" >&2
   exit 1
 fi
 
-[ -d "$1" ] || erro "pasta do vídeo não encontrada: $1"
-PASTA="$(cd "$1" && pwd)"
-shift
-COMP="$PASTA/composicao"
-mkdir -p "$COMP/cenas" "$PASTA/narracao"
-
-HF="$RAIZ/node_modules/.bin/hyperframes"
 [ -e "$HF" ] || erro "HyperFrames não instalado. Rode ./scripts/instalar.sh"
 
+PASTA=""
+if [ -d "$1" ]; then
+  PASTA="$(cd "$1" && pwd)"
+  shift
+  [ $# -ge 1 ] || erro "falta o comando do HyperFrames depois da pasta do vídeo."
+elif [[ "$1" == */* ]]; then
+  erro "pasta do vídeo não encontrada: $1"
+fi
+
 # Comandos que publicam, usam nuvem ou conta, mandam dados para fora ou mudam
-# versões fixas: fora das regras do canal (ESTRUTURA.md, seções 1 e 12).
+# versões fixas: fora das regras do canal (ESTRUTURA.md, seção 12).
 case "$1" in
   publish | cloud | lambda | cloudrun | auth | feedback | usage | upgrade | skills | telemetry | open | catch-up | capture)
     erro "'hyperframes $1' não é usado neste projeto (ESTRUTURA.md, seção 12)." ;;
 esac
+
+if [ -z "$PASTA" ]; then
+  cd "$RAIZ"
+  exec "$HF" "$@"
+fi
+
+COMP="$PASTA/composicao"
+mkdir -p "$COMP/cenas" "$PASTA/narracao"
 
 # ligar <nome dentro de composicao/> <caminho relativo a composicao/>
 ligar() {
@@ -60,10 +71,6 @@ ligar() {
 ligar assets ../../../assets
 ligar componentes ../../../componentes
 ligar narracao ../narracao
-
-export HYPERFRAMES_NO_TELEMETRY=1
-export HYPERFRAMES_NO_UPDATE_CHECK=1
-export HYPERFRAMES_SKIP_SKILLS=1
 
 cd "$COMP"
 exec "$HF" "$@"

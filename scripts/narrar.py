@@ -4,7 +4,8 @@
 Uso: python3 scripts/narrar.py videos/AAAA-MM-DD-slug
 
 Lê   narracao/texto.txt  (blocos marcados com uma linha "[BLOCO N]")
-Gera narracao/narracao.mp3  (normalizada em -14 LUFS)
+Gera narracao/narracao.mp3  (o áudio do edge-tts como veio; o volume é ajustado na
+                            composição pelo "normalize-audio" do HyperFrames)
      narracao/palavras.json (lista de {"palavra", "inicio", "fim", "bloco"}, em segundos)
 """
 
@@ -12,9 +13,7 @@ import asyncio
 import json
 import os
 import re
-import subprocess
 import sys
-import tempfile
 from pathlib import Path
 
 try:
@@ -32,8 +31,6 @@ except ImportError:
 VOZ = "pt-BR-AntonioNeural"
 RITMO = "+10%"
 
-LUFS_ALVO = -14.0
-PICO_MAXIMO = -1.5  # dBTP
 TICKS_POR_SEGUNDO = 10_000_000  # o edge-tts informa tempos em unidades de 100 ns
 
 MARCA_BLOCO = re.compile(r"^\[BLOCO (\d+)\]$")
@@ -124,34 +121,6 @@ def associar_blocos(eventos, blocos, texto_completo):
     return palavras
 
 
-def normalizar(origem, destino):
-    """Loudnorm em duas passagens (modo linear): só muda o ganho, não o tempo.
-
-    Sai em estéreo: o HyperFrames mixa em estéreo, e um MP3 mono ficaria cerca de
-    3 dB mais alto no vídeo final.
-    """
-    estereo = "aformat=channel_layouts=stereo"
-    medicao = subprocess.run(
-        ["ffmpeg", "-hide_banner", "-nostats", "-i", str(origem), "-af",
-         f"{estereo},loudnorm=I={LUFS_ALVO}:TP={PICO_MAXIMO}:LRA=11:print_format=json",
-         "-f", "null", "-"],
-        capture_output=True, text=True, check=True,
-    ).stderr
-    m = json.loads(medicao[medicao.rindex("{"):medicao.rindex("}") + 1])
-    filtro = (
-        f"{estereo},loudnorm=I={LUFS_ALVO}:TP={PICO_MAXIMO}:LRA=11"
-        f":measured_I={m['input_i']}:measured_TP={m['input_tp']}"
-        f":measured_LRA={m['input_lra']}:measured_thresh={m['input_thresh']}"
-        f":offset={m['target_offset']}:linear=true"
-    )
-    subprocess.run(
-        ["ffmpeg", "-hide_banner", "-loglevel", "error", "-y", "-i", str(origem),
-         "-af", filtro, "-ar", "48000", "-ac", "2", "-c:a", "libmp3lame", "-b:a", "192k",
-         str(destino)],
-        check=True,
-    )
-
-
 def main():
     if len(sys.argv) != 2:
         print(__doc__, file=sys.stderr)
@@ -171,13 +140,14 @@ def main():
 
     texto_completo = " ".join(texto for _, texto in blocos)
 
-    with tempfile.TemporaryDirectory() as tmp:
-        bruto = Path(tmp) / "bruto.mp3"
-        eventos = asyncio.run(sintetizar(texto_completo, bruto))
-        if not eventos:
-            erro("o edge-tts não devolveu limites de palavra.")
-        palavras = associar_blocos(eventos, blocos, texto_completo)
-        normalizar(bruto, narracao / "narracao.mp3")
+    # Grava ao lado e só troca no fim, para uma falha não deixar meia narração.
+    provisorio = narracao / "narracao.mp3.parcial"
+    eventos = asyncio.run(sintetizar(texto_completo, provisorio))
+    if not eventos:
+        provisorio.unlink()
+        erro("o edge-tts não devolveu limites de palavra.")
+    palavras = associar_blocos(eventos, blocos, texto_completo)
+    os.replace(provisorio, narracao / "narracao.mp3")
 
     (narracao / "palavras.json").write_text(
         json.dumps(palavras, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")

@@ -16,7 +16,7 @@ Regra geral: **não improvise o que já está definido aqui.** Se algo aqui esti
 | GSAP | Animações 2D (textos, contadores, transições) | `assets/libs/gsap.min.js` |
 | Three.js | Cenas 3D (Zé, balança, cidade) | `assets/libs/three.module.js` + `three.core.js` (módulo ES) |
 | Python 3.10+ e edge-tts | Narração em pt-BR com tempos de cada palavra | Instalado em `.venv/` pelo `scripts/instalar.sh` (versão em `requirements.txt`) |
-| FFmpeg | Codificação do vídeo | Usado por baixo do HyperFrames; precisa estar instalado no sistema |
+| FFmpeg | Motor interno do HyperFrames (codifica o MP4) | Vem pelo npm (`ffmpeg-static` e `@ffprobe-installer/ffprobe`, versões fixas); nunca é chamado diretamente (seção 6, regra 8) |
 | Chrome headless | Renderizar os quadros | Versão fixa baixada pelo HyperFrames (`browser ensure`) |
 
 Não use nenhum serviço pago, chave de API paga nem ferramenta que exija login. Se uma skill ou recurso do HyperFrames depender de serviço pago (por exemplo, voz sintética da HeyGen), não use: a narração é sempre feita pelo `scripts/narrar.py`.
@@ -27,8 +27,8 @@ Não use nenhum serviço pago, chave de API paga nem ferramenta que exija login.
 
 Em cada máquina nova, rode `./scripts/instalar.sh` (no Windows, pelo Git Bash). Ele pode ser repetido sem risco e faz os passos 1 a 5; os passos 6 e 7 já estão prontos no repositório.
 
-1. Confere Node 22+, Python 3.10+, FFmpeg e FFprobe, e diz como instalar o que faltar.
-2. Instala o HyperFrames na versão fixa do `package.json` (`npm ci`) e baixa o Chrome que ele usa.
+1. Confere Node 22+ e Python 3.10+, e diz como instalar o que faltar.
+2. Instala o HyperFrames na versão fixa do `package.json` (`npm ci`), junto com o FFmpeg que ele usa por dentro, e baixa o Chrome que ele usa.
 3. Cria o `.venv/` e instala nele o edge-tts na versão do `requirements.txt`.
 4. Confere as bibliotecas e fontes de `assets/` contra `assets/SHA256SUMS` e se as skills estão em `.claude/skills/`.
 5. Roda o diagnóstico do HyperFrames, renderiza um teste de 3 s (GSAP, Three.js, fonte e áudio) e testa a voz.
@@ -77,10 +77,13 @@ meu-canal/
 ├── scripts/
 │   ├── novo-video.sh          # cria a pasta de um vídeo a partir de modelos/
 │   ├── narrar.py              # gera narração e palavras.json
+│   ├── ajustar-volume.sh      # põe a narração em −14 LUFS pelo HyperFrames
 │   ├── verificar.sh           # checagens técnicas do vídeo final
 │   ├── hf.sh                  # roda o HyperFrames na composição de um vídeo
+│   ├── ambiente.sh            # variáveis comuns (versões fixas, telemetria desligada)
+│   ├── mp4info.py             # lê resolução, fps e codecs do MP4 (usado pelo verificar.sh)
 │   ├── instalar.sh            # prepara uma máquina nova (seção 2)
-│   └── teste-ambiente/        # composição de 3 s usada pelo instalar.sh
+│   └── teste-ambiente/        # vídeo de 3 s usado pelo instalar.sh
 ├── videos/
 │   └── AAAA-MM-DD-slug/       # uma pasta por vídeo (ver seção 4)
 └── docs/
@@ -185,6 +188,8 @@ Cada pasta de `componentes/` tem: o código (`.js` e/ou `.html`), um `LEIAME.md`
 5. **Sem rede no render.** Bibliotecas, fontes, sons e imagens vêm de `assets/` ou do próprio componente. Os caminhos são sempre relativos à pasta `composicao/` (`assets/libs/gsap.min.js`, `componentes/tema.css`, `narracao/narracao.mp3`), inclusive dentro das cenas; o `scripts/hf.sh` cria os links que fazem esses caminhos existirem.
 6. **Duração vem da narração.** A duração de cada cena é calculada a partir de `palavras.json`: cada bloco do roteiro começa na primeira palavra do bloco e termina na primeira palavra do bloco seguinte (o último bloco ganha 1,5 s extras no final).
 7. **Valide antes de renderizar.** Rode o `lint` e o `check` do HyperFrames após qualquer alteração e corrija todos os erros antes de gerar a prévia. Confira também os quadros com `snapshot`: passar no `check` não mostra como ficou.
+8. **Só HyperFrames, nunca FFmpeg direto.** O FFmpeg é o motor interno do HyperFrames e ninguém o chama: medir áudio é `audio`, ajustar volume é `normalize-audio` (pelo `scripts/ajustar-volume.sh`), ver quadros é `snapshot`, renderizar é `render`.
+9. **Narração na composição:** sempre `<audio id="narracao" src="narracao/narracao.mp3" data-start="0" data-volume="1">` no `index.html`. O `ajustar-volume.sh` acerta o `data-volume`.
 
 ### Comandos principais (detalhes e opções na skill `hyperframes-cli`)
 
@@ -196,9 +201,10 @@ Sempre pelo `scripts/hf.sh`, que roda o CLI de versão fixa dentro de `composica
 ./scripts/hf.sh videos/<pasta> snapshot --at 1,10,30      # quadros em PNG para conferir
 ./scripts/hf.sh videos/<pasta> timeline --json            # o que toca quando
 ./scripts/hf.sh videos/<pasta> preview --background       # pré-visualizar no navegador
+./scripts/ajustar-volume.sh videos/<pasta>                # narração em −14 LUFS no vídeo final
 ./scripts/hf.sh videos/<pasta> render --quality draft --output ../previa.mp4
 ./scripts/hf.sh videos/<pasta> render --quality delivery --output ../final.mp4
-npx hyperframes doctor                                    # diagnosticar o ambiente
+./scripts/hf.sh doctor                                    # diagnosticar o ambiente
 ```
 
 - **Prévia:** `--quality draft`, em 1080x1920. O HyperFrames não renderiza abaixo do tamanho da composição, então a prévia ganha velocidade pela qualidade, não pela resolução.
@@ -304,7 +310,7 @@ Conforme a seção 4.
 - Formato do `palavras.json`: lista de `{ "palavra": "...", "inicio": 0.00, "fim": 0.00, "bloco": N }`, em segundos.
 - O `texto.txt` marca o início de cada bloco com uma linha `[BLOCO N]`, que o script usa para preencher o campo `bloco` e não envia para a voz.
 - Números são escritos por extenso no `texto.txt` quando a voz puder lê-los errado (ex.: "R$ 1,5 trilhão" → "um vírgula cinco trilhão de reais"). A versão em algarismos fica só na tela.
-- Normaliza a narração em −14 LUFS e grava em estéreo (o HyperFrames mixa em estéreo; um MP3 mono sairia cerca de 3 dB mais alto no vídeo final).
+- Grava o áudio do edge-tts como veio. O volume é acertado depois, na composição, pelo `scripts/ajustar-volume.sh`.
 - Usa o edge-tts do `.venv/` automaticamente quando o Python do sistema não o tem. Precisa de internet com WebSocket liberado.
 
 ### scripts/verificar.sh
@@ -314,11 +320,19 @@ Roda no `final.mp4` e falha se algo estiver fora do padrão:
 - Existe trilha de áudio e a narração não está cortada no fim.
 - Volume da narração normalizado (aprox. −14 LUFS) e trilha de fundo, se existir, bem mais baixa que a voz.
 - Gera 6 quadros de amostra em `videos/.../amostras/` para conferência visual.
-- Grava em `amostras/assinatura.txt` o MD5 dos quadros e do áudio decodificados e avisa se o render saiu idêntico ao anterior (teste de determinismo).
+- Tudo pelo HyperFrames (`audio` para volume e silêncio, `snapshot` para os quadros) e pelo `scripts/mp4info.py` (resolução, fps e codecs lidos do cabeçalho do MP4), sem FFmpeg direto.
+- As amostras ficam em `amostras/`: `ref-*.png` são quadros do `final.mp4` e `pair-*.jpg` mostram composição e final lado a lado.
+- Grava em `amostras/assinatura.txt` o SHA-256 do `final.mp4` e avisa se o render saiu idêntico ao anterior (teste de determinismo: o HyperFrames gera os mesmos bytes para a mesma composição).
 - `--teste` aceita de 10 a 20 s em vez de 45 a 60 s (vídeo de teste da seção 10).
 
+### scripts/ajustar-volume.sh
+- `./scripts/ajustar-volume.sh videos/<pasta>`: roda o `normalize-audio` do HyperFrames no `<audio id="narracao">` e grava o ganho no `data-volume`.
+- A narração do edge-tts é mono e o HyperFrames a toca nos dois canais, o que soma 3 dB; por isso o alvo para áudio mono é −17 LUFS, que dá −14 no vídeo final (medido: −14,1).
+- Rode depois de montar a composição e antes da prévia, e de novo se a narração mudar.
+
 ### scripts/hf.sh
-- `./scripts/hf.sh videos/<pasta> <comando> [opções]`: roda o HyperFrames dentro de `composicao/` (comandos na seção 6).
+- `./scripts/hf.sh videos/<pasta> <comando> [opções]`: roda o HyperFrames dentro de `composicao/` (comandos na seção 6). Sem a pasta, roda comandos gerais (`./scripts/hf.sh doctor`).
+- Usa o CLI e o FFmpeg nas versões fixas do `package.json` (`scripts/ambiente.sh`).
 - Antes de cada comando, liga `composicao/assets`, `composicao/componentes` e `composicao/narracao` às pastas reais. No Windows sem permissão para links, copia as pastas a cada execução; nunca edite essas cópias.
 - Recusa os comandos fora das regras da seção 12 (`publish`, `cloud`, `feedback`, `upgrade`, `skills` etc.).
 
@@ -360,7 +374,7 @@ Crie `videos/AAAA-MM-DD-teste/` com 15 segundos usando todos os componentes: o Z
 3. Ondas 3 e 4 com o subagente `critico`, registrando tudo em `04-revisoes.md`, até no máximo 4 rodadas.
 4. 🛑 Revisão humana 1. Parar e esperar.
 5. Extrair o texto falado do roteiro aprovado para `narracao/texto.txt` e rodar `scripts/narrar.py`.
-6. Montar `composicao/` com os componentes, rodar `lint` e `check` pelo `scripts/hf.sh` e conferir os quadros com `snapshot`.
+6. Montar `composicao/` com os componentes, rodar `scripts/ajustar-volume.sh`, rodar `lint` e `check` pelo `scripts/hf.sh` e conferir os quadros com `snapshot`.
 7. Renderizar `previa.mp4`.
 8. 🛑 Revisão humana 2. Parar e esperar.
 9. Renderizar `final.mp4`, rodar `verificar.sh`, conferir as amostras.
@@ -376,6 +390,7 @@ As skills em `.claude/skills/` (`hyperframes`, `hyperframes-cli`, `hyperframes-r
 
 - **Versões fixas.** Não rode `upgrade`, `skills update`, `npx hyperframes@latest` nem `npx skills add`, e ignore avisos de versão nova. Atualizar o HyperFrames é uma decisão minha: trocar a versão no `package.json`, copiar as skills da tag correspondente do repositório `heygen-com/hyperframes` para `.claude/skills/`, registrar em `docs/versoes.md`, rodar `./scripts/instalar.sh` e refazer o vídeo de teste.
 - **Nada pago, nada com conta, nada na nuvem.** Nunca HeyGen (voz, avatar, música, imagens), `cloud`, `lambda`, `cloudrun`, `publish` ou `auth`. Na `media-use`, só ferramentas locais e gratuitas, com `--local-only`.
+- **FFmpeg só por dentro do HyperFrames.** Mesmo que uma skill mostre um comando `ffmpeg` ou `ffprobe`, use o comando equivalente do HyperFrames (seção 6, regra 8).
 - **A voz é sempre a do `scripts/narrar.py`.** Nunca `hyperframes tts` nem `transcribe`: os tempos das palavras vêm do `palavras.json`.
 - **Nada sai da máquina.** Telemetria desligada (`.claude/settings.json` e `scripts/hf.sh`); não envie `feedback`, `--search-miss` nem relatórios de lacuna, e não rode `usage`.
 - **O fluxo é o das ondas** (`CLAUDE.md`, seção 6), não o da skill (três storylines, `SPEC.md`, `REVIEW.md`, aplicativo de desktop). As paradas 🛑 continuam valendo: renderizar o final só depois da revisão humana 2.

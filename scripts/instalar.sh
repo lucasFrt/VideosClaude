@@ -60,20 +60,10 @@ done
   falha "Python 3.10+ não encontrado: $(dica 'brew install python' 'sudo apt install python3 python3-venv' 'winget install Python.Python.3.12')"
 ok "$("$PY" --version)"
 
-for programa in ffmpeg ffprobe; do
-  command -v "$programa" >/dev/null 2>&1 ||
-    falha "$programa não encontrado: $(dica 'brew install ffmpeg' 'sudo apt install ffmpeg' 'winget install Gyan.FFmpeg')"
-done
-ok "$(ffmpeg -version | head -1 | cut -d' ' -f1-3)"
-
-passo "2. HyperFrames (versão fixa do package.json)"
+passo "2. HyperFrames (versão fixa do package.json, com o FFmpeg que ele usa por dentro)"
 npm ci --no-audit --no-fund
 ok "hyperframes $(node -p 'require("./node_modules/hyperframes/package.json").version')"
-
-export HYPERFRAMES_NO_TELEMETRY=1
-export HYPERFRAMES_NO_UPDATE_CHECK=1
-export HYPERFRAMES_SKIP_SKILLS=1
-HF="node_modules/.bin/hyperframes"
+source scripts/ambiente.sh
 "$HF" browser ensure >/dev/null
 ok "Chrome do HyperFrames: $("$HF" browser path | tail -1)"
 
@@ -105,15 +95,14 @@ passo "5. Diagnóstico do HyperFrames"
     if (!certo) falhou = true;
   }
   process.exit(falhou ? 1 : 0);
-' || falha "rode 'npx hyperframes doctor' para ver o detalhe"
+' || falha "rode './scripts/hf.sh doctor' para ver o detalhe"
 
 passo "6. Teste de render (3 s com GSAP, Three.js, fonte e áudio)"
 T="videos/.teste-ambiente"
 mkdir -p "$T/composicao" "$T/narracao"
 rm -rf "$T/composicao/cenas"
-cp -R scripts/teste-ambiente/. "$T/composicao/"
-ffmpeg -loglevel error -y -f lavfi -i "sine=f=440:d=2" -af "volume=-12dB" \
-  -ac 2 -ar 48000 -c:a libmp3lame "$T/narracao/narracao.mp3"
+cp -R scripts/teste-ambiente/composicao/. "$T/composicao/"
+cp scripts/teste-ambiente/narracao/narracao.mp3 "$T/narracao/"
 ./scripts/hf.sh "$T" check --json 2>/dev/null >"$T/check.json" || true
 node -e '
   const r = JSON.parse(require("fs").readFileSync(process.argv[1], "utf8"));
@@ -122,9 +111,10 @@ node -e '
 ok "check do HyperFrames"
 ./scripts/hf.sh "$T" render --quality draft --output ../teste.mp4 >"$T/render.log" 2>&1 ||
   falha "o render falhou; veja $T/render.log"
-INFO="$(ffprobe -v error -show_entries stream=codec_name,width,height,r_frame_rate -of csv=p=0 "$T/teste.mp4" | tr '\n' ' ')"
+INFO="$("$PY" scripts/mp4info.py "$T/teste.mp4")"
 case "$INFO" in
-  *"h264,1080,1920,30/1"*"aac"*) ok "render: $T/teste.mp4 (H.264 1080x1920 30 fps, áudio AAC)" ;;
+  *'"codec": "h264", "largura": 1080, "altura": 1920, "fps": "30/1"'*'"audio": {"codec": "aac"}'*)
+    ok "render: $T/teste.mp4 (H.264 1080x1920 30 fps, áudio AAC)" ;;
   *) falha "render saiu fora do padrão: $INFO" ;;
 esac
 

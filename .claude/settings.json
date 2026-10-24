@@ -9,15 +9,17 @@
     "allow": [
       "Bash(./scripts/hf.sh:*)",
       "Bash(./scripts/novo-video.sh:*)",
+      "Bash(./scripts/ajustar-volume.sh:*)",
       "Bash(./scripts/verificar.sh:*)",
       "Bash(./scripts/instalar.sh:*)",
       "Bash(./scripts/narrar.py:*)",
       "Bash(python3 scripts/narrar.py:*)",
       "Bash(python scripts/narrar.py:*)",
-      "Bash(ffprobe:*)",
       "WebSearch"
     ],
     "deny": [
+      "Bash(ffmpeg:*)",
+      "Bash(ffprobe:*)",
       "Bash(npx hyperframes publish:*)",
       "Bash(npx hyperframes cloud:*)",
       "Bash(npx hyperframes lambda:*)",
