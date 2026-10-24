@@ -1,18 +1,39 @@
 # Revisões
 
+> O crítico só pôde conferir dados por busca (as páginas não abrem no ambiente na nuvem). Na rodada 1, o autor voltou a buscar para conferir as bases das objeções: metodologia da TomTom, OD 2023, Lindsey (2006), ADI 800, Conjur e se o tema está na campanha de 2026.
+
 ## Rodada 1
+
 ### O que o crítico considerou sólido
-- ...
+- NBER (F4): velocidade cerca de 11% maior dentro da área cobrada e pouco efeito no gasto dos consumidores e no movimento de pedestres; o trabalho ainda não foi revisado por pares.
+- TomTom (F1): as 132 horas aparecem também na Gazeta do Povo, com São Paulo em 2º lugar entre as capitais, atrás de Curitiba.
+- Lindsey (F8): forte consenso sobre cobrar para reduzir congestionamento; divergência sobre o valor, o destino da receita e a compensação de quem perde.
+- OD do Metrô (F14): a queda de 15,3 para 12,2 milhões de viagens coletivas (cerca de 20%) bate com a IstoÉ Dinheiro (−19,8%).
+- Lei 15.432/2026: existe e foi publicada em 14/06/2026.
+- Equilíbrio de palavras da balança (27 contra 28).
+- Os percentuais do painel do Clark Center (F6) não foram confirmados, mas o termômetro se sustenta mesmo sem eles, por causa do F8.
+
 ### Objeções
 | # | Trecho | Nível | Objeção | Base | Resposta do autor | Decisão |
 |---|--------|-------|---------|------|-------------------|---------|
-| R1.1 | ... | CRÍTICA | ... | ... | ... | aceita / rejeitada (motivo) |
+| R1.1 | "Quem seguisse de carro pagaria, mas poderia andar mais rápido, assim como o ônibus." | IMPORTANTE | O ganho de velocidade vem de Nova York, que não tinha rodízio. No cenário, a cobrança substitui o rodízio, e quem tem a placa restrita volta a poder entrar pagando: o saldo pode ser pequeno, nulo ou negativo. F11 e F12 simulam cobrança, não a troca pelo rodízio. O F4 não mede ônibus. | Reportagem da VRUM (abr. 2026) e análise da FGV com dados da CET sobre a perda de eficácia do rodízio (segundo carro). | Procede pelo raciocínio, que já estava no 01-ideia ("depende do valor") e não chegava ao roteiro. A frase virou condicional: "Se a cobrança tirasse mais carros do que o rodízio, o trânsito melhoraria; ninguém sabe ao certo se tiraria." Saiu "assim como o ônibus". A cena mostra carros saindo e carros com placa restrita entrando, com um ponto de interrogação no saldo. A busca do autor não confirmou a matéria da VRUM nem a análise da FGV; achou só uma avaliação de 2012 (Portal do Trânsito) de que o rodízio é "insuficiente, mas necessário". A correção não depende dessa base. | aceita |
+| R1.2 | "A lei federal de mobilidade já permite essa cobrança, se o dinheiro for para o transporte público." | IMPORTANTE | O art. 23, III fala em "tributos... na forma da lei"; a natureza jurídica (taxa ou preço público) não tem consenso, e não há decisão judicial sobre pedágio urbano municipal. O roteiro apresenta como fato sem dizer a premissa de que a lei resiste na Justiça. | Conjur (jan. 2012); Migalhas (2012); parecer da CCJ da Alesp (2012) por inconstitucionalidade em outro projeto. | Procede. A busca confirmou o Conjur e o parecer, que não é decisão judicial, e achou a ADI 800 (STF, 2014: pedágio de rodovia é preço público, não taxa). Também não achou decisão sobre pedágio urbano municipal (novo F16). Agora: "A lei federal de mobilidade prevê esse tipo de cobrança, com o dinheiro indo para o transporte público." [FATO] e, na premissa, "e que a Justiça aceita". Para caber, "na mesma área e horário" saiu da fala da premissa e foi para a cena ("suposição: mesma área e horário do rodízio"). | aceita |
+| R1.3 | "Entre os economistas, há quase consenso de que cobrar reduz o trânsito; a divisão é sobre o preço e o destino do dinheiro." | IMPORTANTE | O consenso é sobre uma pergunta estreita; a divisão omite a compensação de quem perde, que está no F8 e no F15; F6 é de economistas dos EUA, antes da cobrança; não há pesquisa brasileira; a tela "Quase consenso" pode circular como "economistas apoiam o pedágio". Sugere acrescentar "Pesquisas assim vêm de fora do Brasil." | F8 (Lindsey: lista a compensação entre as divergências); F15; ausência de pesquisa brasileira. | Procede quanto à divisão e à tela. A busca confirmou que o resumo do F8 lista "compensar os motoristas que perdem" entre as divergências. Frase nova: "Entre os economistas, há quase consenso de que cobrar reduz o congestionamento; a divisão é sobre o preço, o destino do dinheiro e como compensar quem perde." Tela nova: "Quase consenso: reduz o congestionamento. Divisão: preço, dinheiro e quem perde". **Não acrescentei** a frase "Pesquisas assim vêm de fora do Brasil": o consenso se apoia numa revisão da literatura internacional (F8), que não é pesquisa de opinião de um país, e na evidência medida (F4, F9). As simulações com dados de São Paulo (F11, F12) apontam na mesma direção. A ressalva de que o painel F6 é dos EUA e de que não há pesquisa com economistas brasileiros continua registrada no 02-fontes. | aceita em parte (a ressalva sobre o Brasil fica no 02-fontes, não na fala) |
+| R1.4 | "Cinco dias por ano no trânsito." / "É o que perde quem dirige todo dia no pico em São Paulo." | MENOR | O dado da TomTom é tempo extra em relação ao trânsito livre, para 10 km em cada sentido, em 230 dias úteis; sem "perdidos" soa como tempo total no carro, e a segunda frase generaliza para qualquer motorista. | Metodologia da TomTom (tomtom.com/traffic-index/about). | Procede; a busca confirmou a metodologia. Gancho: "Cinco dias por ano perdidos no trânsito." Contexto: "É o tempo extra de quem faz dez quilômetros no pico, ida e volta, todo dia útil." A TomTom não é citada na fala porque já está no rodapé. | aceita |
+| R1.5 | Rodapé do contra: "Fonte: Metrô-SP; ESA" | MENOR | O painel australiano (F15) não sustenta a conta de R$ 200 por mês e tem maioria favorável. A queda do transporte coletivo coincide com o recuo geral de viagens (de 42 para 35,6 milhões); o carro quase não caiu (−0,9%). Sugere "Fonte: Metrô-SP" e, se couber, "enquanto as viagens de carro quase não mudaram". | Reportagens sobre a OD 2023. | Procede quanto ao rodapé: o F15 saiu do contra, e a conta de R$ 200 é aritmética da premissa (R$ 10 × cerca de 20 dias úteis). A comparação com o carro não entrou. A busca confirmou só que as viagens individuais motorizadas (carro, moto, táxi e aplicativo, juntos) ficaram perto dos 13 milhões de 2017. Não confirmou o −0,9% só do carro, e a frase mais longa quebraria o equilíbrio da balança. A queda total de viagens e a dos individuais ficaram no F14. | aceita em parte |
+| R1.6 | "...o trânsito no centro ficou cerca de 11% mais rápido nos primeiros meses..." | MENOR | Estudo ainda não revisado por pares, e Nova York cobra bem mais do que R$ 10. | NBER WP 33584. | Procede. Agora: "segundo um estudo preliminar", e a tela diz "(estudo preliminar)". O valor de Nova York (US$ 9 no pico) ficou no F4 e em "Diferenças" do 02-fontes, não na fala, por tempo. | aceita |
+
 ### Veredito do crítico
-...
+Nenhuma objeção CRÍTICA; três IMPORTANTES (1, 2 e 3) e três MENORES, todas "corrigíveis com ajuste de linguagem, sem cortar conteúdo". "Com essas correções, fica pronto, mesmo com a incerteza natural sobre o futuro."
 
 ## Rodada 2
 ...
 
 ## Resumo final para a revisão humana
-- O que mudou:
+- O que mudou (versão 2): a velocidade virou condicional, porque a cobrança substitui o rodízio; a lei aparece como "prevê", e a premissa diz "e que a Justiça aceita"; o termômetro inclui a compensação de quem perde e tem uma tela que não vira "economistas apoiam o pedágio"; o gancho e o contexto dizem que o dado é de tempo extra, num trajeto padrão; o rodapé do contra ficou só com o Metrô; o estudo de Nova York aparece como preliminar.
+- Duração: de cerca de 76 s para cerca de 81 s (227 palavras), acima da meta de 60–75 s e dentro do máximo de 90 s. O exemplo real já estava cortado.
 - O que ficou em aberto:
+  - os percentuais do painel do Clark Center (F6) e o resultado da pergunta geral do IGM (F7) não foram confirmados;
+  - a data do primeiro rodízio (1996 ou 1997, F2);
+  - não há estudo brasileiro sobre quem pagaria a conta por faixa de renda (o argumento contra se apoia na aritmética e no F14);
+  - os documentos não foram abertos (tudo por busca): conferir F1, F3, F4, F6, F8, F14 e F16.
