@@ -13,7 +13,7 @@
 # Encerramento. Duração: 45 a 90 s, mirando em 60 a 75 s (CLAUDE.md, seção 3).
 
 titulo = "E se o aluguel tivesse um teto?"
-versao = 2
+versao = 3
 
 [[bloco]]
 nome = "Gancho"
@@ -37,7 +37,7 @@ cena = "Duas barras animadas lado a lado, aluguel anunciado (9,13%) e inflação
   [[bloco.frase]]
   fala = "É quase o dobro da inflação."
   marcacao = "FATO"
-  fontes = ["F1"]
+  fontes = ["F1", "F13"]
   tela = "aluguel anunciado (contratos novos) 9,13% × inflação 4,58%"
 
   [[bloco.frase]]
@@ -46,7 +46,7 @@ cena = "Duas barras animadas lado a lado, aluguel anunciado (9,13%) e inflação
   fontes = ["F5"]
 
   [[bloco.frase]]
-  fala = "Aqui, vamos supor uma lei federal: quem já mora só tem aumento até a inflação, e o dono não pode trocar de inquilino só para cobrar mais."
+  fala = "Aqui, vamos supor uma lei federal: para quem já mora, aumento só até a inflação, e nada de trocar de inquilino só para cobrar mais."
   marcacao = "PREMISSA"
 
   [[bloco.frase]]
@@ -58,24 +58,23 @@ nome = "O que mudaria"
 cena = "O Zé tranquilo na sala, com a conta do aluguel subindo devagar, colada na linha da inflação. Depois, algumas placas de 'Aluga-se' viram 'Vende-se'. Por fim, uma fila de caixas de mudança diante de poucas placas de 'Aluga-se', com etiquetas de preço maiores."
 
   [[bloco.frase]]
-  fala = "Quem já aluga ganharia previsibilidade na hora de renovar."
+  fala = "Quem já aluga teria previsibilidade na renovação e menos risco de ter que se mudar."
   marcacao = "PROJEÇÃO"
-  fontes = ["F3", "F6", "F8"]
-  tela = "quase 1 em cada 4 lares é alugado"
+  fontes = ["F6"]
 
   [[bloco.frase]]
-  fala = "Com o tempo, parte dos donos poderia vender, parar de alugar ou cuidar menos do imóvel."
+  fala = "Com o tempo, alguns donos poderiam vender, parar de alugar ou cuidar menos do imóvel."
   marcacao = "PROJEÇÃO"
   fontes = ["F6", "F8", "F9"]
 
   [[bloco.frase]]
-  fala = "Quem procura casa poderia achar menos opções; quanto, ninguém sabe: os estudos são de fora."
+  fala = "Quem procura casa acharia menos opções; quanto, ninguém sabe: os estudos são de fora."
   marcacao = "PROJEÇÃO"
   fontes = ["F6", "F8", "F9"]
 
 [[bloco]]
 nome = "A balança"
-cena = "Balança 3D equilibrada: prato verde (a favor) à esquerda e coral (contra) à direita; cada prato acende na sua frase com o seu número (quase 20% de um lado; −15% e +5% do outro); no termômetro, os dois apagam, aparece o número da revisão de estudos e ela termina equilibrada."
+cena = "Balança 3D equilibrada: prato verde (a favor) à esquerda e coral (contra) à direita; cada prato acende na sua frase com o seu número (quase 20% de um lado; −15% e +5% marcado como estimativa do outro); no termômetro, os dois apagam, aparece o número da revisão de estudos e ela termina equilibrada."
 
   [[bloco.frase]]
   fala = "Agora, vamos colocar na balança."
@@ -89,18 +88,18 @@ cena = "Balança 3D equilibrada: prato verde (a favor) à esquerda e coral (cont
   voz = "Quem defende aponta que, em San Francisco, o morador protegido pelo teto teve quase vinte por cento mais chance de ficar no mesmo endereço, e menos inquilinos saíram da cidade."
 
   [[bloco.frase]]
-  fala = "Quem critica aponta que, em San Francisco, a oferta de aluguel nos prédios com teto caiu 15%, e quem chegou depois pagou cerca de 5% a mais."
+  fala = "Quem critica aponta que, em San Francisco, a oferta de aluguel nos prédios com teto caiu 15%, e os autores estimam que quem chegou depois pagou cerca de 5% a mais."
   marcacao = "ARGUMENTO CONTRA"
   fontes = ["F6"]
-  tela = "oferta dos prédios com teto −15% · quem chegou depois +5%"
-  voz = "Quem critica aponta que, em San Francisco, a oferta de aluguel nos prédios com teto caiu quinze por cento, e quem chegou depois pagou cerca de cinco por cento a mais."
+  tela = "oferta dos prédios com teto −15% · quem chegou depois +5% (estimativa)"
+  voz = "Quem critica aponta que, em San Francisco, a oferta de aluguel nos prédios com teto caiu quinze por cento, e os autores estimam que quem chegou depois pagou cerca de cinco por cento a mais."
 
   [[bloco.frase]]
-  fala = "Os estudos mostram as duas coisas, mas a maioria deles vê a oferta cair com o tempo, e economistas ouvidos nos EUA vão na mesma linha; a dúvida é o tamanho."
+  fala = "Os estudos mostram as duas coisas, mas a maioria deles vê a oferta cair com o tempo, e pesquisas com economistas nos EUA também; a dúvida é o tamanho, que muda de lugar para lugar."
   marcacao = "TERMÔMETRO"
   fontes = ["F8", "F11", "F7"]
   tela = "12 de 16 estudos: menos oferta de aluguel"
-  voz = "Os estudos mostram as duas coisas, mas a maioria deles vê a oferta cair com o tempo, e economistas ouvidos nos Estados Unidos vão na mesma linha; a dúvida é o tamanho."
+  voz = "Os estudos mostram as duas coisas, mas a maioria deles vê a oferta cair com o tempo, e pesquisas com economistas nos Estados Unidos também; a dúvida é o tamanho, que muda de lugar para lugar."
 
 # Exemplo real cortado por tempo (CLAUDE.md, seção 3): San Francisco já aparece,
 # com fonte, nos dois lados da balança. Berlim (F9) e o congelamento de 1942 (F12) estão

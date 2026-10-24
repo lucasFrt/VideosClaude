@@ -1,8 +1,9 @@
 # Roteiro: a fonte da verdade do vídeo. O 03-roteiro.md é gerado pelo scripts/roteiro.py.
 # Todas as fontes foram conferidas por busca em 2026-10-24 (os documentos não foram abertos).
+# Versão 2: rodada 1 do crítico (04-revisoes.md).
 
 titulo = "E se o governo congelasse o preço da comida?"
-versao = 1
+versao = 2
 
 [[bloco]]
 nome = "Gancho"
@@ -21,14 +22,14 @@ cena = "Primeiro quadro: numa prateleira de mercado, etiquetas de preço presas 
 
 [[bloco]]
 nome = "Contexto"
-cena = "Contador da comida no mercado subindo até +4,2% em 12 meses (rodapé IBGE); depois um livro genérico escrito 'Constituição' ao lado de uma etiqueta com 'preço livre'; por fim o Zé põe etiquetas congeladas só no arroz, no feijão e no leite, e o resto da prateleira continua com etiquetas normais."
+cena = "Contador da comida no mercado subindo até +4,2% em 12 meses, com a etiqueta 'média' (rodapé IBGE); depois um livro genérico escrito 'Constituição' ao lado de uma etiqueta com 'preço livre'; por fim o Zé põe etiquetas congeladas só no arroz, no feijão e no leite, e o resto da prateleira continua com etiquetas normais."
 
   [[bloco.frase]]
-  fala = "Em um ano, a comida do mercado subiu cerca de 4%."
+  fala = "Em um ano, a comida do mercado subiu em média 4,2%."
   marcacao = "FATO"
   fontes = ["F2"]
-  tela = "Comida no mercado: +4,2% em 12 meses (até set/2026)"
-  voz = "Em um ano, a comida do mercado subiu cerca de quatro por cento."
+  tela = "Alimentação no domicílio (IPCA): +4,2% em 12 meses, até set/2026"
+  voz = "Em um ano, a comida do mercado subiu em média quatro vírgula dois por cento."
 
   [[bloco.frase]]
   fala = "Hoje, congelar exigiria mudar a lei, e a Constituição protege a livre iniciativa."
@@ -36,12 +37,12 @@ cena = "Contador da comida no mercado subindo até +4,2% em 12 meses (rodapé IB
   fontes = ["F4", "F5", "F6"]
 
   [[bloco.frase]]
-  fala = "Aqui, vamos supor que a lei congela, por um ano, o preço de alimentos básicos no mercado; o resto segue livre."
+  fala = "Aqui, vamos supor que a lei congela, por um ano, o preço do básico no mercado; o resto segue livre."
   marcacao = "PREMISSA"
 
 [[bloco]]
 nome = "O que mudaria"
-cena = "Zé feliz diante das etiquetas paradas; depois uma barra de custo (diesel, adubo) sobe e passa da etiqueta congelada, um espaço vazio aparece na prateleira e uma etiqueta extra 'por fora' surge ao lado; por fim o gelo derrete e as etiquetas pulam para cima, com o Zé preocupado."
+cena = "Zé feliz diante das etiquetas paradas; depois uma barra de custo (diesel, adubo) sobe e passa da etiqueta congelada, um espaço vazio aparece na prateleira, uma caixa sai num navio genérico e uma etiqueta extra 'por fora' surge ao lado; em seguida, lado a lado, '1986: congelamento geral' com a prateleira vazia e 'Argentina: controles focados' com a prateleira cheia, mas com uma embalagem nova e mais cara; por fim o gelo derrete e as etiquetas pulam para cima, com o Zé preocupado."
 
   [[bloco.frase]]
   fala = "No começo, arroz, feijão e leite parariam de subir."
@@ -49,51 +50,49 @@ cena = "Zé feliz diante das etiquetas paradas; depois uma barra de custo (diese
   fontes = ["F8", "F12"]
 
   [[bloco.frase]]
-  fala = "Mas, se o custo passasse do preço, vender daria prejuízo: o produto poderia faltar ou sair com ágio, cobrado por fora."
+  fala = "Mas, se o custo passasse do preço, vender aqui daria prejuízo: o produto poderia faltar, ser exportado ou sair com ágio, um extra por fora."
   marcacao = "PROJEÇÃO"
-  fontes = ["F13", "F14", "F15", "F9"]
+  fontes = ["F13", "F14", "F15", "F19", "F9"]
 
   [[bloco.frase]]
-  fala = "Ninguém sabe quanto, mas, no fim do congelamento, os preços tenderiam a pular."
+  fala = "Em 1986, com tudo congelado e consumo em alta, faltou carne e leite; na Argentina, com controles focados, não, mas surgiram versões mais caras."
+  marcacao = "FATO"
+  fontes = ["F1", "F13", "F14", "F8"]
+  voz = "Em oitenta e seis, com tudo congelado e consumo em alta, faltou carne e leite; na Argentina, com controles focados, não, mas surgiram versões mais caras."
+
+  [[bloco.frase]]
+  fala = "Quando o congelamento acabasse, os preços tenderiam a pular para alcançar os custos."
   marcacao = "PROJEÇÃO"
-  fontes = ["F8", "F12"]
+  fontes = ["F8", "F12", "F13"]
 
 [[bloco]]
 nome = "A balança"
-cena = "Balança 3D equilibrada: prato verde (a favor) à esquerda e coral (contra) à direita; cada prato acende na sua frase, com um mapa simples da Argentina, sem bandeira, nos dois lados; no termômetro, os dois pratos apagam e ela termina equilibrada."
+cena = "Balança 3D equilibrada: prato verde (a favor) à esquerda e coral (contra) à direita; cada prato acende na sua frase; no termômetro, os dois pratos apagam, aparece o resultado da pesquisa em dois números e ela termina equilibrada."
 
   [[bloco.frase]]
   fala = "Agora, vamos colocar na balança."
   marcacao = "BORDÃO"
 
   [[bloco.frase]]
-  fala = "Quem defende aponta que o alívio chega na hora e que, na Argentina, os produtos controlados continuaram nas prateleiras."
+  fala = "Quem defende aponta que, numa emergência, segurar por pouco tempo o preço do essencial alivia e evita que a alta se espalhe."
   marcacao = "ARGUMENTO A FAVOR"
-  fontes = ["F8", "F12", "F11"]
+  fontes = ["F11"]
 
   [[bloco.frase]]
-  fala = "Quem critica aponta que, na Argentina, o efeito na inflação foi pequeno e passageiro, e surgiram versões novas mais caras."
+  fala = "Quem critica aponta que preço travado abaixo do custo desestimula quem produz e que, na Argentina, o efeito na inflação foi pequeno e passageiro."
   marcacao = "ARGUMENTO CONTRA"
-  fontes = ["F8"]
+  fontes = ["F16", "F9", "F8"]
 
   [[bloco.frase]]
-  fala = "Em pesquisas nos Estados Unidos, a maioria dos economistas é contra limitar preços por lei. Uma minoria defende controles breves e focados, em emergências."
+  fala = "Numa pesquisa nos EUA, quase 6 em 10 economistas disseram que controlar preços não baixaria a inflação em um ano; menos de 1 em 4 disseram que sim."
   marcacao = "TERMÔMETRO"
-  fontes = ["F9", "F10", "F16", "F11"]
+  fontes = ["F18"]
+  tela = "Controlar preços baixaria a inflação? Não: 58% · Sim: 23%"
+  voz = "Numa pesquisa nos Estados Unidos, quase seis em dez economistas disseram que controlar preços não baixaria a inflação em um ano; menos de um em quatro disseram que sim."
 
-[[bloco]]
-nome = "Exemplo real"
-cena = "Calendário de 1986; a prateleira com etiquetas congeladas e, em seguida, espaços vazios nas seções de carne e leite; sem pessoas reais e sem cédulas da época. Termina com um contraste lado a lado: '1986: congelamento geral' × 'cenário: só alimentos básicos'."
-
-  [[bloco.frase]]
-  fala = "No Plano Cruzado, a inflação despencou, mas meses depois faltavam carne e leite, e no ano seguinte ela voltou."
-  marcacao = "FATO"
-  fontes = ["F1", "F12", "F13", "F14"]
-
-  [[bloco.frase]]
-  fala = "Só que lá o congelamento foi geral, com inflação bem maior e consumo em alta."
-  marcacao = "FATO"
-  fontes = ["F1", "F12", "F13", "F2"]
+# Exemplo real cortado na versão 2 para manter a duração perto de 75 s (CLAUDE.md, seção 3):
+# 1986 e a Argentina entram, com as diferenças (congelamento geral × controles focados), numa
+# frase do bloco "O que mudaria".
 
 [[bloco]]
 nome = "Encerramento"

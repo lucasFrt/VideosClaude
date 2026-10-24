@@ -4,9 +4,10 @@
 # Cidade-modelo: São Paulo (01-ideia.md). Cenário: o rodízio de placas vira uma cobrança
 # de R$ 10 por dia, na mesma área (centro expandido) e no mesmo horário.
 # Versão 2: respostas à rodada 1 do crítico (04-revisoes.md).
+# Versão 3: só a cena do bloco 3 (selo "rede de hoje"), pela objeção O1 da rodada 2; a fala não mudou.
 
 titulo = "E se São Paulo cobrasse pedágio para entrar de carro no centro?"
-versao = 2
+versao = 3
 
 [[bloco]]
 nome = "Gancho"
@@ -43,7 +44,7 @@ cena = "Um trajeto de 10 km desenhado sobre o mapa, com setas de ida e volta e o
 
 [[bloco]]
 nome = "O que mudaria"
-cena = "O Zé na entrada do anel, em dúvida: parte dos carros da fila vira ícones de ônibus e de metrô, ou um relógio adiantado. Ao mesmo tempo, carros com placa final 1 e 2 voltam a entrar, pagando; sobre a fila, um placar 'saem × entram' com um ponto de interrogação. Depois, moedas saem de uma câmera de placa e caem num cofre, que se abre em ônibus e numa ciclovia; uma ampulheta marca o longo prazo."
+cena = "O Zé na entrada do anel, em dúvida: parte dos carros da fila vira ícones de ônibus e de metrô, com o selo 'rede de hoje', ou um relógio adiantado. Ao mesmo tempo, carros com placa final 1 e 2 voltam a entrar, pagando; sobre a fila, um placar 'saem × entram' com um ponto de interrogação. Depois, moedas saem de uma câmera de placa e caem num cofre, que se abre em ônibus e numa ciclovia; uma ampulheta marca o longo prazo."
 
   [[bloco.frase]]
   fala = "No curto prazo, parte dos motoristas trocaria o carro por ônibus, metrô ou outro horário."

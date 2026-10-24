@@ -1,6 +1,6 @@
 <!-- Gerado pelo scripts/roteiro.py a partir do 03-roteiro.toml. Não edite este arquivo. -->
 # Roteiro — E se São Paulo cobrasse pedágio para entrar de carro no centro?
-Versão: 2 · Duração estimada: ~81 s (227 palavras faladas)
+Versão: 3 · Duração estimada: ~81 s (227 palavras faladas)
 
 ## Bloco 1 — Gancho (~6 s)
 Cena: Primeiro quadro: o Zé ao volante de um carro low-poly, parado numa fila de carros iguais; um contador grande sobe até '132 h' e vira '5 dias' sobre um calendário com cinco dias riscados. Câmera recua devagar até mostrar a fila inteira.
@@ -18,7 +18,7 @@ Cena: Um trajeto de 10 km desenhado sobre o mapa, com setas de ida e volta e o t
 - **[PREMISSA]** Aqui, vamos supor que o rodízio vira uma cobrança de dez reais por dia, e que a Justiça aceita.
 
 ## Bloco 3 — O que mudaria (~24 s)
-Cena: O Zé na entrada do anel, em dúvida: parte dos carros da fila vira ícones de ônibus e de metrô, ou um relógio adiantado. Ao mesmo tempo, carros com placa final 1 e 2 voltam a entrar, pagando; sobre a fila, um placar 'saem × entram' com um ponto de interrogação. Depois, moedas saem de uma câmera de placa e caem num cofre, que se abre em ônibus e numa ciclovia; uma ampulheta marca o longo prazo.
+Cena: O Zé na entrada do anel, em dúvida: parte dos carros da fila vira ícones de ônibus e de metrô, com o selo 'rede de hoje', ou um relógio adiantado. Ao mesmo tempo, carros com placa final 1 e 2 voltam a entrar, pagando; sobre a fila, um placar 'saem × entram' com um ponto de interrogação. Depois, moedas saem de uma câmera de placa e caem num cofre, que se abre em ônibus e numa ciclovia; uma ampulheta marca o longo prazo.
 
 - **[PROJEÇÃO · F11, F12, F9, F5]** No curto prazo, parte dos motoristas trocaria o carro por ônibus, metrô ou outro horário.
 - **[PROJEÇÃO · F2, F11, F12]** Se a cobrança tirasse mais carros do que o rodízio, o trânsito melhoraria; ninguém sabe ao certo se tiraria.
