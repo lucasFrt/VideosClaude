@@ -20,14 +20,18 @@ window.TEMPOS = {
           "fontes": [
             "F1"
           ],
-          "tela": "12% (média)"
+          "tela": "12% (média)",
+          "rodape": [
+            "F1"
+          ]
         },
         {
           "inicio": 3.65,
           "fim": 7.14,
           "marcacao": "BORDÃO",
           "fontes": [],
-          "tela": null
+          "tela": null,
+          "rodape": []
         }
       ]
     },
@@ -46,7 +50,11 @@ window.TEMPOS = {
             "F2",
             "F3"
           ],
-          "tela": "R$ 90 bi por ano"
+          "tela": "R$ 90 bi por ano",
+          "rodape": [
+            "F2",
+            "F3"
+          ]
         },
         {
           "inicio": 13.92,
@@ -55,14 +63,18 @@ window.TEMPOS = {
           "fontes": [
             "F7"
           ],
-          "tela": null
+          "tela": null,
+          "rodape": [
+            "F7"
+          ]
         },
         {
           "inicio": 18.6,
           "fim": 22.83,
           "marcacao": "PREMISSA",
           "fontes": [],
-          "tela": null
+          "tela": null,
+          "rodape": []
         }
       ]
     },
@@ -80,7 +92,10 @@ window.TEMPOS = {
           "fontes": [
             "F4"
           ],
-          "tela": null
+          "tela": null,
+          "rodape": [
+            "F4"
+          ]
         },
         {
           "inicio": 33.01,
@@ -89,7 +104,10 @@ window.TEMPOS = {
           "fontes": [
             "F3"
           ],
-          "tela": null
+          "tela": null,
+          "rodape": [
+            "F3"
+          ]
         },
         {
           "inicio": 38.73,
@@ -99,7 +117,11 @@ window.TEMPOS = {
             "F5",
             "F9"
           ],
-          "tela": null
+          "tela": null,
+          "rodape": [
+            "F5",
+            "F9"
+          ]
         }
       ]
     },
@@ -115,7 +137,8 @@ window.TEMPOS = {
           "fim": 47.78,
           "marcacao": "BORDÃO",
           "fontes": [],
-          "tela": null
+          "tela": null,
+          "rodape": []
         },
         {
           "inicio": 48.57,
@@ -125,7 +148,11 @@ window.TEMPOS = {
             "F10",
             "F9"
           ],
-          "tela": null
+          "tela": null,
+          "rodape": [
+            "F10",
+            "F9"
+          ]
         },
         {
           "inicio": 56.55,
@@ -134,7 +161,10 @@ window.TEMPOS = {
           "fontes": [
             "F5"
           ],
-          "tela": null
+          "tela": null,
+          "rodape": [
+            "F5"
+          ]
         },
         {
           "inicio": 65.57,
@@ -146,7 +176,13 @@ window.TEMPOS = {
             "F5",
             "F9"
           ],
-          "tela": null
+          "tela": null,
+          "rodape": [
+            "F4",
+            "F8",
+            "F5",
+            "F9"
+          ]
         }
       ]
     },
@@ -162,7 +198,8 @@ window.TEMPOS = {
           "fim": 79.73,
           "marcacao": "BORDÃO",
           "fontes": [],
-          "tela": null
+          "tela": null,
+          "rodape": []
         }
       ]
     }

@@ -296,6 +296,7 @@ cena = "componentes usados e o que acontece na tela"
   marcacao = "FATO"              # FATO, PROJEÇÃO, PREMISSA, ARGUMENTO A FAVOR, ARGUMENTO CONTRA, TERMÔMETRO, BORDÃO
   fontes = ["F1"]                # obrigatório em tudo, menos BORDÃO e PREMISSA
   tela = "R$ 1,5 trilhão"        # opcional: o que aparece na tela (o rodapé sai das fontes)
+  rodape = ["F1"]                # opcional: só as fontes que sustentam a tela (parte de "fontes")
   voz = "Um vírgula cinco trilhão de reais."   # opcional: como a voz deve ler
 
   [[bloco.frase]]

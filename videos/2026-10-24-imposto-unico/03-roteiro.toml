@@ -5,9 +5,10 @@
 # paga e de quem recebe, no lugar de todos os tributos; alíquota dos proponentes (F1).
 # Versão 2: respostas à rodada 1 do crítico (04-revisoes.md, R1.1 a R1.7).
 # Versão 3: respostas à rodada 2 (R2.1 a R2.3).
+# Versão 4: ajustes menores da rodada 3 (R3.2: cenas e "muitas guias").
 
 titulo = "E se o Brasil tivesse um imposto único?"
-versao = 3
+versao = 4
 
 [[bloco]]
 nome = "Gancho"
@@ -28,7 +29,7 @@ cena = "Primeiro quadro já com dois cofrinhos ligados por uma seta: uma moeda s
 
 [[bloco]]
 nome = "Contexto"
-cena = "Uma pilha de guias e boletos de impostos ao lado do Zé; um carimbo antigo com 'CPMF 0,38%' e o ano 2007; o contador sobe de 0,38% para 5,62% e uma barra cresce quase quinze vezes ao lado da da CPMF; depois a pilha se junta num único boleto, com um cadeado de 'Constituição' que se abre."
+cena = "Uma pilha de guias e boletos de impostos ao lado do Zé; um carimbo antigo com 'CPMF 0,38%' e o ano 2007; o contador sobe de 0,38% para 5,62% e uma barra cresce quase quinze vezes ao lado da da CPMF; depois um cadeado de 'Constituição' se abre e a pilha encolhe até sobrarem poucas guias."
 
   [[bloco.frase]]
   fala = "A antiga CPMF levava até 0,38% do que saía das contas, além dos outros impostos."
@@ -53,7 +54,7 @@ nome = "O que mudaria"
 cena = "O Zé recebe o salário e um robô-caixa do banco tira uma fatia na hora, sem papel; depois a cadeia do pão: trigo, moinho, padaria e Zé, e a cada passagem uma fatia amarela se empilha na etiqueta de preço, ao lado de um ovo da granja, de cadeia curta, com menos fatias; por fim, o Zé paga a feira com notas de papel, duas caixas de fábrica se juntam numa só e o número da alíquota sobe aos poucos, com um ponto de interrogação."
 
   [[bloco.frase]]
-  fala = "No curto prazo, sumiriam guias e declarações: o banco descontaria o imposto único na hora."
+  fala = "No curto prazo, sumiriam muitas guias e declarações: o banco descontaria o imposto único na hora."
   marcacao = "PROJEÇÃO"
   fontes = ["F9", "F13"]
 
@@ -96,7 +97,7 @@ cena = "Balança 3D equilibrada: prato verde (a favor) à esquerda e coral (cont
 
 [[bloco]]
 nome = "Encerramento"
-cena = "Zé de frente para a câmera segurando um único boleto, ombros levantados, esperando a resposta."
+cena = "Zé de frente para a câmera, de mãos vazias, ombros levantados, esperando a resposta."
 
   [[bloco.frase]]
   fala = "E aí, você toparia? Me conta nos comentários."

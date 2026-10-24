@@ -60,6 +60,28 @@ Nenhuma objeção CRÍTICA; uma IMPORTANTE nova (R2.1), só de documentação, e
 - F1 e 01-ideia com o 35% e o 27% explicados; nova seção "Base das projeções do bloco 3" no 02-fontes.
 - Duração: cerca de 78 s (219 palavras).
 
+## Rodada 3 (conferência)
+
+### O que o crítico considerou sólido
+- "Quase todos os outros" é fiel à conta dos proponentes: o texto de 2009 diz que os 27% do PIB são "referente apenas aos tributos a serem extintos", e na lista de F13 faltam o imposto de importação e o PIS.
+- "Cerca de 35%" como carga da época é plausível (Receita: 33,58% em 2009, 35,31% em 2011, 35,95% em 2013).
+- Cerca de 218 palavras, abaixo de 90 s; "inclusive" e as fontes F5, F13, F6, F8 e F7 corretas. Nenhuma objeção das rodadas 1 e 2 foi reaberta.
+
+### Objeções
+| # | Trecho | Nível | Objeção | Base | Resposta do autor | Decisão |
+|---|--------|-------|---------|------|-------------------|---------|
+| R3.1 | F1 e 01-ideia: "carga total da época, de cerca de 35%" ao lado de "Hoje a carga é de 32,4%"; "o resto fica com os tributos mantidos" | MENOR | Sugere queda de 2,6 pontos, mas são séries diferentes (35%: série antiga da Receita, usada pelo proponente; 32,4%: Tesouro, série desde 2010; as duas divergem cerca de 1 ponto no mesmo ano, por exemplo 33,47% contra 32,43% em 2014). "O resto fica com os tributos mantidos" é dedução; o artigo do Jus.com.br não foi achado pelo crítico, e a ideia legislativa do Senado ("2,8% mantendo 35%") permite outra leitura. | Aos Fatos (Receita contra Tesouro); ideia legislativa do Senado, id 48626. | Procede. F1 e o 01-ideia agora dizem que as séries são diferentes e não comparáveis (não indica queda), e marcam "o resto ficaria com os tributos mantidos" como dedução nossa, citando a outra leitura. O link do Jus.com.br continua na lista para a revisão humana abrir. | aceita |
+| R3.2 | Cenas dos blocos 2 e 5 ("a pilha se junta num único boleto", "Zé segurando um único boleto") | MENOR | A imagem contradiz o "quase todos" e o bloco 3, em que as guias somem e o banco desconta na hora. Sugere a pilha encolher até sobrarem poucas guias e o Zé de mãos vazias no fim; opcional: "sumiriam muitas guias e declarações". | Texto do roteiro. | Procede. Bloco 2: o cadeado da Constituição se abre e a pilha encolhe até sobrarem poucas guias. Bloco 5: o Zé de mãos vazias. Aceitei também o opcional ("sumiriam muitas guias e declarações", uma palavra a mais), porque com "quase todos" algumas guias continuariam. | aceita |
+| R3.3 | 01-ideia, simplificações: "que ele arrecada o mesmo que hoje" | MENOR | Na conta dos proponentes, o imposto único repõe só os 27% dos tributos extintos, não o total de hoje. Sugere "o mesmo que os tributos que substitui; a arrecadação total fica igual". A fala não precisa mudar. | F1. | Procede. O 01-ideia agora diz "que ele arrecada o mesmo que os tributos que substitui, e a arrecadação total fica igual". A fala do vídeo ("arrecadando o mesmo") fica como está. | aceita |
+
+### Veredito do crítico
+Nenhuma objeção CRÍTICA nem IMPORTANTE nova. As correções da rodada 2 ficaram certas. Restavam só três ajustes MENORES, que não bloqueiam. "O roteiro está pronto para a revisão humana." O contexto de campanha continua sendo decisão dela.
+
+### O que mudou na versão 4
+- Cenas dos blocos 2 e 5 sem "boleto único"; "sumiriam muitas guias e declarações" no bloco 3.
+- F1 e 01-ideia com as séries de carga explicadas e a dedução marcada.
+- Duração: cerca de 79 s (220 palavras).
+
 ## Resumo final para a revisão humana
 
 ### Contexto de campanha (ler antes de tudo)
@@ -67,21 +89,21 @@ Nenhuma objeção CRÍTICA; uma IMPORTANTE nova (R2.1), só de documentação, e
 - O boato de "taxar o Pix" voltou na campanha de 2026 (manchete de 26/06/2026, só o título confirmado), depois do episódio de janeiro de 2025.
 - O vídeo não cita ninguém, usa o rodapé "Proponentes do imposto único", diz "pelo cálculo de quem defende", não usa a palavra "proposta" e não mostra celular, aplicativo de banco nem o símbolo do Pix. Mesmo assim, **cabe à revisão humana decidir se o tema pode ir ao ar agora** ou se espera passar a eleição. Detalhes: 02-fontes.md, "Contexto que o vídeo evita".
 
-### O que mudou nas duas rodadas
+### O que mudou nas três rodadas
 - O termômetro deixou de extrapolar ("alto e sozinho") e passou a nomear quem concorda e o que foi observado; diz que o imposto único nunca foi testado.
 - Entrou a escala: 5,62% por operação, quase 15 vezes a CPMF, com a conta atribuída a quem defende.
 - Saiu a frase "a arrecadação caía com o tempo", que generalizava uma média de seis países (no Brasil, a CPMF ficou estável).
 - O efeito cascata passou a comparar produtos ("quanto mais etapas, mais imposto no preço"), em vez de sugerir que tudo encarece.
 - O lado a favor ganhou o argumento central dos proponentes (base ampla, saque em dobro); o lado contra passou a usar a evidência brasileira da CPMF (Banco Central).
-- O gancho virou [PREMISSA], com a tela "Conta de quem defende"; a premissa diz "quase todos os outros", fiel à conta dos proponentes.
+- O gancho virou [PREMISSA], com a tela "Conta de quem defende"; a premissa diz "quase todos os outros", fiel à conta dos proponentes, e as cenas não mostram mais um "boleto único" (rodada 3).
 - Fontes confirmadas ou trocadas: F4 perdeu a passagem não encontrada; F9 é o TD 1649 (2011); entraram F12 a F15 (Senado, manifesto de 2019, CPMF em % do PIB, carga de 2025).
 
 ### O que ficou em aberto
 - Nenhum documento foi aberto: tudo foi conferido por resumos de busca.
-- A alíquota é só a dos proponentes, com cálculo de 2009, sobre uma carga e uma base financeira que mudaram. Não há estimativa independente, e não refizemos a conta com dados de hoje.
+- A alíquota é só a dos proponentes, com cálculo de 2009 (carga total de cerca de 35% na série antiga da Receita, 27% do PIB em tributos extintos), sobre uma base financeira que mudou. Que o resto ficaria com tributos mantidos é dedução nossa. Não há estimativa independente, e não refizemos a conta com dados de hoje (a carga de 32,4% do Tesouro é de outra série e não é comparável).
 - Não há pesquisa de opinião com economistas sobre esse imposto; o termômetro se apoia em estudos de 2001 a 2017, quase todos de órgãos oficiais ou multilaterais.
 - O efeito sobre o uso de dinheiro vivo tem base só indireta (R2.2).
-- Duração de cerca de 78 s, acima da meta de 75 s e abaixo do máximo de 90 s.
+- Duração de cerca de 79 s (220 palavras; as siglas faladas podem somar uns 3 s), acima da meta de 75 s e abaixo do máximo de 90 s.
 
 ### Links principais para abrir
 - F1, página do proponente (2,81% de cada lado, 35% e 27% do PIB) e o artigo que a cita: https://jus.com.br/artigos/32770/imposto-unico-reflexoes

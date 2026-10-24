@@ -61,6 +61,7 @@ def distribuir(frases, palavras):
         resultado.append({
             "inicio": grupo[0]["inicio"], "fim": grupo[-1]["fim"],
             "marcacao": frase["marcacao"], "fontes": frase.get("fontes", []), "tela": frase.get("tela"),
+            "rodape": frase.get("rodape", frase.get("fontes", [])),
         })
     return resultado
 
@@ -153,7 +154,7 @@ def gerar_sobreposicoes(blocos, fontes, total):
             # Fica visível da frase até o fim do bloco: o número continua na tela nesse tempo.
             elementos.append(f'    <div id="sob-fonte-{n}" class="clip rodape-fonte" data-start="{segundos(frase["inicio"])}" '
                              f'data-duration="{segundos(bloco["fim"] - frase["inicio"])}">'
-                             f'{html.escape(rot.rodape(frase["fontes"], fontes))}</div>')
+                             f'{html.escape(rot.rodape(frase["rodape"], fontes))}</div>')
     return f"""<!-- Gerado pelo scripts/montar.py a partir do roteiro e do palavras.json. Não edite. -->
 <template>
   <style>

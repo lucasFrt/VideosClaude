@@ -133,6 +133,12 @@ def checar(pasta):
                               "escreva como a voz deve ler, por extenso")
             if frase.get("tela") and not codigos:
                 erros.append(f"{onde}: texto na tela sem fonte para o rodapé")
+            # "rodape" escolhe, entre as fontes da frase, só as que sustentam o texto da tela.
+            if "rodape" in frase:
+                if not frase.get("tela"):
+                    erros.append(f"{onde}: 'rodape' só serve para frase com 'tela'")
+                elif not frase["rodape"] or not set(frase["rodape"]) <= set(codigos):
+                    erros.append(f"{onde}: 'rodape' precisa ser parte das fontes da frase ({codigos})")
 
     for codigo in sorted(usadas):
         f = fontes.get(codigo)
@@ -232,7 +238,8 @@ def gerar_md(pasta, roteiro):
             linhas.append(f"- **[{etiqueta}]** {frase.get('fala', '')}")
             detalhes = []
             if frase.get("tela"):
-                detalhes.append(f"Tela: {frase['tela']} (rodapé: {rodape(codigos, roteiro['_fontes'])})")
+                detalhes.append(f"Tela: {frase['tela']} "
+                                f"(rodapé: {rodape(frase.get('rodape', codigos), roteiro['_fontes'])})")
             if frase.get("voz"):
                 detalhes.append(f"Voz: \"{frase['voz']}\"")
             if detalhes:

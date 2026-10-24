@@ -1,6 +1,6 @@
 <!-- Gerado pelo scripts/roteiro.py a partir do 03-roteiro.toml. Não edite este arquivo. -->
 # Roteiro — E se o Brasil tivesse um imposto único?
-Versão: 3 · Duração estimada: ~78 s (219 palavras faladas)
+Versão: 4 · Duração estimada: ~79 s (220 palavras faladas)
 
 ## Bloco 1 — Gancho (~6 s)
 Cena: Primeiro quadro já com dois cofrinhos ligados por uma seta: uma moeda sai do cofrinho do Zé e vai para o da padaria, e cada cofrinho perde uma fatia amarela com o número 2,81%; o Zé olha surpreso. Sem celular, aplicativo ou símbolo de pagamento.
@@ -10,7 +10,7 @@ Cena: Primeiro quadro já com dois cofrinhos ligados por uma seta: uma moeda sai
 - **[BORDÃO]** E se o Brasil tivesse um imposto único? Vamos imaginar.
 
 ## Bloco 2 — Contexto (~20 s)
-Cena: Uma pilha de guias e boletos de impostos ao lado do Zé; um carimbo antigo com 'CPMF 0,38%' e o ano 2007; o contador sobe de 0,38% para 5,62% e uma barra cresce quase quinze vezes ao lado da da CPMF; depois a pilha se junta num único boleto, com um cadeado de 'Constituição' que se abre.
+Cena: Uma pilha de guias e boletos de impostos ao lado do Zé; um carimbo antigo com 'CPMF 0,38%' e o ano 2007; o contador sobe de 0,38% para 5,62% e uma barra cresce quase quinze vezes ao lado da da CPMF; depois um cadeado de 'Constituição' se abre e a pilha encolhe até sobrarem poucas guias.
 
 - **[FATO · F12, F3]** A antiga CPMF levava até 0,38% do que saía das contas, além dos outros impostos.
   - Tela: CPMF: até 0,38% (1997–2007) (rodapé: Fonte: Senado, 1997–2007; BNDES, 2000) · Voz: "A antiga CPMF levava até zero vírgula trinta e oito por cento do que saía das contas, além dos outros impostos."
@@ -21,7 +21,7 @@ Cena: Uma pilha de guias e boletos de impostos ao lado do Zé; um carimbo antigo
 ## Bloco 3 — O que mudaria (~20 s)
 Cena: O Zé recebe o salário e um robô-caixa do banco tira uma fatia na hora, sem papel; depois a cadeia do pão: trigo, moinho, padaria e Zé, e a cada passagem uma fatia amarela se empilha na etiqueta de preço, ao lado de um ovo da granja, de cadeia curta, com menos fatias; por fim, o Zé paga a feira com notas de papel, duas caixas de fábrica se juntam numa só e o número da alíquota sobe aos poucos, com um ponto de interrogação.
 
-- **[PROJEÇÃO · F9, F13]** No curto prazo, sumiriam guias e declarações: o banco descontaria o imposto único na hora.
+- **[PROJEÇÃO · F9, F13]** No curto prazo, sumiriam muitas guias e declarações: o banco descontaria o imposto único na hora.
 - **[PROJEÇÃO · F5, F4, F10]** Mas o pão passa por várias mãos, e cada uma pagaria de novo: quanto mais etapas, mais imposto no preço.
 - **[PROJEÇÃO · F5, F13, F6, F8, F7]** No longo prazo, algumas empresas juntariam etapas e mais gente usaria dinheiro vivo; para compensar, a alíquota subiria, ninguém sabe quanto.
 
@@ -34,7 +34,7 @@ Cena: Balança 3D equilibrada: prato verde (a favor) à esquerda e coral (contra
 - **[TERMÔMETRO · F8, F7, F6, F4]** Estudos do FMI, da OCDE e do Banco Central concordam: baixo como a CPMF, esse imposto arrecada, mas cada aumento afasta dinheiro dos bancos. Como imposto único, que se saiba, nenhum país testou.
 
 ## Bloco 5 — Encerramento (~3 s)
-Cena: Zé de frente para a câmera segurando um único boleto, ombros levantados, esperando a resposta.
+Cena: Zé de frente para a câmera, de mãos vazias, ombros levantados, esperando a resposta.
 
 - **[BORDÃO]** E aí, você toparia? Me conta nos comentários.
 

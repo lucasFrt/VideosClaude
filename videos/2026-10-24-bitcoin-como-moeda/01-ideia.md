@@ -20,7 +20,7 @@ Uma lei federal, aprovada pelo Congresso, dá ao Bitcoin o papel de moeda de cur
 - Ninguém sabe quanta gente passaria a usar; o vídeo fala em direção e no condicional ("talvez pouco mudasse", "se muitos trocassem de moeda..."), não em números de previsão (dito no bloco 3).
 - El Salvador é a única evidência direta, mas lá o dia a dia já é em dólar, de inflação menor que a do real (F24); o vídeo diz essa diferença na frase seguinte ao dado ("Mas lá se usa o dólar...").
 
-**Detalhes que ficam fora do vídeo (não são simplificações da premissa e não mudam a direção do cenário; R1.7):** a tramitação, as exceções da lei (quem não tem acesso à tecnologia), o custo de conversão para o lojista e a parte tributária. O recuo de El Salvador em 2025, num acordo de empréstimo com o FMI (F7), também ficou fora na versão 2, por tempo (R1.2).
+**Detalhes que ficam fora do vídeo (não são simplificações da premissa e não mudam a direção do cenário; R1.7):** a tramitação, as exceções da lei (quem não tem acesso à tecnologia), o custo de conversão para o lojista e a parte tributária. O recuo de El Salvador em 2025, num acordo de empréstimo com o FMI (F7), ficou fora da fala, por tempo (R1.2), e aparece só como nota no cartão do bloco 3, com a causa (R2.2).
 
 ## Perguntas que o vídeo precisa responder
 - Hoje o Bitcoin é permitido no Brasil? Quantos brasileiros negociam cripto?

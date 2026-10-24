@@ -28,10 +28,54 @@ Nenhuma objeção CRÍTICA; três IMPORTANTES (R1.1, R1.2, R1.3), todas de corre
 - Gancho, contexto e longo prazo reescritos (R1.5, R1.6, R1.4); nova frase sobre o dólar com F24 (R1.3); termômetro datado e com fonte na tela (R1.1); frase do recuo de El Salvador cortada (R1.2).
 - Duração estimada: cerca de 81 s (228 palavras), a mesma da versão 1. As correções somaram cerca de 20 palavras, compensadas com o corte da frase do recuo, a cláusula sobre investimento no termômetro e frases mais curtas no contexto e no longo prazo.
 
+## Rodada 2
+
+### O que o crítico considerou sólido
+- F24 conferido: IPCA de 4,26% em 2025 e 4,83% em 2024 (IBGE); CPI dos EUA de 2,7% em dez./2025 (BLS); El Salvador perto de 1% (1,14% em nov./2025). A frase da R1.3 está certa e não cria viés.
+- F17 conferido no TechCrunch (2013): 87% e "utilidade limitada", com a volatilidade como motivo, entre 38 economistas. Não há pesquisa mais recente sobre a função monetária do Bitcoin (o painel CFM-CEPR de 2017 trata de risco sistêmico; a enquete do WSJ de 2017, de bolha); a ressalva "a única que achei" continua honesta.
+- F1: R$ 283 bi no 1º semestre de 2026, a maior parte em USDT, bate em várias fontes; "mais de 4 milhões de CPFs por mês" é compatível com "4,6 milhões".
+- As correções R1.3, R1.4 e R1.6 estão certas; a balança tem 33 palavras a favor e 27 contra, os dois lados com dado.
+
+### Objeções
+| # | Trecho | Nível | Objeção | Base | Resposta do autor | Decisão |
+|---|--------|-------|---------|------|-------------------|---------|
+| R2.1 | "na única pesquisa com economistas sobre isso que achei, de 2013" | MENOR | Criada pela R1.1: "sobre isso" passou a apontar para "moeda oficial", e a pesquisa de 2013 não perguntou isso. | TechCrunch, 2013 (F17). | Procede, com ajuste: "sobre o Bitcoin" sozinho ficaria falso, porque há outras pesquisas do Clark Center sobre Bitcoin e cripto, sobre valor fundamental, propósito econômico e reservas públicas (F18, F20, F19). Ficou "sobre o Bitcoin como dinheiro", que é o que a pesquisa de 2013 avaliou (utilidade limitada, pela volatilidade) e o que o crítico diz não ter versão mais nova. Custo: 2 palavras. | aceita em parte |
+| R2.2 | Cartão de El Salvador (bloco 3), depois do corte do recuo na R1.2 | MENOR | Nenhuma frase é falsa (lei de 2021, dado de 2024, obrigação até jan./2025), mas a omissão pode parecer que o vídeo esconde o recuo. Correção opcional: nota no cartão, com a causa junto. | F5, F7; reforma de 29/01/2025 e acordo com o FMI. | Procede. A tela do dado ganhou a nota "obrigação em vigor até jan./2025; depois, voluntária (acordo com o FMI)", com F7 no rodapé. A fala não muda, então não custa tempo. | aceita |
+
+### Veredito do crítico
+Nenhuma objeção CRÍTICA nem IMPORTANTE nova. O roteiro está pronto, com as incertezas já declaradas: a pesquisa com economistas é antiga, não há dado sobre o Bitcoin como moeda de curso legal e os documentos foram conferidos só por busca.
+
+### Mudanças da versão 3
+- Termômetro: "sobre isso" virou "sobre o Bitcoin como dinheiro" (R2.1).
+- Cartão de El Salvador com a nota do recuo e a causa (R2.2), sem mudar a fala.
+- Duração estimada: cerca de 82 s (231 palavras), abaixo do máximo de 90 s e acima da meta de 75 s.
+
 ## Resumo final para a revisão humana
-- O que mudou: ver "Mudanças da versão 2".
-- O que ficou em aberto:
-  - não há pesquisa com economistas sobre o Bitcoin como moeda oficial; o termômetro se apoia no FMI e numa pesquisa de 2013, e diz isso;
-  - o enunciado exato do painel de 2013 (F17) não foi visto;
-  - o recuo de El Salvador em 2025 e o uso maior no primeiro ano (com bônus) ficaram fora do vídeo, por tempo;
-  - os documentos não foram abertos (tudo por busca): conferir F1, F3, F7, F8, F11, F14, F17, F22 e F23.
+- **O que mudou (versão 1 → 3):**
+  - argumento a favor com base numérica (teto de 21 milhões, F22; real com mais de 85% de perda de poder de compra desde 1994, F23), antes da onda 3;
+  - termômetro datado, com origem da pesquisa, fonte na tela e a admissão de que não há pesquisa mais nova (R1.1, R2.1);
+  - diferença de El Salvador dita no vídeo, com a inflação do dólar menor que a do real (R1.3, F24);
+  - frase que sugeria causa errada para o recuo de El Salvador cortada da fala; o recuo, com a causa certa, ficou só na nota do cartão (R1.2, R2.2);
+  - gancho sem arredondar para cima e com "negociaram" no lugar de "usaram" (R1.5); "ativo virtual" no contexto (R1.6); longo prazo pelo mecanismo dos juros (R1.4).
+- **O que ficou em aberto:**
+  - não há pesquisa com economistas sobre o Bitcoin como moeda oficial, nem com economistas brasileiros; o termômetro se apoia no FMI (posição institucional e credor de El Salvador) e numa pesquisa de 2013 com economistas dos EUA, e diz isso;
+  - o enunciado exato da pesquisa de 2013 (F17) não foi visto, só o resultado (87%, "utilidade limitada");
+  - o uso maior em El Salvador no primeiro ano (cerca de 1 em 4, com bônus) e o limite à troca de moeda dado por salários e impostos em reais ficaram fora do vídeo, por tempo;
+  - a perda de poder de compra do real foi conferida até meados de 2024; o vídeo diz "mais de 85%", que continua valendo;
+  - duração estimada de 82 s, acima da meta de 75 s.
+- **Links principais a abrir (tudo foi conferido só por busca):**
+  - F1, Receita (via Money Times): https://www.moneytimes.com.br/criptomoedas-movimentam-r-283-bilhoes-no-primeiro-semestre-e-batem-novo-recorde-diz-receita-rens/
+  - F3, Banco Central (via Mattos Filho): https://www.mattosfilho.com.br/unico/normas-regulamentacao-ativos-virtuais/
+  - F7, reforma de El Salvador (via The Block): https://www.theblock.co/amp/post/337885/el-salvador-passes-bill-to-revise-bitcoin-adoption-strategy-per-imf-deal-reuters
+  - F8, Iudop (via El Salvador Now): https://www.elsalvadornow.org/2025/01/17/92-of-salvadorans-did-not-use-bitcoin-in-2024-el-92-de-salvadorenos-no-uso-bitcoin-en-2024/
+  - F11, FMI: https://www.imf.org/en/News/Articles/2023/02/23/pr2351-imf-executive-board-discusses-elements-of-effective-policies-for-crypto-assets
+  - F14, DQYDJ: https://dqydj.com/2022-bitcoin-return
+  - F17, Clark Center: http://www.igmchicago.org/surveys/bitcoins (e TechCrunch: https://techcrunch.com/2013/04/24/austan_goolsbee-on-bitcoins-usefulness-hahahaha-rotfl/amp)
+  - F22, teto de 21 milhões (The Block): https://www.theblock.co/amp/post/379061/bitcoins-mined-supply-95-per-cent-21-million-cap-more-century-issuance-left
+  - F23, IPCA desde 1994 (via Movimento Econômico): https://movimentoeconomico.com.br/dinheiro/2024/07/01/real-completa-30-anos-com-desafio-de-manter-poder-de-compra/
+  - F24, inflação no Brasil e nos EUA: https://numerando.com.br/indices/ipca/acumulado e https://www.hl.co.uk/news/the-us-ended-2025-with-steady-but-elevated-inflation-in-december
+- **As quatro perguntas da revisão humana (CLAUDE.md, seção 6):**
+  - *Os dois lados têm o mesmo espaço e o mesmo tom?* Sim. São 33 palavras a favor e 27 contra (razão 1,22, dentro de 0,8–1,25). O lado a favor fica um pouco mais longo porque os números são lidos por extenso. Os dois lados usam o mesmo verbo ("aponta que") e têm dado concreto: 21 milhões e a inflação do real a favor; −64% e +155% contra.
+  - *O termômetro reflete onde os especialistas estão, com fonte?* Sim, com as ressalvas ditas no vídeo: o FMI recomenda não fazer (F11, posição institucional), e a única pesquisa com economistas sobre o Bitcoin como dinheiro é de 2013, dos EUA (F17), com maioria vendo utilidade limitada. As duas fontes estão na tela.
+  - *Alguma frase pode ser recortada e circular com sentido distorcido?* O ponto de atenção é "o real perdeu mais de 85% do poder de compra desde o Plano Real": é fato, mas recortado pode virar ataque ao real. Ele vem dentro de "Quem defende aponta que..." e na mesma frase do teto do Bitcoin, e é respondido pelo lado contra. O gancho diz "negociaram", não "pagaram"; a projeção de curto prazo tem "talvez"; o dado de El Salvador vem seguido da diferença do dólar e, na tela, do recuo com a causa.
+  - *Todo número tem fonte e está atualizado?* Sim: todo número tem código no 02-fontes, e o `roteiro.py` confere. Os mais recentes são de 2025 e 2026 (F1, F24). Três números são mais antigos, e o vídeo diz a data de cada um: o uso em El Salvador é de 2024, a pesquisa mais recente do Iudop achada; a oscilação do Bitcoin é de 2022–2023; a perda do real foi calculada até 2024, e "mais de 85%" continua valendo. A pesquisa com economistas é de 2013, e o vídeo diz isso.
