@@ -41,16 +41,16 @@ nome = "O que mudaria"
 cena = "Etiqueta 'R$ 200 por tonelada (suposição)' sobre a nuvem de cubos; contadores na bomba (gasolina e diesel); moedas iguais voltam para várias casinhas iguais, com o contador da devolução; o Zé troca a mangueira pela de etanol e sorri; um caminhão passa e a etiqueta de preço numa caixa sobe um pouco; por fim, um cercado: dentro, a bomba, a fábrica e um trator; fora, árvores derrubadas, um boi e um pedaço de lavoura."
 
   [[bloco.frase]]
-  fala = "Aqui, vamos supor R$ 200 por tonelada de gás carbônico dos combustíveis fósseis, com o dinheiro devolvido igualmente a cada pessoa."
+  fala = "Aqui, vamos supor R$ 200 por tonelada de gás carbônico dos combustíveis fósseis, com tudo devolvido igualmente às pessoas."
   marcacao = "PREMISSA"
-  voz = "Aqui, vamos supor duzentos reais por tonelada de gás carbônico dos combustíveis fósseis, com o dinheiro devolvido igualmente a cada pessoa."
+  voz = "Aqui, vamos supor duzentos reais por tonelada de gás carbônico dos combustíveis fósseis, com tudo devolvido igualmente às pessoas."
 
   [[bloco.frase]]
-  fala = "Se chegasse inteiro à bomba, seriam aqueles 33 centavos na gasolina e uns 46 no diesel."
+  fala = "Repassado inteiro, daria aqueles 33 centavos na gasolina e uns 46 no diesel."
   marcacao = "PROJEÇÃO"
   fontes = ["F29"]
   tela = "Cenário de R$ 200/t: gasolina +R$ 0,33/l · diesel +R$ 0,46/l"
-  voz = "Se chegasse inteiro à bomba, seriam aqueles trinta e três centavos na gasolina e uns quarenta e seis no diesel."
+  voz = "Repassado inteiro, daria aqueles trinta e três centavos na gasolina e uns quarenta e seis no diesel."
 
   [[bloco.frase]]
   fala = "Já a devolução começaria em uns R$ 400 por pessoa por ano."
@@ -60,12 +60,12 @@ cena = "Etiqueta 'R$ 200 por tonelada (suposição)' sobre a nuvem de cubos; con
   voz = "Já a devolução começaria em uns quatrocentos reais por pessoa por ano."
 
   [[bloco.frase]]
-  fala = "O etanol e os carros econômicos ganhariam vantagem, e o frete mais caro pesaria um pouco nos preços."
+  fala = "O etanol e os carros econômicos ganhariam vantagem, e o frete encareceria um pouco as coisas."
   marcacao = "PROJEÇÃO"
   fontes = ["F2", "F3"]
 
   [[bloco.frase]]
-  fala = "Como o imposto não alcança o desmatamento nem as emissões do gado e do solo, o corte no total teria limite."
+  fala = "Mas, sem alcançar o desmatamento nem as emissões do gado e do solo, o corte teria limite."
   marcacao = "PROJEÇÃO"
   fontes = ["F4"]
 
