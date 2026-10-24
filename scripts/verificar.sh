@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Checagens técnicas do final.mp4 de um vídeo (ESTRUTURA.md, seção 8).
 # Uso: ./scripts/verificar.sh [--teste] videos/AAAA-MM-DD-slug
-#   --teste  aceita duração de 10 a 20 s (vídeo de teste, seção 10) em vez de 45 a 60 s.
+#   --teste  aceita duração de 10 a 20 s (vídeo de teste, seção 10) em vez de 45 a 90 s.
 #
 # Tudo pelo HyperFrames (áudio e quadros) e pelo scripts/mp4info.py (cabeçalho do MP4),
 # sem chamar o FFmpeg diretamente. Também grava em amostras/ 6 quadros do final.mp4
@@ -11,7 +11,7 @@
 set -euo pipefail
 
 DURACAO_MIN=45
-DURACAO_MAX=60
+DURACAO_MAX=90
 if [ "${1:-}" = "--teste" ]; then
   DURACAO_MIN=10
   DURACAO_MAX=20

@@ -33,9 +33,10 @@ fi
 
 mkdir -p "$PASTA/narracao" "$PASTA/composicao/cenas"
 cp "$RAIZ/modelos/01-ideia.md" "$RAIZ/modelos/02-fontes.md" \
-   "$RAIZ/modelos/03-roteiro.md" "$RAIZ/modelos/04-revisoes.md" "$PASTA/"
+   "$RAIZ/modelos/03-roteiro.toml" "$RAIZ/modelos/04-revisoes.md" "$PASTA/"
 sed -e "s/^etapa_atual: .*/etapa_atual: onda-1/" \
     -e "s/^ultima_atualizacao: .*/ultima_atualizacao: $AGORA/" \
+    -e "s/^  - AAAA-MM-DD HH:MM onda-1$/  - $AGORA onda-1/" \
     "$RAIZ/modelos/status.md" > "$PASTA/status.md"
 
 echo "Criado: ${PASTA#"$RAIZ"/}"

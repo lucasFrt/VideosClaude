@@ -1,6 +1,6 @@
 # Canal "E se...?"
 
-Vídeos curtos (45–60 s, 1080x1920) que explicam ideias econômicas mostrando consequências possíveis, prós e contras. Feitos com HyperFrames (HTML + GSAP + Three.js), narração do edge-tts e o Claude Code.
+Vídeos curtos (45–90 s, 1080x1920) que explicam ideias econômicas mostrando consequências possíveis, prós e contras. Feitos com HyperFrames (HTML + GSAP + Three.js), narração do edge-tts e o Claude Code.
 
 - **`CLAUDE.md`**: identidade do canal, tom, visual e fluxo em ondas (o Claude Code lê sozinho).
 - **`ESTRUTURA.md`**: manual técnico (pastas, componentes, scripts, comandos).
@@ -8,7 +8,7 @@ Vídeos curtos (45–60 s, 1080x1920) que explicam ideias econômicas mostrando 
 
 ## Preparar uma máquina
 
-Precisa de: Git, Node.js 22+ e Python 3.10+. O FFmpeg que o HyperFrames usa por dentro vem junto pelo npm; não instale nem use à parte.
+Precisa de: Git, Node.js 22+ e Python 3.11+. O FFmpeg que o HyperFrames usa por dentro vem junto pelo npm; não instale nem use à parte.
 
 | Sistema | Como instalar |
 |---|---|
@@ -32,6 +32,8 @@ Pronto: abra a pasta no VS Code e inicie o Claude Code. As permissões dos scrip
 
 ```bash
 ./scripts/novo-video.sh <slug>                          # cria videos/AAAA-MM-DD-slug/
+python3 scripts/roteiro.py checar videos/<pasta>        # confere o 03-roteiro.toml e gera o .md
+python3 scripts/roteiro.py texto videos/<pasta>         # gera o texto da narração
 python3 scripts/narrar.py videos/<pasta>                # narração + palavras.json (Windows: python)
 ./scripts/ajustar-volume.sh videos/<pasta>              # narração em −14 LUFS (via HyperFrames)
 ./scripts/hf.sh videos/<pasta> check --json             # valida a composição
@@ -43,6 +45,8 @@ python3 scripts/narrar.py videos/<pasta>                # narração + palavras.
 
 ## Situação
 
-- Instalação inicial pronta e testada (render, determinismo e volume conferidos).
-- Próximo passo: construir os componentes (`ESTRUTURA.md`, seção 5) e o vídeo de teste (seção 10).
+- Instalação pronta e testada: render, determinismo e volume conferidos, sem chamar o FFmpeg diretamente.
+- Roteiro estruturado com checagem automática (`scripts/roteiro.py`) e critérios de validação (`docs/validacao.md`).
+- Protótipo do Zé em `videos/2026-10-24-prototipo-ze/` esperando sua decisão sobre o estilo.
+- Depois disso: os outros componentes (`ESTRUTURA.md`, seção 5), o vídeo de teste (seção 10) e a composição gerada a partir do roteiro.
 - Propostas esperando decisão: `docs/aprendizados.md`, itens marcados **[proposta]**.

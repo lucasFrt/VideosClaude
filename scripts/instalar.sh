@@ -51,13 +51,13 @@ ok "Node $(node -v)"
 PY=""
 for candidato in python3 python; do
   if command -v "$candidato" >/dev/null 2>&1 &&
-     "$candidato" -c 'import sys; sys.exit(sys.version_info < (3, 10))' 2>/dev/null; then
+     "$candidato" -c 'import sys; sys.exit(sys.version_info < (3, 11))' 2>/dev/null; then
     PY="$candidato"
     break
   fi
 done
 [ -n "$PY" ] ||
-  falha "Python 3.10+ não encontrado: $(dica 'brew install python' 'sudo apt install python3 python3-venv' 'winget install Python.Python.3.12')"
+  falha "Python 3.11+ não encontrado: $(dica 'brew install python' 'sudo apt install python3 python3-venv' 'winget install Python.Python.3.12')"
 ok "$("$PY" --version)"
 
 passo "2. HyperFrames (versão fixa do package.json, com o FFmpeg que ele usa por dentro)"

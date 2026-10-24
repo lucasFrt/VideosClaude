@@ -1,0 +1,85 @@
+<template>
+  <style>
+    #root {
+      position: absolute;
+      inset: 0;
+    }
+    #ze-palco {
+      position: absolute;
+      inset: 0;
+    }
+    .ze-rotulo {
+      position: absolute;
+      top: calc(var(--seguro-topo) + var(--margem));
+      left: 0;
+      width: calc(var(--largura) - var(--seguro-direita));
+      text-align: center;
+      color: var(--texto);
+      font-family: var(--fonte);
+      font-weight: var(--peso-rodape);
+      font-size: 40px;
+      opacity: 0;
+    }
+  </style>
+  <div id="root" data-composition-id="ze" data-width="1080" data-height="1920">
+    <canvas id="ze-palco" class="clip" data-start="0" data-duration="8"></canvas>
+    <div id="ze-r1" class="clip ze-rotulo" data-start="0" data-duration="1.9">neutro · andando</div>
+    <div id="ze-r2" class="clip ze-rotulo" data-start="1.9" data-duration="1.2">surpreso · parado</div>
+    <div id="ze-r3" class="clip ze-rotulo" data-start="3.1" data-duration="1.5">feliz · aponta</div>
+    <div id="ze-r4" class="clip ze-rotulo" data-start="4.6" data-duration="1.6">preocupado · ombros</div>
+    <div id="ze-r5" class="clip ze-rotulo" data-start="6.2" data-duration="1.8">feliz · comemora</div>
+  </div>
+  <script type="module">
+    import * as THREE from "./assets/libs/three.module.js";
+    import { criarZe } from "./componentes/ze/ze.js";
+
+    const renderer = new THREE.WebGLRenderer({ canvas: document.getElementById("ze-palco"), antialias: true });
+    renderer.setSize(1080, 1920, false);
+    renderer.setClearColor(0x1b2a41);
+    const cena = new THREE.Scene();
+    const camera = new THREE.PerspectiveCamera(32, 1080 / 1920, 0.1, 100);
+
+    cena.add(new THREE.HemisphereLight(0xfff4e0, 0x5a6a88, 1.5));
+    const luzPrincipal = new THREE.DirectionalLight(0xfff1d6, 2.2);
+    luzPrincipal.position.set(-3, 5, 6);
+    const luzContorno = new THREE.DirectionalLight(0x9fc4ff, 1.4);
+    luzContorno.position.set(4, 3, -5);
+    // Luz de preenchimento vinda da câmera: sem ela, a parte de baixo do rosto escurece e parece barba.
+    const luzFrente = new THREE.DirectionalLight(0xffffff, 1.1);
+    luzFrente.position.set(0, 1.5, 8);
+    cena.add(luzPrincipal, luzContorno, luzFrente);
+
+    const chao = new THREE.Mesh(
+      new THREE.CircleGeometry(7, 24),
+      new THREE.MeshStandardMaterial({ color: 0x24385a, flatShading: true, roughness: 1 }),
+    );
+    chao.rotation.x = -Math.PI / 2;
+    cena.add(chao);
+
+    const ze = criarZe();
+    cena.add(ze.grupo);
+    const roteiro = {
+      posicao: [[0, [-1.5, 0, 0.3]], [1.7, [0, 0, 0]]],
+      rotacao: [[0, 1.25], [1.5, 0]],
+      expressao: [[0, "neutro"], [1.95, "surpreso"], [3.15, "feliz"], [4.65, "preocupado"], [6.25, "feliz"]],
+      gesto: [[0, "parado"], [3.1, "aponta"], [4.6, "ombros"], [6.2, "comemora"]],
+    };
+
+    // Câmera sempre em movimento lento (CLAUDE.md, seção 4)
+    function desenhar(t) {
+      ze.posar(t, roteiro);
+      camera.position.set(0.5 * Math.sin(t * 0.25), 1.55, 7.2 - t * 0.08);
+      camera.lookAt(0, 1.15, 0);
+      renderer.render(cena, camera);
+    }
+    window.addEventListener("hf-seek", (e) => desenhar(e.detail.time));
+    desenhar(0);
+
+    const tl = gsap.timeline({ paused: true });
+    for (const [id, inicio, fim] of [["#ze-r1", 0, 1.9], ["#ze-r2", 1.9, 3.1], ["#ze-r3", 3.1, 4.6], ["#ze-r4", 4.6, 6.2], ["#ze-r5", 6.2, 8]]) {
+      tl.fromTo(id, { opacity: 0 }, { opacity: 1, duration: 0.2 }, inicio);
+      if (fim < 8) tl.to(id, { opacity: 0, duration: 0.15 }, fim - 0.15);
+    }
+    window.__timelines["ze"] = tl;
+  </script>
+</template>

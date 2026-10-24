@@ -11,7 +11,7 @@ Versões fixas usadas no projeto. Ao atualizar qualquer item, registre aqui a no
 | Chrome Headless Shell | 152.0.7977.30 | escolhida pelo HyperFrames 0.8.192 (`browser ensure`) |
 | edge-tts | 7.3.1 | `requirements.txt` (instalado em `.venv/`) |
 | Node.js | 22 ou mais novo | exigência do HyperFrames; testado com 22.22.0 |
-| Python | 3.10 ou mais novo | testado com 3.13.17 |
+| Python | 3.11 ou mais novo | o `roteiro.py` usa o `tomllib`; testado com 3.13.17 |
 | FFmpeg | `ffmpeg-static` 5.3.0 (build b6.1.1; no Linux é o FFmpeg 7.0.2 estático) | `package.json`; motor interno do HyperFrames, nunca chamado direto |
 | FFprobe | `@ffprobe-installer/ffprobe` 2.1.2 (binário da plataforma) | `package.json`; idem |
 

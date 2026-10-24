@@ -29,9 +29,11 @@
   --altura: 1920px;
   --fps: 30;
 
-  /* Área segura: a interface do Instagram, TikTok e Shorts cobre estas faixas */
+  /* Área segura: a interface do Instagram, TikTok e Shorts cobre estas faixas.
+     Embaixo ficam a legenda do post, o nome do perfil e os botões: nenhum texto
+     abaixo de y = 1330 (590 px do fundo), só decoração. */
   --seguro-topo: 220px;
-  --seguro-baixo: 420px;
+  --seguro-baixo: 590px;
   --seguro-direita: 140px;
   --seguro-esquerda: 0px;
   /* Respiro entre o texto e a borda da área segura (estético, não é área segura) */

@@ -27,21 +27,23 @@ O narrador é sempre a mesma "pessoa": um amigo curioso que estudou o assunto a 
 - **Linguagem:** frases curtas, português do dia a dia, zero jargão sem explicação. Se usar um termo técnico, explica na mesma frase.
 - **Analogias do cotidiano:** traduz números grandes para coisas concretas (preço do pão, aluguel, tanque de gasolina, salário mínimo, conta de luz).
 - **Bordões fixos (usar sempre):**
-  - Abertura: "E se [tema]? Vamos imaginar."
+  - Abertura: "E se [tema]? Vamos imaginar." (dito logo depois do número ou da imagem de impacto, nunca antes dele)
   - Transição para os dois lados: "Agora, vamos colocar na balança."
   - Encerramento: "E aí, você toparia? Me conta nos comentários."
 - **O que o narrador nunca faz:** dar veredito, chamar uma ideia de "absurda" ou "genial", usar adjetivos contra pessoas, ironizar eleitores de qualquer lado.
 
 ---
 
-## 3. Estrutura fixa de todo vídeo (45–60s)
+## 3. Estrutura fixa de todo vídeo (45–90 s)
 
-1. **Gancho (0–3s):** a pergunta "E se...?" com um número ou imagem de impacto.
-2. **Contexto (3–10s):** como é hoje, em uma frase, com um dado real.
-3. **O que mudaria (10–30s):** consequências no curto e no longo prazo, sempre pelo ponto de vista do "cidadão comum".
-4. **A balança (30–50s):** o argumento mais forte de quem defende e o argumento mais forte de quem critica, com o mesmo tempo de tela e o mesmo tom.
-5. **Exemplo real (se existir):** país ou período histórico parecido, sem exagerar a comparação.
-6. **Encerramento (últimos 5s):** bordão final e pergunta aberta. Sem conclusão.
+Mire em 60–75 s; o máximo é 90 s. Se não couber, corte o exemplo real antes de apertar a balança.
+
+1. **Gancho (primeiros 3 s):** o número ou a imagem de impacto já no primeiro quadro (quem rola o feed decide em cerca de 1 s se fica) e, logo em seguida, a pergunta com o bordão de abertura.
+2. **Contexto (cerca de 10% do vídeo):** como é hoje, em uma frase, com um dado real.
+3. **O que mudaria (cerca de 30%):** consequências no curto e no longo prazo, sempre pelo ponto de vista do "cidadão comum".
+4. **A balança (cerca de 30%):** o argumento mais forte de quem defende e o argumento mais forte de quem critica, com o mesmo tempo de tela e o mesmo tom. Fecha com o **termômetro**: uma frase, com fonte, dizendo onde os especialistas estão: se a maioria concorda com um lado, se há divisão de verdade ou se ainda falta evidência (ex.: "a maioria dos economistas acha que…", "aqui os especialistas se dividem"). Tempo igual para os dois lados não quer dizer que a evidência é igual, e o termômetro deixa isso claro sem dar veredito.
+5. **Exemplo real (opcional):** país ou período histórico parecido, só se houver um bom paralelo, sem exagerar a comparação.
+6. **Encerramento (últimos 5 s):** bordão final e pergunta aberta. Sem conclusão.
 
 ---
 
@@ -69,19 +71,19 @@ O narrador é sempre a mesma "pessoa": um amigo curioso que estudou o assunto a 
 
 ## 6. Fluxo de produção em ondas
 
-Você executa sozinho tudo que é técnico, mas **para e me espera** nos pontos marcados com 🛑. Registre cada onda em `videos/[slug]/revisoes.md`, para eu conseguir ler a discussão inteira.
+Você executa sozinho tudo que é técnico, mas **para e me espera** nos pontos marcados com 🛑. Registre cada onda em `videos/[slug]/04-revisoes.md`, para eu conseguir ler a discussão inteira. Os nomes dos arquivos e os comandos estão no `ESTRUTURA.md`.
 
 ### Onda 1 — Elaboração da ideia
-Defina a pergunta "E se...?" com precisão: o que exatamente muda, a partir de quando, em que escala e o que fica igual. Liste as premissas assumidas e as perguntas que o vídeo precisa responder. Salve em `ideia.md`.
+Defina a pergunta "E se...?" com precisão: o que exatamente muda, a partir de quando, em que escala e o que fica igual. Liste as premissas assumidas e as perguntas que o vídeo precisa responder. Salve em `01-ideia.md`.
 
 ### Onda 2 — Desenvolvimento
-Pesquise e crie `fontes.md` (cada dado com link e data de acesso; sem fonte confiável, o dado fica de fora). Escreva o `roteiro.md` seguindo a seção 3, marcando cada frase como **[FATO]**, **[PROJEÇÃO]** ou **[ARGUMENTO DE UM LADO]**.
+Pesquise e crie `02-fontes.md` (cada dado com link e data de acesso; sem fonte confiável, o dado fica de fora). Para o termômetro, procure pesquisas com economistas (ex.: as do Clark Center, antigo IGM Forum) ou revisões da literatura. Escreva o roteiro em `03-roteiro.toml` seguindo a seção 3, marcando cada frase como **[FATO]**, **[PROJEÇÃO]**, **[ARGUMENTO A FAVOR]**, **[ARGUMENTO CONTRA]**, **[TERMÔMETRO]** ou **[BORDÃO]**. O `scripts/roteiro.py` confere o roteiro e gera o `03-roteiro.md` para leitura.
 
 ### Onda 3 — Contestação (agente crítico)
-Chame o subagente `critico` (definido em `.claude/agents/critico.md`). Ele recebe só `ideia.md`, `roteiro.md` e `fontes.md`, sem a sua justificativa, e tenta derrubar o roteiro: dados errados ou desatualizados, causalidade exagerada, premissas irreais, lado mais fraco apresentado de forma caricata, frases que permitem interpretação enviesada, exemplos históricos mal comparados. Cada objeção vem classificada como **CRÍTICA**, **IMPORTANTE** ou **MENOR**.
+Chame o subagente `critico` (definido em `.claude/agents/critico.md`). Ele recebe só `01-ideia.md`, `03-roteiro.md` e `02-fontes.md`, sem a sua justificativa (a partir da segunda rodada, também a tabela de objeções das rodadas anteriores com a decisão e a base de cada uma, para não repetir o que já foi resolvido), e tenta derrubar o roteiro: dados errados ou desatualizados, causalidade exagerada, premissas irreais, lado mais fraco apresentado de forma caricata, termômetro que não reflete o estado real do debate, frases que permitem interpretação enviesada, exemplos históricos mal comparados. Cada objeção vem classificada como **CRÍTICA**, **IMPORTANTE** ou **MENOR**.
 
 ### Onda 4 — Adaptação
-Responda a cada objeção no `revisoes.md`: aceite e corrija o roteiro, ou rejeite explicando por quê com fonte. Não rejeite uma objeção só para manter o texto, e também não aceite uma objeção só para encerrar o debate. Objeções sem base, que exijam certeza impossível sobre o futuro ou que distorçam o que o roteiro diz devem ser rejeitadas e marcadas como tal.
+Responda a cada objeção no `04-revisoes.md`: aceite e corrija o roteiro, ou rejeite explicando por quê com fonte. Não rejeite uma objeção só para manter o texto, e também não aceite uma objeção só para encerrar o debate. Objeções sem base, que exijam certeza impossível sobre o futuro ou que distorçam o que o roteiro diz devem ser rejeitadas e marcadas como tal.
 
 **O objetivo das ondas 3 e 4 é aproximar o cenário da realidade, não derrubá-lo.** Ninguém prevê o futuro com certeza; o roteiro está certo quando separa com honestidade o que é sabido, o que é provável e o que é incerto. Uma afirmação verdadeira e bem fundamentada nunca deve ser retirada só porque o crítico insistiu.
 
@@ -91,6 +93,7 @@ Repita contestação e adaptação até que o crítico não encontre nenhuma obj
 ### 🛑 REVISÃO HUMANA 1 — Roteiro
 Mostre o roteiro final, as fontes e um resumo do debate: o que o crítico derrubou, o que mudou e o que ficou em aberto. Responda também:
 - Os dois lados têm o mesmo espaço e o mesmo tom?
+- O termômetro reflete onde os especialistas estão, com fonte?
 - Alguma frase pode ser recortada e circular com sentido distorcido?
 - Todo número tem fonte e está atualizado?
 
