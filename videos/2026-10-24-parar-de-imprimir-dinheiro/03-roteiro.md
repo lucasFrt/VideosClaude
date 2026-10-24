@@ -6,7 +6,7 @@ Versão: 1 · Duração estimada: ~83 s (232 palavras faladas)
 Cena: Primeiro quadro já com o número '1,35 bilhão de notas' enorme sobre uma impressora low-poly que solta maços de notas genéricas (sem o desenho das cédulas reais); o Zé surpreso, olhando a pilha crescer.
 
 - **[FATO · F1]** Mais de um bilhão de notas.
-  - Tela: 1,35 bilhão de notas novas em 2025 (rodapé: Fonte: Banco Central)
+  - Tela: 1,35 bilhão de notas novas em 2025 (rodapé: Fonte: Banco Central, 2020–2025)
 - **[BORDÃO]** E se o Brasil parasse de imprimir dinheiro? Vamos imaginar.
 
 ## Bloco 2 — Contexto (~16 s)
@@ -20,7 +20,7 @@ Cena: Notas velhas e rasgadas entram numa trituradora enquanto notas novas saem 
 Cena: O cofre 'Banco Central' com o contador 'R$ 447 bilhões' trava com um cadeado; no fim do ano, o Zé na fila do caixa eletrônico enquanto um medidor de juros sobe aos saltos; depois a vitrine da cidade com o preço do pão descendo devagar (Zé feliz) e o boleto de uma dívida que fica maior ao lado do contracheque dele (Zé preocupado).
 
 - **[PREMISSA · F2]** Aqui, vamos supor que o Banco Central congela o dinheiro que só ele cria, notas e saldo dos bancos nele, e o resto fica igual.
-  - Tela: R$ 447 bilhões (fim de 2025) (rodapé: Fonte: Banco Central)
+  - Tela: R$ 447 bilhões (fim de 2025) (rodapé: Fonte: Banco Central, 2025)
 - **[PROJEÇÃO · F2, F11]** No fim do ano, quando todo mundo saca mais, o Banco Central não poderia soltar mais, e os juros poderiam saltar.
 - **[PROJEÇÃO · F9, F13]** No longo prazo, se a economia crescer e esse dinheiro não, os preços tenderiam a subir menos ou até cair. Ninguém sabe quanto.
 - **[PROJEÇÃO · F9, F14]** O pão poderia baixar, mas o salário subiria menos, e as dívidas pesariam mais.
