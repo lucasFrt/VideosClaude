@@ -46,6 +46,51 @@ Nenhuma objeção CRÍTICA; uma IMPORTANTE nova (R2.1), da paráfrase do termôm
 
 Duração depois da rodada 2: cerca de 83 s (232 palavras), abaixo do máximo de 90 s. Os qualificadores do termômetro e a atribuição ao estudo custaram cerca de 5 s; o exemplo real já tinha sido cortado na rodada 1.
 
+## Rodada 3 (conferência)
+
+### O que o crítico considerou sólido
+- R2.1 (termômetro): enunciado e contagem do IGM batem com o Econlib (43 painelistas: 0 concordam fortemente, 10 concordam, 5 em dúvida, 21 discordam, 4 discordam fortemente, 1 sem opinião, 2 sem resposta; 58%, 23% e 19%, somando 100%). A frase mantém os dois qualificadores, o país e o prazo; a tela com três grupos e o rodapé "Painel IGM, 2022" estão certos. O termômetro diz que a maioria é contra, que não há unanimidade e que a pesquisa não é sobre comida.
+- R2.2 (Argentina): "um estudo achou os produtos à venda, mas também versões novas mais caras" bate com o resumo publicado de Aparicio e Cavallo.
+- F2 (4,58% e 4,21%), ainda só via CNA; a conferência no IBGE/SIDRA já está pedida.
+- Balança com 22 palavras de cada lado; a correção do termômetro não contradiz o "parariam de subir" do bloco 3, porque o "como os dos anos 1970" separa as duas frases.
+- Nenhuma objeção anterior foi reaberta.
+
+### Objeções
+| # | Trecho | Nível | Objeção | Base | Resposta do autor | Decisão |
+|---|--------|-------|---------|------|-------------------|---------|
+| R3.1 | "na Argentina, o efeito foi pequeno e passageiro" (balança, lado contra) | MENOR | "O efeito" não diz de quê; logo depois de o bloco 3 dizer que o estudo achou os produtos à venda, um recorte da balança pode ser lido como efeito sobre a disponibilidade ou o preço na prateleira. Em F8, o efeito pequeno e temporário é sobre a inflação geral. | F8. | Procede. Agora: "e que, na Argentina, a inflação caiu pouco e voltou", que é o que F8 diz (efeito pequeno e temporário na inflação geral, revertido depois dos controles), com o mesmo número de palavras (22 no lado contra). | aceita |
+
+### Veredito do crítico
+Nenhuma objeção CRÍTICA nem IMPORTANTE nova; R2.1 e R2.2 bem corrigidas. "O roteiro está pronto." As incertezas que restam são as naturais (painel dos EUA sobre controles gerais), e o roteiro já diz isso na frase e na tela.
+
 ## Resumo final para a revisão humana
-- O que mudou:
-- O que ficou em aberto:
+
+Roteiro final: versão 4 do `03-roteiro.toml` (leitura em `03-roteiro.md`), cerca de 83 s estimados (232 palavras), abaixo do máximo de 90 s e acima da meta de 60–75 s. Três rodadas do crítico: 9 objeções, nenhuma CRÍTICA, 3 IMPORTANTES (R1.1, R1.2, R2.1) e 6 MENORES; todas aceitas (R1.6 resolvida com o corte do exemplo real), nenhuma rejeitada.
+
+- **O que mudou (versão 1 → 4):**
+  - Antes da rodada 1, todas as fontes passaram a ser conferidas por busca; a Wikipédia saiu e o Plano Cruzado ficou com fontes acadêmicas e públicas (F12 a F15); o texto do art. 3º da Lei 13.874 e os casos do STF foram corrigidos; o que não se confirmou saiu.
+  - Balança: o lado a favor ganhou o argumento mais forte dos defensores (controle curto do essencial numa emergência, F11), e o lado contra, o da maioria (desestímulo a quem produz, F16 e F9, e a inflação argentina que caiu pouco e voltou, F8), com 22 palavras de cada lado.
+  - Termômetro: trocado por uma pesquisa mais próxima do tema (IGM 2022 sobre controle de preços contra a inflação, F18), com os qualificadores do enunciado ("como os dos anos 1970", "não conseguiriam", "em um ano") e os três grupos na tela.
+  - Bloco 3: entraram a exportação como saída possível (F19), 1986 e a Argentina numa frase com as diferenças (congelamento geral com consumo em alta × controles focados), o achado argentino atribuído ao estudo e o tamanho do salto final ligado aos custos.
+  - Contexto: "em média" no dado de 4,2%, com o subgrupo e o período na tela.
+  - O bloco "Exemplo real" foi cortado por tempo.
+- **O que ficou em aberto:**
+  - F2: o 4,21% (alimentação no domicílio, 12 meses até set/2026) só apareceu no comunicado da CNA; conferir no IBGE/SIDRA (IPCA por subgrupo) antes da versão final.
+  - Contexto de campanha: o preço dos alimentos é tema central do segundo turno de 2026 (02-fontes, "Contexto que o vídeo evita"). As buscas não acharam candidato propondo congelar preços; o vídeo trata só da ideia geral, usa só o IPCA oficial e não cita governo, candidatos ou partidos. Decidir se o tema espera passar a eleição.
+  - Nenhum documento foi aberto (só buscas, nas três rodadas e na conferência do autor).
+  - Não foi encontrada pesquisa com economistas brasileiros; o termômetro se apoia num painel dos EUA sobre controles gerais (dito na frase e na tela).
+  - F1 aponta para o índice de decretos-leis do Planalto, porque a página do Decreto-Lei 2.283 não apareceu nas buscas; F16 foi conferido só pelo resumo.
+  - Duração de ~83 s, acima da meta; se for preciso cortar, a frase de 1986 e Argentina do bloco 3 é a candidata, antes de mexer na balança.
+- **Links principais a abrir:**
+  - F2: https://cnabrasil.org.br/storage/arquivos/files/Ed.18-CT-IPCA-IPCA-14.OUT.2026.pdf (e a tabela do IPCA por subgrupo no SIDRA do IBGE)
+  - F8: https://www.nber.org/papers/w24275
+  - F11: https://peri.umass.edu/publication/could-strategic-price-controls-help-fight-inflation/
+  - F13: https://www.ideals.illinois.edu/items/29325/bitstreams/97784/data.pdf
+  - F14: https://revistas.usp.br/ee/en/article/view/157404
+  - F18: https://www.econlib.org/the-consensus-on-price-controls/ e https://edition.cnn.com/2022/01/18/economy/price-controls-inflation
+  - F20: https://aldiaargentina.microjuris.com/2015/03/16/sancion-a-una-cadena-de-supermercados-por-la-falta-en-sus-gondolas-de-los-productos-ofertados-en-el-marco-del-programa-precios-cuidados/
+- **As quatro perguntas (CLAUDE.md, seção 6):**
+  - *Os dois lados têm o mesmo espaço e o mesmo tom?* Sim: uma frase de 22 palavras de cada lado, o mesmo verbo ("Quem defende aponta que" / "Quem critica aponta que"), cada um com base (F11; F16, F9 e F8). O bloco 3 também traz os dois sentidos: o alívio no começo e os riscos, com a evidência que contraria a falta (Argentina).
+  - *O termômetro reflete onde os especialistas estão, com fonte?* Sim, com ressalvas: a maioria é contra, sem unanimidade (F18: 58% × 23%, 19% em dúvida ou sem resposta), na mesma direção das pesquisas sobre preço abusivo (F9, F10) e da revisão do Banco Mundial (F16). A pesquisa é dos EUA e sobre controles gerais, e a frase diz isso; a minoria que defende controles curtos e focados aparece no lado a favor.
+  - *Alguma frase pode ser recortada e circular com sentido distorcido?* Os pontos de risco foram tratados: o dado da comida diz "em média" e mostra o subgrupo e o período (R1.3); a falta de 1986 vem com "num congelamento geral, com consumo em alta"; o achado argentino é atribuído ao estudo (R2.2); o termômetro leva o país, o prazo e "como os dos anos 1970" (R2.1); o lado contra diz de que é o efeito (R3.1). O risco que resta é o do contexto: na véspera do segundo turno, qualquer frase sobre preço de comida pode ser usada na campanha.
+  - *Todo número tem fonte e está atualizado?* Sim: 4,2% (F2, IPCA de set/2026, o mais recente; conferir no SIDRA), 1986 (F1) e 58%, 23% e 19% (F18, 2022, a pesquisa mais próxima do tema que foi encontrada). Todos com link e data de acesso, conferidos por busca.

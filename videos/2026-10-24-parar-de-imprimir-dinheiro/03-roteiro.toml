@@ -1,9 +1,9 @@
 # Roteiro: a fonte da verdade do vídeo. Edite este arquivo; o 03-roteiro.md é gerado
 # a partir dele pelo scripts/roteiro.py (não edite o .md à mão).
-# Versão 3: respostas às rodadas 1 e 2 do crítico (04-revisoes.md).
+# Versão 4: respostas às rodadas 1 a 3 do crítico (04-revisoes.md).
 
 titulo = "E se o Brasil parasse de imprimir dinheiro?"
-versao = 3
+versao = 4
 
 [[bloco]]
 nome = "Gancho"
@@ -43,7 +43,7 @@ nome = "O que mudaria"
 cena = "O cofre 'Banco Central', com o contador 'R$ 447 bilhões' (notas + saldo dos bancos), fica preso num bloco de gelo e um medidor 'Selic' sai de cena; no Natal, o Zé na fila do caixa eletrônico enquanto uma barra 'saldo dos bancos no BC' encolhe e um medidor 'juros entre bancos' sobe aos saltos, e a etiqueta de juros de um crediário na vitrine sobe junto; depois a agência da cidade empresta mais devagar e o preço do pão na vitrine desce devagar (Zé feliz); por fim, o contracheque do Zé fica parado enquanto o boleto de uma dívida parece maior ao lado dele (Zé preocupado)."
 
   [[bloco.frase]]
-  fala = "Aqui, vamos supor que o Banco Central congela o total de notas e saldo dos bancos nele, em vez de controlar os juros, e o resto fica igual."
+  fala = "Aqui, vamos supor que o Banco Central congela a soma de notas e saldo dos bancos nele, em vez de controlar os juros, e o resto fica igual."
   marcacao = "PREMISSA"
   fontes = ["F2"]
   tela = "R$ 447 bilhões (fim de 2025)"
@@ -86,6 +86,7 @@ cena = "Balança 3D equilibrada: prato verde (a favor) à esquerda e coral (cont
   marcacao = "TERMÔMETRO"
   fontes = ["F10", "F8", "F11", "F16"]
   tela = "Ninguém concordou que dá para gastar sem limite criando dinheiro (painel de economistas dos EUA, 2019)"
+  rodape = ["F10"]
 
 # Exemplo real cortado na versão 1 para caber perto de 75 s (CLAUDE.md, seção 3): os paralelos
 # mais próximos (as metas de quantidade de moeda dos EUA, do Canadá e da Inglaterra, de 1975 a 1987,
