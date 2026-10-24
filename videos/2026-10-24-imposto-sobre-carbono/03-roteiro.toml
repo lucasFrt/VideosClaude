@@ -1,22 +1,23 @@
 # Roteiro: a fonte da verdade do vídeo. O 03-roteiro.md é gerado pelo scripts/roteiro.py.
-# Versão 1 (onda 2). Todas as fontes conferidas por busca em 2026-10-24 (ver o 02-fontes.md).
+# Versão 2 (onda 4, rodada 1): mudanças registradas no 04-revisoes.md. Fontes conferidas por
+# busca em 2026-10-24 (ver o 02-fontes.md).
 
 titulo = "E se o Brasil cobrasse um imposto sobre carbono?"
-versao = 1
+versao = 2
 
 [[bloco]]
 nome = "Gancho"
-cena = "Primeiro quadro já com uma bomba de combustível low-poly cujo visor marca '+R$ 0,30 por litro? (cenário)' em amarelo; o Zé, surpreso, segura a mangueira; do escapamento de um carro sai uma nuvem cinza de cubos."
+cena = "Primeiro quadro já com uma bomba de combustível low-poly cujo visor marca '+R$ 0,33 por litro? (cenário)' em amarelo; o Zé, surpreso, segura a mangueira; do escapamento de um carro sai uma nuvem cinza de cubos."
 
   [[bloco.frase]]
-  fala = "Gasolina: uns 30 centavos a mais por litro."
+  fala = "Gasolina: seriam uns 33 centavos a mais por litro."
   marcacao = "PROJEÇÃO"
-  fontes = ["F1", "F3"]
-  tela = "+R$ 0,30 por litro? (cenário)"
-  voz = "Gasolina: uns trinta centavos a mais por litro."
+  fontes = ["F29"]
+  tela = "+R$ 0,33 por litro? (cenário)"
+  voz = "Gasolina: seriam uns trinta e três centavos a mais por litro."
 
   [[bloco.frase]]
-  fala = "E se o carbono pagasse imposto? Vamos imaginar."
+  fala = "E se o Brasil cobrasse um imposto sobre carbono? Vamos imaginar."
   marcacao = "BORDÃO"
 
 [[bloco]]
@@ -37,7 +38,7 @@ cena = "Uma fábrica low-poly ganha uma tampa com a etiqueta 'limite'; depois, c
 
 [[bloco]]
 nome = "O que mudaria"
-cena = "Etiqueta 'R$ 200 por tonelada (suposição)' sobre a nuvem de cubos; moedas iguais voltam para várias casinhas iguais; contadores na bomba (gasolina e diesel); o Zé troca a mangueira pela de etanol e sorri; um caminhão passa e a etiqueta de preço numa caixa sobe um pouco; por fim, árvores e gado ficam do lado de fora de um cercado onde estão a bomba e a fábrica."
+cena = "Etiqueta 'R$ 200 por tonelada (suposição)' sobre a nuvem de cubos; contadores na bomba (gasolina e diesel); moedas iguais voltam para várias casinhas iguais, com o contador da devolução; o Zé troca a mangueira pela de etanol e sorri; um caminhão passa e a etiqueta de preço numa caixa sobe um pouco; por fim, um cercado: dentro, a bomba, a fábrica e um trator; fora, árvores derrubadas, um boi e um pedaço de lavoura."
 
   [[bloco.frase]]
   fala = "Aqui, vamos supor R$ 200 por tonelada de gás carbônico dos combustíveis fósseis, com o dinheiro devolvido igualmente a cada pessoa."
@@ -45,11 +46,18 @@ cena = "Etiqueta 'R$ 200 por tonelada (suposição)' sobre a nuvem de cubos; moe
   voz = "Aqui, vamos supor duzentos reais por tonelada de gás carbônico dos combustíveis fósseis, com o dinheiro devolvido igualmente a cada pessoa."
 
   [[bloco.frase]]
-  fala = "Seriam uns 30 centavos a mais no litro da gasolina e uns 45 no diesel."
+  fala = "Se chegasse inteiro à bomba, seriam aqueles 33 centavos na gasolina e uns 46 no diesel."
   marcacao = "PROJEÇÃO"
-  fontes = ["F1", "F2", "F3"]
-  tela = "Cenário de R$ 200/t: gasolina +R$ 0,30/l · diesel +R$ 0,45/l"
-  voz = "Seriam uns trinta centavos a mais no litro da gasolina e uns quarenta e cinco no diesel."
+  fontes = ["F29"]
+  tela = "Cenário de R$ 200/t: gasolina +R$ 0,33/l · diesel +R$ 0,46/l"
+  voz = "Se chegasse inteiro à bomba, seriam aqueles trinta e três centavos na gasolina e uns quarenta e seis no diesel."
+
+  [[bloco.frase]]
+  fala = "Já a devolução começaria em uns R$ 400 por pessoa por ano."
+  marcacao = "PROJEÇÃO"
+  fontes = ["F31"]
+  tela = "Devolução: cerca de R$ 400 por pessoa por ano (ordem de grandeza)"
+  voz = "Já a devolução começaria em uns quatrocentos reais por pessoa por ano."
 
   [[bloco.frase]]
   fala = "O etanol e os carros econômicos ganhariam vantagem, e o frete mais caro pesaria um pouco nos preços."
@@ -57,7 +65,7 @@ cena = "Etiqueta 'R$ 200 por tonelada (suposição)' sobre a nuvem de cubos; moe
   fontes = ["F2", "F3"]
 
   [[bloco.frase]]
-  fala = "Como esse imposto não pega o desmatamento nem a agropecuária, o corte no total teria limite."
+  fala = "Como o imposto não alcança o desmatamento nem as emissões do gado e do solo, o corte no total teria limite."
   marcacao = "PROJEÇÃO"
   fontes = ["F4"]
 
@@ -70,24 +78,24 @@ cena = "Balança 3D equilibrada: prato verde (a favor) à esquerda e coral (cont
   marcacao = "BORDÃO"
 
   [[bloco.frase]]
-  fala = "Quem defende aponta que cada um cortaria emissões do jeito mais barato e que, com a devolução, os mais pobres sairiam ganhando, em média."
+  fala = "Quem defende aponta que cada um cortaria emissões do jeito mais barato e que, com a devolução, os mais pobres tenderiam a ganhar, segundo estudos."
   marcacao = "ARGUMENTO A FAVOR"
-  fontes = ["F9", "F10", "F16", "F18", "F20"]
+  fontes = ["F9", "F10", "F32", "F16", "F18", "F20"]
 
   [[bloco.frase]]
   fala = "Quem critica aponta que, mesmo com a devolução, perderia quem depende muito do carro ou do frete, inclusive parte dos mais pobres, e a indústria pesada."
   marcacao = "ARGUMENTO CONTRA"
-  fontes = ["F18", "F26", "F23", "F22"]
+  fontes = ["F18", "F26", "F23"]
 
   [[bloco.frase]]
-  fala = "Entre os economistas, há amplo consenso de que cobrar pelo carbono é o jeito mais barato de cortar emissões. Já o tamanho do corte varia muito entre países."
+  fala = "Entre economistas, há amplo consenso, medido sobretudo nos Estados Unidos, de que cobrar pelo carbono corta emissões mais barato que impor regras. Já o tamanho do corte varia muito entre estudos."
   marcacao = "TERMÔMETRO"
-  fontes = ["F9", "F10", "F24", "F11", "F12"]
+  fontes = ["F9", "F10", "F27", "F24", "F11", "F12"]
 
-# Exemplo real cortado na versão 1 para ficar perto de 75 s (CLAUDE.md, seção 3). As fontes da
-# Suécia, da França e do Canadá estão conferidas no 02-fontes (F13 a F17). Se voltar,
-# a ideia é uma frase só: a Suécia cobra desde 1991; a França cancelou a alta em 2018 depois dos
-# protestos; o Canadá zerou a cobrança na bomba em 2025, mesmo devolvendo o dinheiro.
+# Exemplo real cortado para ficar perto de 80 s (CLAUDE.md, seção 3). As fontes da Suécia, da
+# França e do Canadá estão conferidas no 02-fontes (F13 a F17). Se voltar, a ideia é uma frase
+# só: a Suécia cobra desde 1991; a França congelou a alta em 2018 depois dos protestos; o Canadá
+# zerou a cobrança na bomba em 2025, mesmo devolvendo o dinheiro.
 
 [[bloco]]
 nome = "Encerramento"
