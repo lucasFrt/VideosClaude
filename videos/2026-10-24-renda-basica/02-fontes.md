@@ -1,13 +1,81 @@
+> **Como foi conferido:** o ambiente na nuvem não abre páginas (o WebFetch não funciona), só faz buscas. Cada dado abaixo foi confirmado pelo texto que as buscas trazem das fontes, de preferência em mais de uma, mas os documentos não foram abertos. **O limite de buscas da sessão (compartilhado com outros agentes) acabou no meio da pesquisa**, então alguns dados ficaram de fora (ver "Não conferido nesta sessão"). Na revisão humana, abra os links principais: **F1, F2, F3, F4, F5, F9, F14 e F15**.
+>
+> A coluna "Fonte" é curta porque vira o rodapé do vídeo ("Fonte: IBGE, 2026"); o ano do rodapé sai da coluna "Data do dado".
+
 | # | Dado | Valor | Fonte | Link | Data do dado | Acessado em |
 |---|------|-------|-------|------|--------------|-------------|
-| F1 | ... | ... | ... | ... | ... | ... |
+| F1 | População estimada do Brasil em 1º/07/2026 (Estimativas da População, divulgadas em 28/08/2026; via Poder360, DGABC e SBT News) | 214.211.951 habitantes (213.421.037 em 2025; alta de 0,37%) | IBGE | https://www.poder360.com.br/brasil/brasil-chega-a-2142-milhoes-de-habitantes-em-2026-diz-ibge/ | 2026 | 2026-10-24 |
+| F2 | PIB do Brasil em 2025, em valores correntes (divulgado em 03/03/2026) | R$ 12,7 trilhões (PIB per capita: R$ 59.687,49) | IBGE | https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/45968-pib-cresce-2-3-em-2025-e-fecha-o-ano-em-r-12-7-trilhoes.html | 2025 | 2026-10-24 |
+| F3 | Verba do Bolsa Família na Lei Orçamentária de 2026, sancionada em 14/01/2026 (via Jornal Contábil e Poder360; em 2025, o gasto ficou em cerca de R$ 158 bilhões) | R$ 158,63 bilhões | Orçamento da União | https://jornalcontabil.com.br/noticia/orcamento-de-2026-confirma-r-158-bilhoes-para-o-bolsa-familia/amp/ | 2026 | 2026-10-24 |
+| F4 | Famílias no Bolsa Família (via O Povo; outras contagens: 18,9 milhões em out/2025, Poder360; 18,7 milhões em dez/2025, Ache Concursos/Exame). A busca não deixou claro qual dos textos de outubro traz o número de agosto: conferir no link | cerca de 19,3 milhões de famílias em agosto de 2026 | MDS | https://www.opovo.com.br/trends/bolsa-familia-sobe-15-em-outubro-minimo-vai-a-r-691-e-valor-medio-projetado-chega-a-r-777/ | 2026 | 2026-10-24 |
+| F5 | Lei 10.835/2004, art. 1º: renda básica de cidadania para "todos os brasileiros residentes no País e estrangeiros residentes há pelo menos 5 anos", "não importando sua condição socioeconômica"; § 1º: alcançada "em etapas, a critério do Poder Executivo, priorizando-se as camadas mais necessitadas"; § 2º: valor igual para todos, suficiente para despesas mínimas com alimentação, educação e saúde | lei em vigor; a versão para todos nunca foi implantada (F6, F7) | Lei 10.835 | https://www2.camara.leg.br/legin/fed/lei/2004/lei-10835-8-janeiro-2004-497058-publicacaooriginal-1-pl.html | 2004 | 2026-10-24 |
+| F6 | Lei 14.601/2023 (Bolsa Família), art. 1º, § 1º: o programa "constitui etapa do processo gradual e progressivo de implementação da universalização da renda básica de cidadania" (texto da Câmara e do Legjur; um artigo de opinião cita sem a palavra "universalização") | o Bolsa Família é, por lei, uma etapa da renda básica, focada em famílias de baixa renda | Lei 14.601 | https://www2.camara.leg.br/legin/fed/lei/2023/lei-14601-19-junho-2023-794341-publicacaooriginal-168138-pl.html | 2023 | 2026-10-24 |
+| F7 | STF, Mandado de Injunção 7.300 (Informativo 1014, abr/2021): reconheceu a omissão do Executivo em fixar o valor e mandou implantá-lo, a partir de 2022, para a população em pobreza e extrema pobreza. A EC 114/2021 pôs na Constituição (art. 6º, parágrafo único) uma renda básica familiar para quem está em vulnerabilidade | a renda universal da lei de 2004 não foi implantada; o STF tratou só da parte dos mais pobres | STF | https://juris.damasio.com.br/jurisprudencia/julgado/1014/programa-renda-basica-de-cidadania-e-combate-a-pobreza | 2021 | 2026-10-24 |
+| F8 | Experimento de renda básica da Finlândia (Kela, relatório final de 2020; VATT: "efeitos no emprego ficaram pequenos") | 2.000 desempregados sorteados receberam € 560 por mês, sem imposto, por 2 anos; o emprego deles melhorou um pouco mais que o do grupo de comparação; menos estresse, depressão e solidão | Kela (Finlândia) | https://tietotarjotin.fi/en/information-package/158070/basic-income-experiment | 2017–2018 | 2026-10-24 |
+| F9 | Renda básica em vilas do Quênia (GiveDirectly; Banerjee, Faye, Krueger, Niehaus e Suri, NBER, set/2023; resultados de curto prazo de um teste de 12 anos; Faye e Niehaus são diretores, sem salário, da GiveDirectly) | cerca de US$ 0,75 por adulto por dia, para todos os adultos das vilas sorteadas; o total de trabalho não mudou (parte das pessoas trocou o emprego assalariado por negócio próprio); mais empresas e mais receita nas vilas | Banerjee e outros | https://conference.nber.org/conf_papers/f192616.pdf | 2023 | 2026-10-24 |
+| F10 | Dividendo do Fundo Permanente do Alasca em 2026 (via Alaska's News Source e Alaska Beacon) | US$ 1.200 por morador (US$ 1.000 mais US$ 200 de ajuda de energia, disparada pelo preço do petróleo); custo de mais de US$ 800 milhões; pago a partir de 1º/10/2026 | Alasca | https://www.alaskasnewssource.com/2026/09/30/permanent-fund-dividends-will-be-distributed-alaskans-starting-this-week/ | 2026 | 2026-10-24 |
+| F11 | Efeito do dividendo do Alasca no trabalho (Jones e Marinescu, American Economic Journal: Economic Policy 14(2), 2022; controle sintético com a CPS) | nenhum efeito no emprego; o trabalho em meio período subiu 1,8 ponto percentual (17%) | Jones e Marinescu | https://www.aeaweb.org/doi/10.1257/pol.20190299 | 2022 | 2026-10-24 |
+| F12 | Revisão de 7 testes de transferência em dinheiro feitos por governos em 6 países em desenvolvimento: Honduras, Indonésia, Marrocos, México, Nicarágua e Filipinas (Banerjee, Hanna, Kreindler e Olken; CID/Harvard, 2015; versão publicada em 2017) | nenhum efeito observável na chance de trabalhar nem nas horas trabalhadas, de homens ou de mulheres | Banerjee, Hanna e outros | https://www.hks.harvard.edu/centers/cid/publications/faculty-working-papers/debunking-stereotype-lazy-welfare-recipient | 2017 | 2026-10-24 |
+| F13 | Renda sem condição nos EUA (OpenResearch; Vivalt e outros, NBER WP 32719, revisado em jan/2025): US$ 1.000 por mês por 3 anos, de nov/2020 a out/2023, em Illinois e no Texas; o grupo de comparação recebeu US$ 50 por mês | participação no mercado de trabalho 3,9 pontos menor; 1 a 2 horas a menos de trabalho por semana; renda do trabalho cerca de US$ 1.800 menor por ano (a versão de jul/2024 dava 2,0 pontos e 1,3 hora) | Vivalt e outros | https://www.nber.org/system/files/working_papers/w32719/revisions/w32719.rev2.pdf | 2020–2023 | 2026-10-24 |
+| F14 | Aumento do Bolsa Família de R$ 400 para R$ 600 em ago/2022 e o trabalho (Ipea, Nota Técnica Dinte nº 78, 2025, com dados da PNAD Contínua; via cópia no Poder360) | a participação na força de trabalho de quem já recebia caiu entre 2,2 e 4,7 pontos; nenhum efeito na formalização; efeito desprezível nas horas; a saída se concentrou em quem tinha trabalho precário ou informal, ou já estava sem emprego, e em mulheres com tarefas de cuidado | Ipea | https://static.poder360.com.br/2025/10/NT_Dinte_78_O_Efeito_aumento_valor_transferencias_renda_Publicacao.pdf | 2025 | 2026-10-24 |
+| F15 | Pesquisa com economistas sobre renda básica universal (painel IGM, hoje Clark Center, Univ. de Chicago, jun/2016; economistas que trabalham nos EUA; via BIEN e The Fiscal Times). Pergunta: US$ 13.000 por ano para cada cidadão com mais de 21 anos, pagos com o fim de todos os programas de transferência, inclusive a aposentadoria pública (Social Security) e o seguro-saúde dos idosos (Medicare) | 58% discordaram ou discordaram fortemente; 19% ficaram em dúvida; 2% concordaram (41 ou 43 respondentes, conforme a fonte) | Painel IGM | https://basicincome.org/news/2016/07/poll-58-of-economists-oppose-ubi-or-just-charles-murrays-version/ | 2016 | 2026-10-24 |
+| F16 | Renda Básica de Cidadania de Maricá (RJ) (via openDemocracy, Jain Family Institute/UFF e Brasil de Fato) | não é universal: exige morar na cidade há 3 anos, renda familiar de até 3 salários mínimos e Cadastro Único; cerca de 93 mil dos 197 mil moradores; 200 mumbucas (moeda local, 1 = R$ 1) por pessoa por mês em 2023 (há menção a 230 depois); paga com royalties do petróleo | Maricá | https://www.opendemocracy.net/en/beyond-trafficking-and-slavery/can-cities-do-what-national-governments-wont-on-basic-income/ | 2023–2024 | 2026-10-24 |
+| F17 | Valores do Bolsa Família (só contexto; o vídeo não usa: ver "Contexto que o vídeo evita") | benefício médio de R$ 691,37 em dez/2025 e R$ 697,77 em jan/2026 (49,18 milhões de pessoas); reajuste de 15,04% a partir de out/2026: piso de R$ 600 para R$ 691, média estimada de R$ 675 para R$ 777 | MDS | https://www.opovo.com.br/trends/bolsa-familia-tera-piso-de-r-691-em-outubro-valor-medio-previsto-sobe-para-r-777/ | 2025–2026 | 2026-10-24 |
+
+## Contas do canal
+Feitas com os dados acima; o vídeo arredonda para baixo ou diz "cerca de".
+
+| Conta | Resultado | No vídeo |
+|---|---|---|
+| Custo: 214.211.951 (F1) × R$ 500 × 12 | R$ 1.285.271.706.000 por ano (R$ 1,29 trilhão) | "quase R$ 1,3 trilhão por ano" |
+| Custo ÷ PIB de 2025 (F2: R$ 12,7 tri) | 10,1%. Com o PIB de 2026 (ainda não divulgado), que deve ser maior em valores correntes, a fatia fica um pouco abaixo de 10% | "cerca de 10% de tudo que o país produz num ano" |
+| Custo ÷ verba do Bolsa Família em 2026 (F3: R$ 158,63 bi) | 8,1 vezes. Com o reajuste de outubro (custo extra estimado em R$ 5,8 bi em 2026), cerca de 7,8 vezes | "umas oito vezes o Bolsa Família" |
+| Cada R$ 100 por pessoa por mês | R$ 257 bilhões por ano (2,0% do PIB) | não entra; serve para refazer a conta |
+| Família de quatro pessoas | 4 × R$ 500 = R$ 2.000 por mês | "R$ 2.000 a mais por mês" |
+| Mesmo custo dividido entre as famílias do Bolsa Família (F4: 19,3 milhões) | R$ 1,285 tri ÷ 12 ÷ 19,3 mi = R$ 5.549 por família por mês. Fica acima de R$ 5.000 com qualquer contagem até 21,4 milhões de famílias | "mais de R$ 5.000 mensais a cada família do Bolsa Família" |
+| Quem paga mais do que recebe | Os impostos novos precisam somar o custo, ou seja, em média R$ 500 por pessoa por mês. Com qualquer imposto que cresça com a renda ou com o consumo, quem está acima da média paga mais do que R$ 500 e sai perdendo na conta; quem está abaixo sai ganhando. Simplificação: quem de fato paga um imposto depende de como ele é cobrado | "quem ganha mais tenderia a pagar mais imposto do que recebe" |
 
 ## Posições de especialistas
-- A favor: [quem, o quê, link]
-- Contra: [quem, o quê, link]
-- Onde há consenso: ...
-- Onde há disputa: ...
+- **A favor:**
+  - Banerjee, Faye, Krueger, Niehaus e Suri (F9): numa renda dada a vilas inteiras no Quênia, o total de trabalho não caiu, e as vilas tiveram mais negócios e mais receita.
+  - Jones e Marinescu (F11): o dividendo universal do Alasca não reduziu o emprego.
+  - Kela (F8): na Finlândia, mais bem-estar e efeito pequeno, levemente positivo, no emprego.
+  - Banerjee, Hanna, Kreindler e Olken (F12): sete testes de governos sem efeito no trabalho.
+  - O próprio desenho universal (F5): ninguém precisa provar renda, e o benefício não é cortado quando a pessoa passa a ganhar mais.
+  - A ideia tem defensores em escolas diferentes. O modelo da pergunta do painel IGM (F15) era uma proposta de um autor conservador, Charles Murray, de trocar o Estado de bem-estar por uma renda universal; a lei brasileira de 2004 veio de outra tradição, a da renda de cidadania.
+- **Contra:**
+  - O custo (contas do canal): cerca de 10% do PIB por ano em impostos novos, para R$ 500 por pessoa.
+  - Focalização (contas do canal): o mesmo dinheiro, dado só às famílias do Bolsa Família, daria mais de R$ 5.000 por mês a cada uma.
+  - Painel IGM (F15): 58% dos economistas consultados nos EUA foram contra a versão que trocava todos os programas por uma renda universal. Num comentário, Daron Acemoglu (em dúvida) disse que a renda básica é "cara e não generosa o bastante" (via The Fiscal Times).
+  - Vivalt e outros (F13): nos EUA, quem recebeu US$ 1.000 por mês trabalhou um pouco menos.
+  - Ipea (F14): no Brasil, o aumento do Bolsa Família de R$ 400 para R$ 600 reduziu um pouco a participação no mercado de trabalho de quem já recebia.
+- **Onde há consenso:** na maior parte dos estudos, dar dinheiro tem efeito pequeno no trabalho (nulo em F9, F11 e F12; levemente positivo em F8; levemente negativo em F13 e F14). E uma renda universal num valor que faça diferença custa muito caro: é aritmética.
+- **Onde há disputa:** se vale pagar a todos em vez de focar nos mais pobres; como financiar; e o que aconteceria com o trabalho, os preços e o crescimento num país inteiro, por muitos anos. Os testes que existem são menores, mais curtos ou com valores mais baixos (F8: 2.000 pessoas; F9: vilas rurais muito pobres; F10: cerca de US$ 1.200 por ano, num lugar rico).
 
 ## Termômetro
-Onde os especialistas estão, de verdade: consenso para um lado, divisão real ou falta de evidência. Base: pesquisa com economistas (ex.: Clark Center, antigo IGM Forum) ou revisão da literatura, com código na tabela acima (F...).
-- ...
+Base: revisões e testes sobre trabalho (F12, F9, F11, F8, F13, F14) e a pesquisa com economistas do painel IGM (F15).
+- **Sobre o trabalho:** quase consenso de que o efeito é pequeno, para mais ou para menos. Não é zero em todo lugar: F13 (EUA) e F14 (Brasil) acharam quedas pequenas.
+- **Sobre a ideia inteira:** a única pesquisa com economistas encontrada é a do painel IGM (EUA, 2016), em que a maioria rejeitou uma versão que trocava todos os programas, inclusive a aposentadoria pública, por uma renda universal.
+
+Ressalvas:
+- O painel F15 é de economistas que trabalham nos EUA, de 2016, e a pergunta era sobre uma versão específica (trocar todos os programas, inclusive aposentadoria e saúde dos idosos), não sobre a do vídeo, que vem por cima dos programas e é paga com mais impostos. Por isso o vídeo diz "trocar todos os programas sociais".
+- Pelos comentários dos economistas, parte das respostas rejeitava o pacote (o fim dos outros programas) mais do que a ideia em si (via The Fiscal Times).
+- Não foi encontrada pesquisa com economistas brasileiros sobre renda básica universal. A pesquisa do painel europeu do Clark Center não pôde ser procurada (fim do limite de buscas).
+- Os estudos sobre trabalho medem programas menores, mais curtos ou focados nos pobres; ninguém sabe se o efeito seria o mesmo numa renda nacional, permanente e para todos.
+
+## Contexto que o vídeo evita
+- **Reajuste do Bolsa Família em outubro de 2026** (15,04%: piso de R$ 600 para R$ 691, média estimada de R$ 675 para R$ 777), anunciado a poucos dias do segundo turno (F17). O vídeo não usa o valor médio nem fala do reajuste: usa só o número de famílias e a verba anual (F3, F4), que mudam pouco com ele.
+- **A fila do Bolsa Família e a queda no número de famílias em 2025** (Exame, Ache Concursos): são usadas no debate eleitoral; ficam fora.
+- **Autoria da Lei 10.835/2004** e nomes de presidentes e ministros que aparecem nas fontes: não são citados (CLAUDE.md, seção 5). Os links F1, F3 e F14 são do Poder360 ou citam governantes; servem só de referência interna.
+- **Comparações entre governos** e nomes antigos do programa de transferência: fora.
+- **Maricá (F16):** o programa municipal é associado, no debate público, a gestões de um partido; além disso, não é universal e os dados achados são de 2023–2024. Fica só no `01-ideia.md`, como prova de que algo parecido funciona em escala municipal.
+- Se o tema "renda básica" aparecer em propostas de campanha de 2026, o vídeo trata só a ideia geral, sem citar nenhuma proposta.
+
+## Não conferido nesta sessão (fim do limite de buscas)
+Ficaram de fora do vídeo porque não houve como confirmar por busca. Vale procurar numa próxima rodada:
+- Despesa primária total da União e arrecadação federal de 2025/2026: a comparação com o orçamento inteiro (o pedido incluía "comparar com o orçamento"; o vídeo compara só com a verba do Bolsa Família, que é uma linha do orçamento).
+- Carga tributária do Brasil (% do PIB), para dizer quanto os impostos teriam de subir em relação ao que se cobra hoje.
+- Salário mínimo de 2026 e linha de pobreza do IBGE, para analogias com o valor de R$ 500.
+- Detalhes da Nota Técnica 78 do Ipea (autores, data exata) e a revisão de literatura do Ipea sobre programas condicionados e trabalho.
+- Transferências universais nacionais que não foram "testes": Irã (2010) e Mongólia (2010–2012). Se confirmadas, elas são os paralelos mais próximos em escala e devem entrar no 02-fontes (o roteiro já evita dizer que "nunca houve" algo parecido).
+- Efeito da renda do Quênia nos preços locais.

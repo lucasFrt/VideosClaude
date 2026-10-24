@@ -30,7 +30,7 @@ cena = "Um cofre genérico com a placa 'Banco Central' em texto simples; ao lado
   voz = "Hoje, ninguém troca reais por ouro no Banco Central, e o metal é só cerca de sete por cento das reservas."
 
   [[bloco.frase]]
-  fala = "Aqui, vamos supor que só o Brasil passaria a fazer essa troca, a um preço fixo."
+  fala = "Aqui, vamos supor que só o Brasil faria essa troca, a um preço fixo."
   marcacao = "PREMISSA"
 
 [[bloco]]
@@ -38,7 +38,7 @@ nome = "O que mudaria"
 cena = "A pilha de ouro cresce até a altura das notas enquanto um saco de dólares ao lado encolhe um pouco (contador 'ouro × 2,8'). Depois, um gráfico de linha do preço do grama de ouro sobe até o pico de janeiro e desce até outubro; uma corda liga a linha a uma nota de real, que desce junto. Por fim, a etiqueta de um celular importado na mão do Zé aumenta e ele franze a testa."
 
   [[bloco.frase]]
-  fala = "Para começar, o Banco Central teria que quase triplicar o ouro, com dólares das reservas, para cobrir todas as notas."
+  fala = "Para cobrir todas as notas, o Banco Central teria que quase triplicar o ouro, com dólares das reservas."
   marcacao = "PROJEÇÃO"
   fontes = ["F1", "F2"]
   tela = "Ouro × 2,8"
@@ -51,7 +51,7 @@ cena = "A pilha de ouro cresce até a altura das notas enquanto um saco de dóla
   voz = "E o ouro oscila: em janeiro, o grama passou de cento e sessenta dólares; em outubro, estava perto de cento e trinta."
 
   [[bloco.frase]]
-  fala = "Com o real preso a ele, uma queda assim deixaria o dólar e os importados mais caros aqui."
+  fala = "Com o real preso a ele, uma queda assim deixaria o dólar e o celular importado mais caros aqui."
   marcacao = "PROJEÇÃO"
   fontes = ["F5", "F6"]
 
@@ -75,10 +75,10 @@ cena = "Balança 3D equilibrada: prato verde (a favor) à esquerda, com um carri
   voz = "Quem critica aponta que, na crise de mil novecentos e vinte e nove, os países que largaram o ouro mais cedo puderam baixar os juros e se recuperaram mais rápido."
 
   [[bloco.frase]]
-  fala = "Aqui, há quase consenso contra: em 2012, nenhum economista de um painel dos Estados Unidos concordou que o padrão-ouro traria preços mais estáveis e mais emprego."
+  fala = "Entre economistas, há quase consenso contra o padrão-ouro: em 2012, num painel dos Estados Unidos, nenhum concordou que ele traria preços mais estáveis e mais emprego."
   marcacao = "TERMÔMETRO"
   fontes = ["F13"]
-  voz = "Aqui, há quase consenso contra: em dois mil e doze, nenhum economista de um painel dos Estados Unidos concordou que o padrão-ouro traria preços mais estáveis e mais emprego."
+  voz = "Entre economistas, há quase consenso contra o padrão-ouro: em dois mil e doze, num painel dos Estados Unidos, nenhum concordou que ele traria preços mais estáveis e mais emprego."
 
 # Exemplo real cortado: a crise de 1929 e o padrão-ouro de antes de 1914 já aparecem, com fonte,
 # nos dois lados da balança. A conversibilidade do mil-réis (1906–1914) não foi conferida por

@@ -10,14 +10,14 @@ versao = 1
 
 [[bloco]]
 nome = "Gancho"
-cena = "Primeiro quadro já com o contador '4,6 milhões' enorme sobre uma nuvem de celulares low-poly; o Zé, surpreso, segura um celular onde gira uma moeda dourada genérica (sem o logotipo oficial do Bitcoin). Na pergunta, a moeda dourada pousa no balcão ao lado de uma moeda de real."
+cena = "Primeiro quadro já com o contador '4,67 milhões' enorme sobre uma nuvem de celulares low-poly; o Zé, surpreso, segura um celular onde gira uma moeda dourada genérica (sem o logotipo oficial do Bitcoin). Na pergunta, a moeda dourada pousa no balcão ao lado de uma moeda de real."
 
   [[bloco.frase]]
-  fala = "Num só mês, mais de 4,6 milhões de brasileiros usaram criptomoedas."
+  fala = "Quase 5 milhões de brasileiros usaram criptomoedas num só mês."
   marcacao = "FATO"
   fontes = ["F1"]
-  tela = "4,6 milhões em um mês (jun. 2026)"
-  voz = "Num só mês, mais de quatro vírgula seis milhões de brasileiros usaram criptomoedas."
+  tela = "4,67 milhões em um mês (jun. 2026)"
+  voz = "Quase cinco milhões de brasileiros usaram criptomoedas num só mês."
 
   [[bloco.frase]]
   fala = "E se o Brasil adotasse o Bitcoin como moeda? Vamos imaginar."
@@ -25,7 +25,7 @@ cena = "Primeiro quadro já com o contador '4,6 milhões' enorme sobre uma nuvem
 
 [[bloco]]
 nome = "Contexto"
-cena = "Balcão da padaria do Zé: etiqueta do pão em R$ e uma plaquinha 'Bitcoin? Se a loja quiser.'; na premissa, a plaquinha vira 'Obrigatório aceitar' e a moeda dourada entra no caixa ao lado das moedas de real, com uma etiqueta 'como em El Salvador'."
+cena = "Balcão da padaria do Zé: etiqueta do pão em R$ e uma plaquinha 'Bitcoin? Se a loja quiser.'; na premissa, a plaquinha vira 'Obrigatório aceitar' e a moeda dourada entra no caixa ao lado das moedas de real, com uma etiqueta 'como em El Salvador, 2021'."
 
   [[bloco.frase]]
   fala = "Hoje, o Bitcoin não é moeda oficial: cada loja aceita se quiser."
@@ -33,27 +33,28 @@ cena = "Balcão da padaria do Zé: etiqueta do pão em R$ e uma plaquinha 'Bitco
   fontes = ["F4", "F3"]
 
   [[bloco.frase]]
-  fala = "Aqui, vamos supor uma lei como a de El Salvador: o Bitcoin vira moeda ao lado do real, e toda loja tem que aceitar."
+  fala = "Aqui, vamos supor uma lei como a de El Salvador em 2021: o Bitcoin vira moeda ao lado do real, e toda loja tem que aceitar."
   marcacao = "PREMISSA"
+  voz = "Aqui, vamos supor uma lei como a de El Salvador em dois mil e vinte e um: o Bitcoin vira moeda ao lado do real, e toda loja tem que aceitar."
 
 [[bloco]]
 nome = "O que mudaria"
-cena = "O Zé paga o pão pelo celular e a maquininha aceita a moeda dourada, mas a etiqueta continua em R$; cartão '9 em cada 10 não usaram (El Salvador, 2024)' sobre um mapa simplificado sem bandeira; por fim, uma alavanca de juros num painel genérico 'Banco Central' fica mais leve à medida que moedas douradas substituem as de real, e o Zé fica preocupado."
+cena = "O Zé paga o pão pelo celular e a maquininha aceita a moeda dourada, mas a etiqueta continua em R$; cartão '9 em cada 10 não usaram (El Salvador, 2024)' sobre um mapa simplificado sem bandeira, e a plaquinha 'Obrigatório' de lá vira 'Opcional'; por fim, uma alavanca de juros num painel genérico 'Banco Central' fica mais leve à medida que moedas douradas substituem as de real, e o Zé fica preocupado."
 
   [[bloco.frase]]
-  fala = "No curto prazo, a padaria aceitaria, mas o preço do pão provavelmente seguiria em real."
+  fala = "No curto prazo, talvez pouca coisa mudasse: em El Salvador, que usa o dólar, mais de 9 em cada 10 pessoas não usaram Bitcoin em 2024."
   marcacao = "PROJEÇÃO"
-  fontes = ["F6", "F10"]
+  fontes = ["F8", "F10", "F6"]
+  tela = "9 em cada 10 não usaram (El Salvador, 2024)"
+  voz = "No curto prazo, talvez pouca coisa mudasse: em El Salvador, que usa o dólar, mais de nove em cada dez pessoas não usaram Bitcoin em dois mil e vinte e quatro."
 
   [[bloco.frase]]
-  fala = "Em El Salvador, que usa o dólar, mais de 9 em cada 10 pessoas não usaram Bitcoin em 2024."
+  fala = "Depois, a obrigação de aceitar caiu por lá."
   marcacao = "FATO"
-  fontes = ["F8", "F6"]
-  tela = "9 em cada 10 não usaram (2024)"
-  voz = "Em El Salvador, que usa o dólar, mais de nove em cada dez pessoas não usaram Bitcoin em dois mil e vinte e quatro."
+  fontes = ["F7"]
 
   [[bloco.frase]]
-  fala = "No longo prazo, ninguém sabe quanta gente trocaria de moeda; se fosse muita, o Banco Central perderia força contra a inflação."
+  fala = "No longo prazo, ninguém sabe quantos trocariam de moeda; se fossem muitos, o Banco Central perderia força contra a inflação."
   marcacao = "PROJEÇÃO"
   fontes = ["F11"]
 
@@ -79,14 +80,15 @@ cena = "Balança 3D equilibrada: no prato verde, um cadeado sobre uma pilha de m
   tela = "−64% em 2022 · +155% em 2023"
 
   [[bloco.frase]]
-  fala = "O FMI recomenda que nenhum país dê ao Bitcoin papel de moeda, e a maioria dos economistas consultados vê pouca utilidade nele como dinheiro. Como investimento, há mais incerteza."
+  fala = "O FMI recomenda que nenhum país dê ao Bitcoin papel de moeda oficial, e a maioria dos economistas consultados vê utilidade limitada nele como dinheiro. Como investimento, há mais incerteza."
   marcacao = "TERMÔMETRO"
   fontes = ["F11", "F17", "F18"]
-  voz = "O efe eme i recomenda que nenhum país dê ao Bitcoin papel de moeda, e a maioria dos economistas consultados vê pouca utilidade nele como dinheiro. Como investimento, há mais incerteza."
+  voz = "O efe eme i recomenda que nenhum país dê ao Bitcoin papel de moeda oficial, e a maioria dos economistas consultados vê utilidade limitada nele como dinheiro. Como investimento, há mais incerteza."
 
 # Exemplo real: El Salvador entrou no bloco "O que mudaria" (é a única evidência direta do cenário),
-# com a diferença principal (lá se usa o dólar). Um bloco próprio passaria de 75 s; a República
-# Centro-Africana (F13) e o recuo de El Salvador em 2025 (F7, F12) ficam no 01-ideia e no 02-fontes.
+# com a diferença principal (lá se usa o dólar) e o recuo de 2025. Um bloco próprio passaria de
+# 80 s; a República Centro-Africana (F13) e o estado atual do acordo com o FMI (F12) ficam no
+# 01-ideia e no 02-fontes.
 
 [[bloco]]
 nome = "Encerramento"
