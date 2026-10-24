@@ -3,7 +3,7 @@
 ## A pergunta exata
 Uma lei passa a garantir que qualquer pessoa pode levar reais ao Banco Central e trocá-los por uma quantidade fixa de ouro (a "paridade": tantos reais por grama), e que o Banco Central também compra ouro por esse mesmo preço. A paridade é anunciada com antecedência, perto do preço de mercado do dia. O vídeo olha para o funcionamento depois que a regra está valendo, sem detalhar a transição.
 
-**Escala.** O compromisso vale para o dinheiro que o Banco Central emite. No fim de 2025, o balanço do Banco Central tinha R$ 131,6 bilhões em ouro (172,4 toneladas) e R$ 368,6 bilhões em notas e moedas (F1, F2): o ouro dava para cerca de um terço das notas e moedas (35,7%). Somando as reservas que os bancos deixam no Banco Central, a base monetária era de R$ 451,2 bilhões no fim de 2024 (F7). Os depósitos em conta e na poupança são muito maiores (M2 de cerca de R$ 7,6 trilhões em junho de 2026, F8) e continuam como hoje: o cliente saca notas no banco e, aí, pode trocá-las por ouro.
+**Escala.** O compromisso vale para o dinheiro que o Banco Central emite. No fim de 2025, o balanço do Banco Central tinha R$ 131,6 bilhões em ouro (172,4 toneladas) e R$ 368,6 bilhões em notas e moedas (F1, F3, F4): o ouro dava para cerca de um terço das notas e moedas (35,7%). Somando as reservas que os bancos deixam no Banco Central, a base monetária era de R$ 451,2 bilhões no fim de 2024 (F7). Os depósitos em conta e na poupança são muito maiores (M2 de cerca de R$ 7,6 trilhões em junho de 2026, F8) e continuam como hoje: o cliente saca notas no banco e, aí, pode trocá-las por ouro.
 
 Para cobrir todas as notas e moedas, o Banco Central teria que ter cerca de 2,8 vezes o ouro do fim de 2025 (de cerca de 172 para cerca de 480 toneladas). A diferença, cerca de R$ 237 bilhões (cerca de US$ 43 bilhões ao câmbio do fim de 2025, F9), cabe nas reservas internacionais, de US$ 358,2 bilhões (F2).
 
@@ -20,7 +20,7 @@ Para cobrir todas as notas e moedas, o Banco Central teria que ter cerca de 2,8 
 - A cobertura é de todas as notas, com ouro comprado com dólares das reservas (dito na primeira frase do bloco 3).
 - O tamanho dos efeitos no preço do dólar e dos importados é incerto: o vídeo dá a direção, sem número de previsão.
 
-Fica de fora do vídeo, sem mudar a direção dos efeitos: os detalhes da lei e da transição; os depósitos bancários (que seguem trocáveis por notas, como hoje); e o efeito da compra brasileira no preço do ouro. Comprar cerca de 300 toneladas não é pouco: em 2025, todos os bancos centrais juntos compraram entre cerca de 690 e 850 toneladas, conforme a estimativa (WGC e BCE, citados em F3). Uma compra desse tamanho poderia encarecer o ouro e a própria conta da troca.
+Fica de fora do vídeo, sem mudar a direção dos efeitos: os detalhes da lei e da transição; os depósitos bancários (que seguem trocáveis por notas, como hoje); e o efeito da compra brasileira no preço do ouro. Comprar cerca de 300 toneladas não é pouco: em 2025, todos os bancos centrais juntos compraram entre cerca de 690 e 850 toneladas, conforme a estimativa (WGC e BCE, F10). Uma compra desse tamanho poderia encarecer o ouro e a própria conta da troca.
 
 ## Perguntas que o vídeo precisa responder
 - Quanto ouro o Banco Central tem, comparado com o dinheiro em circulação?
