@@ -1,9 +1,9 @@
 # Roteiro: a fonte da verdade do vídeo. O 03-roteiro.md é gerado pelo scripts/roteiro.py.
 # Todas as fontes foram conferidas por busca em 2026-10-24 (os documentos não foram abertos).
-# Versão 2: rodada 1 do crítico; versão 3: rodada 2 (04-revisoes.md).
+# Versão 2: rodada 1 do crítico; versão 3: rodada 2; versão 4: rodada 3 (04-revisoes.md).
 
 titulo = "E se o governo congelasse o preço da comida?"
-versao = 3
+versao = 4
 
 [[bloco]]
 nome = "Gancho"
@@ -79,7 +79,7 @@ cena = "Balança 3D equilibrada: prato verde (a favor) à esquerda e coral (cont
   fontes = ["F11"]
 
   [[bloco.frase]]
-  fala = "Quem critica aponta que preço travado abaixo do custo desestimula quem produz e que, na Argentina, o efeito foi pequeno e passageiro."
+  fala = "Quem critica aponta que preço travado abaixo do custo desestimula quem produz e que, na Argentina, a inflação caiu pouco e voltou."
   marcacao = "ARGUMENTO CONTRA"
   fontes = ["F16", "F9", "F8"]
 

@@ -1,6 +1,6 @@
 <!-- Gerado pelo scripts/roteiro.py a partir do 03-roteiro.toml. Não edite este arquivo. -->
 # Roteiro — E se o governo congelasse o preço da comida?
-Versão: 3 · Duração estimada: ~83 s (232 palavras faladas)
+Versão: 4 · Duração estimada: ~83 s (232 palavras faladas)
 
 ## Bloco 1 — Gancho (~6 s)
 Cena: Primeiro quadro: numa prateleira de mercado, etiquetas de preço presas dentro de blocos de gelo, com '1986' enorme em amarelo; o Zé surpreso, de lado. Na pergunta, o gelo some e a câmera passa para um carrinho de compras de hoje.
@@ -31,7 +31,7 @@ Cena: Balança 3D equilibrada: prato verde (a favor) à esquerda e coral (contra
 
 - **[BORDÃO]** Agora, vamos colocar na balança.
 - **[ARGUMENTO A FAVOR · F11]** Quem defende aponta que, numa emergência, segurar por pouco tempo o preço do essencial alivia e evita que a alta se espalhe.
-- **[ARGUMENTO CONTRA · F16, F9, F8]** Quem critica aponta que preço travado abaixo do custo desestimula quem produz e que, na Argentina, o efeito foi pequeno e passageiro.
+- **[ARGUMENTO CONTRA · F16, F9, F8]** Quem critica aponta que preço travado abaixo do custo desestimula quem produz e que, na Argentina, a inflação caiu pouco e voltou.
 - **[TERMÔMETRO · F18]** Numa pesquisa nos EUA, quase 6 em 10 economistas disseram que controles de preço como os dos anos 1970 não conseguiriam baixar a inflação em um ano; menos de um quarto disse que sim.
   - Tela: Controles de preço (como nos anos 1970) baixariam a inflação com sucesso em 12 meses? Não: 58% · Sim: 23% · Dúvida ou sem resposta: 19% (rodapé: Fonte: Painel IGM, 2022) · Voz: "Numa pesquisa nos Estados Unidos, quase seis em dez economistas disseram que controles de preço como os dos anos setenta não conseguiriam baixar a inflação em um ano; menos de um quarto disse que sim."
 
