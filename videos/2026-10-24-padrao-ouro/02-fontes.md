@@ -44,6 +44,8 @@ Ressalvas:
 - o argumento a favor tem base histórica real (F11): o termômetro diz onde estão os economistas, não que o argumento seja falso.
 
 ## Exemplo real: diferenças que o vídeo não detalha
+> Na versão 2, o exemplo real saiu do vídeo por tempo (04-revisoes.md, R1.5). Se voltar, precisa dizer que, em 1914, outros países também suspenderam a troca por ouro (a conferir).
+
 A Caixa de Conversão (F15) é um paralelo direto, mas de outro Brasil: economia exportadora de café, notas da Caixa convivendo com papel-moeda do Tesouro sem lastro, e a Caixa criada em parte a pedido dos cafeicultores para segurar a valorização do mil-réis (pesquisa de Oliveira e Silva citada na busca). O vídeo só diz o que é certo: havia notas trocáveis por ouro, e a troca foi suspensa na Primeira Guerra.
 
 ## Contexto que o vídeo evita

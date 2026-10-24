@@ -38,13 +38,13 @@
 - **Onde há disputa:** o valor do Bitcoin como investimento ou reserva de valor (F18: maioria incerta; F20: votos divididos); e se, num país com inflação mais alta que a americana (F24), a procura seria maior que em El Salvador, onde o dia a dia já é em dólar. O dado brasileiro aponta para o dólar: cerca de 90% do fluxo de cripto no Brasil é em stablecoins (F2).
 
 ## Termômetro
-Maioria contra o Bitcoin como moeda oficial; mais incerteza sobre ele como investimento. Base: recomendação do FMI aos países-membros (F11), painel do Clark Center sobre a utilidade do Bitcoin como dinheiro (F17) e a evidência de El Salvador (F8, F10); para a parte do investimento, F18 e F20.
+Posição institucional contra o Bitcoin como moeda oficial, e evidência de opinião de economistas antiga. Base: recomendação do FMI aos países-membros (F11) e a única pesquisa com economistas sobre a utilidade do Bitcoin como dinheiro que as buscas acharam, de 2013 (F17). A evidência de El Salvador (F8, F10) aponta na mesma direção, mas entra no bloco "O que mudaria", não no termômetro. A frase diz a data e a origem da pesquisa (versão 2, R1.1).
 
 Ressalvas:
-- não encontrei pesquisa com economistas sobre o Bitcoin especificamente como moeda de curso legal, nem pesquisa com economistas brasileiros sobre o tema;
-- os painéis do Clark Center são de economistas que trabalham nos EUA e na Europa; F17 é de 2013 e F18 é de 2017, quando o mercado de cripto era bem menor; F17 foi conferido só por resumos secundários (TechCrunch e outro resumo), que concordam nos 87% mas não dão o enunciado exato;
-- o FMI é credor de El Salvador e parte do caso (F7, F12);
-- quem defende o Bitcoin como moeda está, em geral, fora dos bancos centrais e da academia tradicional (setor de cripto e autores ligados à escola austríaca); o termômetro fala do FMI e dos "economistas consultados", sem desqualificar o outro lado.
+- não encontrei pesquisa com economistas sobre o Bitcoin especificamente como moeda de curso legal, nem pesquisa com economistas brasileiros sobre o tema (o crítico também não); o vídeo diz isso ("a única pesquisa ... que achei, de 2013");
+- F17 é de 2013, com 38 economistas que trabalham nos EUA, quando o Bitcoin era marginal; foi conferido só por resumos secundários (TechCrunch e outro resumo), que concordam nos 87% mas não dão o enunciado exato; F18 (2017) e F20 (2022) tratam do valor como investimento e do propósito econômico, não de moeda, e ficaram fora da frase;
+- o FMI é credor de El Salvador e parte do caso (F7, F12); a frase o apresenta como recomendação institucional, não como pesquisa com especialistas;
+- quem defende o Bitcoin como moeda está, em geral, fora dos bancos centrais e da academia tradicional (setor de cripto e autores ligados à escola austríaca); o termômetro não desqualifica o outro lado.
 
 ## Dados que ficaram de fora
 Sem confirmação por busca. Nenhum deles entra no roteiro até ser conferido:
