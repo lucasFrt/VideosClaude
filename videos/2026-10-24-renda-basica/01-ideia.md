@@ -16,11 +16,12 @@ Uma lei federal passa a valer num 1º de janeiro (o vídeo não fixa o ano) e, a
 - Os impostos novos cobrem todo o custo, ano após ano.
 - O pagamento usa a estrutura que já paga benefícios sociais todo mês (cerca de 19 milhões de famílias no Bolsa Família).
 - A população é a residente estimada pelo IBGE, o que inclui os estrangeiros que moram no país (a lei de 2004 inclui os que moram aqui há pelo menos cinco anos). A diferença é pequena e não muda a conta de forma relevante.
-- Os programas atuais continuam iguais. Se a renda básica substituísse o Bolsa Família, o custo líquido cairia só cerca de R$ 160 bilhões (continuaria acima de R$ 1,1 trilhão por ano), e famílias de uma pessoa só, que hoje recebem o piso de R$ 691, passariam a receber menos (R$ 500). Por isso o cenário mantém os programas.
+- Os programas atuais continuam iguais (dito no vídeo; ver Simplificações). Se a renda básica substituísse o Bolsa Família, o custo líquido cairia só cerca de R$ 160 bilhões (continuaria acima de R$ 1,1 trilhão por ano), e famílias de uma pessoa só, que hoje recebem o piso de R$ 691, passariam a receber menos (R$ 500). Por isso o cenário mantém os programas.
 
 ## Simplificações (o vídeo precisa dizer quais são)
 - **O valor de R$ 500 é uma suposição do vídeo**, não uma proposta real. Dito na frase "Aqui, vamos supor R$ 500 por mês para cada pessoa...".
 - **O dinheiro sai de mais impostos**, sem dizer quais. Dito na mesma frase.
+- **Os benefícios de hoje continuam** (o Bolsa Família e os outros): a renda básica vem por cima, não substitui. Dito na mesma frase ("além dos benefícios de hoje"), desde a versão 3, porque o contexto chama o Bolsa Família de "etapa" e o espectador poderia achar que ele acaba.
 - **O custo é a conta direta** (população × valor × 12), sem considerar como as pessoas e a economia reagiriam; o efeito de longo prazo é incerto. Dito em "Isso é cerca de 10% de tudo que o país produz, quase metade do que o governo federal arrecada" (a conta) e "No longo prazo, ninguém sabe ao certo como a economia reagiria".
 - **Quem paga a conta depende de quais impostos.** O vídeo diz que uma família comum "poderia devolver parte em impostos" e que "quem ganha acima da média tenderia a devolver mais do que recebe": tendência, não certeza.
 
