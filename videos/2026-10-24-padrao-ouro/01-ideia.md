@@ -1,4 +1,6 @@
-# E se o real voltasse ao padrão-ouro?
+# E se o Brasil voltasse ao padrão-ouro?
+
+> Título até a versão 1: "E se o real voltasse ao padrão-ouro?". Trocado na onda 4 (R1.6): o real nunca foi trocável por ouro; o Brasil já teve notas trocáveis por ouro (F15).
 
 ## A pergunta exata
 Uma lei passa a garantir que qualquer pessoa pode levar reais ao Banco Central e trocá-los por uma quantidade fixa de ouro (a "paridade": tantos reais por grama), e que o Banco Central também compra ouro por esse mesmo preço. A paridade é anunciada com antecedência, perto do preço de mercado do dia. O vídeo olha para o funcionamento depois que a regra está valendo, sem detalhar a transição.
@@ -17,7 +19,7 @@ Para cobrir todas as notas e moedas, o Banco Central teria que ter cerca de 2,8 
 
 ## Simplificações (o vídeo precisa dizer quais são)
 - Só o Brasil faria isso, trocando reais por ouro a um preço fixo (frase [PREMISSA] do bloco 2).
-- A cobertura é de todas as notas, com ouro comprado com dólares das reservas (dito na primeira frase do bloco 3).
+- A cobertura é só das notas e moedas, com ouro comprado com dólares das reservas; contas e poupança, muito maiores, ficam fora (primeira frase do bloco 3, com o M2 na tela).
 - O tamanho dos efeitos no preço do dólar e dos importados é incerto: o vídeo dá a direção, sem número de previsão.
 
 Fica de fora do vídeo, sem mudar a direção dos efeitos: os detalhes da lei e da transição; os depósitos bancários (que seguem trocáveis por notas, como hoje); e o efeito da compra brasileira no preço do ouro. Comprar cerca de 300 toneladas não é pouco: em 2025, todos os bancos centrais juntos compraram entre cerca de 680 e 850 toneladas, conforme a estimativa (WGC e BCE, F10). Uma compra desse tamanho poderia encarecer o ouro e a própria conta da troca.
@@ -33,5 +35,5 @@ Fica de fora do vídeo, sem mudar a direção dos efeitos: os detalhes da lei e 
 ## Por que este cenário é plausível no Brasil real
 - **Na lei:** cabe à União legislar sobre o sistema monetário e ao Congresso tratar da moeda e dos limites de emissão (Constituição, art. 22, VI, e art. 48, XIV); o Banco Central tem a exclusividade de emitir (art. 164); artigos citados de memória, ⚠ não conferidos por busca nesta sessão. Uma lei poderia, então, fixar uma paridade em ouro. A lei do Plano Real (Lei 9.069/1995, art. 3º, na redação original) já trazia uma regra de lastro, só que em dólar e com paridade ajustável (⚠ não conferido por busca nesta sessão).
 - **Na prática:** o Banco Central já guarda 172,4 toneladas de ouro, comprou 42,8 toneladas entre setembro e novembro de 2025 (F3) e tem reservas suficientes para comprar o que falta para as notas e moedas.
-- **O ponto menos plausível:** até onde se sabe, nenhum país usa o padrão-ouro hoje. O último elo oficial entre uma moeda e o ouro acabou em 1971, quando os Estados Unidos pararam de trocar dólares por ouro com outros governos (⚠ não conferido por busca nesta sessão). O Brasil estaria sozinho, com o capital entrando e saindo livremente, e o Banco Central abriria mão da sua principal ferramenta, os juros, para defender a paridade. O vídeo diz isso pela premissa ("só o Brasil") e pela balança.
-- **O "voltasse" do título:** o real nunca foi trocável por ouro. O que o Brasil já teve foram notas do mil-réis trocáveis por ouro: as da Caixa de Conversão, criada em 1906, cuja troca foi suspensa em agosto de 1914, no começo da Primeira Guerra (F15). É o exemplo real do vídeo. As principais economias usaram o padrão-ouro do fim do século 19 até 1914, e parte delas voltou a ele entre as duas guerras (⚠ de memória). O vídeo não afirma que o real já foi lastreado em ouro.
+- **O ponto menos plausível:** até onde se sabe, nenhum país usa o padrão-ouro hoje. O último elo oficial entre uma moeda e o ouro acabou em 1971, quando os Estados Unidos pararam de trocar dólares por ouro com outros governos (⚠ não conferido por busca nesta sessão). O Brasil estaria sozinho, com o capital entrando e saindo livremente, e o Banco Central abriria mão da sua principal ferramenta, os juros, para defender a paridade. O vídeo diz isso pela premissa ("só o Brasil") e pela frase dos juros no bloco 3, incluída na onda 4 (R1.2).
+- **O "voltasse" do título:** o real nunca foi trocável por ouro. O que o Brasil já teve foram notas do mil-réis trocáveis por ouro: as da Caixa de Conversão, criada em 1906, cuja troca foi suspensa em agosto de 1914, no começo da Primeira Guerra (F15). Foi o exemplo real da versão 1, cortado na versão 2 por tempo (R1.5). As principais economias usaram o padrão-ouro do fim do século 19 até 1914, e parte delas voltou a ele entre as duas guerras (⚠ de memória). O vídeo não afirma que o real já foi lastreado em ouro.

@@ -28,11 +28,57 @@ Nenhuma objeção CRÍTICA; três IMPORTANTES (R1.1, R1.2, R1.3) e três MENORES
 ### Resultado da rodada
 Seis objeções aceitas, três delas em parte (o que não entrou ficou registrado no 02-fontes). Nenhuma rejeitada. Versão 2 do roteiro: 224 palavras, cerca de 80 s.
 
+## Rodada 2
+
+### O que o crítico considerou sólido
+- F22 (painel ifo/FAZ de março de 2016: 670 convidados, 29,1% de resposta, 54% contra limitar pagamentos em dinheiro, 44% a favor de um teto, cerca de 2% a favor de acabar de vez): a frase "economistas alemães, 2016, só 2%" está correta e bem delimitada. Procurou outra pesquisa com especialistas (IGM, CEPR, VoxEU) e não achou; o termômetro não tem alternativa melhor.
+- F13 (−9,2% publicado; −9,8% no working paper; sem efeito em estupro) e F3 (pesquisa do BC de dez./2024, ainda a mais recente).
+- As correções da rodada 1: a frase nova do termômetro, a premissa com "sigilo bancário" e a balança equilibrada.
+- Não reabre: o −55% como único dado do lado contra, a ausência de Rogoff e dos bancos centrais na narração, a duração de cerca de 80 s e a falta do bloco de exemplo real.
+
+### Objeções
+| # | Trecho | Nível | Objeção | Base | Resposta do autor | Decisão |
+|---|--------|-------|---------|------|-------------------|---------|
+| R2.1 | "no apagão da Espanha, as transações com cartão caíram mais da metade naquele dia" | MENOR | A fonte fala em "durante o apagão", em relação a 07/04; "naquele dia" sugere o dia inteiro. O F14 descreve os −55% como de todos os canais, mas três notícias sobre o artigo do BdE dizem que são pagamentos em lojas físicas. | Forbes España, Press Digital e Democrata, citando a Revista de Estabilidad Financiera nº 49. | Procede. Conferi por busca: a Forbes diz "operaciones con tarjetas en comercios presenciales cayeron un 55% durante el apagón", com 35% nas lojas grandes e mais de 80% nas pequenas nos piores momentos. A fala agora diz "caíram mais da metade enquanto faltou luz", e a tela diz "durante o apagão". O F14 registra as duas leituras do escopo (lojas físicas, segundo as notícias; vários canais, segundo um resumo de busca do PDF) e manda conferir no PDF. "Transações com cartão" serve nas duas. | aceita |
+| R2.2 | "menos dinheiro na rua dá menos roubo: ... cortou o crime em cerca de nove por cento" | MENOR | Em português, "roubo" é o crime com violência ou ameaça; o efeito foi significativo em arrombamento, furto e agressão e mais fraco em roubo; os 9% são do crime total. Não reabre a R1.4: é base nova. | Resumo do NBER (nber.org/digest/jul14/w19996.html). | Procede. Agora: "menos dinheiro na rua dá menos crime: ... cortou os crimes em cerca de 9%". No F13, "roubo a residência" virou "arrombamento de casa (burglary)", com a nota sobre roubo (robbery). | aceita |
+| R2.3 | 02-fontes: "Rogoff ... ele mesmo não defende acabar com o dinheiro vivo" | MENOR | Em 2014 Rogoff teria defendido uma posição mais ampla; em 2016 propõe tirar só as notas grandes. | Busca do crítico (não verificada na fonte primária). | Procede. Conferi por busca o resumo do NBER WP 20126 (2014): ele discute uma eliminação em etapas, começando pelas notas grandes, depois tudo menos notas e moedas pequenas e, no limite, elas também, tratada como pergunta, não como recomendação fechada. O F15, as "Posições de especialistas" e o "Termômetro" agora dizem "no livro de 2016" e registram a posição de 2014. O roteiro não cita Rogoff. | aceita |
+
+### Veredito do crítico
+Nenhuma objeção CRÍTICA nem IMPORTANTE nova; três MENORES, das quais R2.1 e R2.2 pediam troca de palavra no roteiro. "Com as duas trocas de palavra, o roteiro está pronto para a revisão humana." As incertezas que sobram são as naturais: o painel é alemão e de 2016, os dados foram conferidos só por busca, e a ligação entre menos roubo e mais golpe é só direção.
+
+### Resultado da rodada
+Três objeções aceitas e nenhuma rejeitada. Versão 3 do roteiro: 225 palavras, cerca de 80 s. Fim das ondas 3 e 4 (duas rodadas, sem objeção CRÍTICA ou IMPORTANTE pendente).
+
 ## Resumo final para a revisão humana
-(Provisório, depois da rodada 1; falta a rodada 2 do crítico.)
-- O que mudou (versão 2): o termômetro se apoia na pesquisa ifo de 2016 e diz por que o efeito sobre o crime é incerto; a dependência do dinheiro vivo é medida pelos 22% que pagam mais com ele; o lado a favor fala só de roubo, com um rodapé só; o lado contra tem número (−55%) e base do BCE; a premissa garante o sigilo bancário.
-- O que ficou em aberto:
-  - nenhum documento foi aberto (tudo por busca): conferir F1, F2, F3, F4, F13, F14, F22 e F23;
-  - a pesquisa ifo é de 2016 e da Alemanha; não há pesquisa com economistas brasileiros;
-  - a ligação entre menos roubo e mais golpe no Brasil (F23) é direção, não causa;
-  - duração de cerca de 80 s, acima da meta de 60–75 s (máximo 90 s).
+
+### O que mudou (versão 1 → versão 3)
+- **Termômetro:** saiu "não achei pesquisa com economistas" e a apoio em bancos centrais, que emitem o dinheiro e não são neutros. Entrou o painel ifo/FAZ de 2016 (só 2% a favor de acabar de vez) e o motivo da incerteza: parte do crime pode virar golpe digital (FBSP).
+- **Quem teria dificuldade:** além de quem não usa internet, entraram os 22% que pagam mais com dinheiro vivo; o cartão aparece como saída para quem não usa internet.
+- **Lado a favor:** só crime, com a palavra certa ("menos crime", não "menos roubo") e um rodapé só (Wright et al., 2017). A sonegação ficou no bloco 3, sem número.
+- **Lado contra:** saiu a frase "muita loja só aceitava dinheiro", que não estava na fonte; entrou o número do Banco de España (−55% durante o apagão), com o estudo do BCE de 2025 como base para o "plano B".
+- **Recorte:** a premissa garante "sem perder valor nem sigilo bancário"; o registro dos pagamentos é "no banco".
+- **Fontes novas:** F22 (ifo), F23 (FBSP), F24 (BCE), F25 (Banco de España); F9, F13, F14 e F15 corrigidas.
+
+### O que ficou em aberto
+- Nenhum documento foi aberto: tudo foi conferido por busca, pelo autor e pelo crítico.
+- O escopo exato dos −55% (lojas físicas ou todos os canais) precisa ser conferido no PDF do Banco de España.
+- O painel ifo é da Alemanha e de 2016, com 29,1% de resposta e pergunta centrada em teto; não há pesquisa com economistas brasileiros.
+- A ligação entre menos roubo e mais golpe no Brasil (F23) é direção, não causa; o resumo do estudo do Missouri não diz se ele mediu golpes.
+- Duração: cerca de 80 s, acima da meta de 60–75 s e dentro do máximo de 90 s.
+- Ficaram só no 02-fontes, por tempo: o exemplo real (Suécia, Índia, Nigéria), a renda dos que mais usam dinheiro vivo, os cerca de 3,6% de adultos sem conta, Rogoff e as posições dos bancos centrais.
+
+### Links principais para abrir, nesta ordem
+1. **F14**, PDF do Banco de España sobre o apagão: https://www.bde.es/f/webbe/GAP/Secciones/Publicaciones/InformesBoletinesRevistas/RevistaEstabilidadFinanciera/25/3_FSR49_Apagon.pdf (conferir o escopo dos −55%).
+2. **F22**, painel ifo/FAZ de 2016: https://www.ifo.de/DocDL/sd-2016-07-jaeger-etal-oekonomenpanel_maerz-2016-04-13.pdf (conferir os 2%).
+3. **F23**, Anuário do FBSP: https://brasil61.com/n/anuario-de-seguranca-publica-brasil-registrou-mais-de-2-2-milhoes-de-casos-de-estelionato-em-2025-bras2616801 e o PDF do Anuário em forumseguranca.org.br.
+4. **F13**, Missouri: https://www.nber.org/papers/w19996.
+5. **F1**, Pix por mês: https://www.letsmoney.com.br/dados/pix-transacoes/ (de preferência, a série no site do BC).
+6. **F2**, dinheiro em circulação: https://diario.dopovo.com.br/2025/07/27/brasil-mantem-circulacao-de-768-bilhoes-de-cedulas-e-moedas-mesmo-com-avanco-do-pix/ (de preferência, a série do BC).
+7. **F3**, pesquisa do BC de 2024: https://tiinside.com.br/04/12/2024/pix-supera-dinheiro-como-forma-de-pagamento/.
+8. **F4**, IBGE: https://teletime.com.br/02/07/2026/usuarios-internet-brasil-ultrapassa-90/.
+
+### As quatro perguntas da revisão humana (CLAUDE.md, seção 6)
+- **Os dois lados têm o mesmo espaço e o mesmo tom?** Sim. São 29 e 26 palavras, com o mesmo verbo ("aponta que"), cada lado com um número e uma fonte (−9% no Missouri; −55% na Espanha) e sem adjetivo de juízo. O bloco 3 também mostra os dois lados: quem vive no Pix pouco notaria, quem depende de dinheiro vivo teria dificuldade, e o registro dos pagamentos dificulta a sonegação mas tira a privacidade.
+- **O termômetro reflete onde os especialistas estão, com fonte?** Sim, com ressalvas. A única pesquisa com economistas encontrada (F22, Alemanha, 2016) mostra quase ninguém a favor de acabar de vez, e isso converge com a literatura e com os bancos centrais registrados no 02-fontes (F15, F10, F11, F24, F25). A incerteza sobre o efeito no crime e na sonegação num país inteiro está dita, com F13, F21 e F23. Falta pesquisa com economistas brasileiros.
+- **Alguma frase pode ser recortada e circular com sentido distorcido?** O risco caiu, mas sobram dois pontos para olhar. (1) "Com o tempo, quase todo pagamento ficaria registrado no banco": o sigilo está na premissa, não nesta frase, e às vésperas do segundo turno ela pode ser usada nos boatos sobre o Pix. (2) "Parte do crime pode virar golpe digital", isolada, pode ser lida como "o Pix causa golpe". O "É só um exercício" e o condicional protegem as frases do cenário; nenhuma diz "o Banco Central vai".
+- **Todo número tem fonte e está atualizado?** Sim. Pix (F1, 2026), dinheiro em circulação (F2, 2025, com leituras de 345 a 365 bi cobertas por "cerca de"), 22% (F3, 2024, edição mais recente), internet (F4, 2025), Espanha (F14, 2025), Missouri (F13, estudo de 2017 sobre os anos 1990) e o painel ifo (F22, 2016, ano dito no vídeo). Nenhum documento primário foi aberto.
