@@ -15,7 +15,7 @@ Uma lei federal muda a Lei do Inquilinato (Lei 8.245/1991) e cria um **teto para
 - Juros, renda, construção e impostos seguem como hoje.
 
 ## Premissas assumidas
-- O Congresso aprova a lei e a Justiça a aplica: o inquilino que receber aumento acima do IPCA pode contestar. Uma lei municipal ou estadual não bastaria, porque a locação é regida por lei federal (direito civil, art. 22, I, da Constituição); pelo que sei, foi por falta de competência que a corte constitucional alemã derrubou o teto de Berlim, que era uma lei estadual (o motivo não foi conferido por busca; ver F9).
+- O Congresso aprova a lei e a Justiça a aplica: o inquilino que receber aumento acima do IPCA pode contestar. Uma lei municipal ou estadual não bastaria, porque a locação é regida por lei federal (direito civil, art. 22, I, da Constituição); foi por falta de competência que a corte constitucional alemã derrubou o teto de Berlim, que era uma lei estadual (ver F9).
 - O IPCA é o índice do teto. Se o índice do contrato der menos que o IPCA, vale o índice do contrato.
 - Os donos podem reagir: vender o imóvel, trocar para outro uso, gastar menos com manutenção ou cobrar mais no primeiro contrato com um inquilino novo. O vídeo trata essas reações como possíveis, com base em estudos de outros países, sem dizer o tamanho no Brasil.
 - Fiscalização, regras de transição e exceções (por exemplo, prédio novo) não são detalhadas.

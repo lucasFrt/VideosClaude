@@ -1,6 +1,6 @@
 <!-- Gerado pelo scripts/roteiro.py a partir do 03-roteiro.toml. Não edite este arquivo. -->
 # Roteiro — E se o Brasil parasse de imprimir dinheiro?
-Versão: 1 · Duração estimada: ~81 s (226 palavras faladas)
+Versão: 2 · Duração estimada: ~82 s (231 palavras faladas)
 
 ## Bloco 1 — Gancho (~6 s)
 Cena: Primeiro quadro já com o número '1,35 bilhão de notas' enorme sobre uma impressora low-poly que solta maços de notas genéricas (sem o desenho das cédulas reais); o Zé surpreso, olhando a pilha crescer.
@@ -9,29 +9,30 @@ Cena: Primeiro quadro já com o número '1,35 bilhão de notas' enorme sobre uma
   - Tela: 1,35 bilhão de notas novas em 2025 (rodapé: Fonte: Banco Central, 2020–2025)
 - **[BORDÃO]** E se o Brasil parasse de imprimir dinheiro? Vamos imaginar.
 
-## Bloco 2 — Contexto (~15 s)
+## Bloco 2 — Contexto (~14 s)
 Cena: Notas velhas e rasgadas entram numa trituradora enquanto notas novas saem da impressora, uma por uma; depois um livro grosso com a etiqueta 'Constituição' fecha um cadeado no cofre com a etiqueta 'Banco Central'; por fim, o Zé recebe um empréstimo na agência genérica da cidade e o valor aparece como saldo na tela do celular dele.
 
-- **[FATO · F1, F5, F6]** É o que o Banco Central solta por ano, e a maior parte só troca nota gasta.
+- **[FATO · F1, F5, F6]** É o que sai por ano, e a maior parte só troca nota gasta.
 - **[FATO · F7]** E o governo não pode pagar conta com empréstimo do Banco Central: a Constituição proíbe.
 - **[FATO · F8, F2, F4]** A maior parte do dinheiro nasce quando os bancos emprestam.
 
 ## Bloco 3 — O que mudaria (~29 s)
-Cena: O cofre 'Banco Central' com o contador 'R$ 447 bilhões' trava com um cadeado; no fim do ano, o Zé na fila do caixa eletrônico enquanto um medidor de juros sobe aos saltos; depois a vitrine da cidade com o preço do pão descendo devagar (Zé feliz) e o boleto de uma dívida que fica maior ao lado do contracheque dele (Zé preocupado).
+Cena: O cofre 'Banco Central' com o contador 'R$ 447 bilhões' trava com um cadeado; no Natal, o Zé na fila do caixa eletrônico enquanto uma barra 'saldo dos bancos no BC' encolhe e um medidor 'juros entre bancos' sobe aos saltos, e a etiqueta de juros de um crediário na vitrine sobe junto; depois a agência da cidade empresta mais devagar e o preço do pão na vitrine desce devagar (Zé feliz); por fim, o contracheque do Zé fica parado enquanto o boleto de uma dívida parece maior ao lado dele (Zé preocupado).
 
-- **[PREMISSA · F2]** Aqui, vamos supor que o Banco Central congela o dinheiro que só ele cria, notas e saldo dos bancos nele, e o resto fica igual.
+- **[PREMISSA · F2]** Aqui, vamos supor que o Banco Central congela as notas e o saldo dos bancos nele, e o resto fica igual.
   - Tela: R$ 447 bilhões (fim de 2025) (rodapé: Fonte: Banco Central, 2025)
-- **[PROJEÇÃO · F2, F11]** No Natal, quando todo mundo saca mais, o Banco Central não poderia soltar mais, e os juros poderiam saltar.
-- **[PROJEÇÃO · F9, F13]** No longo prazo, se a economia crescer e esse dinheiro não, os preços tenderiam a subir menos ou até cair. Ninguém sabe quanto.
-- **[PROJEÇÃO · F9, F14]** O pão poderia baixar, mas o salário subiria menos, e as dívidas pesariam mais.
+- **[PROJEÇÃO · F2, F5, F11]** No Natal, os saques encolheriam o saldo dos bancos no Banco Central: os juros entre bancos poderiam saltar e encarecer o crédito.
+- **[PROJEÇÃO · F8, F9, F13]** No longo prazo, com esse dinheiro parado, os bancos emprestariam mais devagar, e o pão tenderia a subir menos ou até baixar. Ninguém sabe quanto.
+- **[PROJEÇÃO · F22, F14]** Mas salário quase não cai junto: pode custar empregos, e as dívidas pesariam mais.
 
-## Bloco 4 — A balança (~28 s)
+## Bloco 4 — A balança (~31 s)
 Cena: Balança 3D equilibrada: prato verde (a favor) à esquerda e coral (contra) à direita; cada prato acende na sua frase; no termômetro, os dois apagam e ela termina equilibrada.
 
 - **[BORDÃO]** Agora, vamos colocar na balança.
-- **[ARGUMENTO A FAVOR · F9, F19]** Quem defende aponta que, em mais de cem países, quem criou mais dinheiro teve mais inflação: uma regra fixa evitaria isso.
-- **[ARGUMENTO CONTRA · F11, F17, F18]** Quem critica aponta que, nos anos oitenta, bancos centrais tentaram controlar a quantidade de dinheiro e desistiram: a ligação com os preços mudava demais.
-- **[TERMÔMETRO · F10, F20, F9, F11, F17, F18, F13, F8, F16]** Entre os economistas, há quase consenso: criar dinheiro sem limite para pagar gastos gera inflação. Já travar esse dinheiro tem pouco apoio: os grandes bancos centrais preferem os juros.
+- **[ARGUMENTO A FAVOR · F24, F19, F9]** Quem defende aponta que uma regra fixa tira a tentação de criar dinheiro, e que, em mais de cem países, mais dinheiro veio com mais inflação.
+- **[ARGUMENTO CONTRA · F11, F17, F18]** Quem critica aponta que, nos anos oitenta, Estados Unidos, Canadá e Inglaterra tentaram controlar a quantidade de dinheiro e desistiram: a ligação com os preços mudava.
+- **[TERMÔMETRO · F10, F8, F11, F16]** Num painel de economistas americanos, ninguém achou que dá para gastar sem limite criando dinheiro. Sobre congelar esse dinheiro, não achamos pesquisa; os grandes bancos centrais preferem os juros.
+  - Tela: Ninguém a favor (painel de economistas dos EUA, 2019) (rodapé: Fonte: Clark Center, 2019; Banco da Inglaterra, 2014; Fed, 1979–1982; Banco Central, 2025–2026)
 
 ## Bloco 5 — Encerramento (~3 s)
 Cena: Zé de frente para a câmera, ombros levantados, segurando uma nota numa mão e o celular na outra, esperando a resposta.
@@ -39,5 +40,5 @@ Cena: Zé de frente para a câmera, ombros levantados, segurando uma nota numa m
 - **[BORDÃO]** E aí, você toparia? Me conta nos comentários.
 
 ## Equilíbrio da balança
-- A favor: 1 frase(s), 21 palavras
-- Contra: 1 frase(s), 24 palavras
+- A favor: 1 frase(s), 26 palavras
+- Contra: 1 frase(s), 26 palavras

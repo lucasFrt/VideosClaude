@@ -27,13 +27,49 @@
 Nenhuma objeção CRÍTICA; três IMPORTANTES (1, 2 e 3) e três MENORES, todas "corrigíveis com ajuste de linguagem, sem cortar conteúdo". "Com essas correções, fica pronto, mesmo com a incerteza natural sobre o futuro."
 
 ## Rodada 2
-...
+
+> O crítico recebeu o roteiro da versão 2 e a tabela da rodada 1 com as decisões. Conferiu só por busca; nenhuma página abriu.
+
+### O que o crítico considerou sólido
+- F1 (TomTom): 132 h em 2025, confirmado pela página da própria TomTom (5 dias e 12 h); Gazeta do Povo: Curitiba com 135 h e São Paulo com 132 h. Gancho e contexto ("tempo extra", "10 km", "ida e volta") corretos.
+- F4 (NBER): velocidade 11% maior na área cobrada, pouco efeito nos gastos dos consumidores e no movimento de pedestres, trabalho não revisado por pares. A mudança de título e os +15% da comparação simples (NBER Digest) não exigem mudar a fala.
+- F6 (Clark Center): a página existe; o NBER cita cerca de 90% de concordância antes da cobrança, e a maioria ficou incerta sobre o trânsito logo fora da área. O rodapé "Clark Center, 2024" se sustenta; os percentuais ponderados não são usados no vídeo.
+- F8 (Lindsey, 2006): consenso sobre cobrar pelo uso da via; divergências sobre a mecânica da cobrança, a cobertura de custos, o destino da receita, a compensação de quem perde e a privatização.
+- F2 (rodízio): a restrição de 1996 foi estadual, ambiental e durou cerca de um mês; o rodízio municipal de horário de pico veio em 1997. "Quase trinta anos" e "desde 1997" estão certos; as marginais fazem parte da área.
+- As correções R1.1 a R1.6 estão corretas e não criaram erro de fato; a balança tem 28 × 28 palavras.
+
+### Objeções
+| # | Trecho | Nível | Objeção | Base | Resposta do autor | Decisão |
+|---|--------|-------|---------|------|-------------------|---------|
+| R2.1 | "No curto prazo, parte dos motoristas trocaria o carro por ônibus, metrô ou outro horário." | MENOR | Efeito colateral da R1.1: sem "assim como o ônibus", quem anda de ônibus só aparece no longo prazo. A premissa de que a rede é a de hoje, no começo, está só no 01-ideia: haveria mais passageiros sem oferta nova, com a receita chegando depois. | Estocolmo ampliou o transporte coletivo antes do teste (197 ônibus, 16 linhas novas, estacionamento junto às estações), com efeito disputado; atenuante: a queda de 20% nas viagens coletivas (F14) sugere folga. | Procede, e a correção sugerida não mexe na fala. A cena do bloco 3 ganhou o selo "rede de hoje" nos ícones de ônibus e metrô (versão 3 do .toml, só a cena). A ampliação de Estocolmo e o atenuante entraram em "Diferenças" do 02-fontes, marcados "a confirmar" (dados levantados pelo crítico). | aceita (só cena e 02-fontes) |
+| R2.2 | "pesam mais para quem ganha menos e precisa do carro" | MENOR | A frase é condicional e correta; o risco é de recorte ("pedágio pune os pobres"), e o 02-fontes já registra a lacuna sobre quem paga por faixa de renda. | Notícias sobre a OD 2023: o transporte individual cresceu em todas as faixas de renda e chegou a 79,8% na mais alta (acima de R$ 15.840); quem dirige é, em média, de renda mais alta. Dado de busca, a confirmar. | Procede. O dado entrou em "Contra e ressalvas" e na "Lacuna" do 02-fontes, marcado "a confirmar", para o revisor humano decidir se vai para o roteiro. A fala não mudou. | aceita (só 02-fontes) |
+
+Não reabertos, sem base nova: o preço de Nova York (US$ 9) frente aos R$ 10 do cenário, e a ressalva de que as pesquisas são de fora do Brasil (decididos na rodada 1 e registrados no 02-fontes).
+
+### Veredito do crítico
+Nenhuma objeção CRÍTICA nem IMPORTANTE nova. "O roteiro está pronto para a revisão humana." Restam só as incertezas já registradas: documentos não abertos, e os percentuais ponderados do F6 e o resultado do F7 não confirmados, que não sustentam nenhuma frase.
 
 ## Resumo final para a revisão humana
-- O que mudou (versão 2): a velocidade virou condicional, porque a cobrança substitui o rodízio; a lei aparece como "prevê", e a premissa diz "e que a Justiça aceita"; o termômetro inclui a compensação de quem perde e tem uma tela que não vira "economistas apoiam o pedágio"; o gancho e o contexto dizem que o dado é de tempo extra, num trajeto padrão; o rodapé do contra ficou só com o Metrô; o estudo de Nova York aparece como preliminar.
-- Duração: de cerca de 76 s para cerca de 81 s (227 palavras), acima da meta de 60–75 s e dentro do máximo de 90 s. O exemplo real já estava cortado.
-- O que ficou em aberto:
-  - os percentuais do painel do Clark Center (F6) e o resultado da pergunta geral do IGM (F7) não foram confirmados;
-  - a data do primeiro rodízio (1996 ou 1997, F2);
-  - não há estudo brasileiro sobre quem pagaria a conta por faixa de renda (o argumento contra se apoia na aritmética e no F14);
-  - os documentos não foram abertos (tudo por busca): conferir F1, F3, F4, F6, F8, F14 e F16.
+- **Debate:** duas rodadas. Na 1, seis objeções (três IMPORTANTES e três MENORES): quatro aceitas e duas aceitas em parte. Na 2, duas MENORES, aplicadas só na cena e no 02-fontes. Nenhuma CRÍTICA.
+- **O que mudou (versão 1 → 3):**
+  - a velocidade virou condicional, porque a cobrança substitui o rodízio ("Se a cobrança tirasse mais carros do que o rodízio, o trânsito melhoraria; ninguém sabe ao certo se tiraria");
+  - a lei aparece como "prevê", e a premissa diz "e que a Justiça aceita" (F16: ADI 800, Conjur);
+  - o termômetro inclui "como compensar quem perde", e a tela diz a divisão, para não virar "economistas apoiam o pedágio";
+  - o gancho e o contexto dizem que o dado é de tempo extra, num trajeto padrão (10 km, ida e volta, dias úteis);
+  - o rodapé do contra ficou só com o Metrô;
+  - o estudo de Nova York aparece como "preliminar";
+  - a cena marca a rede de transporte como "rede de hoje".
+- **Duração:** cerca de 81 s (227 palavras), acima da meta de 60–75 s e dentro do máximo de 90 s; o exemplo real já está cortado.
+- **O que ficou em aberto:**
+  - os documentos não foram abertos por nenhum agente (tudo por busca);
+  - os percentuais ponderados do F6 e o resultado do F7 não foram confirmados (nenhuma frase depende deles);
+  - não há estudo brasileiro sobre quem pagaria a conta por faixa de renda; o argumento contra se apoia na aritmética (R$ 10 × cerca de 20 dias úteis) e no F14;
+  - decidir se o dado de renda de quem dirige (OD 2023, 79,8% de viagens individuais na faixa mais alta, a confirmar) entra no roteiro;
+  - a ressalva "pesquisas de fora do Brasil" ficou no 02-fontes, não na fala (R1.3);
+  - a ampliação do transporte em Estocolmo antes do teste está registrada como "a confirmar".
+- **Links principais a abrir:** F1 (TomTom), F4 (NBER), F6 (Clark Center), F14 (OD do Metrô, via Brasil de Fato; o ideal é o relatório do Metrô) e F16 (Conjur; ADI 800 no site do STF); depois, F3 (Lei 12.587, art. 23, III) e F8 (Lindsey).
+- **Respostas às quatro perguntas da revisão humana 1 (visão do autor):**
+  - os dois lados têm o mesmo espaço (28 × 28 palavras), o mesmo verbo e o mesmo tom, e cada um tem base concreta (NBER; aritmética e OD);
+  - o termômetro diz onde os especialistas estão, com fonte (F6, F8), e a divisão real;
+  - o maior risco de recorte é o argumento contra ("pesa mais para quem ganha menos"), por isso o dado de renda de quem dirige ficou à mão;
+  - todo número tem fonte; o F14 tem várias confirmações por busca, mas o relatório do Metrô não foi aberto.
