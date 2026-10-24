@@ -179,6 +179,9 @@ def checar(pasta):
     termometros = [f for b in blocos for f in b.get("frase", []) if f.get("marcacao") == "TERMÔMETRO"]
     if len(termometros) != 1:
         erros.append(f"o roteiro precisa de exatamente um [TERMÔMETRO] (tem {len(termometros)})")
+    elif not termometros[0].get("tela"):
+        # Sem 'tela' não sai rodapé, e o espectador não vê de onde vem o termômetro (CLAUDE.md, seção 3).
+        avisos.append("o [TERMÔMETRO] não tem 'tela': sem ela, a fonte não aparece no rodapé")
 
     # Duração estimada
     total = sum(palavras(falado(f)) for b in blocos for f in b.get("frase", []))
