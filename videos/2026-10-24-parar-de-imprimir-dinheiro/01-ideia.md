@@ -32,7 +32,7 @@ Por isso, a pergunta do vídeo é a versão que faz sentido no Brasil real:
 - Os efeitos têm a direção que a teoria e a história apontam (juros mais instáveis no curto prazo; inflação menor, talvez queda de preços, no longo prazo), mas o tamanho é incerto. Um motivo extra de incerteza: com o Pix, a procura por notas cai (F15), e a ligação entre a base e os preços já é frouxa (em 2025 a base ficou quase parada e o M2 cresceu 10%, F2 e F4).
 
 ## Simplificações (o vídeo precisa dizer quais são)
-- "Parar de imprimir dinheiro" vira "congelar o dinheiro que só o Banco Central cria: as notas e o saldo dos bancos nele" e "o resto fica como está". Frase [PREMISSA]: "Aqui, vamos supor que o Banco Central congela o dinheiro que só ele cria, as notas e o saldo dos bancos nele, e que o resto fica como está."
+- "Parar de imprimir dinheiro" vira "congelar o total de notas e saldo dos bancos no Banco Central", no lugar de controlar os juros, e "o resto fica igual". Frase [PREMISSA] (versão 3): "Aqui, vamos supor que o Banco Central congela o total de notas e saldo dos bancos nele, em vez de controlar os juros, e o resto fica igual."
 - O tamanho dos efeitos é incerto: "ninguém sabe quanto".
 - A forma de adoção (lei, decreto, metas) não é tratada.
 
