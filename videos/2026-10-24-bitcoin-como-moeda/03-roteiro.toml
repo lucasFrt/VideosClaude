@@ -67,21 +67,21 @@ cena = "Balança 3D equilibrada: no prato verde, um cadeado sobre uma pilha de m
   marcacao = "BORDÃO"
 
   [[bloco.frase]]
-  fala = "Quem defende aponta que nenhum governo ou banco central controla o Bitcoin, então ninguém pode desvalorizá-lo emitindo mais, e isso protegeria a poupança da inflação."
+  fala = "Quem defende aponta que nenhum governo controla o Bitcoin, então ninguém pode desvalorizá-lo emitindo mais, e isso protegeria a poupança da inflação."
   marcacao = "ARGUMENTO A FAVOR"
   fontes = ["F4", "F20", "F21"]
 
   [[bloco.frase]]
-  fala = "Quem critica aponta que salário e aluguel pedem preço estável, e o Bitcoin perdeu quase dois terços do valor num ano e, no seguinte, mais que dobrou."
+  fala = "Quem critica aponta que salário e aluguel pedem preço estável, e o Bitcoin caiu quase dois terços num ano e, no seguinte, mais que dobrou."
   marcacao = "ARGUMENTO CONTRA"
   fontes = ["F14"]
   tela = "−64% em 2022 · +155% em 2023"
 
   [[bloco.frase]]
-  fala = "O FMI recomenda que nenhum país dê ao Bitcoin papel de moeda oficial, e a maioria dos economistas consultados vê utilidade limitada nele como dinheiro. Como investimento, há mais incerteza."
+  fala = "O FMI recomenda que nenhum país faça do Bitcoin moeda oficial, e a maioria dos economistas consultados vê utilidade limitada nele como dinheiro. Como investimento, há mais incerteza."
   marcacao = "TERMÔMETRO"
   fontes = ["F11", "F17", "F18"]
-  voz = "O efe eme i recomenda que nenhum país dê ao Bitcoin papel de moeda oficial, e a maioria dos economistas consultados vê utilidade limitada nele como dinheiro. Como investimento, há mais incerteza."
+  voz = "O efe eme i recomenda que nenhum país faça do Bitcoin moeda oficial, e a maioria dos economistas consultados vê utilidade limitada nele como dinheiro. Como investimento, há mais incerteza."
 
 # Exemplo real: El Salvador entrou no bloco "O que mudaria" (é a única evidência direta do cenário),
 # com a diferença principal (lá se usa o dólar) e o recuo de 2025. Um bloco próprio passaria de

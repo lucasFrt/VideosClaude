@@ -1,6 +1,6 @@
 <!-- Gerado pelo scripts/roteiro.py a partir do 03-roteiro.toml. Não edite este arquivo. -->
 # Roteiro — E se o Brasil adotasse o Bitcoin como moeda?
-Versão: 1 · Duração estimada: ~80 s (223 palavras faladas)
+Versão: 1 · Duração estimada: ~77 s (216 palavras faladas)
 
 ## Bloco 1 — Gancho (~8 s)
 Cena: Primeiro quadro já com o contador '4,67 milhões' enorme sobre uma nuvem de celulares low-poly; o Zé, surpreso, segura um celular onde gira uma moeda dourada genérica (sem o logotipo oficial do Bitcoin). Na pergunta, a moeda dourada pousa no balcão ao lado de uma moeda de real.
@@ -24,15 +24,15 @@ Cena: O Zé paga o pão pelo celular e a maquininha aceita a moeda dourada, mas 
 - **[FATO · F7]** Depois, a obrigação de aceitar caiu por lá.
 - **[PROJEÇÃO · F11]** No longo prazo, ninguém sabe quantos trocariam de moeda; se fossem muitos, o Banco Central perderia força contra a inflação.
 
-## Bloco 4 — A balança (~32 s)
+## Bloco 4 — A balança (~30 s)
 Cena: Balança 3D equilibrada: no prato verde, um cadeado sobre uma pilha de moedas douradas, sem nenhum prédio de governo por perto; no prato coral, um gráfico de linha que despenca '−64%' e dispara '+155%'; cada prato acende na sua frase; no termômetro, os dois apagam, aparece o cartão 'FMI: não dar status de moeda oficial' e a balança termina equilibrada.
 
 - **[BORDÃO]** Agora, vamos colocar na balança.
-- **[ARGUMENTO A FAVOR · F4, F20, F21]** Quem defende aponta que nenhum governo ou banco central controla o Bitcoin, então ninguém pode desvalorizá-lo emitindo mais, e isso protegeria a poupança da inflação.
-- **[ARGUMENTO CONTRA · F14]** Quem critica aponta que salário e aluguel pedem preço estável, e o Bitcoin perdeu quase dois terços do valor num ano e, no seguinte, mais que dobrou.
+- **[ARGUMENTO A FAVOR · F4, F20, F21]** Quem defende aponta que nenhum governo controla o Bitcoin, então ninguém pode desvalorizá-lo emitindo mais, e isso protegeria a poupança da inflação.
+- **[ARGUMENTO CONTRA · F14]** Quem critica aponta que salário e aluguel pedem preço estável, e o Bitcoin caiu quase dois terços num ano e, no seguinte, mais que dobrou.
   - Tela: −64% em 2022 · +155% em 2023 (rodapé: Fonte: DQYDJ (preços de mercado), 2022–2023)
-- **[TERMÔMETRO · F11, F17, F18]** O FMI recomenda que nenhum país dê ao Bitcoin papel de moeda oficial, e a maioria dos economistas consultados vê utilidade limitada nele como dinheiro. Como investimento, há mais incerteza.
-  - Voz: "O efe eme i recomenda que nenhum país dê ao Bitcoin papel de moeda oficial, e a maioria dos economistas consultados vê utilidade limitada nele como dinheiro. Como investimento, há mais incerteza."
+- **[TERMÔMETRO · F11, F17, F18]** O FMI recomenda que nenhum país faça do Bitcoin moeda oficial, e a maioria dos economistas consultados vê utilidade limitada nele como dinheiro. Como investimento, há mais incerteza.
+  - Voz: "O efe eme i recomenda que nenhum país faça do Bitcoin moeda oficial, e a maioria dos economistas consultados vê utilidade limitada nele como dinheiro. Como investimento, há mais incerteza."
 
 ## Bloco 5 — Encerramento (~3 s)
 Cena: Zé de frente para a câmera, com uma moeda de real numa mão e a moeda dourada na outra, ombros levantados, esperando a resposta.
@@ -40,5 +40,5 @@ Cena: Zé de frente para a câmera, com uma moeda de real numa mão e a moeda do
 - **[BORDÃO]** E aí, você toparia? Me conta nos comentários.
 
 ## Equilíbrio da balança
-- A favor: 1 frase(s), 26 palavras
-- Contra: 1 frase(s), 27 palavras
+- A favor: 1 frase(s), 23 palavras
+- Contra: 1 frase(s), 25 palavras
