@@ -24,16 +24,16 @@ nome = "Contexto"
 cena = "Contador da comida no mercado subindo até +4,2% em 12 meses (rodapé IBGE); depois um livro genérico escrito 'Constituição' ao lado de uma etiqueta com 'preço livre'; por fim o Zé põe etiquetas congeladas só no arroz, no feijão e no leite, e o resto da prateleira continua com etiquetas normais."
 
   [[bloco.frase]]
-  fala = "Hoje, o preço é livre, e a comida do mercado subiu cerca de 4% em um ano."
+  fala = "Em um ano, a comida do mercado subiu cerca de 4%."
   marcacao = "FATO"
-  fontes = ["F2", "F4"]
+  fontes = ["F2"]
   tela = "Comida no mercado: +4,2% em 12 meses (até set/2026)"
-  voz = "Hoje, o preço é livre, e a comida do mercado subiu cerca de quatro por cento em um ano."
+  voz = "Em um ano, a comida do mercado subiu cerca de quatro por cento."
 
   [[bloco.frase]]
-  fala = "Congelar exigiria mudar a lei, e a Constituição protege a livre iniciativa."
+  fala = "Hoje, congelar exigiria mudar a lei, e a Constituição protege a livre iniciativa."
   marcacao = "FATO"
-  fontes = ["F5", "F4", "F6"]
+  fontes = ["F4", "F5", "F6"]
 
   [[bloco.frase]]
   fala = "Aqui, vamos supor que a lei congela, por um ano, o preço de alimentos básicos no mercado; o resto segue livre."
@@ -54,7 +54,7 @@ cena = "Zé feliz diante das etiquetas paradas; depois uma barra de custo (diese
   fontes = ["F13", "F14", "F15", "F9"]
 
   [[bloco.frase]]
-  fala = "Ninguém sabe o tamanho exato, mas, no fim do congelamento, os preços tenderiam a pular."
+  fala = "Ninguém sabe quanto, mas, no fim do congelamento, os preços tenderiam a pular."
   marcacao = "PROJEÇÃO"
   fontes = ["F8", "F12"]
 
@@ -83,15 +83,15 @@ cena = "Balança 3D equilibrada: prato verde (a favor) à esquerda e coral (cont
 
 [[bloco]]
 nome = "Exemplo real"
-cena = "Calendário de 1986; a prateleira com etiquetas congeladas e, em seguida, espaços vazios nas seções de carne e leite; sem pessoas reais e sem cédulas da época. Termina com um contraste lado a lado: '1986: tudo congelado' × 'cenário: só alimentos básicos'."
+cena = "Calendário de 1986; a prateleira com etiquetas congeladas e, em seguida, espaços vazios nas seções de carne e leite; sem pessoas reais e sem cédulas da época. Termina com um contraste lado a lado: '1986: congelamento geral' × 'cenário: só alimentos básicos'."
 
   [[bloco.frase]]
-  fala = "No Plano Cruzado, a inflação despencou no começo, mas meses depois faltavam carne e leite, e no ano seguinte ela voltou."
+  fala = "No Plano Cruzado, a inflação despencou, mas meses depois faltavam carne e leite, e no ano seguinte ela voltou."
   marcacao = "FATO"
   fontes = ["F1", "F12", "F13", "F14"]
 
   [[bloco.frase]]
-  fala = "Mas lá o congelamento foi geral, com inflação bem maior e consumo em alta."
+  fala = "Só que lá o congelamento foi geral, com inflação bem maior e consumo em alta."
   marcacao = "FATO"
   fontes = ["F1", "F12", "F13", "F2"]
 

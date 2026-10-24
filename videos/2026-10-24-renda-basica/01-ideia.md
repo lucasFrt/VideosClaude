@@ -21,8 +21,8 @@ Uma lei federal passa a valer num 1º de janeiro (o vídeo não fixa o ano) e, a
 ## Simplificações (o vídeo precisa dizer quais são)
 - **O valor de R$ 500 é uma suposição do vídeo**, não uma proposta real. Dito na frase "Aqui, vamos supor R$ 500 por mês para cada pessoa...".
 - **O dinheiro sai de mais impostos**, sem dizer quais. Dito na mesma frase.
-- **O custo é a conta direta** (população × valor × 12), sem considerar como as pessoas e a economia reagiriam; o efeito de longo prazo é incerto. Dito em "Com esse valor, dá cerca de..." e "No longo prazo, ninguém sabe ao certo...".
-- **"Quem ganha mais tenderia a pagar mais imposto do que recebe"** depende de como os impostos seriam cobrados. O vídeo fala em tendência, não em certeza.
+- **O custo é a conta direta** (população × valor × 12), sem considerar como as pessoas e a economia reagiriam; o efeito de longo prazo é incerto. Dito em "Isso dá cerca de 10%..." (a conta) e "No longo prazo, ninguém sabe ao certo como a economia reagiria...".
+- **"Quem ganha acima da média tenderia a pagar mais imposto do que recebe"** depende de como os impostos seriam cobrados. O vídeo fala em tendência, não em certeza.
 
 ## Perguntas que o vídeo precisa responder
 - Quanto custaria, comparado com tudo que o país produz (PIB) e com o Bolsa Família?

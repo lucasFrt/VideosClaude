@@ -28,12 +28,12 @@ Feitas com os dados acima; o vídeo arredonda para baixo ou diz "cerca de".
 | Conta | Resultado | No vídeo |
 |---|---|---|
 | Custo: 214.211.951 (F1) × R$ 500 × 12 | R$ 1.285.271.706.000 por ano (R$ 1,29 trilhão) | "quase R$ 1,3 trilhão por ano" |
-| Custo ÷ PIB de 2025 (F2: R$ 12,7 tri) | 10,1%. Com o PIB de 2026 (ainda não divulgado), que deve ser maior em valores correntes, a fatia fica um pouco abaixo de 10% | "cerca de 10% de tudo que o país produz num ano" |
+| Custo ÷ PIB de 2025 (F2: R$ 12,7 tri) | 10,1%. Com o PIB de 2026 (ainda não divulgado), que deve ser maior em valores correntes, a fatia fica um pouco abaixo de 10% | "Isso dá cerca de 10% de tudo que o país produz num ano" |
 | Custo ÷ verba do Bolsa Família em 2026 (F3: R$ 158,63 bi) | 8,1 vezes. Com o reajuste de outubro (custo extra estimado em R$ 5,8 bi em 2026), cerca de 7,8 vezes | "umas oito vezes o Bolsa Família" |
 | Cada R$ 100 por pessoa por mês | R$ 257 bilhões por ano (2,0% do PIB) | não entra; serve para refazer a conta |
-| Família de quatro pessoas | 4 × R$ 500 = R$ 2.000 por mês | "R$ 2.000 a mais por mês" |
+| Família de quatro pessoas | 4 × R$ 500 = R$ 2.000 por mês | "receberia R$ 2.000 por mês" |
 | Mesmo custo dividido entre as famílias do Bolsa Família (F4: 19,3 milhões) | R$ 1,285 tri ÷ 12 ÷ 19,3 mi = R$ 5.549 por família por mês. Fica acima de R$ 5.000 com qualquer contagem até 21,4 milhões de famílias | "mais de R$ 5.000 mensais a cada família do Bolsa Família" |
-| Quem paga mais do que recebe | Os impostos novos precisam somar o custo, ou seja, em média R$ 500 por pessoa por mês. Com qualquer imposto que cresça com a renda ou com o consumo, quem está acima da média paga mais do que R$ 500 e sai perdendo na conta; quem está abaixo sai ganhando. Simplificação: quem de fato paga um imposto depende de como ele é cobrado | "quem ganha mais tenderia a pagar mais imposto do que recebe" |
+| Quem paga mais do que recebe | Os impostos novos precisam somar o custo, ou seja, em média R$ 500 por pessoa por mês. Com qualquer imposto que cresça com a renda ou com o consumo, quem está acima da média paga mais do que R$ 500 e sai perdendo na conta; quem está abaixo sai ganhando. Simplificação: quem de fato paga um imposto depende de como ele é cobrado | "quem ganha acima da média tenderia a pagar mais imposto do que recebe" |
 
 ## Posições de especialistas
 - **A favor:**
