@@ -17,13 +17,14 @@ Uma lei federal, aprovada pelo Congresso, dá ao Bitcoin o papel de moeda de cur
 
 ## Simplificações (o vídeo precisa dizer quais são)
 - O cenário é uma lei "como a de El Salvador em 2021": o Bitcoin vira moeda ao lado do real (o real continua) e toda loja tem que aceitar (dito na frase [PREMISSA] do bloco 2).
-- A tramitação, as exceções (quem não tem acesso à tecnologia), os custos de conversão e a parte tributária ficam de fora.
-- Ninguém sabe quanta gente passaria a usar; o vídeo fala em direção ("talvez pouco mudasse", "ninguém sabe quantos trocariam de moeda; se fossem muitos..."), não em números de previsão (dito no bloco 3).
-- El Salvador é a única evidência direta, mas lá o dia a dia já é em dólar, uma moeda mais estável que o real; o vídeo diz essa diferença na mesma frase do dado.
+- Ninguém sabe quanta gente passaria a usar; o vídeo fala em direção e no condicional ("talvez pouco mudasse", "se muitos trocassem de moeda..."), não em números de previsão (dito no bloco 3).
+- El Salvador é a única evidência direta, mas lá o dia a dia já é em dólar, de inflação menor que a do real (F24); o vídeo diz essa diferença na frase seguinte ao dado ("Mas lá se usa o dólar...").
+
+**Detalhes que ficam fora do vídeo (não são simplificações da premissa e não mudam a direção do cenário; R1.7):** a tramitação, as exceções da lei (quem não tem acesso à tecnologia), o custo de conversão para o lojista e a parte tributária. O recuo de El Salvador em 2025, num acordo de empréstimo com o FMI (F7), também ficou fora na versão 2, por tempo (R1.2).
 
 ## Perguntas que o vídeo precisa responder
-- Hoje o Bitcoin é permitido no Brasil? Quantos brasileiros usam cripto?
-- Obrigar as lojas a aceitar faria as pessoas usarem? O que aconteceu em El Salvador, onde a lei existiu de verdade (e onde o dia a dia já é em dólar), e por que ela recuou?
+- Hoje o Bitcoin é permitido no Brasil? Quantos brasileiros negociam cripto?
+- Obrigar as lojas a aceitar faria as pessoas usarem? O que aconteceu em El Salvador, onde a lei existiu de verdade, e por que lá a comparação tem limite (o dia a dia já é em dólar)?
 - O que acontece com o real e com o Banco Central se muita gente trocar de moeda?
 - Qual o melhor argumento de quem defende (teto de 21 milhões, contra a inflação que corroeu o real) e de quem critica (preço instável demais para salário e aluguel)?
 - Onde estão os especialistas?
