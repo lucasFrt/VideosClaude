@@ -27,7 +27,24 @@
 Nenhuma objeção CRÍTICA; duas IMPORTANTES (R1.1 e R1.2), que mexem na balança e no termômetro; com elas corrigidas, "o roteiro fica pronto". As quatro MENORES eram opcionais e foram aceitas. "A incerteza que sobra é a natural do cenário."
 
 ## Rodada 2
-...
+
+### O que o crítico considerou sólido
+- F18 bate: dos 43 painelistas do IGM, 10 concordaram (23%), 25 discordaram ou discordaram fortemente (58%), 5 em dúvida, 1 sem opinião e 2 sem resposta; "quase 6 em 10" e "menos de um quarto" estão corretos.
+- F19 (carne: 3,5 Mt e US$ 18,03 bi em 2025), confirmado na Abiec e no MDIC, via Itatiaia e Agrolink.
+- F8 (Argentina): efeito pequeno e passageiro na inflação, produtos controlados disponíveis, versões novas mais caras.
+- A balança tem 22 palavras de cada lado, com o argumento de Weber e Galbraith no lado a favor.
+- As correções R1.3 a R1.6 ficaram certas e não criaram problema novo.
+
+### Objeções
+| # | Trecho | Nível | Objeção | Base | Resposta do autor | Decisão |
+|---|--------|-------|---------|------|-------------------|---------|
+| R2.1 | "controlar preços não baixaria a inflação em um ano" (voz e tela) | IMPORTANTE | A frase perde dois qualificadores do enunciado do IGM ("as deployed in the 1970s" e "successfully"). Parte dos que concordaram falava só da inflação medida, com problemas enormes, e parte dos que discordaram leu "com sucesso" incluindo esses custos. Recortada, a frase vira "economistas dizem que congelar preço não baixa a inflação", mais forte que a pesquisa, e pode parecer contradizer o "parariam de subir" do bloco 3. Não reabre a R1.2: vem da conferência do enunciado novo. | Enunciado do IGM; Econlib (Henderson); VoxEU/CEPR. | Procede (conferido também por busca no Econlib: 0 concordam fortemente, 10 concordam, 5 em dúvida, 21 discordam, 4 discordam fortemente, 1 sem opinião, 2 sem resposta). Nova frase: "Numa pesquisa nos EUA, quase 6 em 10 economistas disseram que controles de preço como os dos anos 1970 não conseguiriam baixar a inflação em um ano; menos de um quarto disse que sim." O "com sucesso" virou "não conseguiriam baixar". A tela traz a pergunta com os dois qualificadores e os três grupos: "Não: 58% · Sim: 23% · Dúvida ou sem resposta: 19%". O "43 economistas" ficou só no 02-fontes, por tempo. O enunciado literal e a ressalva sobre a inflação medida foram registrados em F18. | aceita |
+| R2.2 | "na Argentina, com controles focados, não, mas surgiram versões mais caras" | MENOR | O "não" vale para o país inteiro e é mais forte que o estudo, que mede disponibilidade nos preços online; a imprensa e a Justiça argentinas registram faltas de itens do Precios Cuidados em 2014. Casos isolados não negam o padrão, mas o achado deve ser atribuído ao estudo. | F8; Al Día Argentina (fev/2014 e mar/2015). | Procede (conferido por busca: multa a uma rede de supermercados por falta de produtos do programa nas gôndolas, confirmada pela Justiça federal argentina em 09/12/2014; nova linha F20 como ressalva a F8). Agora: "na Argentina, com controles focados, um estudo achou os produtos à venda, mas também versões novas mais caras". A cena troca a prateleira cheia por uma lupa sobre a prateleira, marcando que é o resultado de um estudo. | aceita |
+
+### Veredito do crítico
+Nenhuma objeção CRÍTICA; uma IMPORTANTE nova (R2.1), da paráfrase do termômetro, que só apareceu com a troca de pesquisa em F18. "Os números e a direção do termômetro estão corretos; o problema é a paráfrase." Corrigidas a R2.1 e, de preferência, a R2.2, "o roteiro está pronto"; "as incertezas que sobram são as naturais do cenário."
+
+Duração depois da rodada 2: cerca de 83 s (232 palavras), abaixo do máximo de 90 s. Os qualificadores do termômetro e a atribuição ao estudo custaram cerca de 5 s; o exemplo real já tinha sido cortado na rodada 1.
 
 ## Resumo final para a revisão humana
 - O que mudou:

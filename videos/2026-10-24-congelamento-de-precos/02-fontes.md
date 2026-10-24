@@ -34,7 +34,7 @@
 ## Termômetro
 A maioria é contra, mas não há unanimidade: na pesquisa do IGM de 2022 sobre controle de preços para baixar a inflação, 58% discordam e 23% concordam (F18). Nas perguntas sobre leis contra preço "abusivo" em emergências, a rejeição é maior: só 5% a 8% concordam (F9, F10). A revisão do Banco Mundial (F16) e o estudo da Argentina (F8) vão no mesmo sentido da maioria. A defesa de controles curtos e focados em emergências é de uma minoria heterodoxa (F11) e aparece no lado "a favor" da balança, não no termômetro, para não misturar quem respondeu à pesquisa com quem não respondeu.
 
-Frase do roteiro: "Numa pesquisa nos EUA, quase 6 em 10 economistas disseram que controlar preços não baixaria a inflação em um ano; menos de 1 em 4 disseram que sim."
+Frase do roteiro: "Numa pesquisa nos EUA, quase 6 em 10 economistas disseram que controles de preço como os dos anos 1970 não conseguiriam baixar a inflação em um ano; menos de um quarto disse que sim."
 
 Ressalvas:
 - F18 é um painel de economistas que trabalham nos EUA, sobre controles de preço como os usados nos EUA nos anos 1970, para baixar a inflação em 12 meses; não é sobre congelar só a comida; por isso a frase diz "numa pesquisa nos EUA" e "em um ano";

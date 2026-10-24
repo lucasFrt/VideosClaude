@@ -33,7 +33,31 @@ Nenhuma objeção CRÍTICA; quatro IMPORTANTES (O1 a O4) e duas MENORES, "todas 
 - Para caber: a premissa ficou mais curta ("congela as notas e o saldo dos bancos nele") e a primeira frase do Contexto também ("É o que sai por ano"). Duração estimada: cerca de 82 s (era 81 s), abaixo do máximo de 90 s.
 
 ## Rodada 2
-...
+
+### O que o crítico considerou sólido
+- As correções R1.1, R1.2, R1.4, R1.5 e R1.6 ficaram certas. O mecanismo do Natal está certo (com a base fixa, cada nota sacada sai das reservas). A conta confere: papel-moeda cerca de 4% maior em dezembro, reservas em torno de R$ 90–100 bilhões. "Ninguém sabe quanto" e [PROJEÇÃO] calibram bem o elo "bancos emprestam mais devagar".
+- A balança (26 palavras de cada lado), o episódio dos EUA, do Canadá e da Inglaterra e a ausência de conteúdo eleitoral estão corretos.
+- "Não achamos pesquisa" sobre congelar a base é verdadeiro. No Clark Center não há pesquisa sobre congelar nem sobre regra de crescimento da moeda; a mais próxima (2014, lei que obrigaria o Fed a divulgar uma regra de política) não trata de quantidade de moeda e não precisa entrar.
+- F1 e F2 não foram reconfirmados nas páginas do BC, só em reproduções; F2 já havia batido com o CEIC na rodada 1. Os dois ficam, e continuam na pendência da revisão humana.
+
+### Objeções
+| # | Trecho | Nível | Objeção | Base | Resposta do autor | Decisão |
+|---|--------|-------|---------|------|-------------------|---------|
+| R2.1 | "Aqui, vamos supor que o Banco Central congela as notas e o saldo dos bancos nele, e o resto fica igual." | IMPORTANTE | Encurtada na rodada 1, a frase pode ser entendida como duas coisas congeladas cada uma por si, e então "os saques encolheriam o saldo" parece contradição: o que se congela é a soma. A frase também não diz que o BC deixa de mirar os juros, e sem isso "os juros entre bancos poderiam saltar" fica sem explicação. | 01-ideia ("O que muda"); F8 e F16 (hoje o instrumento do BC são os juros). | Procede; o defeito veio do corte da rodada 1. Nova frase: "Aqui, vamos supor que o Banco Central congela o total de notas e saldo dos bancos nele, em vez de controlar os juros, e o resto fica igual." Usei "controlar" em vez de "mirar", que é jargão. A cena mostra o contador "notas + saldo dos bancos" preso num bloco de gelo e o medidor "Selic" saindo de cena. A frase da [PREMISSA] no 01-ideia foi atualizada. | aceita |
+| R2.2 | Tela do termômetro: "Ninguém a favor (painel de economistas dos EUA, 2019)" | IMPORTANTE | Num print, "a favor" fica sem objeto e, num vídeo sobre congelar, lê-se "ninguém é a favor de congelar", justamente a conclusão que a fala evita. O painel trata de gasto ilimitado criando dinheiro. | F10; ressalva do 02-fontes. | Procede. Tela nova: "Ninguém concordou que dá para gastar sem limite criando dinheiro (painel de economistas dos EUA, 2019)", que repete a fala. | aceita |
+| R2.3 | "Mas salário quase não cai junto: pode custar empregos, e as dívidas pesariam mais." | MENOR | Esse custo só existe se os preços de fato caírem. No caso principal ("subir menos") ele não se aplica, e F23 diz que deflações pequenas não têm custo sério. O "Mas" põe o custo do cenário extremo ao lado do benefício do cenário médio. | F22, F23. | Procede. Nova frase: "Se os preços caírem, o salário quase não cai junto: pode custar empregos, e as dívidas pesariam mais." | aceita |
+| R2.4 | Gancho e Contexto ("É o que sai por ano..."), tela e cenas | MENOR | O "É" perde o referente, porque o bordão fica no meio. Um print do gancho ("1,35 bilhão de notas novas", com a pilha crescendo) pode circular sem a ressalva da reposição. O cadeado da Constituição e o do congelamento são a mesma imagem, e o cofre pode parecer já travado. | Leitura do roteiro. | Procede nos três pontos. A fala virou "Esse tanto sai por ano, mas a maior parte só troca nota gasta." A tela do gancho virou "1,35 bilhão de notas novas em 2025 (a maior parte repõe notas gastas)", e a cena mostra, ao lado da impressora, notas velhas indo para a trituradora no mesmo ritmo. A Constituição virou um livro de pé bloqueando o caminho entre o cofre do BC e o do governo, sem cadeado; o congelamento é um bloco de gelo. | aceita |
+| R2.5 | "nos anos oitenta, Estados Unidos, Canadá e Inglaterra tentaram controlar a quantidade de dinheiro e desistiram" | MENOR | As metas começaram antes (EUA 1979, F11; Canadá 1975, F17; Inglaterra na segunda metade dos anos 1970) e acabaram entre 1982 e 1987. | F11, F17, F18. | Procede. Agora: "nos anos setenta e oitenta, Estados Unidos, Canadá e Inglaterra tentaram... e desistiram". O lado contra passa a ter 28 palavras e o a favor 26 (razão 0,93, dentro do limite do roteiro.py). | aceita |
+
+### Veredito do crítico
+Nenhuma objeção CRÍTICA. Duas IMPORTANTES novas (R2.1 e R2.2), "ambas criadas por encurtamentos feitos na rodada 1 e corrigíveis com poucas palavras", e três MENORES "opcionais, mas baratas". Nenhuma objeção da rodada 1 foi reaberta. "Com R2.1 e R2.2 corrigidas, o roteiro fica pronto para a revisão humana, e sobram apenas as incertezas naturais sobre o futuro."
+
+### O que mudou na versão 3
+- Premissa: o congelamento é do total, no lugar de controlar os juros (R2.1).
+- Telas: a do termômetro repete a fala (R2.2); a do gancho traz a ressalva da reposição (R2.4).
+- Falas: o custo da deflação ficou condicionado à queda de preços (R2.3); "Esse tanto sai por ano" (R2.4); "nos anos setenta e oitenta" (R2.5).
+- Cenas: trituradora já no gancho; a Constituição sem cadeado; o congelamento como bloco de gelo (R2.4).
+- Duração estimada: cerca de 86 s (era 82 s), abaixo do máximo de 90 s. As cinco correções somaram 12 palavras, e não cortei mais para não reabrir os encurtamentos que causaram R2.1.
 
 ## Resumo final para a revisão humana
 - O que mudou:
