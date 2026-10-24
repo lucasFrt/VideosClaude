@@ -2,8 +2,7 @@
 # a partir dele pelo scripts/roteiro.py (não edite o .md à mão).
 #
 # Versão 1: ondas 1 e 2. Ainda não passou pelo crítico.
-# Atenção: o limite de 21 milhões de bitcoins e a inflação do real desde 1994 ficaram fora do
-# argumento a favor por falta de confirmação (limite de buscas esgotado); ver 02-fontes.md.
+# O argumento a favor ganhou base com número (F22 e F23), conferida numa segunda rodada de buscas.
 
 titulo = "E se o Brasil adotasse o Bitcoin como moeda?"
 versao = 1
@@ -60,19 +59,21 @@ cena = "O Zé paga o pão pelo celular e a maquininha aceita a moeda dourada, ma
 
 [[bloco]]
 nome = "A balança"
-cena = "Balança 3D equilibrada: no prato verde, um cadeado sobre uma pilha de moedas douradas, sem nenhum prédio de governo por perto; no prato coral, um gráfico de linha que despenca '−64%' e dispara '+155%'; cada prato acende na sua frase; no termômetro, os dois apagam, aparece o cartão 'FMI: não dar status de moeda oficial' e a balança termina equilibrada."
+cena = "Balança 3D equilibrada: no prato verde, um cadeado sobre uma pilha de moedas douradas com '21 milhões (teto)' e, ao lado, uma nota de real que encolhe; no prato coral, um gráfico de linha que despenca '−64%' e dispara '+155%'; cada prato acende na sua frase; no termômetro, os dois apagam, aparece o cartão 'FMI: não dar status de moeda oficial' e a balança termina equilibrada."
 
   [[bloco.frase]]
   fala = "Agora, vamos colocar na balança."
   marcacao = "BORDÃO"
 
   [[bloco.frase]]
-  fala = "Quem defende aponta que nenhum governo controla o Bitcoin, então ninguém pode desvalorizá-lo emitindo mais, e isso protegeria a poupança da inflação."
+  fala = "Quem defende aponta que ninguém emite além de 21 milhões de bitcoins, e o real perdeu mais de 85% do poder de compra desde o Plano Real."
   marcacao = "ARGUMENTO A FAVOR"
-  fontes = ["F4", "F20", "F21"]
+  fontes = ["F22", "F23"]
+  tela = "21 milhões (teto) · real: −85% desde 1994"
+  voz = "Quem defende aponta que ninguém emite além de vinte e um milhões de bitcoins, e o real perdeu mais de oitenta e cinco por cento do poder de compra desde o Plano Real."
 
   [[bloco.frase]]
-  fala = "Quem critica aponta que salário e aluguel pedem preço estável, e o Bitcoin caiu quase dois terços num ano e, no seguinte, mais que dobrou."
+  fala = "Quem critica aponta que salário e aluguel pedem preço estável, e o Bitcoin já caiu quase dois terços do valor num ano e, no ano seguinte, mais que dobrou."
   marcacao = "ARGUMENTO CONTRA"
   fontes = ["F14"]
   tela = "−64% em 2022 · +155% em 2023"
