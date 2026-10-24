@@ -35,18 +35,18 @@ nome = "Contexto"
 cena = "Uma rua low-poly vista de cima: só algumas casas acendem em amarelo e recebem um envelope genérico (sem logotipo de programa ou de banco), com o contador '19 milhões de famílias'. Depois, uma folha com '2004' sai de uma gaveta e volta para ela, empoeirada."
 
   [[bloco.frase]]
-  fala = "Hoje, o Bolsa Família paga só a famílias de baixa renda: cerca de 19 milhões delas."
+  fala = "Hoje, o Bolsa Família paga só a famílias de baixa renda: cerca de 19 milhões."
   marcacao = "FATO"
   fontes = ["F4", "F6"]
   tela = "19 milhões de famílias"
-  voz = "Hoje, o Bolsa Família paga só a famílias de baixa renda: cerca de dezenove milhões delas."
+  voz = "Hoje, o Bolsa Família paga só a famílias de baixa renda: cerca de dezenove milhões."
 
   [[bloco.frase]]
-  fala = "Uma renda para todos até está numa lei de 2004, mas nunca saiu do papel."
+  fala = "A renda para todos está numa lei de 2004, mas só no papel."
   marcacao = "FATO"
   fontes = ["F5", "F7"]
   tela = "Lei de 2004: renda para todos"
-  voz = "Uma renda para todos até está numa lei de dois mil e quatro, mas nunca saiu do papel."
+  voz = "A renda para todos está numa lei de dois mil e quatro, mas só no papel."
 
 [[bloco]]
 nome = "O que mudaria"
@@ -58,20 +58,20 @@ cena = "A mesma rua: agora todas as casas acendem, da casinha do Zé a uma mans�
   voz = "Aqui, vamos supor quinhentos reais por mês para cada pessoa, do bebê ao bilionário, sem condição, pagos com mais impostos."
 
   [[bloco.frase]]
-  fala = "Com esse valor, dá cerca de 10% de tudo que o país produz num ano: umas oito vezes o Bolsa Família."
+  fala = "Isso dá cerca de 10% de tudo que o país produz num ano, umas oito vezes o Bolsa Família."
   marcacao = "PROJEÇÃO"
   fontes = ["F1", "F2", "F3"]
   tela = "≈ 10% do PIB · ≈ 8 vezes o Bolsa Família"
-  voz = "Com esse valor, dá cerca de dez por cento de tudo que o país produz num ano: umas oito vezes o Bolsa Família."
+  voz = "Isso dá cerca de dez por cento de tudo que o país produz num ano, umas oito vezes o Bolsa Família."
 
   [[bloco.frase]]
-  fala = "No curto prazo, uma família de quatro teria R$ 2.000 a mais por mês, e quem ganha mais tenderia a pagar mais imposto do que recebe."
+  fala = "Uma família de quatro receberia R$ 2.000 por mês, e quem ganha mais tenderia a pagar mais imposto do que recebe."
   marcacao = "PROJEÇÃO"
   fontes = ["F1", "F2"]
-  voz = "No curto prazo, uma família de quatro teria dois mil reais a mais por mês, e quem ganha mais tenderia a pagar mais imposto do que recebe."
+  voz = "Uma família de quatro receberia dois mil reais por mês, e quem ganha mais tenderia a pagar mais imposto do que recebe."
 
   [[bloco.frase]]
-  fala = "No longo prazo, o país teria de manter esse imposto todo ano, e ninguém sabe ao certo como a economia reagiria."
+  fala = "No longo prazo, ninguém sabe ao certo como a economia reagiria a uma mudança desse tamanho."
   marcacao = "PROJEÇÃO"
   fontes = ["F8", "F9", "F13", "F14"]
 
@@ -84,18 +84,18 @@ cena = "Balança 3D equilibrada: prato verde (a favor) à esquerda e coral (cont
   marcacao = "BORDÃO"
 
   [[bloco.frase]]
-  fala = "Quem defende aponta que ninguém precisaria provar que é pobre nem perderia o dinheiro ao arrumar emprego, e que, num teste no Quênia, o trabalho não caiu."
+  fala = "Quem defende aponta que ninguém precisaria provar que é pobre, e que, num teste em vilas pobres do Quênia, o trabalho não caiu."
   marcacao = "ARGUMENTO A FAVOR"
   fontes = ["F5", "F9"]
 
   [[bloco.frase]]
-  fala = "Quem critica aponta que exigiria muito mais imposto, e que o mesmo dinheiro daria mais de R$ 5.000 mensais a cada família do Bolsa Família."
+  fala = "Quem critica aponta que é caro demais: o mesmo dinheiro daria mais de R$ 5.000 mensais a cada família do Bolsa Família."
   marcacao = "ARGUMENTO CONTRA"
   fontes = ["F1", "F2", "F4"]
-  voz = "Quem critica aponta que exigiria muito mais imposto, e que o mesmo dinheiro daria mais de cinco mil reais mensais a cada família do Bolsa Família."
+  voz = "Quem critica aponta que é caro demais: o mesmo dinheiro daria mais de cinco mil reais mensais a cada família do Bolsa Família."
 
   [[bloco.frase]]
-  fala = "Na maioria dos estudos, dar dinheiro mexe pouco no trabalho; mas, numa pesquisa nos Estados Unidos, a maioria dos economistas foi contra trocar todos os programas sociais por uma renda universal."
+  fala = "Os estudos, em geral, acham efeito pequeno no trabalho; mas, nos Estados Unidos, a maioria dos economistas consultados rejeitou trocar todos os programas sociais por uma renda universal."
   marcacao = "TERMÔMETRO"
   fontes = ["F12", "F9", "F11", "F8", "F13", "F14", "F15"]
 

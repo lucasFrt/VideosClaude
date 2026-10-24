@@ -1,6 +1,6 @@
 # E se o Brasil parasse de imprimir dinheiro?
 
-> Os códigos (F1, F2...) apontam para o `02-fontes.md`. Os marcados lá como "não conferido" foram escritos de memória porque as buscas da sessão se esgotaram; confira-os antes da onda 3.
+> Os códigos (F1, F2...) apontam para o `02-fontes.md`.
 
 ## A pergunta exata
 No uso do dia a dia, "imprimir dinheiro" quer dizer o governo criar dinheiro novo para pagar as contas. No Brasil de hoje, isso já é proibido: a Constituição veda ao Banco Central emprestar ao Tesouro, direta ou indiretamente (art. 164, F7). E a impressão de notas não é o que faz a quantidade de dinheiro crescer: o Banco Central pôs na rua cerca de 1,35 bilhão de cédulas novas por ano de 2023 a 2025 (F1), mas o número de cédulas em circulação ficou parado ou caiu (7,75 bilhões em 2021, 7,58 bilhões em novembro de 2025; F5, F6), porque a maior parte das novas só repõe as gastas (o próprio BC diz que é o fator principal, F1). A maior parte do dinheiro nasce quando os bancos emprestam (F8): em 2025, a base monetária encolheu 0,9% (F2) enquanto o M2 cresceu 10,2%, para R$ 7,3 trilhões (F4).
@@ -44,10 +44,10 @@ Por isso, a pergunta do vídeo é a versão que faz sentido no Brasil real:
 - O que mudaria no longo prazo, para o cidadão comum? (Preços subindo menos ou caindo; salário subindo menos; dívidas pesando mais.)
 - Qual o melhor argumento de quem defende uma regra fixa e de quem critica?
 - Onde estão os economistas? (Quase consenso sobre "dinheiro sem limite gera inflação"; pouco apoio a travar a quantidade de dinheiro como regra.)
-- Algum país fez algo parecido? (O mais perto é o banco central dos EUA entre 1979 e 1982, que passou a mirar a quantidade de reservas, F11; não é igual, porque não congelou nada. Não coube como bloco de exemplo real; a experiência entra no lado contra da balança.)
+- Algum país fez algo parecido? (Os mais perto são as metas de quantidade de moeda dos EUA, de 1979 a 1982, do Canadá, até 1982, e da Inglaterra, até 1985–1987: F11, F17, F18. Não são iguais, porque nenhum congelou nada. Não coube como bloco de exemplo real; a experiência entra no lado contra da balança.)
 
 ## Por que este cenário é plausível no Brasil real
 - **Juridicamente possível:** a Constituição dá ao BC a emissão de moeda e ao Congresso a competência para legislar sobre "moeda, seus limites de emissão" (arts. 164 e 48, XIV; F7). Fixar um limite de emissão não exige mudar a Constituição.
 - **Tecnicamente possível:** a base monetária é um passivo do próprio BC, que ele controla pelas suas operações. O BC já faz isso todos os dias, só que para acertar os juros, não a quantidade.
-- **Tem história:** monetaristas defenderam regras fixas de crescimento da moeda, e o banco central dos EUA mirou a quantidade de reservas entre 1979 e 1982 antes de voltar aos juros (F11). No Plano Real, a lei também previa metas para a base monetária (Lei 9.069/1995; de memória, conferir).
-- **Mas pouco provável hoje, e o vídeo trata como suposição:** os grandes bancos centrais, inclusive o do Brasil, miram a inflação usando os juros (F16), e congelar em vez de fazer crescer devagar é a versão mais extrema da regra. O vídeo diz "vamos supor" e não sugere que alguém esteja propondo isso.
+- **Tem história:** Friedman defendeu uma regra de crescimento fixo da moeda (1960) e, numa revisão de 1982, propôs justamente congelar a base monetária (F19). Os bancos centrais dos EUA, do Canadá e da Inglaterra tentaram metas de quantidade de moeda nos anos 1980 antes de voltar aos juros (F11, F17, F18). No Brasil, a Lei do Plano Real criou uma programação monetária trimestral com faixas para os agregados monetários, submetida ao CMN e ao Congresso (Lei 9.069/1995, art. 6º, F21).
+- **Mas pouco provável hoje, e o vídeo trata como suposição:** os grandes bancos centrais, inclusive o do Brasil, miram a inflação usando os juros (F8, F16), e congelar em vez de fazer crescer devagar é a versão mais extrema da regra. O vídeo diz "vamos supor" e não sugere que alguém esteja propondo isso.

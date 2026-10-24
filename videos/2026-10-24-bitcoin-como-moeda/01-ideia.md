@@ -5,7 +5,7 @@ Uma lei federal, aprovada pelo Congresso, dá ao Bitcoin o papel de moeda de cur
 
 - **A partir de quando:** um ano depois de a lei ser aprovada, para dar tempo de adaptar maquininhas e aplicativos. O vídeo olha para os primeiros anos (curto prazo) e para o que aconteceria se o uso crescesse (longo prazo).
 - **Em que escala:** o país inteiro, para qualquer compra.
-- **O que fica igual:** o real continua sendo a moeda oficial; o Banco Central continua emitindo o real e definindo os juros; salários, contratos e impostos continuam em reais; o governo não compra Bitcoin nem aceita imposto em Bitcoin; o Pix e as regras atuais para as corretoras de cripto (Lei 14.478/2022 e resoluções do Banco Central de 2025) continuam valendo (F3, F4).
+- **O que fica igual:** o real continua sendo a moeda oficial; o Banco Central continua emitindo o real e definindo os juros; salários, contratos e impostos continuam em reais; o governo não compra Bitcoin nem aceita imposto em Bitcoin; o Pix e as regras atuais para as corretoras de cripto (Lei 14.478/2022 e resoluções do Banco Central de 2025) continuam valendo (F3).
 
 **Por que "ao lado do real" e não "no lugar do real":** substituir o real faria o Brasil abrir mão de ter moeda e política de juros próprias, e nenhum país fez isso com o Bitcoin. Os dois que adotaram (El Salvador, em 2021, e a República Centro-Africana, em 2022) o puseram ao lado da moeda que já usavam (F5, F13). A versão plausível é a de El Salvador, e é ela que o vídeo imagina.
 

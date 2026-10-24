@@ -2,8 +2,8 @@
 # a partir dele pelo scripts/roteiro.py (não edite o .md à mão).
 #
 # Versão 1: ondas 1 e 2. Ainda não passou pelo crítico.
-# Atenção: F4 (frase do Contexto) e F16 (argumento a favor) não foram conferidas por busca
-# (limite de buscas da sessão esgotado); ver nota no topo do 02-fontes.md.
+# Atenção: o limite de 21 milhões de bitcoins e a inflação do real desde 1994 ficaram fora do
+# argumento a favor por falta de confirmação (limite de buscas esgotado); ver 02-fontes.md.
 
 titulo = "E se o Brasil adotasse o Bitcoin como moeda?"
 versao = 1
@@ -25,12 +25,12 @@ cena = "Primeiro quadro já com o contador '4,67 milhões' enorme sobre uma nuve
 
 [[bloco]]
 nome = "Contexto"
-cena = "Balcão da padaria do Zé: etiqueta do pão em R$ e uma plaquinha 'Bitcoin? Se a loja quiser.'; na premissa, a plaquinha vira 'Obrigatório aceitar' e a moeda dourada entra no caixa ao lado das moedas de real, com uma etiqueta 'como em El Salvador, 2021'."
+cena = "Balcão da padaria do Zé: etiqueta do pão em R$ e uma plaquinha 'Bitcoin: bem digital'; na premissa, a plaquinha vira 'Obrigatório aceitar' e a moeda dourada entra no caixa ao lado das moedas de real, com uma etiqueta 'como em El Salvador, 2021'."
 
   [[bloco.frase]]
-  fala = "Hoje, o Bitcoin não é moeda oficial: cada loja aceita se quiser."
+  fala = "Hoje, o Bitcoin é legal aqui, mas como um bem digital, não como moeda."
   marcacao = "FATO"
-  fontes = ["F4", "F3"]
+  fontes = ["F3"]
 
   [[bloco.frase]]
   fala = "Aqui, vamos supor uma lei como a de El Salvador em 2021: o Bitcoin vira moeda ao lado do real, e toda loja tem que aceitar."
@@ -60,18 +60,16 @@ cena = "O Zé paga o pão pelo celular e a maquininha aceita a moeda dourada, ma
 
 [[bloco]]
 nome = "A balança"
-cena = "Balança 3D equilibrada: no prato verde, um cadeado sobre uma pilha de moedas douradas com '21 milhões (limite)'; no prato coral, um gráfico de linha que despenca '−64%' e dispara '+155%'; cada prato acende na sua frase; no termômetro, os dois apagam, aparece o cartão 'FMI: não dar status de moeda oficial' e a balança termina equilibrada."
+cena = "Balança 3D equilibrada: no prato verde, um cadeado sobre uma pilha de moedas douradas, sem nenhum prédio de governo por perto; no prato coral, um gráfico de linha que despenca '−64%' e dispara '+155%'; cada prato acende na sua frase; no termômetro, os dois apagam, aparece o cartão 'FMI: não dar status de moeda oficial' e a balança termina equilibrada."
 
   [[bloco.frase]]
   fala = "Agora, vamos colocar na balança."
   marcacao = "BORDÃO"
 
   [[bloco.frase]]
-  fala = "Quem defende aponta que nenhum governo pode imprimir Bitcoin, que tem limite de 21 milhões, e que isso protegeria a poupança da inflação."
+  fala = "Quem defende aponta que nenhum governo ou banco central controla o Bitcoin, então ninguém pode desvalorizá-lo emitindo mais, e isso protegeria a poupança da inflação."
   marcacao = "ARGUMENTO A FAVOR"
-  fontes = ["F16", "F21"]
-  tela = "21 milhões (limite)"
-  voz = "Quem defende aponta que nenhum governo pode imprimir Bitcoin, que tem limite de vinte e um milhões, e que isso protegeria a poupança da inflação."
+  fontes = ["F4", "F20", "F21"]
 
   [[bloco.frase]]
   fala = "Quem critica aponta que salário e aluguel pedem preço estável, e o Bitcoin perdeu quase dois terços do valor num ano e, no seguinte, mais que dobrou."

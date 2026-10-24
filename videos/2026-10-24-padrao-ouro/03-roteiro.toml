@@ -1,5 +1,6 @@
 # Roteiro: a fonte da verdade do vídeo. O 03-roteiro.md é gerado pelo scripts/roteiro.py.
-# Onda 2, versão 1. F11, F12 e F13 ainda precisam ser conferidas (02-fontes.md, nota do topo).
+# Onda 2, versão 1. F11 e F12 (balança) não foram conferidas por busca: o roteiro.py barra até
+# terem data de acesso. F13 (termômetro) foi conferida só por resumo de terceiros (02-fontes.md).
 
 titulo = "E se o real voltasse ao padrão-ouro?"
 versao = 1

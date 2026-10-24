@@ -1,9 +1,6 @@
 # Roteiro: a fonte da verdade do vídeo. Edite este arquivo; o 03-roteiro.md é gerado
 # a partir dele pelo scripts/roteiro.py (não edite o .md à mão).
 #
-# ATENÇÃO (onda 2): F7 a F11, F13 e F16 foram escritos de memória porque as buscas da sessão
-# se esgotaram (ver o topo do 02-fontes.md). Conferir antes da onda 3; as frases que dependem
-# deles são as do Contexto 2 e 3, as de O que mudaria 2 a 4 e toda a balança.
 
 titulo = "E se o Brasil parasse de imprimir dinheiro?"
 versao = 1
@@ -32,7 +29,7 @@ cena = "Notas velhas e rasgadas entram numa trituradora enquanto notas novas sae
   fontes = ["F1", "F5", "F6"]
 
   [[bloco.frase]]
-  fala = "E o governo não pode pedir dinheiro novo ao Banco Central para pagar conta: a Constituição proíbe."
+  fala = "E o governo não pode pagar conta com empréstimo do Banco Central: a Constituição proíbe."
   marcacao = "FATO"
   fontes = ["F7"]
 
@@ -52,7 +49,7 @@ cena = "O cofre 'Banco Central' com o contador 'R$ 447 bilhões' trava com um ca
   tela = "R$ 447 bilhões (fim de 2025)"
 
   [[bloco.frase]]
-  fala = "No fim do ano, quando todo mundo saca mais, o Banco Central não poderia soltar mais, e os juros poderiam saltar."
+  fala = "No Natal, quando todo mundo saca mais, o Banco Central não poderia soltar mais, e os juros poderiam saltar."
   marcacao = "PROJEÇÃO"
   fontes = ["F2", "F11"]
 
@@ -77,21 +74,22 @@ cena = "Balança 3D equilibrada: prato verde (a favor) à esquerda e coral (cont
   [[bloco.frase]]
   fala = "Quem defende aponta que, em mais de cem países, quem criou mais dinheiro teve mais inflação: uma regra fixa evitaria isso."
   marcacao = "ARGUMENTO A FAVOR"
-  fontes = ["F9"]
+  fontes = ["F9", "F19"]
 
   [[bloco.frase]]
   fala = "Quem critica aponta que, nos anos oitenta, bancos centrais tentaram controlar a quantidade de dinheiro e desistiram: a ligação com os preços mudava demais."
   marcacao = "ARGUMENTO CONTRA"
-  fontes = ["F11", "F13"]
+  fontes = ["F11", "F17", "F18"]
 
   [[bloco.frase]]
-  fala = "Entre os economistas, há quase consenso: criar dinheiro sem limite para pagar gastos gera inflação. Já travar a quantidade de dinheiro tem pouco apoio; os grandes bancos centrais preferem os juros."
+  fala = "Entre os economistas, há quase consenso: criar dinheiro sem limite para pagar gastos gera inflação. Já travar esse dinheiro tem pouco apoio: os grandes bancos centrais preferem os juros."
   marcacao = "TERMÔMETRO"
-  fontes = ["F10", "F9", "F11", "F13", "F16"]
+  fontes = ["F10", "F20", "F9", "F11", "F17", "F18", "F13", "F8", "F16"]
 
-# Exemplo real cortado na versão 1 para caber perto de 75 s (CLAUDE.md, seção 3): o paralelo
-# mais próximo (o banco central dos EUA mirando a quantidade de reservas entre 1979 e 1982, F11)
-# não é igual ao cenário, porque não congelou nada, e já aparece no lado contra da balança.
+# Exemplo real cortado na versão 1 para caber perto de 75 s (CLAUDE.md, seção 3): os paralelos
+# mais próximos (as metas de quantidade de moeda dos EUA, do Canadá e da Inglaterra nos anos 1980,
+# F11, F17 e F18) não são iguais ao cenário, porque não congelaram nada, e já aparecem no lado
+# contra da balança.
 
 [[bloco]]
 nome = "Encerramento"
