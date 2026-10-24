@@ -1,10 +1,10 @@
 # Roteiro: a fonte da verdade do vídeo. Edite este arquivo; o 03-roteiro.md é gerado
 # a partir dele pelo scripts/roteiro.py (não edite o .md à mão).
 #
-# Versão 2: depois da rodada 1 do crítico (04-revisoes.md).
+# Versão 3: depois das rodadas 1 e 2 do crítico (04-revisoes.md).
 
 titulo = "E se o Brasil adotasse o Bitcoin como moeda?"
-versao = 2
+versao = 3
 
 [[bloco]]
 nome = "Gancho"
@@ -37,13 +37,13 @@ cena = "Balcão da padaria do Zé: etiqueta do pão em R$ e uma plaquinha 'Bitco
 
 [[bloco]]
 nome = "O que mudaria"
-cena = "O Zé paga o pão pelo celular e a maquininha aceita a moeda dourada, mas a etiqueta continua em R$; cartão '9 em cada 10 não usaram (El Salvador, 2024)' sobre um mapa simplificado sem bandeira; ao lado, duas etiquetas de inflação de 2025, a do dólar menor que a do real; por fim, tracejada e com um 'e se...?', uma alavanca de juros num painel genérico 'Banco Central' fica mais leve à medida que moedas douradas substituem as de real, e o Zé fica preocupado."
+cena = "O Zé paga o pão pelo celular e a maquininha aceita a moeda dourada, mas a etiqueta continua em R$; cartão '9 em cada 10 não usaram (El Salvador, 2024)' sobre um mapa simplificado sem bandeira, com a nota pequena 'obrigação em vigor até jan./2025; depois, voluntária (acordo com o FMI)'; ao lado, duas etiquetas de inflação de 2025, a do dólar menor que a do real; por fim, tracejada e com um 'e se...?', uma alavanca de juros num painel genérico 'Banco Central' fica mais leve à medida que moedas douradas substituem as de real, e o Zé fica preocupado."
 
   [[bloco.frase]]
   fala = "No curto prazo, talvez pouco mudasse: em El Salvador, mais de 9 em cada 10 pessoas não usaram Bitcoin em 2024."
   marcacao = "PROJEÇÃO"
-  fontes = ["F8", "F10"]
-  tela = "9 em cada 10 não usaram (El Salvador, 2024)"
+  fontes = ["F8", "F10", "F7"]
+  tela = "9 em cada 10 não usaram (El Salvador, 2024) · obrigação em vigor até jan./2025; depois, voluntária (acordo com o FMI)"
   voz = "No curto prazo, talvez pouco mudasse: em El Salvador, mais de nove em cada dez pessoas não usaram Bitcoin em dois mil e vinte e quatro."
 
   [[bloco.frase]]
@@ -79,15 +79,15 @@ cena = "Balança 3D equilibrada: no prato verde, um cadeado sobre uma pilha de m
   tela = "−64% em 2022 · +155% em 2023"
 
   [[bloco.frase]]
-  fala = "O FMI recomenda que nenhum país faça do Bitcoin moeda oficial, e na única pesquisa com economistas sobre isso que achei, de 2013, a maioria viu utilidade limitada nele."
+  fala = "O FMI recomenda que nenhum país faça do Bitcoin moeda oficial, e na única pesquisa com economistas sobre o Bitcoin como dinheiro que achei, de 2013, a maioria viu utilidade limitada nele."
   marcacao = "TERMÔMETRO"
   fontes = ["F11", "F17"]
   tela = "FMI, 2023 · economistas dos EUA, 2013"
-  voz = "O efe eme i recomenda que nenhum país faça do Bitcoin moeda oficial, e na única pesquisa com economistas sobre isso que achei, de dois mil e treze, a maioria viu utilidade limitada nele."
+  voz = "O efe eme i recomenda que nenhum país faça do Bitcoin moeda oficial, e na única pesquisa com economistas sobre o Bitcoin como dinheiro que achei, de dois mil e treze, a maioria viu utilidade limitada nele."
 
 # Exemplo real: El Salvador está no bloco "O que mudaria" (uso em 2024 e a diferença do dólar).
-# O recuo de 2025, num acordo de empréstimo com o FMI (F7), saiu na versão 2 para caber perto de
-# 75 s (R1.2); fica no 01-ideia e no 02-fontes, com a República Centro-Africana (F13) e o estado
+# O recuo de 2025, num acordo de empréstimo com o FMI (F7), saiu da fala na versão 2 (R1.2) e
+# voltou só como nota no cartão na versão 3 (R2.2); fica no 01-ideia e no 02-fontes, com a República Centro-Africana (F13) e o estado
 # atual do acordo (F12).
 
 [[bloco]]

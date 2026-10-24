@@ -6,25 +6,28 @@ Uma lei federal cria um imposto de **R$ 200 por tonelada de gás carbônico (CO2
 **Destino do dinheiro:** tudo é devolvido em partes iguais a cada pessoa, um "dividendo de carbono" pago pelo CPF, parecido com o que o Canadá fez até 2025. O governo não fica com nada; é essa escolha que muda quem ganha e quem perde.
 
 **Escala no cotidiano (conta no 02-fontes):**
-- gasolina (com 30% de etanol): cerca de 1,64 kg de CO2 fóssil por litro → **R$ 0,33 a mais por litro** (o vídeo diz "uns 30 centavos");
-- diesel (com 15% de biodiesel): cerca de 2,29 kg por litro → **R$ 0,46 a mais por litro** (o vídeo diz "uns 45");
+- gasolina (com 30% de etanol): cerca de 1,64 kg de CO2 fóssil por litro → **R$ 0,33 a mais por litro** (o vídeo diz "uns 33 centavos");
+- diesel (com 15% de biodiesel): cerca de 2,29 kg por litro → **R$ 0,46 a mais por litro** (o vídeo diz "uns 46");
 - etanol hidratado: nada.
-- Fora do vídeo: o botijão de 13 kg subiria uns R$ 7,80 (F25). A arrecadação teria um teto de uns R$ 85 bilhões por ano (427 Mt do setor de energia × R$ 200). É um teto porque nem tudo nesse setor é CO2 de queima e porque as emissões cairiam com o imposto. Por pessoa, daria no máximo uns R$ 400 por ano, com uns 213 milhões de habitantes (número não conferido; a conta não entra no vídeo).
+- devolução: na ordem de grandeza de R$ 85 bilhões por ano (427 Mt do setor de energia × R$ 200), ou **cerca de R$ 400 por pessoa por ano** com 213,4 milhões de habitantes (F31, F30). Não é teto: parte dos 427 Mt não vem da queima, e o carvão e o coque da siderurgia, que ficam fora deles, pagariam. A base encolhe quando as emissões caem, por isso o vídeo diz "começaria em".
+- Fora do vídeo: o botijão de 13 kg subiria uns R$ 7,80 (F25).
 
-**O que fica igual:** os outros tributos sobre combustíveis (ICMS, PIS/Cofins, Cide), a forma como os preços dos combustíveis são formados hoje, as misturas obrigatórias (E30 e B15), o câmbio e a lei do mercado regulado de carbono (SBCE), que continua andando. O desmatamento e as emissões próprias da agropecuária (gado, solo, adubo) ficam fora do imposto.
+**O que fica igual:** os outros tributos sobre combustíveis (ICMS, PIS/Cofins, Cide), a forma como os preços dos combustíveis são formados hoje, as misturas obrigatórias (E30 e B15), o câmbio e a lei do mercado regulado de carbono (SBCE), que continua andando. O desmatamento e as emissões próprias da agropecuária (gado e solo) ficam fora do imposto. O diesel de trator, colheitadeira e caminhão do campo e o gás da indústria de adubo pagam, como qualquer combustível fóssil.
 
 ## Premissas assumidas
 - O Congresso aprova uma lei nova. A reforma tributária não criou um imposto sobre emissões (F8), então seria preciso legislar de novo; se o caminho fosse a Cide-Combustíveis, cujo dinheiro tem destino fixado na Constituição, a devolução exigiria uma emenda (conhecimento do autor, não buscado). O vídeo não escolhe o caminho.
-- O imposto chega inteiro ao preço na bomba. Os estudos sobre impostos de combustível costumam achar repasse quase total, mas isso não foi conferido nesta sessão.
+- O imposto chega inteiro ao preço na bomba. Nos EUA, os impostos estaduais sobre combustível são repassados por inteiro, em média (F34); no Brasil, não há estudo nas fontes. O vídeo diz a condição ("repassado inteiro").
 - A devolução alcança todo mundo pelo CPF, inclusive quem não declara imposto de renda. O país já fez pagamentos em massa por conta digital, mas o caso não está nas fontes.
 - Empresas que entrarem no mercado regulado (SBCE, F7) não pagam duas vezes: descontam o que já pagarem lá.
 - Câmbio, misturas obrigatórias e demais impostos não mudam.
 
 ## Simplificações (o vídeo precisa dizer quais são)
 - **O valor (R$ 200 por tonelada) e o destino do dinheiro (devolução igual por pessoa) são escolhas do cenário.** Dita na frase [PREMISSA] do bloco 3. R$ 200 dá algo como US$ 35 a 40 (câmbio não conferido nesta sessão), perto do piso da faixa de US$ 40 a 80 por tonelada que a Comissão de Alto Nível sobre Preços de Carbono (2017) via como compatível com a meta de Paris já em 2020 (F21).
-- **O imposto só alcança o CO2 dos combustíveis fósseis; o desmatamento e a agropecuária ficam de fora.** Dita nos blocos 2 e 3 ("quase 70% das nossas emissões..." e "o corte no total teria limite").
+- **O imposto só alcança o CO2 dos combustíveis fósseis; o desmatamento e a agropecuária ficam de fora.** Dita nos blocos 2 e 3 ("quase 70% das nossas emissões..." e "sem alcançar o desmatamento nem as emissões do gado e do solo, o corte teria limite").
 - **O tamanho do corte nas emissões é incerto.** Dito no termômetro ("o tamanho do corte varia muito de país para país").
-- Detalhes que o vídeo não diz, por tempo e porque não mudam a conta da bomba: o repasse total ao preço, o caminho legal, o encaixe com o SBCE e a ausência de uma rampa de entrada (na vida real, o valor subiria aos poucos, como no Canadá).
+- **O repasse total à bomba.** Dito no bloco 3 ("repassado inteiro").
+- **O valor da devolução é ordem de grandeza.** A tela diz "ordem de grandeza" e a voz diz "começaria em".
+- Detalhes que o vídeo não diz, por tempo e porque não mudam a conta da bomba: o caminho legal, o encaixe com o SBCE e a ausência de uma rampa de entrada (na vida real, o valor subiria aos poucos, como no Canadá).
 
 ## Perguntas que o vídeo precisa responder
 - Quanto ficaria mais caro o litro da gasolina e do diesel, e por quê (quanto CO2 sai de cada litro)?
