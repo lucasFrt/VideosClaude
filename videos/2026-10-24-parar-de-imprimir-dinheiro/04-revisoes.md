@@ -59,6 +59,54 @@ Nenhuma objeção CRÍTICA. Duas IMPORTANTES novas (R2.1 e R2.2), "ambas criadas
 - Cenas: trituradora já no gancho; a Constituição sem cadeado; o congelamento como bloco de gelo (R2.4).
 - Duração estimada: cerca de 86 s (era 82 s), abaixo do máximo de 90 s. As cinco correções somaram 12 palavras, e não cortei mais para não reabrir os encurtamentos que causaram R2.1.
 
+## Rodada 3 (conferência)
+
+### O que o crítico considerou sólido
+- R2.1: a premissa nova resolve a ambiguidade. "Os saques encolheriam o saldo" não contradiz mais o congelamento, e "os juros entre bancos poderiam saltar" passa a ter explicação.
+- R2.2: a tela repete a fala e deixa claro o objeto do painel. Conferido por busca (CRFB, Chicago Booth, Clark Center): nenhum dos 38 respondentes concordou, e 3 ficaram sem opinião. Por isso "ninguém concordou" está certo e "todos discordaram" estaria errado. A fala não usa os percentuais ponderados (76% e 24%), o que é o certo.
+- Cerca de 240 palavras faladas, batendo com as 241 do roteiro; balança com 26 e 28.
+- R2.3 a R2.5 ficaram certas e não criaram problema novo; nada das rodadas 1 e 2 foi reaberto.
+- F2 (R$ 447,1 bilhões) segue sem reconfirmação direta na página do BC e continua na pendência da revisão humana.
+
+### Objeções
+| # | Trecho | Nível | Objeção | Base | Resposta do autor | Decisão |
+|---|--------|-------|---------|------|-------------------|---------|
+| R3.1 | Tela do termômetro: "Ninguém concordou que dá para gastar sem limite criando dinheiro (painel de economistas dos EUA, 2019)", com o rodapé "Clark Center, 2019; Banco da Inglaterra, 2014; Fed, 1979–1982; Banco Central, 2025–2026" | MENOR | Depois da R2.2, a tela virou uma afirmação completa sobre o painel. Num print, ela aparece atribuída também ao Banco da Inglaterra, ao Fed e ao BC, que não a sustentam. | Base nova em relação à R1.4: a tela agora é mais assertiva e isolada. | Procede. O `roteiro.py` e o `montar.py` agora aceitam o campo `rodape`, que escolhe, entre as fontes da frase, as que sustentam a tela. No termômetro, `rodape = ["F10"]`: o rodapé passa a ser só "Fonte: Clark Center, 2019". As outras fontes da frase (F8, F11, F16) continuam ligadas a ela e estão no 02-fontes. | aceita |
+| R3.2 | "...congela o total de notas e saldo dos bancos nele..." | MENOR | Ouvido sem a imagem, "total de notas" ainda pode soar como a quantidade de cédulas. | Leitura da frase. | Procede, e não custa palavras. Agora: "congela a soma de notas e saldo dos bancos nele, em vez de controlar os juros". O 01-ideia foi atualizado. | aceita |
+
+### Veredito do crítico
+Nenhuma objeção CRÍTICA nem IMPORTANTE nova; R2.1 e R2.2 ficaram certas; os dois itens acima são opcionais. "O roteiro está pronto para a revisão humana. Restam as incertezas naturais sobre o efeito da regra e as pendências de acesso às páginas originais de F1 e F2." Sobre a duração: a estimativa de 86 s fica abaixo dos 90 s; medir com o áudio real do edge-tts (+10%) antes da prévia e só cortar se passar de 90 s.
+
 ## Resumo final para a revisão humana
-- O que mudou:
-- O que ficou em aberto:
+Roteiro na versão 4, cerca de 86 s estimados (241 palavras), três rodadas do crítico: 6 objeções na 1 (4 IMPORTANTES), 5 na 2 (2 IMPORTANTES, criadas por cortes da rodada 1), 2 na 3 (só MENORES). Ao todo, 12 aceitas e 1 aceita em parte (R1.3), sem objeção CRÍTICA em nenhuma rodada.
+
+- **O que mudou:**
+  - **Mecanismo, que era o ponto fraco:** o vídeo agora encadeia saque → saldo dos bancos no BC → juros entre bancos → crédito (R1.1), e base parada → bancos emprestando mais devagar → preços (R1.2). A premissa diz que se congela a soma das notas e do saldo dos bancos, no lugar de controlar os juros (R2.1, R3.2).
+  - **Balança:** o lado a favor ganhou o argumento das regras (Kydland e Prescott; Friedman, que propôs congelar a base e só imprimir para repor nota gasta) além dos 110 países; o lado contra nomeia EUA, Canadá e Inglaterra e o período certo (R1.3, R2.5).
+  - **Termômetro:** passou de "entre os economistas, quase consenso / pouco apoio" para o que as fontes sustentam: um painel de economistas dos EUA, ninguém a favor de gastar sem limite criando dinheiro, e a admissão de que não há pesquisa sobre congelar. A tela repete a fala e o rodapé é só o Clark Center (R1.4, R2.2, R3.1).
+  - **Custo da deflação:** salário que não cai e dívida que pesa, só se os preços caírem (R1.5, R2.3).
+  - **Recorte e imagem:** a tela do gancho traz a ressalva da reposição; a Constituição não usa cadeado e o congelamento é um bloco de gelo (R2.4).
+  - **Fontes:** as sete escritas de memória na primeira passada foram conferidas por busca; o M2 de R$ 7,3 trilhões não se confirmou e saiu (R1.6); Friedman corrigido para 1984; nove fontes novas (F17 a F25).
+  - **Rejeitado:** pôr no lado contra a queda da inflação dos EUA no começo dos anos 1980 (é argumento do outro lado, e quanto dela veio da meta de quantidade é disputado; ver R1.3).
+- **O que ficou em aberto:**
+  - **F1** (1,35 bilhão de cédulas por ano e a frase do BC sobre reposição) só foi confirmado pela reportagem do NSC Total e suas reproduções, não numa página do BC.
+  - **F2** (base de R$ 447,1 bilhões no fim de 2025) foi confirmado pela busca e pelo CEIC (crítico), mas a nota do BC não foi aberta. Existem dados de 2026 da base que não foram procurados; o vídeo diz "fim de 2025".
+  - **F4** (M2) só aparece nas contas do 02-fontes, não na fala; o valor de dezembro de 2025 não foi confirmado.
+  - Nada foi aberto nas páginas originais: tudo foi conferido pelo texto das buscas.
+  - A duração (86 s) é estimativa; medir com a voz real antes da prévia e só cortar se passar de 90 s.
+  - O efeito real da regra é incerto, e o vídeo diz isso ("Ninguém sabe quanto").
+  - Não existe pesquisa com economistas brasileiros sobre o tema; o debate brasileiro sobre MMT está só em ensaios (02-fontes, posições).
+- **Links principais para abrir:**
+  - F1: https://www.nsctotal.com.br/noticias/pix-muda-habitos-e-banco-central-emite-31-menos-dinheiro-em-papel-no-brasil
+  - F2: https://www.bcb.gov.br/content/estatisticas/hist_estatisticasmonetariascredito/202601_Texto_de_estatisticas_monetarias_e_de_credito.pdf
+  - F7: https://brasil.justia.com/nacionales/constituicao-da-republica-federativa-do-brasil-de-1988/titulo-vi/capitulo-ii/secao-i (ou o texto da Constituição no Planalto)
+  - F9: https://www.minneapolisfed.org/research/qr/qr1931.pdf
+  - F10: https://www.kentclarkcenter.org/surveys/modern-monetary-theory/ e https://www.crfb.org/blogs/economists-agree-deficits-matter
+  - F11: https://www.frbsf.org/research-and-insights/publications/doctor-econ/2003/01/monetary-policy-1970s-1980s/
+  - F17: https://www.clevelandfed.org/-/media/project/clevelandfedtenant/clevelandfedsite/publications/economic-commentary/1998/ec-19980201-canadas-money-targeting-experiment-pdf.pdf
+  - F18: https://www.bankofengland.co.uk/-/media/boe/files/quarterly-bulletin/1997/evolution-of-the-monetary-framework.pdf
+- **As quatro perguntas (CLAUDE.md, seção 6):**
+  - *Os dois lados têm o mesmo espaço e o mesmo tom?* Sim: 26 palavras a favor e 28 contra (razão 0,93), o mesmo verbo ("aponta que"), sem adjetivo. Cada lado tem base concreta própria: teoria das regras e 110 países a favor; a experiência de três bancos centrais contra.
+  - *O termômetro reflete onde os especialistas estão, com fonte?* Sim, no limite do que existe. Sobre criar dinheiro sem limite para gastar, há consenso (painel do Clark Center, 2019, ninguém concordou; até a MMT põe a inflação como limite). Sobre congelar a base, o vídeo diz que não há pesquisa e mostra a prática: os grandes bancos centrais usam os juros. Ressalvas: o painel é de economistas dos EUA e sobre MMT, e não há pesquisa com economistas brasileiros.
+  - *Alguma frase pode ser recortada e circular com sentido distorcido?* Cada frase foi lida isolada nas três rodadas. O gancho tem a ressalva da reposição na tela; "a Constituição proíbe" diz o quê (empréstimo do BC ao governo); as projeções estão no condicional e dentro do "vamos supor"; o custo da deflação só vale "se os preços caírem"; o lado contra nomeia os três países (nada de "todos desistiram"); a tela do termômetro tem objeto e só o rodapé do painel. O risco que sobra é baixo: "A maior parte do dinheiro nasce quando os bancos emprestam" pode circular sozinha, mas é verdadeira e tem fonte (F8).
+  - *Todo número tem fonte e está atualizado?* Todo número dito ou na tela tem fonte: 1,35 bilhão de notas em 2025 (F1), R$ 447 bilhões no fim de 2025 (F2), "mais de cem países" (F9, 1960–1990, evidência histórica), anos setenta e oitenta (F11, F17, F18) e o painel de 2019 (F10). Os dados brasileiros são os mais recentes encontrados (2025). A ressalva é que F1 e F2 não foram abertos na página do BC (ver "O que ficou em aberto").
