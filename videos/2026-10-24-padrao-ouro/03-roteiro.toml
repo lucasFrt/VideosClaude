@@ -1,9 +1,9 @@
 # Roteiro: a fonte da verdade do vídeo. O 03-roteiro.md é gerado pelo scripts/roteiro.py.
-# Versão 3: onda 4, rodada 2 (04-revisoes.md). Rótulo do M2 corrigido (R2.2), frase dos juros com o
-# elo da troca (R2.1), mecanismo de volta ao pró e juros no contra (R2.3), rodapé do cálculo (R2.4).
+# Versão 4: onda 4, rodada 3 (04-revisoes.md). Valores da tela do gancho com uma casa decimal (R3.1).
+# Roteiro pronto para a revisão humana 1.
 
 titulo = "E se o Brasil voltasse ao padrão-ouro?"
-versao = 3
+versao = 4
 
 [[bloco]]
 nome = "Gancho"
@@ -13,7 +13,7 @@ cena = "Primeiro quadro: à esquerda, uma pilha alta de notas genéricas com 'R$
   fala = "Ouro para um terço das notas."
   marcacao = "FATO"
   fontes = ["F1"]
-  tela = "Ouro do Banco Central: R$ 131 bi · Notas e moedas: R$ 368 bi (dez/2025)"
+  tela = "Ouro do Banco Central: R$ 131,6 bi · Notas e moedas: R$ 368,6 bi (dez/2025)"
 
   [[bloco.frase]]
   fala = "E se o Brasil voltasse ao padrão-ouro? Vamos imaginar."

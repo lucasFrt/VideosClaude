@@ -1,12 +1,12 @@
 <!-- Gerado pelo scripts/roteiro.py a partir do 03-roteiro.toml. Não edite este arquivo. -->
 # Roteiro — E se o Brasil voltasse ao padrão-ouro?
-Versão: 3 · Duração estimada: ~86 s (241 palavras faladas)
+Versão: 4 · Duração estimada: ~86 s (241 palavras faladas)
 
 ## Bloco 1 — Gancho (~6 s)
 Cena: Primeiro quadro: à esquerda, uma pilha alta de notas genéricas com 'R$'; à direita, uma pilha de barras de ouro com só um terço da altura, e a marca '1/3' entre as duas. O Zé olha de uma pilha para a outra, coçando a cabeça. Câmera sobe devagar.
 
 - **[FATO · F1]** Ouro para um terço das notas.
-  - Tela: Ouro do Banco Central: R$ 131 bi · Notas e moedas: R$ 368 bi (dez/2025) (rodapé: Fonte: Banco Central, 2025)
+  - Tela: Ouro do Banco Central: R$ 131,6 bi · Notas e moedas: R$ 368,6 bi (dez/2025) (rodapé: Fonte: Banco Central, 2025)
 - **[BORDÃO]** E se o Brasil voltasse ao padrão-ouro? Vamos imaginar.
 
 ## Bloco 2 — Contexto (~12 s)

@@ -43,24 +43,74 @@ Duas objeções IMPORTANTES (R1.1 e R1.2) e nenhuma CRÍTICA; o roteiro ainda n�
 ### Veredito do crítico
 Nenhuma objeção CRÍTICA; uma IMPORTANTE nova (R2.2, rótulo do M2), de correção simples, que não muda a direção do argumento, e três MENORES de redação. "Com R2.2 corrigida, o roteiro está pronto." Restam as incertezas naturais: o pico exato do ouro em janeiro e a corrida aos bancos, que não é detalhada.
 
+## Rodada 3 (conferência)
+
+### O que o crítico considerou sólido
+- R2.2 corrigida: "contas, poupança e CDBs (M2): R$ 7,6 tri (jun/2026)" bate com a definição do BC (M1 mais poupança mais títulos das instituições depositárias; dadosabertos.bcb.gov.br, série 27810). A cena e o 01-ideia mudaram junto.
+- F6: cerca de US$ 132 o grama, compatível com o pricegold.net (US$ 4.162 a 4.166 a onça em 13 e 16/10/2026, cerca de US$ 134 o grama).
+- R2.1, R2.3 e R2.4 coerentes entre si; a frase dos juros está calibrada ("poderia"); pró com 35 palavras e contra com 30, e o contra com o elo "puderam baixar os juros" (F14).
+- Escopo: nenhuma campanha de 2026 trata do padrão-ouro.
+- Duração: 241 palavras, cerca de 86 s, abaixo de 90 s.
+
+### Objeções
+| # | Trecho | Nível | Objeção | Base | Resposta do autor | Decisão |
+|---|--------|-------|---------|------|-------------------|---------|
+| R3.1 | Tela do gancho: "Ouro do Banco Central: R$ 131 bi · Notas e moedas: R$ 368 bi (dez/2025)" | MENOR | F1 e o 01-ideia dão R$ 131,6 bi e R$ 368,6 bi; a tela cortou as casas em vez de arredondar. | F1. | Procede. O corte foi de propósito: o brief manda arredondar só para baixo. Mas uma casa decimal resolve as duas coisas, porque é o valor exato da fonte. A tela agora diz "R$ 131,6 bi" e "R$ 368,6 bi". A fala ("um terço") não muda. | aceita |
+
+Observação do crítico (não é objeção): o M2 também inclui o papel-moeda em poder do público e os depósitos especiais remunerados, então o rótulo "contas, poupança e CDBs" cobre cerca de 4% a menos que o M2 todo, sem mudar a ordem de grandeza. A ressalva ficou registrada em F8. O crítico não confirmou por busca os R$ 7,6 tri (achou o PDF do Poder360, de 30/07/2026, mas a busca só trouxe os números de crédito); por isso o PDF entra na lista do que abrir.
+
+### Veredito do crítico
+Nenhuma objeção CRÍTICA nem IMPORTANTE nova: o roteiro está pronto. Restam as incertezas naturais: o pico exato do ouro em janeiro, a corrida aos bancos (que não é detalhada) e a duração real, que só sai da narração.
+
 ## Resumo final para a revisão humana
-- O que mudou:
-  - versão 2 (rodada 1):
-    - título e bordão: "E se o Brasil voltasse ao padrão-ouro?";
-    - oscilação do ouro nos dois sentidos, com o preço de fim de 2024 tirado do balanço do BC (F16);
-    - nova frase sobre os juros;
-    - a escala diz "só para as notas";
-    - termômetro diz de quem é o painel e sobre que país era a pergunta;
-    - exemplo real cortado.
-  - versão 3 (rodada 2):
-    - M2 com o rótulo certo ("contas, poupança e CDBs");
-    - frase dos juros com o elo da troca;
-    - mecanismo de volta ao pró ("sem imprimir dinheiro à vontade") e juros no contra;
-    - rodapé do cálculo como "Cálculo do canal com dados do BC".
-  - Duração estimada: cerca de 86 s.
-- O que ficou em aberto:
-  - a rodada 3 do crítico, para conferir a R2.2;
-  - os documentos não foram abertos (tudo por busca): conferir F1, F2, F11, F12, F13 e F15;
-  - o pico exato do ouro em janeiro de 2026 não foi conferido numa fonte forte (o roteiro usa o piso de US$ 160 por grama);
-  - a corrida aos bancos não é detalhada;
-  - os 86 s passam da meta de 60–75 s, mas ficam abaixo do máximo de 90 s; a estimativa é por palavras, e a duração real sai da narração.
+
+### O que o crítico derrubou e o que mudou
+- **Versão 1 → 2 (rodada 1):**
+  - a oscilação do ouro aparecia só na queda, e numa janela do pico até hoje: agora mostra a subida e a queda, e a projeção vale nos dois sentidos (R1.1, com o novo F16);
+  - faltava o efeito central do cenário, o Banco Central sem a mão livre nos juros: entrou uma frase (R1.2);
+  - a frase da escala passou a dizer "só para as notas" (R1.2);
+  - o termômetro passou a dizer que o painel era de universidades americanas e a pergunta era sobre os EUA (R1.4);
+  - o título "E se o real voltasse..." sugeria que o real já teve lastro em ouro: virou "E se o Brasil voltasse ao padrão-ouro?" (R1.6);
+  - o exemplo real (Caixa de Conversão, 1906–1914) saiu para caber em 90 s (R1.5).
+- **Versão 2 → 3 (rodada 2):**
+  - o M2 estava rotulado como "contas e poupança", o que inflava o rótulo cerca de cinco vezes: agora é "contas, poupança e CDBs (M2)" (R2.2, IMPORTANTE);
+  - a frase dos juros ganhou o elo da troca (R2.1);
+  - o pró recuperou o mecanismo, "sem imprimir dinheiro à vontade", e o contra ganhou "puderam baixar os juros" (R2.3);
+  - o rodapé do cálculo virou "Cálculo do canal com dados do BC" (R2.4).
+- **Versão 3 → 4 (rodada 3):** a tela do gancho passou a ter uma casa decimal (R3.1).
+- **Nada foi rejeitado por inteiro.** Ficaram de fora só a troca do rodapé por LBMA (sem fonte forte), a instabilidade de curto prazo dentro do pró (é argumento de quem critica) e a redução do rodapé do ouro para menos de três fontes.
+- **Duração estimada:** cerca de 86 s (241 palavras). Passa da meta de 60–75 s, mas fica abaixo do máximo de 90 s.
+
+### O que ficou em aberto
+- Os documentos não foram abertos: tudo foi conferido pelo texto das buscas.
+- O PDF do BC sobre o M2 (F8): os R$ 7,6 tri foram achados pelo autor na busca, mas não pelo crítico.
+- A página original do painel IGM (F13) não apareceu na busca; os números vêm de quatro relatos que batem entre si.
+- O pico exato do ouro em janeiro de 2026 não tem fonte forte; o roteiro usa o piso de US$ 160 por grama.
+- A corrida aos bancos (depósitos virando notas e depois ouro) não é detalhada no vídeo.
+- A duração real só sai da narração; com 86 s estimados, sobra pouca margem até os 90 s.
+- O `docs/temas.md` ainda mostra o título antigo; fica fora da pasta do vídeo.
+
+### Links principais para abrir
+- F1, balanço do BC de 31/12/2025 (ouro e notas e moedas): https://www.bcb.gov.br/content/acessoinformacao/balanceteslai/Demonstra%C3%A7%C3%B5es%20Financeiras%20BCB%202025.pdf
+- F2, Relatório de Gestão das Reservas Internacionais 2026 (7% em ouro): https://www.bcb.gov.br/content/publicacoes/relgestaoreservas/GESTAORESERVAS202603-relatorio_anual_reservas_internacionais_2026.pdf
+- F8, nota de Estatísticas Monetárias e de Crédito (M2 de R$ 7,6 tri): https://static.poder360.com.br/uploads/2026/07/estatisticas-monetarias-e-de-credito.pdf
+- F11, verbete do Bordo no Econlib (0,1% ao ano): https://www.econlib.org/library/Enc/GoldStandard.html
+- F12, Eichengreen e Sachs: https://www.nber.org/papers/w1498
+- F13, painel IGM de 2012: https://www.arabnews.com/node/438052 e https://clips.cato.org/sites/default/files/NYT%20GOP_1.pdf (a página original no site do Clark Center ainda precisa ser achada)
+- F14, saída do ouro nos anos 1930: https://cepr.org/voxeu/columns/end-gold-standard-and-beginning-recovery-great-depression
+
+### As quatro perguntas da revisão humana (CLAUDE.md, seção 6)
+- **Os dois lados têm o mesmo espaço e o mesmo tom?** Sim. São 35 palavras a favor e 30 contra (razão de 1,17, dentro do limite de 0,8 a 1,25), com o mesmo verbo ("Quem defende aponta que" e "Quem critica aponta que"). Os dois lados têm base de estudo: Bordo (F11) e Eichengreen e Sachs, com os estudos de F14. O pró diz que a regra impede imprimir dinheiro à vontade; o contra, que sair dela liberou os juros na crise de 1929.
+- **O termômetro reflete onde os especialistas estão, com fonte?** Sim: "quase consenso contra", com base no painel IGM de 2012 (F13), em que nenhum economista que respondeu concordou que o padrão-ouro melhoraria preços e emprego nos EUA, e na literatura sobre 1929 (F12, F14). O "quase" vem da escola austríaca, minoritária. Ressalvas: o painel é americano, a pergunta era sobre os EUA, a página original não foi aberta, e não há pesquisa com economistas brasileiros.
+- **Alguma frase pode ser recortada e circular com sentido distorcido?**
+  - O ponto mais frágil é o gancho, "Ouro para um terço das notas", que poderia virar "o Banco Central não tem lastro". A frase seguinte diz que hoje o real não é trocado por ouro, e a tela traz os valores e a data.
+  - As projeções estão no condicional ("teria que", "poderia", "seguiria").
+  - A do câmbio vale nos dois sentidos, para não virar "padrão-ouro encarece o dólar".
+  - O termômetro diz o ano, quem respondeu e sobre que país era a pergunta.
+- **Todo número tem fonte e está atualizado?** Sim. Todos têm fonte, link e data de acesso no 02-fontes. Os dados do presente são os mais recentes achados:
+  - ouro e notas e moedas: dezembro de 2025 (balanço anual do BC);
+  - ouro nas reservas: relatório de março de 2026;
+  - M2: junho de 2026;
+  - preço do ouro: 20/10/2026.
+
+  Os números históricos (0,1% ao ano em 1880–1914, e 1929) são de estudos. Os documentos foram conferidos só por busca; os links acima são os que precisam ser abertos.
