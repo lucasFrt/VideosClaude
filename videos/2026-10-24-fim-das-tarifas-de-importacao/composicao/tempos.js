@@ -3,19 +3,19 @@
 // que é o tempo da timeline da cena. Para o hf-seek, que traz o tempo do vídeo inteiro, use
 // inicioAbsoluto (palco.aoBuscar já faz isso).
 window.TEMPOS = {
-  "duracao": 78.93,
-  "estimado": true,
+  "duracao": 81.23,
+  "estimado": false,
   "blocos": [
     {
       "numero": 1,
       "nome": "Gancho",
       "inicio": 0.0,
-      "fim": 7.09,
-      "duracao": 7.09,
+      "fim": 7.92,
+      "duracao": 7.92,
       "frases": [
         {
-          "inicio": 0.15,
-          "fim": 2.8,
+          "inicio": 0.1,
+          "fim": 2.87,
           "marcacao": "FATO",
           "fontes": [
             "F1"
@@ -23,8 +23,8 @@ window.TEMPOS = {
           "tela": "12% (média)"
         },
         {
-          "inicio": 3.27,
-          "fim": 6.27,
+          "inicio": 3.65,
+          "fim": 7.14,
           "marcacao": "BORDÃO",
           "fontes": [],
           "tela": null
@@ -34,13 +34,13 @@ window.TEMPOS = {
     {
       "numero": 2,
       "nome": "Contexto",
-      "inicio": 7.09,
-      "fim": 22.83,
-      "duracao": 15.74,
+      "inicio": 7.92,
+      "fim": 23.61,
+      "duracao": 15.69,
       "frases": [
         {
-          "inicio": 7.09,
-          "fim": 13.0,
+          "inicio": 7.92,
+          "fim": 13.14,
           "marcacao": "FATO",
           "fontes": [
             "F2",
@@ -49,8 +49,8 @@ window.TEMPOS = {
           "tela": "R$ 90 bi por ano"
         },
         {
-          "inicio": 13.47,
-          "fim": 17.24,
+          "inicio": 13.92,
+          "fim": 17.82,
           "marcacao": "FATO",
           "fontes": [
             "F7"
@@ -58,8 +58,8 @@ window.TEMPOS = {
           "tela": null
         },
         {
-          "inicio": 17.71,
-          "fim": 22.01,
+          "inicio": 18.6,
+          "fim": 22.83,
           "marcacao": "PREMISSA",
           "fontes": [],
           "tela": null
@@ -69,13 +69,13 @@ window.TEMPOS = {
     {
       "numero": 3,
       "nome": "O que mudaria",
-      "inicio": 22.83,
-      "fim": 44.57,
-      "duracao": 21.74,
+      "inicio": 23.61,
+      "fim": 45.65,
+      "duracao": 22.04,
       "frases": [
         {
-          "inicio": 22.83,
-          "fim": 31.47,
+          "inicio": 23.61,
+          "fim": 32.23,
           "marcacao": "PROJEÇÃO",
           "fontes": [
             "F4"
@@ -83,8 +83,8 @@ window.TEMPOS = {
           "tela": null
         },
         {
-          "inicio": 31.94,
-          "fim": 37.05,
+          "inicio": 33.01,
+          "fim": 37.94,
           "marcacao": "PROJEÇÃO",
           "fontes": [
             "F3"
@@ -92,8 +92,8 @@ window.TEMPOS = {
           "tela": null
         },
         {
-          "inicio": 37.52,
-          "fim": 43.75,
+          "inicio": 38.73,
+          "fim": 44.86,
           "marcacao": "PROJEÇÃO",
           "fontes": [
             "F5",
@@ -106,20 +106,20 @@ window.TEMPOS = {
     {
       "numero": 4,
       "nome": "A balança",
-      "inicio": 44.57,
-      "fim": 74.58,
-      "duracao": 30.01,
+      "inicio": 45.65,
+      "fim": 75.95,
+      "duracao": 30.3,
       "frases": [
         {
-          "inicio": 44.57,
-          "fim": 46.32,
+          "inicio": 45.65,
+          "fim": 47.78,
           "marcacao": "BORDÃO",
           "fontes": [],
           "tela": null
         },
         {
-          "inicio": 46.79,
-          "fim": 54.5,
+          "inicio": 48.57,
+          "fim": 55.76,
           "marcacao": "ARGUMENTO A FAVOR",
           "fontes": [
             "F10",
@@ -128,8 +128,8 @@ window.TEMPOS = {
           "tela": null
         },
         {
-          "inicio": 54.97,
-          "fim": 63.58,
+          "inicio": 56.55,
+          "fim": 64.78,
           "marcacao": "ARGUMENTO CONTRA",
           "fontes": [
             "F5"
@@ -137,8 +137,8 @@ window.TEMPOS = {
           "tela": null
         },
         {
-          "inicio": 64.05,
-          "fim": 73.76,
+          "inicio": 65.57,
+          "fim": 75.17,
           "marcacao": "TERMÔMETRO",
           "fontes": [
             "F4",
@@ -153,13 +153,13 @@ window.TEMPOS = {
     {
       "numero": 5,
       "nome": "Encerramento",
-      "inicio": 74.58,
-      "fim": 78.93,
-      "duracao": 4.35,
+      "inicio": 75.95,
+      "fim": 81.23,
+      "duracao": 5.28,
       "frases": [
         {
-          "inicio": 74.58,
-          "fim": 77.43,
+          "inicio": 75.95,
+          "fim": 79.73,
           "marcacao": "BORDÃO",
           "fontes": [],
           "tela": null
