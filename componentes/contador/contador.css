@@ -1,0 +1,7 @@
+/* Números animados: algarismos de largura fixa para a contagem não tremer. */
+.contador {
+  font-family: var(--fonte);
+  font-weight: var(--peso-titulo);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}

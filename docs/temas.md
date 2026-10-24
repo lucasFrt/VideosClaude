@@ -9,4 +9,4 @@ Só temas no escopo atual (CLAUDE.md, seção 5): ideias econômicas e socioecon
 | E se o Brasil tivesse um imposto único? | imposto-unico | na fila |
 | E se todo brasileiro recebesse uma renda básica? | renda-basica | na fila |
 | E se o real voltasse ao padrão-ouro? | padrao-ouro | na fila |
-| E se o Brasil acabasse com as tarifas de importação? | fim-das-tarifas-de-importacao | na fila |
+| E se o Brasil zerasse o imposto de importação? | fim-das-tarifas-de-importacao | protótipo (`videos/2026-10-24-fim-das-tarifas-de-importacao/`) |

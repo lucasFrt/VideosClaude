@@ -1,0 +1,17 @@
+/* Fonte do dado na tela ("Fonte: OMC, 2025"): canto inferior esquerdo, no pé da área
+   segura, visível enquanto o número estiver na tela (ESTRUTURA.md, seção 5).
+   O scripts/montar.py cria um por frase que tem "tela" no roteiro. */
+.rodape-fonte {
+  position: absolute;
+  left: calc(var(--seguro-esquerda) + var(--margem));
+  bottom: calc(var(--seguro-baixo) + 14px);
+  max-width: calc(var(--largura) - var(--seguro-esquerda) - var(--seguro-direita) - 2 * var(--margem));
+  color: var(--texto);
+  font-family: var(--fonte);
+  font-weight: var(--peso-rodape);
+  font-size: var(--tamanho-rodape);
+  line-height: 1.2;
+  padding: 6px 14px;
+  border-radius: 10px;
+  background: rgba(11, 20, 36, 0.72); /* legível sobre qualquer fundo */
+}

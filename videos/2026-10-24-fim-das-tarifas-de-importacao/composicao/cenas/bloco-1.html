@@ -1,0 +1,73 @@
+<!-- Bloco 1 — Gancho. O número de impacto já no primeiro quadro; na pergunta, ele é riscado
+     e aparece o "0%?". Tempos de TEMPOS.bloco(1). -->
+<template>
+  <style>
+    #root {
+      position: absolute;
+      inset: 0;
+    }
+    #b1-palco {
+      position: absolute;
+      inset: 0;
+    }
+    #b1-numero {
+      top: 300px;
+      font-size: 220px;
+    }
+    #b1-risco {
+      position: absolute;
+      top: 400px;
+      left: 230px;
+      width: 480px;
+      height: 22px;
+      border-radius: 11px;
+      background: var(--negativo);
+      transform-origin: left center;
+    }
+    #b1-zero {
+      top: 585px;
+      color: var(--texto);
+      font-size: 110px;
+    }
+  </style>
+  <div id="root" data-composition-id="bloco-1" data-width="1080" data-height="1920">
+    <canvas id="b1-palco"></canvas>
+    <div id="b1-numero" class="numero-grande">12%<span class="legenda-numero">em média</span></div>
+    <div id="b1-risco"></div>
+    <div id="b1-zero" class="numero-grande">0%?</div>
+  </div>
+  <script type="module">
+    import { criarPalco, aoBuscar, moverCamera } from "./componentes/palco/palco.js";
+    import { criarZe } from "./componentes/ze/ze.js";
+    import { criarConteiner } from "./componentes/objetos/objetos.js";
+
+    const B = TEMPOS.bloco(1);
+    const [numero, pergunta] = B.frases;
+
+    const { renderer, cena, camera } = criarPalco(document.getElementById("b1-palco"));
+    const ze = criarZe({ escala: 0.85 });
+    const conteiner = criarConteiner();
+    conteiner.position.set(0.95, 0, -1.1);
+    conteiner.rotation.y = -0.45;
+    conteiner.scale.setScalar(0.8);
+    cena.add(ze.grupo, conteiner);
+
+    const roteiro = {
+      posicao: [[0, [-0.55, 0, 0]]],
+      rotacao: [[0, 0.3]],
+      expressao: [[0, "neutro"], [0.35, "surpreso"], [pergunta.inicio + 0.6, "feliz"]],
+      gesto: [[0, "parado"], [pergunta.inicio + 0.3, "aponta"]],
+    };
+    aoBuscar(B, (t) => {
+      ze.posar(t, roteiro);
+      moverCamera(camera, t, { altura: 1.6, distancia: 10.5, alvo: [0.15, 1.1, 0], aproximacao: 0.12, balanco: 0.3 });
+      renderer.render(cena, camera);
+    });
+
+    const tl = gsap.timeline({ paused: true });
+    tl.fromTo("#b1-numero", { scale: 0.9 }, { scale: 1, duration: 0.6, ease: "back.out(2)" }, 0);
+    tl.fromTo("#b1-risco", { scaleX: 0, opacity: 0 }, { scaleX: 1, opacity: 1, duration: 0.35, ease: "power2.out" }, pergunta.inicio + 0.4);
+    tl.fromTo("#b1-zero", { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.4, ease: "back.out(1.6)" }, pergunta.inicio + 0.8);
+    window.__timelines["bloco-1"] = tl;
+  </script>
+</template>

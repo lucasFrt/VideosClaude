@@ -20,7 +20,8 @@ import tomllib  # noqa: E402
 
 BLOCOS = ["Gancho", "Contexto", "O que mudaria", "A balança", "Exemplo real", "Encerramento"]
 OPCIONAIS = {"Exemplo real"}
-MARCACOES = ["FATO", "PROJEÇÃO", "ARGUMENTO A FAVOR", "ARGUMENTO CONTRA", "TERMÔMETRO", "BORDÃO"]
+MARCACOES = ["FATO", "PROJEÇÃO", "PREMISSA", "ARGUMENTO A FAVOR", "ARGUMENTO CONTRA", "TERMÔMETRO", "BORDÃO"]
+SEM_FONTE = {"BORDÃO", "PREMISSA"}  # bordões e premissas do cenário (01-ideia.md) não citam dado
 
 BORDAO_ABERTURA = re.compile(r"^E se .+\? Vamos imaginar\.$")
 BORDAO_BALANCA = "Agora, vamos colocar na balança."
@@ -117,7 +118,7 @@ def checar(pasta):
                 continue
             frase["marcacao"] = marcacao
             codigos = frase.get("fontes", [])
-            if marcacao != "BORDÃO" and not codigos:
+            if marcacao not in SEM_FONTE and not codigos:
                 erros.append(f"{onde}: [{marcacao}] precisa de fonte (códigos do 02-fontes.md)")
             for codigo in codigos:
                 usadas.add(codigo)

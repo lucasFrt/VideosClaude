@@ -1,0 +1,15 @@
+/* Selo "Feito com auxílio de IA": canto superior esquerdo, dentro da área segura,
+   do início ao fim do vídeo (ESTRUTURA.md, seção 5). O scripts/montar.py o coloca. */
+.selo-ia {
+  position: absolute;
+  top: calc(var(--seguro-topo) + 16px);
+  left: calc(var(--seguro-esquerda) + var(--margem));
+  padding: 10px 20px;
+  border-radius: 999px;
+  background: rgba(11, 20, 36, 0.72);
+  color: var(--texto);
+  font-family: var(--fonte);
+  font-weight: var(--peso-rodape);
+  font-size: var(--tamanho-selo);
+  line-height: 1.2;
+}

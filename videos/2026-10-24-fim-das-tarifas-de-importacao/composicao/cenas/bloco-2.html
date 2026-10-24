@@ -1,0 +1,74 @@
+<!-- Bloco 2 — Contexto. Carro girando devagar; os números do imposto (35% e R$ 90 bi) e depois
+     o Mercosul e a premissa do cenário. Os números ficam na tela o bloco inteiro, como
+     etiquetas, porque o rodapé de fonte vai até o fim do bloco. Tempos de TEMPOS.bloco(2). -->
+<template>
+  <style>
+    #root {
+      position: absolute;
+      inset: 0;
+    }
+    #b2-palco {
+      position: absolute;
+      inset: 0;
+    }
+    #b2-carros,
+    #b2-receita {
+      top: 330px;
+      font-size: 190px;
+    }
+    #b2-resumo {
+      top: 320px;
+    }
+    #b2-mercosul,
+    #b2-premissa {
+      top: 430px;
+    }
+  </style>
+  <div id="root" data-composition-id="bloco-2" data-width="1080" data-height="1920">
+    <canvas id="b2-palco"></canvas>
+    <div id="b2-carros" class="numero-grande"><span id="b2-carros-n">0%</span><span class="legenda-numero">nos carros</span></div>
+    <div id="b2-receita" class="numero-grande"><span id="b2-receita-n">R$ 0 bi</span><span class="legenda-numero">por ano para o governo</span></div>
+    <div id="b2-resumo" class="linha-de-etiquetas">
+      <span class="etiqueta destaque">35% nos carros</span><span class="etiqueta destaque">R$ 90 bi por ano</span>
+    </div>
+    <div id="b2-mercosul" class="cartao destaque">
+      <span class="titulo-cartao">Mercosul</span>Brasil · Argentina · Paraguai · Uruguai<span class="menor">uma tarifa comum para o que vem de fora</span>
+    </div>
+    <div id="b2-premissa" class="cartao destaque">
+      <span class="titulo-cartao">Vamos supor</span>o Mercosul topa<br />o câmbio fica igual<br />os outros impostos ficam iguais
+    </div>
+  </div>
+  <script type="module">
+    import { criarPalco, aoBuscar, moverCamera } from "./componentes/palco/palco.js";
+    import { criarCarro } from "./componentes/objetos/objetos.js";
+    import { contar } from "./componentes/contador/contador.js";
+
+    const B = TEMPOS.bloco(2);
+    const [numeros, mercosul, premissa] = B.frases;
+    // "...35% nos carros" vem na primeira metade da frase; "R$ 90 bilhões", na segunda.
+    const meio = numeros.inicio + 0.5 * (numeros.fim - numeros.inicio);
+
+    const { renderer, cena, camera } = criarPalco(document.getElementById("b2-palco"));
+    const carro = criarCarro();
+    carro.scale.setScalar(0.9);
+    cena.add(carro);
+    aoBuscar(B, (t) => {
+      carro.rotation.y = 0.7 + t * 0.22;
+      moverCamera(camera, t, { altura: 2.6, distancia: 11, alvo: [0, 1.05, 0], aproximacao: 0.05, balanco: 0.3 });
+      renderer.render(cena, camera);
+    });
+
+    const tl = gsap.timeline({ paused: true });
+    tl.fromTo("#b2-carros", { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.4 }, numeros.inicio + 0.3);
+    contar(tl, document.getElementById("b2-carros-n"), { para: 35, sufixo: "%", inicio: numeros.inicio + 0.3, duracao: 1.3 });
+    tl.to("#b2-carros", { opacity: 0, y: -30, duration: 0.3 }, meio - 0.3);
+    tl.fromTo("#b2-receita", { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.4 }, meio);
+    contar(tl, document.getElementById("b2-receita-n"), { para: 90, prefixo: "R$ ", sufixo: " bi", inicio: meio, duracao: 1.4 });
+    tl.to("#b2-receita", { opacity: 0, y: -30, duration: 0.3 }, mercosul.inicio - 0.2);
+    tl.fromTo("#b2-resumo", { opacity: 0 }, { opacity: 1, duration: 0.3 }, mercosul.inicio);
+    tl.fromTo("#b2-mercosul", { opacity: 0, y: 40 }, { opacity: 1, y: 0, duration: 0.4, ease: "power3.out" }, mercosul.inicio + 0.1);
+    tl.to("#b2-mercosul", { opacity: 0, y: -30, duration: 0.3 }, premissa.inicio - 0.2);
+    tl.fromTo("#b2-premissa", { opacity: 0, y: 40 }, { opacity: 1, y: 0, duration: 0.4, ease: "power3.out" }, premissa.inicio + 0.1);
+    window.__timelines["bloco-2"] = tl;
+  </script>
+</template>

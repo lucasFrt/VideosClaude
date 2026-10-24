@@ -1,0 +1,23 @@
+/* Legendas sincronizadas por palavra (ESTRUTURA.md, seção 5): de 1 a 4 palavras por vez,
+   centralizadas na área segura, logo acima do rodapé de fonte. Cada palavra só aparece
+   quando é falada, e a que está sendo falada fica em amarelo. O scripts/montar.py gera
+   os grupos a partir do palavras.json. */
+.legenda {
+  position: absolute;
+  left: calc(var(--seguro-esquerda) + var(--margem));
+  width: calc(var(--largura) - var(--seguro-esquerda) - var(--seguro-direita) - 2 * var(--margem));
+  bottom: calc(var(--seguro-baixo) + 72px);
+  text-align: center;
+  color: var(--texto);
+  font-family: var(--fonte);
+  font-weight: var(--peso-titulo);
+  font-size: var(--tamanho-legenda);
+  line-height: 1.12;
+  paint-order: stroke fill;
+  -webkit-text-stroke: var(--espessura-contorno) var(--contorno);
+  overflow: visible;
+}
+
+.legenda .palavra {
+  display: inline-block;
+}

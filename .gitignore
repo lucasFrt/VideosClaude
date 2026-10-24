@@ -19,3 +19,4 @@ videos/.*/
 # Renders e amostras: se refazem a partir da composição (e pesam no Git)
 videos/*/*.mp4
 videos/*/amostras/
+videos/*/quadros/

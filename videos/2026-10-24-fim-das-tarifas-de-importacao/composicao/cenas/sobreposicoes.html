@@ -1,0 +1,22 @@
+<!-- Gerado pelo scripts/montar.py a partir do roteiro e do palavras.json. Não edite. -->
+<template>
+  <style>
+    #root {
+      position: absolute;
+      inset: 0;
+    }
+  </style>
+  <div id="root" data-composition-id="sobreposicoes" data-width="1080" data-height="1920">
+    <div id="sob-selo" class="clip selo-ia" data-start="0" data-duration="78.93">Feito com auxílio de IA</div>
+    <div id="sob-fonte-1" class="clip rodape-fonte" data-start="0.15" data-duration="6.94">Fonte: OMC, 2025</div>
+    <div id="sob-fonte-2" class="clip rodape-fonte" data-start="7.09" data-duration="15.74">Fonte: Gecex/Camex, 2026; Receita Federal, 2025</div>
+  </div>
+  <script>
+    const tl = gsap.timeline({ paused: true });
+    for (let n = 1; n <= 2; n++) {
+      const el = document.getElementById("sob-fonte-" + n);
+      tl.fromTo(el, { opacity: 0 }, { opacity: 0.9, duration: 0.3 }, parseFloat(el.dataset.start));
+    }
+    window.__timelines["sobreposicoes"] = tl;
+  </script>
+</template>

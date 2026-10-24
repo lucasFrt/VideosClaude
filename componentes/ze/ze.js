@@ -15,6 +15,7 @@
 //   window.addEventListener("hf-seek", (e) => { ze.posar(e.detail.time, roteiro); renderer.render(cena, camera); });
 
 import * as THREE from "../../assets/libs/three.module.js";
+import { comSobra, limitar, misturar, suave, transicao } from "../palco/animacao.js";
 
 const CORES = {
   camiseta: 0xffc93c, // --destaque
@@ -55,37 +56,6 @@ const GESTOS = {
 };
 
 const PASSADA = 0.55; // distância de meio passo, em unidades da cena
-
-const limitar = (x) => Math.min(1, Math.max(0, x));
-const suave = (k) => k * k * (3 - 2 * k);
-// Chega com uma pequena sobra e assenta: dá peso aos gestos.
-const comSobra = (k) => {
-  const c = 1.1;
-  return 1 + (c + 1) * (k - 1) ** 3 + c * (k - 1) ** 2;
-};
-
-function misturar(a, b, k) {
-  if (typeof a === "number") return a + (b - a) * k;
-  if (Array.isArray(a)) return a.map((v, i) => misturar(v, b[i], k));
-  const r = {};
-  for (const chave of Object.keys(a)) r[chave] = misturar(a[chave], b[chave], k);
-  return r;
-}
-
-// Valor no tempo t de uma lista de chaves [[t0, v0], [t1, v1], ...]. Cada chave começa
-// uma transição a partir de onde o valor estava naquele instante, então trocas rápidas
-// não dão saltos.
-function transicao(chaves, t, valorDe, duracao, curva, atraso = 0) {
-  let atual = valorDe(chaves[0][1]);
-  for (let i = 1; i < chaves.length; i++) {
-    const inicio = chaves[i][0] + atraso;
-    if (t < inicio) break;
-    const proxima = i + 1 < chaves.length ? chaves[i + 1][0] + atraso : Infinity;
-    const k = limitar((Math.min(t, proxima) - inicio) / duracao);
-    atual = misturar(atual, valorDe(chaves[i][1]), curva(k));
-  }
-  return atual;
-}
 
 // Posição em trechos retos, com saída e chegada suaves; devolve também a distância
 // percorrida, que comanda as pernas.

@@ -3,8 +3,9 @@
 #
 # Cada frase tem:
 #   fala      o texto do narrador, como deve ser lido no roteiro (pode ter algarismos)
-#   marcacao  FATO, PROJEÇÃO, ARGUMENTO A FAVOR, ARGUMENTO CONTRA, TERMÔMETRO ou BORDÃO
-#   fontes    códigos do 02-fontes.md (obrigatório em tudo, menos BORDÃO)
+#   marcacao  FATO, PROJEÇÃO, PREMISSA, ARGUMENTO A FAVOR, ARGUMENTO CONTRA, TERMÔMETRO ou BORDÃO
+#             (PREMISSA: uma simplificação do cenário, dita no vídeo; vem do 01-ideia.md)
+#   fontes    códigos do 02-fontes.md (obrigatório em tudo, menos BORDÃO e PREMISSA)
 #   tela      (opcional) número ou texto que aparece na tela; o rodapé de fonte sai das fontes
 #   voz       (opcional) a fala escrita como a voz deve ler, com números por extenso
 #

@@ -46,7 +46,7 @@ python3 scripts/narrar.py videos/<pasta>                # narração + palavras.
 ## Situação
 
 - Instalação pronta e testada: render, determinismo e volume conferidos, sem chamar o FFmpeg diretamente.
-- Roteiro estruturado com checagem automática (`scripts/roteiro.py`) e critérios de validação (`docs/validacao.md`).
-- Protótipo do Zé em `videos/2026-10-24-prototipo-ze/` esperando sua decisão sobre o estilo.
-- Depois disso: os outros componentes (`ESTRUTURA.md`, seção 5), o vídeo de teste (seção 10) e a composição gerada a partir do roteiro.
+- Roteiro estruturado com checagem automática (`scripts/roteiro.py`), gerador de composição (`scripts/montar.py`) e critérios de validação (`docs/validacao.md`).
+- Componentes prontos: Zé, balança, contador, legendas, rodapé de fonte, selo de IA, palco 3D, objetos e cartões.
+- **Protótipo completo** em `videos/2026-10-24-fim-das-tarifas-de-importacao/`: tema real com fontes, uma rodada do crítico, prévia de 79 s com tempos estimados e **sem voz** (o edge-tts não funciona na nuvem). Para pôr a voz: `narrar.py`, `montar.py`, `ajustar-volume.sh` e render.
 - Propostas esperando decisão: `docs/aprendizados.md`, itens marcados **[proposta]**.

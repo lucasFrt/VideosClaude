@@ -1,0 +1,1352 @@
+[
+  {
+    "palavra": "Em",
+    "inicio": 0.15,
+    "fim": 0.3,
+    "bloco": 1
+  },
+  {
+    "palavra": "média",
+    "inicio": 0.32,
+    "fim": 0.6,
+    "bloco": 1
+  },
+  {
+    "palavra": "doze",
+    "inicio": 0.82,
+    "fim": 1.06,
+    "bloco": 1
+  },
+  {
+    "palavra": "por",
+    "inicio": 1.08,
+    "fim": 1.28,
+    "bloco": 1
+  },
+  {
+    "palavra": "cento",
+    "inicio": 1.3,
+    "fim": 1.58,
+    "bloco": 1
+  },
+  {
+    "palavra": "de",
+    "inicio": 1.6,
+    "fim": 1.75,
+    "bloco": 1
+  },
+  {
+    "palavra": "imposto",
+    "inicio": 1.77,
+    "fim": 2.15,
+    "bloco": 1
+  },
+  {
+    "palavra": "na",
+    "inicio": 2.17,
+    "fim": 2.32,
+    "bloco": 1
+  },
+  {
+    "palavra": "fronteira",
+    "inicio": 2.34,
+    "fim": 2.8,
+    "bloco": 1
+  },
+  {
+    "palavra": "E",
+    "inicio": 3.27,
+    "fim": 3.38,
+    "bloco": 1
+  },
+  {
+    "palavra": "se",
+    "inicio": 3.4,
+    "fim": 3.55,
+    "bloco": 1
+  },
+  {
+    "palavra": "o",
+    "inicio": 3.57,
+    "fim": 3.67,
+    "bloco": 1
+  },
+  {
+    "palavra": "Brasil",
+    "inicio": 3.69,
+    "fim": 4.02,
+    "bloco": 1
+  },
+  {
+    "palavra": "zerasse",
+    "inicio": 4.04,
+    "fim": 4.42,
+    "bloco": 1
+  },
+  {
+    "palavra": "esse",
+    "inicio": 4.44,
+    "fim": 4.68,
+    "bloco": 1
+  },
+  {
+    "palavra": "imposto",
+    "inicio": 4.7,
+    "fim": 5.07,
+    "bloco": 1
+  },
+  {
+    "palavra": "Vamos",
+    "inicio": 5.54,
+    "fim": 5.83,
+    "bloco": 1
+  },
+  {
+    "palavra": "imaginar",
+    "inicio": 5.85,
+    "fim": 6.27,
+    "bloco": 1
+  },
+  {
+    "palavra": "Hoje",
+    "inicio": 7.09,
+    "fim": 7.33,
+    "bloco": 2
+  },
+  {
+    "palavra": "ele",
+    "inicio": 7.35,
+    "fim": 7.54,
+    "bloco": 2
+  },
+  {
+    "palavra": "chega",
+    "inicio": 7.56,
+    "fim": 7.85,
+    "bloco": 2
+  },
+  {
+    "palavra": "a",
+    "inicio": 7.87,
+    "fim": 7.97,
+    "bloco": 2
+  },
+  {
+    "palavra": "trinta",
+    "inicio": 7.99,
+    "fim": 8.32,
+    "bloco": 2
+  },
+  {
+    "palavra": "e",
+    "inicio": 8.34,
+    "fim": 8.45,
+    "bloco": 2
+  },
+  {
+    "palavra": "cinco",
+    "inicio": 8.47,
+    "fim": 8.75,
+    "bloco": 2
+  },
+  {
+    "palavra": "por",
+    "inicio": 8.77,
+    "fim": 8.97,
+    "bloco": 2
+  },
+  {
+    "palavra": "cento",
+    "inicio": 8.99,
+    "fim": 9.27,
+    "bloco": 2
+  },
+  {
+    "palavra": "nos",
+    "inicio": 9.29,
+    "fim": 9.49,
+    "bloco": 2
+  },
+  {
+    "palavra": "carros",
+    "inicio": 9.51,
+    "fim": 9.84,
+    "bloco": 2
+  },
+  {
+    "palavra": "e",
+    "inicio": 9.86,
+    "fim": 9.96,
+    "bloco": 2
+  },
+  {
+    "palavra": "rende",
+    "inicio": 9.98,
+    "fim": 10.27,
+    "bloco": 2
+  },
+  {
+    "palavra": "ao",
+    "inicio": 10.29,
+    "fim": 10.44,
+    "bloco": 2
+  },
+  {
+    "palavra": "governo",
+    "inicio": 10.46,
+    "fim": 10.83,
+    "bloco": 2
+  },
+  {
+    "palavra": "cerca",
+    "inicio": 10.85,
+    "fim": 11.14,
+    "bloco": 2
+  },
+  {
+    "palavra": "de",
+    "inicio": 11.16,
+    "fim": 11.31,
+    "bloco": 2
+  },
+  {
+    "palavra": "noventa",
+    "inicio": 11.33,
+    "fim": 11.7,
+    "bloco": 2
+  },
+  {
+    "palavra": "bilhões",
+    "inicio": 11.72,
+    "fim": 12.1,
+    "bloco": 2
+  },
+  {
+    "palavra": "de",
+    "inicio": 12.12,
+    "fim": 12.27,
+    "bloco": 2
+  },
+  {
+    "palavra": "reais",
+    "inicio": 12.29,
+    "fim": 12.57,
+    "bloco": 2
+  },
+  {
+    "palavra": "por",
+    "inicio": 12.59,
+    "fim": 12.79,
+    "bloco": 2
+  },
+  {
+    "palavra": "ano",
+    "inicio": 12.81,
+    "fim": 13.0,
+    "bloco": 2
+  },
+  {
+    "palavra": "Na",
+    "inicio": 13.47,
+    "fim": 13.62,
+    "bloco": 2
+  },
+  {
+    "palavra": "vida",
+    "inicio": 13.64,
+    "fim": 13.88,
+    "bloco": 2
+  },
+  {
+    "palavra": "real",
+    "inicio": 13.9,
+    "fim": 14.14,
+    "bloco": 2
+  },
+  {
+    "palavra": "isso",
+    "inicio": 14.36,
+    "fim": 14.6,
+    "bloco": 2
+  },
+  {
+    "palavra": "dependeria",
+    "inicio": 14.62,
+    "fim": 15.13,
+    "bloco": 2
+  },
+  {
+    "palavra": "do",
+    "inicio": 15.15,
+    "fim": 15.3,
+    "bloco": 2
+  },
+  {
+    "palavra": "Mercosul",
+    "inicio": 15.32,
+    "fim": 15.74,
+    "bloco": 2
+  },
+  {
+    "palavra": "que",
+    "inicio": 15.96,
+    "fim": 16.16,
+    "bloco": 2
+  },
+  {
+    "palavra": "tem",
+    "inicio": 16.18,
+    "fim": 16.37,
+    "bloco": 2
+  },
+  {
+    "palavra": "uma",
+    "inicio": 16.39,
+    "fim": 16.59,
+    "bloco": 2
+  },
+  {
+    "palavra": "tarifa",
+    "inicio": 16.61,
+    "fim": 16.94,
+    "bloco": 2
+  },
+  {
+    "palavra": "comum",
+    "inicio": 16.96,
+    "fim": 17.24,
+    "bloco": 2
+  },
+  {
+    "palavra": "Aqui",
+    "inicio": 17.71,
+    "fim": 17.95,
+    "bloco": 2
+  },
+  {
+    "palavra": "vamos",
+    "inicio": 18.17,
+    "fim": 18.46,
+    "bloco": 2
+  },
+  {
+    "palavra": "supor",
+    "inicio": 18.48,
+    "fim": 18.76,
+    "bloco": 2
+  },
+  {
+    "palavra": "que",
+    "inicio": 18.78,
+    "fim": 18.98,
+    "bloco": 2
+  },
+  {
+    "palavra": "ele",
+    "inicio": 19.0,
+    "fim": 19.19,
+    "bloco": 2
+  },
+  {
+    "palavra": "topa",
+    "inicio": 19.21,
+    "fim": 19.45,
+    "bloco": 2
+  },
+  {
+    "palavra": "e",
+    "inicio": 19.47,
+    "fim": 19.58,
+    "bloco": 2
+  },
+  {
+    "palavra": "que",
+    "inicio": 19.6,
+    "fim": 19.79,
+    "bloco": 2
+  },
+  {
+    "palavra": "o",
+    "inicio": 19.81,
+    "fim": 19.92,
+    "bloco": 2
+  },
+  {
+    "palavra": "câmbio",
+    "inicio": 19.94,
+    "fim": 20.27,
+    "bloco": 2
+  },
+  {
+    "palavra": "e",
+    "inicio": 20.29,
+    "fim": 20.39,
+    "bloco": 2
+  },
+  {
+    "palavra": "os",
+    "inicio": 20.41,
+    "fim": 20.56,
+    "bloco": 2
+  },
+  {
+    "palavra": "outros",
+    "inicio": 20.59,
+    "fim": 20.91,
+    "bloco": 2
+  },
+  {
+    "palavra": "impostos",
+    "inicio": 20.94,
+    "fim": 21.36,
+    "bloco": 2
+  },
+  {
+    "palavra": "ficam",
+    "inicio": 21.38,
+    "fim": 21.66,
+    "bloco": 2
+  },
+  {
+    "palavra": "iguais",
+    "inicio": 21.68,
+    "fim": 22.01,
+    "bloco": 2
+  },
+  {
+    "palavra": "Ninguém",
+    "inicio": 22.83,
+    "fim": 23.21,
+    "bloco": 3
+  },
+  {
+    "palavra": "sabe",
+    "inicio": 23.23,
+    "fim": 23.47,
+    "bloco": 3
+  },
+  {
+    "palavra": "o",
+    "inicio": 23.49,
+    "fim": 23.59,
+    "bloco": 3
+  },
+  {
+    "palavra": "tamanho",
+    "inicio": 23.61,
+    "fim": 23.99,
+    "bloco": 3
+  },
+  {
+    "palavra": "exato",
+    "inicio": 24.01,
+    "fim": 24.29,
+    "bloco": 3
+  },
+  {
+    "palavra": "mas",
+    "inicio": 24.51,
+    "fim": 24.71,
+    "bloco": 3
+  },
+  {
+    "palavra": "no",
+    "inicio": 24.93,
+    "fim": 25.08,
+    "bloco": 3
+  },
+  {
+    "palavra": "curto",
+    "inicio": 25.1,
+    "fim": 25.38,
+    "bloco": 3
+  },
+  {
+    "palavra": "prazo",
+    "inicio": 25.4,
+    "fim": 25.69,
+    "bloco": 3
+  },
+  {
+    "palavra": "importados",
+    "inicio": 25.91,
+    "fim": 26.42,
+    "bloco": 3
+  },
+  {
+    "palavra": "e",
+    "inicio": 26.44,
+    "fim": 26.54,
+    "bloco": 3
+  },
+  {
+    "palavra": "peças",
+    "inicio": 26.56,
+    "fim": 26.85,
+    "bloco": 3
+  },
+  {
+    "palavra": "das",
+    "inicio": 26.87,
+    "fim": 27.06,
+    "bloco": 3
+  },
+  {
+    "palavra": "fábricas",
+    "inicio": 27.08,
+    "fim": 27.5,
+    "bloco": 3
+  },
+  {
+    "palavra": "ficariam",
+    "inicio": 27.52,
+    "fim": 27.94,
+    "bloco": 3
+  },
+  {
+    "palavra": "mais",
+    "inicio": 27.96,
+    "fim": 28.2,
+    "bloco": 3
+  },
+  {
+    "palavra": "baratos",
+    "inicio": 28.22,
+    "fim": 28.6,
+    "bloco": 3
+  },
+  {
+    "palavra": "no",
+    "inicio": 28.92,
+    "fim": 29.07,
+    "bloco": 3
+  },
+  {
+    "palavra": "fim",
+    "inicio": 29.09,
+    "fim": 29.28,
+    "bloco": 3
+  },
+  {
+    "palavra": "quem",
+    "inicio": 29.5,
+    "fim": 29.74,
+    "bloco": 3
+  },
+  {
+    "palavra": "paga",
+    "inicio": 29.76,
+    "fim": 30.0,
+    "bloco": 3
+  },
+  {
+    "palavra": "a",
+    "inicio": 30.02,
+    "fim": 30.13,
+    "bloco": 3
+  },
+  {
+    "palavra": "tarifa",
+    "inicio": 30.15,
+    "fim": 30.48,
+    "bloco": 3
+  },
+  {
+    "palavra": "é",
+    "inicio": 30.5,
+    "fim": 30.6,
+    "bloco": 3
+  },
+  {
+    "palavra": "quem",
+    "inicio": 30.62,
+    "fim": 30.86,
+    "bloco": 3
+  },
+  {
+    "palavra": "compra",
+    "inicio": 30.88,
+    "fim": 31.21,
+    "bloco": 3
+  },
+  {
+    "palavra": "aqui",
+    "inicio": 31.23,
+    "fim": 31.47,
+    "bloco": 3
+  },
+  {
+    "palavra": "E",
+    "inicio": 31.94,
+    "fim": 32.05,
+    "bloco": 3
+  },
+  {
+    "palavra": "alguém",
+    "inicio": 32.07,
+    "fim": 32.4,
+    "bloco": 3
+  },
+  {
+    "palavra": "teria",
+    "inicio": 32.42,
+    "fim": 32.7,
+    "bloco": 3
+  },
+  {
+    "palavra": "que",
+    "inicio": 32.72,
+    "fim": 32.92,
+    "bloco": 3
+  },
+  {
+    "palavra": "cobrir",
+    "inicio": 32.94,
+    "fim": 33.27,
+    "bloco": 3
+  },
+  {
+    "palavra": "esse",
+    "inicio": 33.29,
+    "fim": 33.53,
+    "bloco": 3
+  },
+  {
+    "palavra": "buraco",
+    "inicio": 33.55,
+    "fim": 33.88,
+    "bloco": 3
+  },
+  {
+    "palavra": "na",
+    "inicio": 33.9,
+    "fim": 34.05,
+    "bloco": 3
+  },
+  {
+    "palavra": "arrecadação",
+    "inicio": 34.07,
+    "fim": 34.62,
+    "bloco": 3
+  },
+  {
+    "palavra": "com",
+    "inicio": 34.94,
+    "fim": 35.14,
+    "bloco": 3
+  },
+  {
+    "palavra": "outro",
+    "inicio": 35.16,
+    "fim": 35.44,
+    "bloco": 3
+  },
+  {
+    "palavra": "imposto",
+    "inicio": 35.46,
+    "fim": 35.84,
+    "bloco": 3
+  },
+  {
+    "palavra": "ou",
+    "inicio": 35.86,
+    "fim": 36.01,
+    "bloco": 3
+  },
+  {
+    "palavra": "com",
+    "inicio": 36.03,
+    "fim": 36.22,
+    "bloco": 3
+  },
+  {
+    "palavra": "corte",
+    "inicio": 36.24,
+    "fim": 36.53,
+    "bloco": 3
+  },
+  {
+    "palavra": "de",
+    "inicio": 36.55,
+    "fim": 36.7,
+    "bloco": 3
+  },
+  {
+    "palavra": "gastos",
+    "inicio": 36.72,
+    "fim": 37.05,
+    "bloco": 3
+  },
+  {
+    "palavra": "No",
+    "inicio": 37.52,
+    "fim": 37.67,
+    "bloco": 3
+  },
+  {
+    "palavra": "longo",
+    "inicio": 37.69,
+    "fim": 37.97,
+    "bloco": 3
+  },
+  {
+    "palavra": "prazo",
+    "inicio": 37.99,
+    "fim": 38.28,
+    "bloco": 3
+  },
+  {
+    "palavra": "as",
+    "inicio": 38.5,
+    "fim": 38.65,
+    "bloco": 3
+  },
+  {
+    "palavra": "fábricas",
+    "inicio": 38.67,
+    "fim": 39.09,
+    "bloco": 3
+  },
+  {
+    "palavra": "daqui",
+    "inicio": 39.11,
+    "fim": 39.39,
+    "bloco": 3
+  },
+  {
+    "palavra": "teriam",
+    "inicio": 39.41,
+    "fim": 39.74,
+    "bloco": 3
+  },
+  {
+    "palavra": "mais",
+    "inicio": 39.76,
+    "fim": 40.0,
+    "bloco": 3
+  },
+  {
+    "palavra": "concorrência",
+    "inicio": 40.02,
+    "fim": 40.62,
+    "bloco": 3
+  },
+  {
+    "palavra": "umas",
+    "inicio": 40.94,
+    "fim": 41.18,
+    "bloco": 3
+  },
+  {
+    "palavra": "ficariam",
+    "inicio": 41.2,
+    "fim": 41.62,
+    "bloco": 3
+  },
+  {
+    "palavra": "mais",
+    "inicio": 41.64,
+    "fim": 41.88,
+    "bloco": 3
+  },
+  {
+    "palavra": "eficientes",
+    "inicio": 41.9,
+    "fim": 42.41,
+    "bloco": 3
+  },
+  {
+    "palavra": "outras",
+    "inicio": 42.63,
+    "fim": 42.96,
+    "bloco": 3
+  },
+  {
+    "palavra": "poderiam",
+    "inicio": 42.98,
+    "fim": 43.4,
+    "bloco": 3
+  },
+  {
+    "palavra": "fechar",
+    "inicio": 43.42,
+    "fim": 43.75,
+    "bloco": 3
+  },
+  {
+    "palavra": "Agora",
+    "inicio": 44.57,
+    "fim": 44.86,
+    "bloco": 4
+  },
+  {
+    "palavra": "vamos",
+    "inicio": 45.08,
+    "fim": 45.36,
+    "bloco": 4
+  },
+  {
+    "palavra": "colocar",
+    "inicio": 45.38,
+    "fim": 45.76,
+    "bloco": 4
+  },
+  {
+    "palavra": "na",
+    "inicio": 45.78,
+    "fim": 45.93,
+    "bloco": 4
+  },
+  {
+    "palavra": "balança",
+    "inicio": 45.95,
+    "fim": 46.32,
+    "bloco": 4
+  },
+  {
+    "palavra": "Quem",
+    "inicio": 46.79,
+    "fim": 47.03,
+    "bloco": 4
+  },
+  {
+    "palavra": "defende",
+    "inicio": 47.05,
+    "fim": 47.43,
+    "bloco": 4
+  },
+  {
+    "palavra": "aponta",
+    "inicio": 47.45,
+    "fim": 47.78,
+    "bloco": 4
+  },
+  {
+    "palavra": "que",
+    "inicio": 47.8,
+    "fim": 47.99,
+    "bloco": 4
+  },
+  {
+    "palavra": "os",
+    "inicio": 48.01,
+    "fim": 48.16,
+    "bloco": 4
+  },
+  {
+    "palavra": "produtos",
+    "inicio": 48.18,
+    "fim": 48.6,
+    "bloco": 4
+  },
+  {
+    "palavra": "ficam",
+    "inicio": 48.62,
+    "fim": 48.91,
+    "bloco": 4
+  },
+  {
+    "palavra": "mais",
+    "inicio": 48.93,
+    "fim": 49.17,
+    "bloco": 4
+  },
+  {
+    "palavra": "baratos",
+    "inicio": 49.19,
+    "fim": 49.56,
+    "bloco": 4
+  },
+  {
+    "palavra": "e",
+    "inicio": 49.58,
+    "fim": 49.69,
+    "bloco": 4
+  },
+  {
+    "palavra": "que",
+    "inicio": 49.71,
+    "fim": 49.9,
+    "bloco": 4
+  },
+  {
+    "palavra": "a",
+    "inicio": 49.92,
+    "fim": 50.03,
+    "bloco": 4
+  },
+  {
+    "palavra": "concorrência",
+    "inicio": 50.05,
+    "fim": 50.65,
+    "bloco": 4
+  },
+  {
+    "palavra": "faz",
+    "inicio": 50.67,
+    "fim": 50.86,
+    "bloco": 4
+  },
+  {
+    "palavra": "as",
+    "inicio": 50.88,
+    "fim": 51.03,
+    "bloco": 4
+  },
+  {
+    "palavra": "fábricas",
+    "inicio": 51.05,
+    "fim": 51.47,
+    "bloco": 4
+  },
+  {
+    "palavra": "produzirem",
+    "inicio": 51.49,
+    "fim": 52.0,
+    "bloco": 4
+  },
+  {
+    "palavra": "mais",
+    "inicio": 52.02,
+    "fim": 52.26,
+    "bloco": 4
+  },
+  {
+    "palavra": "com",
+    "inicio": 52.28,
+    "fim": 52.48,
+    "bloco": 4
+  },
+  {
+    "palavra": "menos",
+    "inicio": 52.5,
+    "fim": 52.78,
+    "bloco": 4
+  },
+  {
+    "palavra": "como",
+    "inicio": 53.0,
+    "fim": 53.24,
+    "bloco": 4
+  },
+  {
+    "palavra": "se",
+    "inicio": 53.26,
+    "fim": 53.41,
+    "bloco": 4
+  },
+  {
+    "palavra": "viu",
+    "inicio": 53.43,
+    "fim": 53.63,
+    "bloco": 4
+  },
+  {
+    "palavra": "nos",
+    "inicio": 53.65,
+    "fim": 53.84,
+    "bloco": 4
+  },
+  {
+    "palavra": "anos",
+    "inicio": 53.86,
+    "fim": 54.1,
+    "bloco": 4
+  },
+  {
+    "palavra": "noventa",
+    "inicio": 54.12,
+    "fim": 54.5,
+    "bloco": 4
+  },
+  {
+    "palavra": "Quem",
+    "inicio": 54.97,
+    "fim": 55.21,
+    "bloco": 4
+  },
+  {
+    "palavra": "critica",
+    "inicio": 55.23,
+    "fim": 55.6,
+    "bloco": 4
+  },
+  {
+    "palavra": "aponta",
+    "inicio": 55.62,
+    "fim": 55.95,
+    "bloco": 4
+  },
+  {
+    "palavra": "que",
+    "inicio": 55.97,
+    "fim": 56.17,
+    "bloco": 4
+  },
+  {
+    "palavra": "na",
+    "inicio": 56.39,
+    "fim": 56.54,
+    "bloco": 4
+  },
+  {
+    "palavra": "abertura",
+    "inicio": 56.56,
+    "fim": 56.98,
+    "bloco": 4
+  },
+  {
+    "palavra": "dos",
+    "inicio": 57.0,
+    "fim": 57.19,
+    "bloco": 4
+  },
+  {
+    "palavra": "anos",
+    "inicio": 57.21,
+    "fim": 57.45,
+    "bloco": 4
+  },
+  {
+    "palavra": "noventa",
+    "inicio": 57.47,
+    "fim": 57.85,
+    "bloco": 4
+  },
+  {
+    "palavra": "as",
+    "inicio": 58.07,
+    "fim": 58.22,
+    "bloco": 4
+  },
+  {
+    "palavra": "regiões",
+    "inicio": 58.24,
+    "fim": 58.61,
+    "bloco": 4
+  },
+  {
+    "palavra": "das",
+    "inicio": 58.63,
+    "fim": 58.83,
+    "bloco": 4
+  },
+  {
+    "palavra": "indústrias",
+    "inicio": 58.85,
+    "fim": 59.36,
+    "bloco": 4
+  },
+  {
+    "palavra": "mais",
+    "inicio": 59.38,
+    "fim": 59.62,
+    "bloco": 4
+  },
+  {
+    "palavra": "protegidas",
+    "inicio": 59.64,
+    "fim": 60.15,
+    "bloco": 4
+  },
+  {
+    "palavra": "ficaram",
+    "inicio": 60.17,
+    "fim": 60.54,
+    "bloco": 4
+  },
+  {
+    "palavra": "para",
+    "inicio": 60.56,
+    "fim": 60.8,
+    "bloco": 4
+  },
+  {
+    "palavra": "trás",
+    "inicio": 60.82,
+    "fim": 61.06,
+    "bloco": 4
+  },
+  {
+    "palavra": "em",
+    "inicio": 61.08,
+    "fim": 61.23,
+    "bloco": 4
+  },
+  {
+    "palavra": "empregos",
+    "inicio": 61.25,
+    "fim": 61.67,
+    "bloco": 4
+  },
+  {
+    "palavra": "com",
+    "inicio": 61.69,
+    "fim": 61.89,
+    "bloco": 4
+  },
+  {
+    "palavra": "carteira",
+    "inicio": 61.91,
+    "fim": 62.33,
+    "bloco": 4
+  },
+  {
+    "palavra": "por",
+    "inicio": 62.35,
+    "fim": 62.54,
+    "bloco": 4
+  },
+  {
+    "palavra": "cerca",
+    "inicio": 62.56,
+    "fim": 62.85,
+    "bloco": 4
+  },
+  {
+    "palavra": "de",
+    "inicio": 62.87,
+    "fim": 63.02,
+    "bloco": 4
+  },
+  {
+    "palavra": "vinte",
+    "inicio": 63.04,
+    "fim": 63.32,
+    "bloco": 4
+  },
+  {
+    "palavra": "anos",
+    "inicio": 63.34,
+    "fim": 63.58,
+    "bloco": 4
+  },
+  {
+    "palavra": "Entre",
+    "inicio": 64.05,
+    "fim": 64.34,
+    "bloco": 4
+  },
+  {
+    "palavra": "os",
+    "inicio": 64.36,
+    "fim": 64.51,
+    "bloco": 4
+  },
+  {
+    "palavra": "economistas",
+    "inicio": 64.53,
+    "fim": 65.08,
+    "bloco": 4
+  },
+  {
+    "palavra": "há",
+    "inicio": 65.3,
+    "fim": 65.45,
+    "bloco": 4
+  },
+  {
+    "palavra": "quase",
+    "inicio": 65.47,
+    "fim": 65.76,
+    "bloco": 4
+  },
+  {
+    "palavra": "consenso",
+    "inicio": 65.78,
+    "fim": 66.2,
+    "bloco": 4
+  },
+  {
+    "palavra": "de",
+    "inicio": 66.22,
+    "fim": 66.37,
+    "bloco": 4
+  },
+  {
+    "palavra": "que",
+    "inicio": 66.39,
+    "fim": 66.58,
+    "bloco": 4
+  },
+  {
+    "palavra": "tarifa",
+    "inicio": 66.6,
+    "fim": 66.93,
+    "bloco": 4
+  },
+  {
+    "palavra": "encarece",
+    "inicio": 66.95,
+    "fim": 67.37,
+    "bloco": 4
+  },
+  {
+    "palavra": "o",
+    "inicio": 67.39,
+    "fim": 67.5,
+    "bloco": 4
+  },
+  {
+    "palavra": "que",
+    "inicio": 67.52,
+    "fim": 67.71,
+    "bloco": 4
+  },
+  {
+    "palavra": "a",
+    "inicio": 67.73,
+    "fim": 67.84,
+    "bloco": 4
+  },
+  {
+    "palavra": "gente",
+    "inicio": 67.86,
+    "fim": 68.14,
+    "bloco": 4
+  },
+  {
+    "palavra": "compra",
+    "inicio": 68.16,
+    "fim": 68.49,
+    "bloco": 4
+  },
+  {
+    "palavra": "Já",
+    "inicio": 68.96,
+    "fim": 69.11,
+    "bloco": 4
+  },
+  {
+    "palavra": "sobre",
+    "inicio": 69.13,
+    "fim": 69.42,
+    "bloco": 4
+  },
+  {
+    "palavra": "o",
+    "inicio": 69.44,
+    "fim": 69.54,
+    "bloco": 4
+  },
+  {
+    "palavra": "custo",
+    "inicio": 69.56,
+    "fim": 69.85,
+    "bloco": 4
+  },
+  {
+    "palavra": "da",
+    "inicio": 69.87,
+    "fim": 70.02,
+    "bloco": 4
+  },
+  {
+    "palavra": "mudança",
+    "inicio": 70.04,
+    "fim": 70.41,
+    "bloco": 4
+  },
+  {
+    "palavra": "para",
+    "inicio": 70.43,
+    "fim": 70.67,
+    "bloco": 4
+  },
+  {
+    "palavra": "quem",
+    "inicio": 70.69,
+    "fim": 70.93,
+    "bloco": 4
+  },
+  {
+    "palavra": "trabalha",
+    "inicio": 70.95,
+    "fim": 71.37,
+    "bloco": 4
+  },
+  {
+    "palavra": "nas",
+    "inicio": 71.39,
+    "fim": 71.59,
+    "bloco": 4
+  },
+  {
+    "palavra": "fábricas",
+    "inicio": 71.61,
+    "fim": 72.03,
+    "bloco": 4
+  },
+  {
+    "palavra": "protegidas",
+    "inicio": 72.05,
+    "fim": 72.56,
+    "bloco": 4
+  },
+  {
+    "palavra": "os",
+    "inicio": 72.78,
+    "fim": 72.93,
+    "bloco": 4
+  },
+  {
+    "palavra": "estudos",
+    "inicio": 72.95,
+    "fim": 73.32,
+    "bloco": 4
+  },
+  {
+    "palavra": "divergem",
+    "inicio": 73.34,
+    "fim": 73.76,
+    "bloco": 4
+  },
+  {
+    "palavra": "E",
+    "inicio": 74.58,
+    "fim": 74.69,
+    "bloco": 5
+  },
+  {
+    "palavra": "aí",
+    "inicio": 74.71,
+    "fim": 74.86,
+    "bloco": 5
+  },
+  {
+    "palavra": "você",
+    "inicio": 75.08,
+    "fim": 75.32,
+    "bloco": 5
+  },
+  {
+    "palavra": "toparia",
+    "inicio": 75.34,
+    "fim": 75.71,
+    "bloco": 5
+  },
+  {
+    "palavra": "Me",
+    "inicio": 76.18,
+    "fim": 76.33,
+    "bloco": 5
+  },
+  {
+    "palavra": "conta",
+    "inicio": 76.35,
+    "fim": 76.64,
+    "bloco": 5
+  },
+  {
+    "palavra": "nos",
+    "inicio": 76.66,
+    "fim": 76.85,
+    "bloco": 5
+  },
+  {
+    "palavra": "comentários",
+    "inicio": 76.87,
+    "fim": 77.43,
+    "bloco": 5
+  }
+]

@@ -2,11 +2,16 @@
 """Gera a narração de um vídeo com o edge-tts (ESTRUTURA.md, seção 8).
 
 Uso: python3 scripts/narrar.py videos/AAAA-MM-DD-slug
+     python3 scripts/narrar.py --estimar videos/AAAA-MM-DD-slug
 
 Lê   narracao/texto.txt  (blocos marcados com uma linha "[BLOCO N]")
 Gera narracao/narracao.mp3  (o áudio do edge-tts como veio; o volume é ajustado na
                             composição pelo "normalize-audio" do HyperFrames)
      narracao/palavras.json (lista de {"palavra", "inicio", "fim", "bloco"}, em segundos)
+
+--estimar: sem voz (quando o edge-tts não está disponível), gera só o palavras.json com
+tempos estimados pelo tamanho das palavras e pela pontuação, e deixa a marca
+narracao/ESTIMADO. A narração real substitui tudo e apaga a marca.
 """
 
 import asyncio
@@ -16,22 +21,34 @@ import re
 import sys
 from pathlib import Path
 
-try:
-    import edge_tts
-except ImportError:
-    # Sem edge-tts neste Python: usa o ambiente virtual criado pelo scripts/instalar.sh.
-    if sys.prefix == sys.base_prefix:
-        raiz = Path(__file__).resolve().parent.parent
-        for py in (raiz / ".venv" / "bin" / "python", raiz / ".venv" / "Scripts" / "python.exe"):
-            if py.is_file():
-                os.execv(str(py), [str(py), *sys.argv])
-    sys.exit("ERRO: edge-tts não instalado. Rode ./scripts/instalar.sh")
+
+def carregar_edge_tts():
+    try:
+        import edge_tts
+    except ImportError:
+        # Sem edge-tts neste Python: usa o ambiente virtual criado pelo scripts/instalar.sh.
+        if sys.prefix == sys.base_prefix:
+            raiz = Path(__file__).resolve().parent.parent
+            for py in (raiz / ".venv" / "bin" / "python", raiz / ".venv" / "Scripts" / "python.exe"):
+                if py.is_file():
+                    os.execv(str(py), [str(py), *sys.argv])
+        sys.exit("ERRO: edge-tts não instalado. Rode ./scripts/instalar.sh")
+    return edge_tts
+
 
 # Fixos por decisão do canal. Não mudar sem autorização.
 VOZ = "pt-BR-AntonioNeural"
 RITMO = "+10%"
 
 TICKS_POR_SEGUNDO = 10_000_000  # o edge-tts informa tempos em unidades de 100 ns
+
+# Ritmo da estimativa sem voz, perto do da voz fixa (calibrar com a primeira narração real).
+INICIO_ESTIMADO = 0.15
+SEGUNDOS_POR_PALAVRA = 0.06
+SEGUNDOS_POR_LETRA = 0.045
+INTERVALO_ENTRE_PALAVRAS = 0.02
+PAUSAS = {",": 0.2, ";": 0.3, ":": 0.3, ".": 0.45, "?": 0.45, "!": 0.45}
+PAUSA_ENTRE_BLOCOS = 0.35
 
 MARCA_BLOCO = re.compile(r"^\[BLOCO (\d+)\]$")
 
@@ -67,8 +84,26 @@ def ler_blocos(caminho):
     return [(numero, " ".join(linhas)) for numero, linhas in blocos]
 
 
+def estimar(blocos):
+    """Tempos de cada palavra sem voz: tamanho da palavra mais as pausas da pontuação."""
+    palavras = []
+    t = INICIO_ESTIMADO
+    for numero, texto in blocos:
+        for bruta in texto.split():
+            palavra = bruta.strip(".,;:?!…\"'()")
+            if not palavra:
+                continue
+            duracao = SEGUNDOS_POR_PALAVRA + SEGUNDOS_POR_LETRA * len(re.sub(r"\W", "", palavra))
+            palavras.append({"palavra": palavra, "inicio": round(t, 2),
+                             "fim": round(t + duracao, 2), "bloco": numero})
+            t += duracao + INTERVALO_ENTRE_PALAVRAS + PAUSAS.get(bruta[-1], 0)
+        t += PAUSA_ENTRE_BLOCOS
+    return palavras
+
+
 async def sintetizar(texto, destino):
     """Grava o MP3 bruto e retorna os eventos de limite de palavra."""
+    edge_tts = carregar_edge_tts()
     comunicacao = edge_tts.Communicate(
         texto,
         VOZ,
@@ -122,11 +157,14 @@ def associar_blocos(eventos, blocos, texto_completo):
 
 
 def main():
-    if len(sys.argv) != 2:
+    argumentos = sys.argv[1:]
+    sem_voz = "--estimar" in argumentos
+    argumentos = [a for a in argumentos if a != "--estimar"]
+    if len(argumentos) != 1:
         print(__doc__, file=sys.stderr)
         sys.exit(1)
 
-    pasta = Path(sys.argv[1]).resolve()
+    pasta = Path(argumentos[0]).resolve()
     narracao = pasta / "narracao"
     texto_txt = narracao / "texto.txt"
     if not texto_txt.is_file():
@@ -138,6 +176,19 @@ def main():
             print(f"AVISO: o bloco {numero} tem algarismos. Se a voz puder ler errado, "
                   "escreva o número por extenso.", file=sys.stderr)
 
+    marca = narracao / "ESTIMADO"
+    if sem_voz:
+        if (narracao / "narracao.mp3").exists():
+            erro("já existe narracao.mp3: tempos estimados ficariam fora de sincronia com ela.")
+        palavras = estimar(blocos)
+        (narracao / "palavras.json").write_text(
+            json.dumps(palavras, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        marca.write_text("Tempos estimados, sem voz (narrar.py --estimar). "
+                         "Rode o narrar.py sem --estimar para gerar a narração real.\n", encoding="utf-8")
+        print(f"Tempos ESTIMADOS (sem voz) para {len(palavras)} palavras: "
+              f"{palavras[-1]['fim']:.1f} s de fala.")
+        return
+
     texto_completo = " ".join(texto for _, texto in blocos)
 
     # Grava ao lado e só troca no fim, para uma falha não deixar meia narração.
@@ -148,6 +199,7 @@ def main():
         erro("o edge-tts não devolveu limites de palavra.")
     palavras = associar_blocos(eventos, blocos, texto_completo)
     os.replace(provisorio, narracao / "narracao.mp3")
+    marca.unlink(missing_ok=True)
 
     (narracao / "palavras.json").write_text(
         json.dumps(palavras, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")

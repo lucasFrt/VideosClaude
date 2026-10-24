@@ -1,0 +1,81 @@
+/* Elementos 2D das cenas: números grandes, cartões de informação e etiquetas.
+   Todos ocupam a largura da área segura; a cena só define a altura (top) de cada um.
+   Animações (entrada, saída) ficam na timeline GSAP da cena, nunca em CSS. */
+
+.numero-grande,
+.cartao,
+.linha-de-etiquetas {
+  position: absolute;
+  left: calc(var(--seguro-esquerda) + var(--margem));
+  width: calc(var(--largura) - var(--seguro-esquerda) - var(--seguro-direita) - 2 * var(--margem));
+  box-sizing: border-box;
+  text-align: center;
+  font-family: var(--fonte);
+}
+
+.numero-grande {
+  color: var(--destaque);
+  font-weight: var(--peso-titulo);
+  font-size: var(--tamanho-numero);
+  font-variant-numeric: tabular-nums;
+  line-height: 1;
+  paint-order: stroke fill;
+  -webkit-text-stroke: 8px var(--contorno);
+}
+
+.numero-grande .legenda-numero {
+  display: block;
+  margin-top: 10px;
+  color: var(--texto);
+  font-size: 44px;
+  -webkit-text-stroke: 6px var(--contorno);
+}
+
+.cartao {
+  padding: 26px 32px;
+  border-radius: 28px;
+  border: 4px solid var(--texto);
+  background: rgba(11, 20, 36, 0.8);
+  color: var(--texto);
+  font-weight: var(--peso-titulo);
+  font-size: 44px;
+  line-height: 1.15;
+}
+
+.cartao.positivo { border-color: var(--positivo); }
+.cartao.negativo { border-color: var(--negativo); }
+.cartao.destaque { border-color: var(--destaque); }
+
+.cartao .titulo-cartao {
+  display: block;
+  margin-bottom: 12px;
+  color: var(--destaque);
+  font-size: 34px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.cartao .menor {
+  display: block;
+  margin-top: 10px;
+  font-weight: var(--peso-rodape);
+  font-size: 32px;
+  opacity: 0.85;
+}
+
+.etiqueta {
+  display: inline-block;
+  margin: 8px;
+  padding: 12px 24px;
+  border-radius: 999px;
+  border: 3px solid var(--texto);
+  background: rgba(11, 20, 36, 0.8);
+  color: var(--texto);
+  font-family: var(--fonte);
+  font-weight: var(--peso-titulo);
+  font-size: 34px;
+}
+
+.etiqueta.positivo { border-color: var(--positivo); color: var(--positivo); }
+.etiqueta.negativo { border-color: var(--negativo); color: var(--negativo); }
+.etiqueta.destaque { border-color: var(--destaque); color: var(--destaque); }

@@ -1,0 +1,89 @@
+<!-- Bloco 3 — O que mudaria. O Zé reage a cada consequência: preços mais baixos, a conta do
+     governo e a concorrência para as fábricas (a fábrica entra no fim). Tempos de TEMPOS.bloco(3). -->
+<template>
+  <style>
+    #root {
+      position: absolute;
+      inset: 0;
+    }
+    #b3-palco {
+      position: absolute;
+      inset: 0;
+    }
+    #b3-precos,
+    #b3-conta,
+    #b3-fabricas {
+      top: 330px;
+    }
+    #b3-opcoes,
+    #b3-efeitos {
+      top: 600px;
+    }
+  </style>
+  <div id="root" data-composition-id="bloco-3" data-width="1080" data-height="1920">
+    <canvas id="b3-palco"></canvas>
+    <div id="b3-precos" class="cartao positivo">
+      <span class="titulo-cartao">Curto prazo</span>importados e peças ficam mais baratos<span class="menor">quanto? ninguém sabe ao certo</span>
+    </div>
+    <div id="b3-conta" class="cartao negativo">
+      <span class="titulo-cartao">A conta</span>um buraco na arrecadação<span class="menor">quem cobre?</span>
+    </div>
+    <div id="b3-opcoes" class="linha-de-etiquetas">
+      <span id="b3-op1" class="etiqueta">outro imposto</span><span id="b3-op2" class="etiqueta">corte de gastos</span>
+    </div>
+    <div id="b3-fabricas" class="cartao">
+      <span class="titulo-cartao">Longo prazo</span>mais concorrência para as fábricas daqui
+    </div>
+    <div id="b3-efeitos" class="linha-de-etiquetas">
+      <span id="b3-ef1" class="etiqueta positivo">umas ficam mais eficientes</span><span id="b3-ef2" class="etiqueta negativo">outras podem fechar</span>
+    </div>
+  </div>
+  <script type="module">
+    import { criarPalco, aoBuscar, moverCamera } from "./componentes/palco/palco.js";
+    import { criarZe } from "./componentes/ze/ze.js";
+    import { criarFabrica } from "./componentes/objetos/objetos.js";
+    import { comSobra, limitar } from "./componentes/palco/animacao.js";
+
+    const B = TEMPOS.bloco(3);
+    const [precos, conta, fabricas] = B.frases;
+
+    const { renderer, cena, camera } = criarPalco(document.getElementById("b3-palco"));
+    const ze = criarZe({ escala: 0.85 });
+    const fabrica = criarFabrica();
+    fabrica.position.set(0.75, 0, -1.7);
+    fabrica.rotation.y = -0.4;
+    cena.add(ze.grupo, fabrica);
+
+    const roteiro = {
+      posicao: [[0, [-0.1, 0, 0]], [fabricas.inicio, [-0.1, 0, 0]], [fabricas.inicio + 1.2, [-0.75, 0, 0]]],
+      rotacao: [[0, 0], [fabricas.inicio, 0.5]],
+      expressao: [[0, "neutro"], [precos.inicio + 2.2, "feliz"], [conta.inicio + 0.3, "preocupado"],
+        [fabricas.inicio + 0.5, "neutro"], [fabricas.inicio + 0.65 * (fabricas.fim - fabricas.inicio), "preocupado"]],
+      gesto: [[0, "parado"], [precos.inicio + 2.4, "comemora"], [conta.inicio, "ombros"],
+        [fabricas.inicio + 1.4, "aponta"], [fabricas.fim - 1.2, "parado"]],
+    };
+    aoBuscar(B, (t) => {
+      ze.posar(t, roteiro);
+      fabrica.scale.setScalar(0.7 * Math.max(0.001, comSobra(limitar((t - fabricas.inicio - 0.6) / 0.7))));
+      moverCamera(camera, t, { altura: 1.6, distancia: 10.5, alvo: [0.15, 1.1, 0], aproximacao: 0.06, balanco: 0.3 });
+      renderer.render(cena, camera);
+    });
+
+    const tl = gsap.timeline({ paused: true });
+    const entra = (alvo, quando) => tl.fromTo(alvo, { opacity: 0, y: 40 }, { opacity: 1, y: 0, duration: 0.4, ease: "power3.out" }, quando);
+    const sai = (alvo, quando) => tl.to(alvo, { opacity: 0, y: -30, duration: 0.3 }, quando);
+    entra("#b3-precos", precos.inicio + 0.2);
+    sai("#b3-precos", conta.inicio - 0.2);
+    entra("#b3-conta", conta.inicio + 0.1);
+    tl.fromTo("#b3-opcoes", { opacity: 0 }, { opacity: 1, duration: 0.01 }, conta.inicio + 0.1);
+    tl.fromTo("#b3-op1", { opacity: 0, scale: 0.8 }, { opacity: 1, scale: 1, duration: 0.3 }, conta.inicio + 0.6 * (conta.fim - conta.inicio));
+    tl.fromTo("#b3-op2", { opacity: 0, scale: 0.8 }, { opacity: 1, scale: 1, duration: 0.3 }, conta.inicio + 0.8 * (conta.fim - conta.inicio));
+    sai("#b3-conta", fabricas.inicio - 0.2);
+    sai("#b3-opcoes", fabricas.inicio - 0.2);
+    entra("#b3-fabricas", fabricas.inicio + 0.1);
+    tl.fromTo("#b3-efeitos", { opacity: 0 }, { opacity: 1, duration: 0.01 }, fabricas.inicio + 0.1);
+    tl.fromTo("#b3-ef1", { opacity: 0, scale: 0.8 }, { opacity: 1, scale: 1, duration: 0.3 }, fabricas.inicio + 0.55 * (fabricas.fim - fabricas.inicio));
+    tl.fromTo("#b3-ef2", { opacity: 0, scale: 0.8 }, { opacity: 1, scale: 1, duration: 0.3 }, fabricas.inicio + 0.78 * (fabricas.fim - fabricas.inicio));
+    window.__timelines["bloco-3"] = tl;
+  </script>
+</template>

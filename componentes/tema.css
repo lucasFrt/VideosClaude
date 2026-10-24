@@ -51,7 +51,7 @@
   --tamanho-numero: 150px;
   --tamanho-legenda: 84px;
   --tamanho-rodape: 30px;
-  --tamanho-selo: 26px;
+  --tamanho-selo: 28px; /* nada que precise ser lido abaixo de 28 px */
   --espessura-contorno: 10px;
 }
 

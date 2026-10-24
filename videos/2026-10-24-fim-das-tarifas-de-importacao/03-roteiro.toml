@@ -1,0 +1,93 @@
+# Roteiro: a fonte da verdade do vídeo. O 03-roteiro.md é gerado pelo scripts/roteiro.py.
+# Protótipo: passou por uma rodada do crítico (04-revisoes.md), não pela revisão humana 1.
+
+titulo = "E se o Brasil zerasse o imposto de importação?"
+versao = 2
+
+[[bloco]]
+nome = "Gancho"
+cena = "Primeiro quadro já com o número 12% enorme sobre um contêiner de carga; o Zé surpreso olhando para ele."
+
+  [[bloco.frase]]
+  fala = "Em média, 12% de imposto na fronteira."
+  marcacao = "FATO"
+  fontes = ["F1"]
+  tela = "12% (média)"
+  voz = "Em média, doze por cento de imposto na fronteira."
+
+  [[bloco.frase]]
+  fala = "E se o Brasil zerasse esse imposto? Vamos imaginar."
+  marcacao = "BORDÃO"
+
+[[bloco]]
+nome = "Contexto"
+cena = "Contador do carro (35%) e da arrecadação (R$ 90 bi por ano); depois os quatro países do Mercosul ligados por uma tarifa comum."
+
+  [[bloco.frase]]
+  fala = "Hoje ele chega a 35% nos carros e rende ao governo cerca de R$ 90 bilhões por ano."
+  marcacao = "FATO"
+  fontes = ["F2", "F3"]
+  tela = "R$ 90 bi por ano"
+  voz = "Hoje ele chega a trinta e cinco por cento nos carros e rende ao governo cerca de noventa bilhões de reais por ano."
+
+  [[bloco.frase]]
+  fala = "Na vida real, isso dependeria do Mercosul, que tem uma tarifa comum."
+  marcacao = "FATO"
+  fontes = ["F7"]
+
+  [[bloco.frase]]
+  fala = "Aqui, vamos supor que ele topa e que o câmbio e os outros impostos ficam iguais."
+  marcacao = "PREMISSA"
+
+[[bloco]]
+nome = "O que mudaria"
+cena = "Zé feliz enquanto a etiqueta de um produto importado encolhe; depois um cofre do governo com um buraco; por fim o Zé preocupado diante de uma fábrica."
+
+  [[bloco.frase]]
+  fala = "Ninguém sabe o tamanho exato, mas, no curto prazo, importados e peças das fábricas ficariam mais baratos: no fim, quem paga a tarifa é quem compra aqui."
+  marcacao = "PROJEÇÃO"
+  fontes = ["F4"]
+
+  [[bloco.frase]]
+  fala = "E alguém teria que cobrir esse buraco na arrecadação: com outro imposto ou com corte de gastos."
+  marcacao = "PROJEÇÃO"
+  fontes = ["F3"]
+
+  [[bloco.frase]]
+  fala = "No longo prazo, as fábricas daqui teriam mais concorrência: umas ficariam mais eficientes, outras poderiam fechar."
+  marcacao = "PROJEÇÃO"
+  fontes = ["F5", "F9"]
+
+[[bloco]]
+nome = "A balança"
+cena = "Balança 3D equilibrada: prato verde (a favor) à esquerda e coral (contra) à direita; cada prato acende na sua frase; no termômetro, os dois apagam e ela termina equilibrada."
+
+  [[bloco.frase]]
+  fala = "Agora, vamos colocar na balança."
+  marcacao = "BORDÃO"
+
+  [[bloco.frase]]
+  fala = "Quem defende aponta que os produtos ficam mais baratos e que a concorrência faz as fábricas produzirem mais com menos, como se viu nos anos noventa."
+  marcacao = "ARGUMENTO A FAVOR"
+  fontes = ["F10", "F9"]
+
+  [[bloco.frase]]
+  fala = "Quem critica aponta que, na abertura dos anos noventa, as regiões das indústrias mais protegidas ficaram para trás em empregos com carteira por cerca de vinte anos."
+  marcacao = "ARGUMENTO CONTRA"
+  fontes = ["F5"]
+
+  [[bloco.frase]]
+  fala = "Entre os economistas, há quase consenso de que tarifa encarece o que a gente compra. Já sobre o custo da mudança para quem trabalha nas fábricas protegidas, os estudos divergem."
+  marcacao = "TERMÔMETRO"
+  fontes = ["F4", "F8", "F5", "F9"]
+
+# Exemplo real cortado na versão 2 para caber em 90 s (CLAUDE.md, seção 3): a abertura dos anos
+# noventa já aparece, com fonte, nos dois lados da balança.
+
+[[bloco]]
+nome = "Encerramento"
+cena = "Zé de frente para a câmera, ombros levantados, esperando a resposta."
+
+  [[bloco.frase]]
+  fala = "E aí, você toparia? Me conta nos comentários."
+  marcacao = "BORDÃO"

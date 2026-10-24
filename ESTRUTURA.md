@@ -67,17 +67,21 @@ meu-canal/
 │   ├── legendas/              # legendas sincronizadas por palavra
 │   ├── contador/              # números animados
 │   ├── rodape-fonte/          # fonte do dado no canto da tela
-│   └── selo-ia/               # aviso "Feito com auxílio de IA"
+│   ├── selo-ia/               # aviso "Feito com auxílio de IA"
+│   ├── palco/                 # base das cenas 3D (câmera, luz, chão, tempo do bloco)
+│   ├── objetos/               # objetos 3D genéricos do kit (contêiner, carro, fábrica)
+│   └── cartoes/               # números grandes, cartões e etiquetas 2D
 ├── modelos/                   # modelos em branco de cada arquivo de vídeo
 │   ├── 01-ideia.md
 │   ├── 02-fontes.md
-│   ├── 03-roteiro.md
+│   ├── 03-roteiro.toml
 │   ├── 04-revisoes.md
 │   └── status.md
 ├── scripts/
 │   ├── novo-video.sh          # cria a pasta de um vídeo a partir de modelos/
 │   ├── roteiro.py             # confere o roteiro e gera o .md de leitura e o texto.txt
 │   ├── narrar.py              # gera narração e palavras.json
+│   ├── montar.py              # monta a composição a partir do roteiro e dos tempos
 │   ├── ajustar-volume.sh      # põe a narração em −14 LUFS pelo HyperFrames
 │   ├── verificar.sh           # checagens técnicas do vídeo final
 │   ├── hf.sh                  # roda o HyperFrames na composição de um vídeo
@@ -110,10 +114,13 @@ videos/2026-10-26-parar-de-imprimir-dinheiro/
 ├── narracao/
 │   ├── texto.txt              # só o texto falado, gerado pelo roteiro.py do roteiro aprovado
 │   ├── narracao.mp3
-│   └── palavras.json          # tempo de início e fim de cada palavra
+│   ├── palavras.json          # tempo de início e fim de cada palavra
+│   └── ESTIMADO               # só existe quando os tempos são estimados, sem voz
 ├── composicao/
-│   ├── index.html             # composição HyperFrames do vídeo
-│   ├── cenas/                 # sub-composições, uma por bloco do roteiro
+│   ├── index.html             # raiz da composição (gerada pelo montar.py)
+│   ├── tempos.js              # tempos de cada bloco e frase para as cenas (gerado)
+│   ├── cenas/                 # bloco-N.html, uma por bloco (escritas à mão);
+│   │                          # legendas.html e sobreposicoes.html (geradas)
 │   ├── assets/                # link para assets/ do projeto (criado pelo hf.sh)
 │   ├── componentes/           # link para componentes/ do projeto (criado pelo hf.sh)
 │   └── narracao/              # link para ../narracao (criado pelo hf.sh)
@@ -185,25 +192,38 @@ Cada pasta de `componentes/` tem: o código (`.js` e/ou `.html`), um `LEIAME.md`
 ### selo-ia/
 - Pequeno selo fixo "Feito com auxílio de IA" no canto superior esquerdo, dentro da área segura, durante todo o vídeo.
 
+### palco/
+- Base das cenas 3D: renderizador, câmera em movimento lento, luz suave (com luz de frente) e chão; `aoBuscar` entrega à cena o tempo local do bloco.
+- `animacao.js`: transições em função do tempo, compartilhadas pelo Zé e pela balança.
+
+### objetos/
+- Objetos 3D low-poly genéricos do kit (contêiner, carro, fábrica). Objeto novo entra aqui, não na pasta do vídeo.
+
+### cartoes/
+- Elementos 2D das cenas: número grande, cartão (com borda verde, coral ou amarela) e etiquetas, na largura da área segura.
+
+Legendas, rodapés de fonte e selo de IA não se escrevem à mão: o `scripts/montar.py` os gera para cada vídeo.
+
 ---
 
 ## 6. Regras técnicas do HyperFrames
 
 1. **Leia as skills antes de escrever.** O formato das composições (atributos `data-*`, trilhas, clipes, sub-composições, variáveis) é definido pela skill `hyperframes` (contrato no SKILL.md e detalhes em `references/format.md` e `references/runtimes.md`). Siga exatamente o que ela documenta e não invente atributos. Quando a skill e este arquivo divergirem, vale a seção 12.
 2. **Tudo controlado pelo tempo da composição.** Nenhuma animação pode depender do relógio do navegador (`requestAnimationFrame` livre, `setInterval`, `Date.now()`, `performance.now()`). Animações GSAP devem estar em timelines que o framework consiga posicionar em qualquer instante, conforme a skill indica.
-3. **Three.js determinístico.** Cada quadro 3D é calculado a partir do tempo atual da composição: dado o tempo `t`, a cena é posicionada e renderizada para aquele `t`. Sem física acumulada quadro a quadro, sem estado que dependa do quadro anterior. Na prática: `import * as THREE from "./assets/libs/three.module.js";` dentro de um `<script type="module">` e o desenho dentro de um ouvinte `hf-seek` (exemplo funcionando em `scripts/teste-ambiente/composicao/cenas/cubo.html`).
+3. **Three.js determinístico.** Cada quadro 3D é calculado a partir do tempo atual da composição: dado o tempo `t`, a cena é posicionada e renderizada para aquele `t`. Sem física acumulada quadro a quadro, sem estado que dependa do quadro anterior. Na prática: `import * as THREE from "./assets/libs/three.module.js";` dentro de um `<script type="module">` e o desenho dentro de um ouvinte `hf-seek` (exemplo funcionando em `scripts/teste-ambiente/composicao/cenas/cubo.html`). **Atenção:** o `hf-seek` traz o tempo do vídeo inteiro, não o da cena; use o `aoBuscar` do `componentes/palco/palco.js`, que entrega o tempo local do bloco.
 4. **Aleatoriedade com semente fixa.** Se usar números aleatórios (pessoas na cidade, confetes), use um gerador com semente fixa, para o mesmo vídeo sair igual em todo render.
 5. **Sem rede no render.** Bibliotecas, fontes, sons e imagens vêm de `assets/` ou do próprio componente. Os caminhos são sempre relativos à pasta `composicao/` (`assets/libs/gsap.min.js`, `componentes/tema.css`, `narracao/narracao.mp3`), inclusive dentro das cenas; o `scripts/hf.sh` cria os links que fazem esses caminhos existirem.
-6. **Duração vem da narração.** A duração de cada cena é calculada a partir de `palavras.json`: cada bloco do roteiro começa na primeira palavra do bloco e termina na primeira palavra do bloco seguinte. O bloco 1 começa sempre em 0 s (a voz tem um pequeno silêncio antes da primeira palavra, e o primeiro quadro precisa mostrar o gancho), e o último bloco ganha 1,5 s extras no final.
+6. **Duração vem da narração.** A duração de cada cena é calculada a partir de `palavras.json`: cada bloco do roteiro começa na primeira palavra do bloco e termina na primeira palavra do bloco seguinte (o `scripts/montar.py` faz essa conta e entrega os tempos às cenas em `TEMPOS.bloco(n)`, que é como as cenas devem marcar seus momentos; nunca segundos escritos à mão). O bloco 1 começa sempre em 0 s (a voz tem um pequeno silêncio antes da primeira palavra, e o primeiro quadro precisa mostrar o gancho), e o último bloco ganha 1,5 s extras no final.
 7. **Valide antes de renderizar.** Rode o `lint` e o `check` do HyperFrames após qualquer alteração e corrija todos os erros antes de gerar a prévia. Confira também os quadros com `snapshot`: passar no `check` não mostra como ficou.
 8. **Só HyperFrames, nunca FFmpeg direto.** O FFmpeg é o motor interno do HyperFrames e ninguém o chama: medir áudio é `audio`, ajustar volume é `normalize-audio` (pelo `scripts/ajustar-volume.sh`), ver quadros é `snapshot`, renderizar é `render`.
 9. **Narração na composição:** sempre `<audio id="narracao" src="narracao/narracao.mp3" data-start="0" data-volume="1">` no `index.html`. O `ajustar-volume.sh` acerta o `data-volume`.
 
 ### Comandos principais (detalhes e opções na skill `hyperframes-cli`)
 
-Sempre pelo `scripts/hf.sh`, que roda o CLI de versão fixa dentro de `composicao/`, cria os links e desliga telemetria e atualizações automáticas. A composição é escrita à mão (`index.html` + `cenas/`); não use `init` dentro da pasta do vídeo.
+Sempre pelo `scripts/hf.sh`, que roda o CLI de versão fixa dentro de `composicao/`, cria os links e desliga telemetria e atualizações automáticas. O `index.html`, as legendas e as sobreposições saem do `scripts/montar.py`; as cenas `cenas/bloco-N.html` são escritas à mão. Não use `init` dentro da pasta do vídeo.
 
 ```
+python3 scripts/montar.py videos/<pasta>                   # monta a composição (rodar de novo sempre que a narração ou o roteiro mudar)
 ./scripts/hf.sh videos/<pasta> lint                       # checar erros de composição
 ./scripts/hf.sh videos/<pasta> check --json               # validar antes do render (substitui o antigo validate)
 ./scripts/hf.sh videos/<pasta> snapshot --at 1,10,30      # quadros em PNG para conferir
@@ -272,8 +292,8 @@ cena = "componentes usados e o que acontece na tela"
 
   [[bloco.frase]]
   fala = "R$ 1,5 trilhão."       # o texto do narrador
-  marcacao = "FATO"              # FATO, PROJEÇÃO, ARGUMENTO A FAVOR, ARGUMENTO CONTRA, TERMÔMETRO, BORDÃO
-  fontes = ["F1"]                # obrigatório em tudo, menos BORDÃO
+  marcacao = "FATO"              # FATO, PROJEÇÃO, PREMISSA, ARGUMENTO A FAVOR, ARGUMENTO CONTRA, TERMÔMETRO, BORDÃO
+  fontes = ["F1"]                # obrigatório em tudo, menos BORDÃO e PREMISSA
   tela = "R$ 1,5 trilhão"        # opcional: o que aparece na tela (o rodapé sai das fontes)
   voz = "Um vírgula cinco trilhão de reais."   # opcional: como a voz deve ler
 
@@ -316,7 +336,7 @@ Conforme a seção 4.
 - Cria `videos/AAAA-MM-DD-slug/` com a data de hoje, copia os modelos e as subpastas `narracao/` e `composicao/`, e inicia o `status.md` em `onda-1`.
 
 ### scripts/roteiro.py
-- `python3 scripts/roteiro.py checar videos/<pasta>`: confere o `03-roteiro.toml` e gera o `03-roteiro.md`. Erros que barram: frase sem marcação válida; frase sem fonte (menos bordões); fonte que não existe no `02-fontes.md` ou sem link e data de acesso; texto de modelo esquecido; blocos fora da ordem ou faltando; bordões ausentes; argumentos fora da balança; balança com número de frases diferente entre os lados ou tamanho fora da razão 0,8–1,25; termômetro ausente ou repetido; texto na tela sem fonte.
+- `python3 scripts/roteiro.py checar videos/<pasta>`: confere o `03-roteiro.toml` e gera o `03-roteiro.md`. Erros que barram: frase sem marcação válida; frase sem fonte (menos bordões e premissas); fonte que não existe no `02-fontes.md` ou sem link e data de acesso; texto de modelo esquecido; blocos fora da ordem ou faltando; bordões ausentes; argumentos fora da balança; balança com número de frases diferente entre os lados ou tamanho fora da razão 0,8–1,25; termômetro ausente ou repetido; texto na tela sem fonte.
 - Avisos: duração estimada fora de 45–90 s (estimativa por palavras; a real sai da narração), gancho ou encerramento longos e algarismos na fala sem a versão `voz` por extenso.
 - `python3 scripts/roteiro.py texto videos/<pasta>`: faz a mesma conferência e, sem erros, gera o `narracao/texto.txt` com os `[BLOCO N]`, usando a `voz` de cada frase quando existir.
 - Precisa do Python 3.11 ou mais novo (lê TOML sem instalar nada).
@@ -330,6 +350,12 @@ Conforme a seção 4.
 - Números são escritos por extenso no `texto.txt` quando a voz puder lê-los errado (ex.: "R$ 1,5 trilhão" → "um vírgula cinco trilhão de reais"). A versão em algarismos fica só na tela.
 - Grava o áudio do edge-tts como veio. O volume é acertado depois, na composição, pelo `scripts/ajustar-volume.sh`.
 - Usa o edge-tts do `.venv/` automaticamente quando o Python do sistema não o tem. Precisa de internet com WebSocket liberado.
+- `--estimar`: sem voz (quando o edge-tts não alcança a internet), gera só o `palavras.json` com tempos estimados pelo tamanho das palavras e pela pontuação, e deixa a marca `narracao/ESTIMADO`. Serve para montar e revisar o vídeo antes da voz; a narração real substitui tudo.
+
+### scripts/montar.py
+- `python3 scripts/montar.py videos/<pasta>`: lê o `03-roteiro.toml`, o `02-fontes.md` e o `narracao/palavras.json` e gera o `composicao/index.html` (cada cena no seu tempo, a narração com o volume já ajustado preservado), o `tempos.js`, as legendas e as sobreposições (selo de IA e rodapés de fonte).
+- Cria um modelo simples para cada `cenas/bloco-N.html` que faltar; nunca sobrescreve uma cena existente.
+- Distribui as palavras entre as frases pela quantidade de letras, então funciona com a voz sintética, com tempos estimados e com uma gravação humana.
 
 ### scripts/verificar.sh
 Roda no `final.mp4` e falha se algo estiver fora do padrão:
@@ -390,8 +416,8 @@ Crie `videos/AAAA-MM-DD-teste/` com 15 segundos usando todos os componentes: o Z
 2. Ondas 1 e 2 (`01-ideia.md`, `02-fontes.md`, `03-roteiro.toml`), até o `roteiro.py checar` passar sem erros.
 3. Ondas 3 e 4 com o subagente `critico`, registrando tudo em `04-revisoes.md`, até no máximo 4 rodadas. O crítico lê `01-ideia.md`, `03-roteiro.md` e `02-fontes.md`; a partir da rodada 2, recebe também a tabela de objeções anteriores com decisão e base. Depois de cada adaptação, rode o `roteiro.py checar` de novo.
 4. 🛑 Revisão humana 1. Parar e esperar.
-5. `python3 scripts/roteiro.py texto videos/<pasta>` e `python3 scripts/narrar.py videos/<pasta>`.
-6. Montar `composicao/` com os componentes, rodar `scripts/ajustar-volume.sh`, rodar `lint` e `check` pelo `scripts/hf.sh` e conferir os quadros com `snapshot`.
+5. `python3 scripts/roteiro.py texto videos/<pasta>` e `python3 scripts/narrar.py videos/<pasta>` (sem internet para a voz: `--estimar`, e a voz depois).
+6. `python3 scripts/montar.py videos/<pasta>`, escrever as cenas `cenas/bloco-N.html` com os componentes (tempos de `TEMPOS.bloco(n)`), rodar `scripts/ajustar-volume.sh`, rodar `lint` e `check` pelo `scripts/hf.sh` e conferir os quadros com `snapshot`.
 7. Renderizar `previa.mp4`.
 8. 🛑 Revisão humana 2. Parar e esperar.
 9. Renderizar `final.mp4`, rodar `verificar.sh`, conferir as amostras.

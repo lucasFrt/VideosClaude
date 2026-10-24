@@ -1,0 +1,45 @@
+<!-- Bloco 5 — Encerramento. O Zé de frente, levantando os ombros, esperando a resposta.
+     Tempos de TEMPOS.bloco(5). -->
+<template>
+  <style>
+    #root {
+      position: absolute;
+      inset: 0;
+    }
+    #b5-palco {
+      position: absolute;
+      inset: 0;
+    }
+    #b5-pergunta {
+      top: 380px;
+      color: var(--texto);
+      font-size: 120px;
+    }
+  </style>
+  <div id="root" data-composition-id="bloco-5" data-width="1080" data-height="1920">
+    <canvas id="b5-palco"></canvas>
+    <div id="b5-pergunta" class="numero-grande">Você toparia?</div>
+  </div>
+  <script type="module">
+    import { criarPalco, aoBuscar, moverCamera } from "./componentes/palco/palco.js";
+    import { criarZe } from "./componentes/ze/ze.js";
+
+    const B = TEMPOS.bloco(5);
+    const { renderer, cena, camera } = criarPalco(document.getElementById("b5-palco"));
+    const ze = criarZe({ escala: 0.95 });
+    cena.add(ze.grupo);
+    const roteiro = {
+      expressao: [[0, "neutro"], [0.3, "feliz"]],
+      gesto: [[0, "parado"], [0.5, "ombros"]],
+    };
+    aoBuscar(B, (t) => {
+      ze.posar(t, roteiro);
+      moverCamera(camera, t, { altura: 1.6, distancia: 9.5, alvo: [0, 1.15, 0], aproximacao: 0.15, balanco: 0.2 });
+      renderer.render(cena, camera);
+    });
+
+    const tl = gsap.timeline({ paused: true });
+    tl.fromTo("#b5-pergunta", { opacity: 0, scale: 0.85 }, { opacity: 1, scale: 1, duration: 0.5, ease: "back.out(1.8)" }, 0.2);
+    window.__timelines["bloco-5"] = tl;
+  </script>
+</template>

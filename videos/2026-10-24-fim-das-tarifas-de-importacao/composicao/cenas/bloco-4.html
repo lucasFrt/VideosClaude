@@ -1,0 +1,137 @@
+<!-- Bloco 4 — A balança. Começa equilibrada; cada prato acende no seu argumento, com cartões do
+     mesmo tamanho para os dois lados; no termômetro, os pratos apagam e ela termina
+     equilibrada (não há marcação de inclinação no roteiro). Tempos de TEMPOS.bloco(4). -->
+<template>
+  <style>
+    #root {
+      position: absolute;
+      inset: 0;
+    }
+    #b4-palco {
+      position: absolute;
+      inset: 0;
+    }
+    #b4-favor,
+    #b4-contra {
+      top: 330px;
+      width: 414px;
+      font-size: 36px;
+      padding: 22px 20px;
+    }
+    #b4-contra {
+      left: calc(var(--seguro-esquerda) + var(--margem) + 430px);
+    }
+    #b4-rot-favor,
+    #b4-rot-contra {
+      position: absolute;
+      top: 0;
+      left: 0;
+      margin: 0;
+      white-space: nowrap;
+    }
+    #b4-termo {
+      top: 330px;
+      text-align: left;
+      font-size: 34px;
+    }
+    #b4-termo .linha {
+      display: block;
+      margin-top: 18px;
+    }
+    #b4-termo .barra {
+      display: block;
+      position: relative;
+      height: 26px;
+      margin-top: 10px;
+      border-radius: 13px;
+      background: rgba(255, 255, 255, 0.15);
+      overflow: hidden;
+    }
+    #b4-termo .enche {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      transform-origin: left center;
+    }
+    #b4-termo #b4-b1 {
+      width: 92%;
+      background: var(--destaque);
+    }
+    #b4-termo #b4-b2a {
+      width: 50%;
+      background: var(--positivo);
+    }
+    #b4-termo #b4-b2b {
+      left: 50%;
+      width: 50%;
+      background: var(--negativo);
+      transform-origin: right center;
+    }
+    #b4-termo .veredito {
+      display: block;
+      margin-top: 8px;
+      color: var(--destaque);
+      font-size: 30px;
+    }
+  </style>
+  <div id="root" data-composition-id="bloco-4" data-width="1080" data-height="1920">
+    <canvas id="b4-palco"></canvas>
+    <div id="b4-favor" class="cartao positivo">
+      <span class="titulo-cartao">A favor</span>produtos mais baratos<span class="menor">fábricas produzem mais com menos</span>
+    </div>
+    <div id="b4-contra" class="cartao negativo">
+      <span class="titulo-cartao">Contra</span>regiões industriais para trás<span class="menor">menos empregos com carteira</span>
+    </div>
+    <span id="b4-rot-favor" class="etiqueta positivo">a favor</span>
+    <span id="b4-rot-contra" class="etiqueta negativo">contra</span>
+    <div id="b4-termo" class="cartao destaque">
+      <span class="titulo-cartao">Termômetro dos economistas</span>
+      <span class="linha">Tarifa encarece o que a gente compra</span>
+      <span class="barra"><span id="b4-b1" class="enche"></span></span>
+      <span class="veredito">quase consenso</span>
+      <span class="linha">Custo para quem trabalha nas fábricas protegidas</span>
+      <span class="barra"><span id="b4-b2a" class="enche"></span><span id="b4-b2b" class="enche"></span></span>
+      <span class="veredito">os estudos divergem</span>
+    </div>
+  </div>
+  <script type="module">
+    import { criarPalco, aoBuscar, moverCamera, naTela } from "./componentes/palco/palco.js";
+    import { criarBalanca } from "./componentes/balanca/balanca.js";
+
+    const B = TEMPOS.bloco(4);
+    const [bordao, favor, contra, termometro] = B.frases;
+
+    const { renderer, cena, camera } = criarPalco(document.getElementById("b4-palco"));
+    const balanca = criarBalanca({ escala: 0.8 });
+    cena.add(balanca.grupo);
+    const roteiro = {
+      entrada: bordao.inicio + 0.2,
+      destaque: [[0, null], [favor.inicio, "esquerda"], [contra.inicio, "direita"], [termometro.inicio, null]],
+      inclinacao: [[0, 0]],
+    };
+    const rotulos = { esquerda: document.getElementById("b4-rot-favor"), direita: document.getElementById("b4-rot-contra") };
+    aoBuscar(B, (t) => {
+      balanca.posar(t, roteiro);
+      moverCamera(camera, t, { altura: 2.4, distancia: 12.9, alvo: [0, 1.94, 0], aproximacao: 0.05, balanco: 0.25 });
+      renderer.render(cena, camera);
+      // Rótulos HTML acompanham os pratos na tela.
+      for (const [lado, el] of Object.entries(rotulos)) {
+        const p = naTela(balanca.centroDoPrato(lado), camera);
+        el.style.left = `${p.x - el.offsetWidth / 2}px`;
+        el.style.top = `${p.y - 120}px`;
+      }
+    });
+
+    const tl = gsap.timeline({ paused: true });
+    tl.fromTo(["#b4-rot-favor", "#b4-rot-contra"], { opacity: 0 }, { opacity: 1, duration: 0.3 }, bordao.inicio + 0.8);
+    tl.fromTo("#b4-favor", { opacity: 0, y: 40 }, { opacity: 1, y: 0, duration: 0.4, ease: "power3.out" }, favor.inicio + 0.2);
+    tl.fromTo("#b4-contra", { opacity: 0, y: 40 }, { opacity: 1, y: 0, duration: 0.4, ease: "power3.out" }, contra.inicio + 0.2);
+    tl.to(["#b4-favor", "#b4-contra"], { opacity: 0, y: -30, duration: 0.3 }, termometro.inicio - 0.2);
+    tl.fromTo("#b4-termo", { opacity: 0, y: 40 }, { opacity: 1, y: 0, duration: 0.4, ease: "power3.out" }, termometro.inicio + 0.1);
+    tl.fromTo("#b4-b1", { scaleX: 0 }, { scaleX: 1, duration: 1.0, ease: "power2.out" }, termometro.inicio + 0.6);
+    const segunda = termometro.inicio + 0.5 * (termometro.fim - termometro.inicio);
+    tl.fromTo(["#b4-b2a", "#b4-b2b"], { scaleX: 0 }, { scaleX: 1, duration: 1.0, ease: "power2.out" }, segunda);
+    window.__timelines["bloco-4"] = tl;
+  </script>
+</template>

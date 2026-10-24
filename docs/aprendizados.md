@@ -85,3 +85,31 @@ Testado com um `ffmpeg` e um `ffprobe` falsos na frente do PATH, que acusariam q
 `componentes/ze/ze.js` cria o Zé em Three.js: quatro expressões, quatro gestos, caminhada automática entre posições, respiração e piscadas, tudo em função do tempo (dois renders saíram com os mesmos bytes). Demonstração de 8 s em `videos/2026-10-24-prototipo-ze/`; poses em `componentes/ze/poses.jpg`.
 Corrigido no caminho: sem luz de frente, a parte de baixo do rosto escurecia e parecia barba.
 **[proposta]** Você decidir o estilo olhando as poses e a prévia: seguir com este 3D (e então construir balança, cidade, legendas e contador nessa linha) ou trocar por um estilo 2D chapado.
+
+## 2026-10-24 — Protótipo completo (fim das tarifas de importação)
+
+### 18. Vídeo completo sem voz
+O edge-tts não funciona no ambiente na nuvem, e a voz local do HyperFrames (Kokoro) precisa baixar um modelo de um site bloqueado.
+**Resolvido:** `narrar.py --estimar` gera o `palavras.json` com tempos estimados (cerca de 2,9 palavras por segundo, perto da voz fixa) e marca `narracao/ESTIMADO`. Como tudo deriva desse arquivo, trocar pela voz real é só rodar `narrar.py`, `montar.py`, `ajustar-volume.sh` e renderizar de novo. Calibrar o ritmo estimado com a primeira narração real.
+
+### 19. O `hf-seek` traz o tempo do vídeo inteiro
+Testado: uma cena que começa aos 2 s recebe `e.detail.time = 3,00` no segundo 3. Cenas 3D que usassem esse tempo direto ficariam adiantadas.
+**Resolvido:** o `palco.aoBuscar` desconta o início do bloco (dos `TEMPOS` gerados pelo `montar.py`) e só desenha enquanto o bloco está na tela.
+
+### 20. Gerador de composição (`scripts/montar.py`)
+Gera a raiz, os tempos, as legendas, os rodapés de fonte e o selo a partir do roteiro e do `palavras.json`; as cenas `bloco-N.html` continuam escritas à mão, mas marcam seus momentos por `TEMPOS.bloco(n)`, nunca por segundos fixos. É o primeiro passo do "kit de cenas"; o próximo é transformar as cenas mais comuns (Zé + objeto, número grande, balança) em modelos que o gerador preenche direto do roteiro.
+
+### 21. Legendas recentralizando
+Com as palavras ainda não faladas invisíveis, mas ocupando espaço, o grupo ficava torto para a esquerda.
+**Resolvido:** cada palavra só entra no layout quando é falada, e o grupo se recentraliza a cada palavra (estilo das legendas progressivas).
+
+### 22. Marcação PREMISSA
+O crítico apontou, com razão, que as simplificações do cenário precisam ser ditas no vídeo. Criada a marcação [PREMISSA] (sem fonte, porque é hipótese do cenário), já prevista no CLAUDE.md, no modelo e no `roteiro.py`.
+
+### 23. Render no ambiente na nuvem
+79 s levaram cerca de 5 minutos em qualidade draft (sem GPU, com quatro cenas 3D). Na máquina local, com GPU, deve ser bem mais rápido.
+
+### 24. Rodapé ilegível sobre objetos claros
+O texto branco do rodapé sumia sobre o carro branco.
+**Resolvido:** o rodapé ganhou um fundo escuro discreto.
+
