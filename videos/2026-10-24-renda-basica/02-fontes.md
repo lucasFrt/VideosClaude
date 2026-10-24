@@ -40,7 +40,7 @@ Feitas com os dados acima; o vídeo arredonda para baixo ou diz "cerca de".
 | Custo ÷ verba do Bolsa Família em 2026 (F3: R$ 158,63 bi) | 8,1 vezes (com o reajuste de outubro, cerca de 7,8 vezes) | saiu da fala na versão 2; fica de escala |
 | Cada R$ 100 por pessoa por mês | R$ 257 bilhões por ano (2,0% do PIB) | não entra; serve para refazer a conta |
 | Família de quatro pessoas | 4 × R$ 500 = R$ 2.000 por mês | "receberia R$ 2.000 por mês" |
-| Mesmo custo dividido entre as famílias do Bolsa Família (F4: 19,3 milhões) | R$ 1,285 tri ÷ 12 ÷ 19,3 mi = R$ 5.549 por família por mês. Fica acima de R$ 5.000 com qualquer contagem até 21,4 milhões de famílias | "se fosse só para aqueles 19 milhões de famílias, daria mais de R$ 5.000 por mês a cada uma" |
+| Mesmo custo dividido entre as famílias do Bolsa Família (F4: 19,3 milhões) | R$ 1,285 tri ÷ 12 ÷ 19,3 mi = R$ 5.549 por família por mês. Fica acima de R$ 5.000 com qualquer contagem até 21,4 milhões de famílias | "se fosse só para aquelas famílias, daria mais de R$ 5.000 por mês a cada uma" (a tela diz "Só para 19 milhões de famílias") |
 | Quem paga mais do que recebe | Os impostos novos precisam somar o custo, ou seja, em média R$ 500 por pessoa por mês. Com qualquer imposto que cresça com a renda ou com o consumo, quem está acima da média paga mais do que R$ 500 e sai perdendo na conta; quem está abaixo sai ganhando, mas também paga uma parte (com imposto sobre consumo, quase todo mundo paga). Simplificação: quem de fato paga um imposto depende de como ele é cobrado | "mas poderia devolver parte em impostos; quem ganha acima da média tenderia a devolver mais do que recebe" |
 
 ## Posições de especialistas

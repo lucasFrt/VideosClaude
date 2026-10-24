@@ -1,6 +1,6 @@
 <!-- Gerado pelo scripts/roteiro.py a partir do 03-roteiro.toml. Não edite este arquivo. -->
 # Roteiro — E se o aluguel tivesse um teto?
-Versão: 3 · Duração estimada: ~79 s (221 palavras faladas)
+Versão: 4 · Duração estimada: ~80 s (223 palavras faladas)
 
 ## Bloco 1 — Gancho (~6 s)
 Cena: Primeiro quadro já com o número +9% enorme sobre uma placa genérica de 'Aluga-se' na janela de um prédio low-poly; o Zé, com uma chave na mão, olha o número crescer.
@@ -23,7 +23,7 @@ Cena: O Zé tranquilo na sala, com a conta do aluguel subindo devagar, colada na
 
 - **[PROJEÇÃO · F6]** Quem já aluga teria previsibilidade na renovação e menos risco de ter que se mudar.
 - **[PROJEÇÃO · F6, F8, F9]** Com o tempo, alguns donos poderiam vender, parar de alugar ou cuidar menos do imóvel.
-- **[PROJEÇÃO · F6, F8, F9]** Quem procura casa acharia menos opções; quanto, ninguém sabe: os estudos são de fora.
+- **[PROJEÇÃO · F6, F8, F9]** Quem procura casa tenderia a achar menos opções; quanto, ninguém sabe: os estudos são de fora.
 
 ## Bloco 4 — A balança (~36 s)
 Cena: Balança 3D equilibrada: prato verde (a favor) à esquerda e coral (contra) à direita; cada prato acende na sua frase com o seu número (quase 20% de um lado; −15% e +5% marcado como estimativa do outro); no termômetro, os dois apagam, aparece o número da revisão de estudos e ela termina equilibrada.

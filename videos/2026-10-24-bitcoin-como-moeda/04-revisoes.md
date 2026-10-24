@@ -1,18 +1,37 @@
 # Revisões
 
 ## Rodada 1
+
 ### O que o crítico considerou sólido
-- ...
+- F8 conferido: o Iudop/UCA deu 91,8% de "não usaram" em 2024 (pergunta sobre usar para comprar ou pagar algo); "mais de nove em cada dez" está correto.
+- F14 conferido: −64,2% em 2022 e +155,4% em 2023, em dólar (a página de 2023 do DQYDJ tem erro nos preços, não no percentual).
+- F7 conferido: reforma por 55 a 2, no acordo de US$ 1,4 bilhão com o FMI; aceitação privada voluntária. As fontes divergem sobre o "curso legal", e o roteiro só dizia que a obrigação caiu.
+- F1 conferido (4,67 milhões de CPFs em jun. 2026, também no Blocktrends; dados preliminares).
+- F11, F22 e F23 tratados como fatos estabelecidos; o "mais de 85%" é seguro porque a perda só cresce.
+- A direção do termômetro (maioria contra o Bitcoin como moeda oficial) está correta; os problemas eram de datação e de fonte.
+
 ### Objeções
 | # | Trecho | Nível | Objeção | Base | Resposta do autor | Decisão |
 |---|--------|-------|---------|------|-------------------|---------|
-| R1.1 | ... | CRÍTICA | ... | ... | ... | aceita / rejeitada (motivo) |
-### Veredito do crítico
-...
+| R1.1 | "O FMI recomenda que nenhum país faça do Bitcoin moeda oficial, e a maioria dos economistas consultados vê utilidade limitada nele como dinheiro." | IMPORTANTE | A única pesquisa por trás de "a maioria dos economistas consultados" é de 2013 (38 economistas dos EUA), conferida só pelo TechCrunch; "como dinheiro" é inferência; o espectador entende como pesquisa atual; o termômetro não tinha fonte na tela; o FMI é posição institucional e credor de El Salvador. | 02-fontes (F17 e ressalvas); TechCrunch, 24/04/2013. | Procede. A frase agora data e localiza a pesquisa e admite a falta de evidência nova: "na única pesquisa com economistas sobre isso que achei, de 2013, a maioria viu utilidade limitada nele"; saiu "como dinheiro". A tela ganhou "FMI, 2023 · economistas dos EUA, 2013" (com rodapé de F11 e F17). O FMI fica, porque a frase o apresenta como recomendação institucional, não como pesquisa; a ressalva de credor segue no 02-fontes. Saiu também "Como investimento, há mais incerteza": ela se apoiava em F18, de 2017, com o mesmo problema de datação, e custava tempo. | aceita |
+| R1.2 | "Depois, a obrigação de aceitar caiu por lá." | IMPORTANTE | Logo depois do "9 em cada 10 não usaram", a sequência sugere que o baixo uso derrubou a obrigação; ela caiu como condição de um empréstimo do FMI. Recortada, vira "El Salvador desistiu porque ninguém usava". | Reuters/The Block, Decrypt, Electronic Payments International (F5, F7). | Procede. A correção sugerida ("num acordo de empréstimo com o FMI") somava cerca de 7 palavras, e as outras correções já levavam o vídeo a 86 s. Seguindo a regra do CLAUDE.md (cortar o exemplo real antes de apertar a balança), a frase saiu; o recuo, com a causa certa, fica no 01-ideia e no 02-fontes (F7, F12). O cartão "Obrigatório → Opcional" saiu da cena. | aceita (resolvida com corte) |
+| R1.3 | "em El Salvador, que usa o dólar, mais de nove em cada dez pessoas não usaram Bitcoin em 2024" | IMPORTANTE | O 01-ideia prometia dizer que o dólar é mais estável que o real, e "que usa o dólar" não diz; é aí que o lado a favor tem seu melhor contra-argumento (onde a moeda corrói, a procura por alternativa tende a ser maior), e o "pouco mudasse" fica mais firme que a evidência; 2024 é o terceiro ano, sem bônus (em 2021, cerca de 1 em 4 usou). | F8; F2; 01-ideia. | Procede. Nova frase [FATO] logo depois do dado: "Mas lá se usa o dólar, de inflação menor que a do real", com nova fonte F24 (2025: EUA 2,7% e Brasil 4,26%; 2024: 2,9% e 4,83%) e as duas taxas na tela. O "talvez" da projeção continua. O uso de 1 em 4 no primeiro ano, com bônus, não entrou por tempo; fica em F8 e F10. | aceita em parte |
+| R1.4 | "se fossem muitos, o Banco Central perderia força contra a inflação" | MENOR | F11 fala em minar a eficácia da política monetária, não em inflação; a cena mostra a substituição como fato e o texto como hipótese; salários e impostos em reais limitariam a troca. | F11. | Procede. Agora: "se muitos trocassem de moeda, os juros do Banco Central perderiam força contra a inflação", que é o mecanismo de F11 (a ferramenta do Banco Central são os juros). Na cena, a alavanca fica tracejada e com um "e se...?". O limite dado por salários e impostos em reais não entrou por tempo; a frase segue no condicional. | aceita em parte |
+| R1.5 | "Quase cinco milhões de brasileiros usaram criptomoedas num só mês." | MENOR | São 4,67 milhões de CPFs em operações informadas à Receita, cerca de 70% do volume em USDT: investimento e câmbio, não pagamento. "Usaram" sugere uso como dinheiro e "quase cinco" arredonda para cima. O "+21%" do F1 diverge entre as fontes (+4,6% no Blocktrends). | Blocktrends; Investnews/BPMoney. | Procede. Agora: "4,6 milhões de brasileiros negociaram criptomoedas num só mês" (arredondado para baixo, com 4,67 milhões na tela). Não cabe "mais de" sem passar dos 4 s que o `roteiro.py` dá ao impacto do gancho. F1 corrigido: o crescimento diverge e não é usado; cerca de 70% em USDT (R$ 199,5 bi), conferido por busca. | aceita |
+| R1.6 | "Hoje, o Bitcoin é legal aqui, mas como um bem digital, não como moeda." | MENOR | "Legal" soa como "curso legal", justamente o ponto em jogo; o termo da regulação é "ativo virtual". | Lei 14.478/2022; F3. | Procede. Agora: "Hoje, ele é permitido aqui como ativo virtual, não como moeda." A plaquinha da cena acompanha. | aceita |
+| R1.7 | Simplificações do 01-ideia (impostos e custo de conversão) | MENOR | O 01-ideia diz que o vídeo precisa informar as simplificações, e esses dois itens não aparecem. Opcional: mostrar que a oscilação continua (cerca de 35% abaixo do recorde de out. 2025, F15). | 01-ideia; F15. | Procede em parte. Impostos e custo de conversão são detalhes que não mudam a direção do cenário, e não premissas; o 01-ideia foi corrigido e os separa das simplificações que o vídeo diz. O dado de F15 não entrou: o lado contra já mostra a oscilação nos dois sentidos, e o tempo está no limite. | aceita em parte (01-ideia corrigido) |
 
-## Rodada 2
-...
+### Veredito do crítico
+Nenhuma objeção CRÍTICA; três IMPORTANTES (R1.1, R1.2, R1.3), todas de correção curta, e quatro MENORES. "Depois das três correções, o roteiro está pronto." Não conferidos pelo crítico: o texto original do FMI (F11), a Lei 14.478/2022, as Resoluções do BCB (F3), F22, F23 e o enunciado exato do painel de 2013; a busca dele também não achou pesquisa com economistas sobre o Bitcoin como moeda de curso legal, nem com brasileiros.
+
+### Mudanças da versão 2
+- Gancho, contexto e longo prazo reescritos (R1.5, R1.6, R1.4); nova frase sobre o dólar com F24 (R1.3); termômetro datado e com fonte na tela (R1.1); frase do recuo de El Salvador cortada (R1.2).
+- Duração estimada: cerca de 81 s (228 palavras), a mesma da versão 1. As correções somaram cerca de 20 palavras, compensadas com o corte da frase do recuo, a cláusula sobre investimento no termômetro e frases mais curtas no contexto e no longo prazo.
 
 ## Resumo final para a revisão humana
-- O que mudou:
+- O que mudou: ver "Mudanças da versão 2".
 - O que ficou em aberto:
+  - não há pesquisa com economistas sobre o Bitcoin como moeda oficial; o termômetro se apoia no FMI e numa pesquisa de 2013, e diz isso;
+  - o enunciado exato do painel de 2013 (F17) não foi visto;
+  - o recuo de El Salvador em 2025 e o uso maior no primeiro ano (com bônus) ficaram fora do vídeo, por tempo;
+  - os documentos não foram abertos (tudo por busca): conferir F1, F3, F7, F8, F11, F14, F17, F22 e F23.

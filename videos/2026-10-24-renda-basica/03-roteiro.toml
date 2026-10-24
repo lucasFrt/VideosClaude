@@ -77,17 +77,17 @@ cena = "Balança 3D equilibrada: prato verde (a favor) à esquerda e coral (cont
   marcacao = "BORDÃO"
 
   [[bloco.frase]]
-  fala = "Quem defende aponta que ninguém precisaria provar que é pobre, e que, num teste em vilas pobres do Quênia, o trabalho não caiu."
+  fala = "Quem defende aponta que ninguém precisaria provar que é pobre, e que, num teste em vilas pobres do Quênia, o trabalho total não caiu."
   marcacao = "ARGUMENTO A FAVOR"
-  fontes = ["F5", "F9"]
+  fontes = ["F9"]
   tela = "Teste no Quênia: o total de trabalho não caiu"
 
   [[bloco.frase]]
-  fala = "Quem critica aponta que é caro demais: se fosse só para aqueles 19 milhões de famílias, daria mais de R$ 5.000 por mês a cada uma."
+  fala = "Quem critica aponta que é caro demais: se fosse só para aquelas famílias, daria mais de R$ 5.000 por mês a cada uma."
   marcacao = "ARGUMENTO CONTRA"
   fontes = ["F1", "F4"]
   tela = "Só para 19 milhões de famílias: mais de R$ 5.000 por mês a cada uma"
-  voz = "Quem critica aponta que é caro demais: se fosse só para aqueles dezenove milhões de famílias, daria mais de cinco mil reais por mês a cada uma."
+  voz = "Quem critica aponta que é caro demais: se fosse só para aquelas famílias, daria mais de cinco mil reais por mês a cada uma."
 
   [[bloco.frase]]
   fala = "Lá fora, a maioria dos estudos vê pouco efeito no trabalho; no Brasil, eles divergem. Nos Estados Unidos, a maioria dos economistas consultados rejeitou trocar até a aposentadoria por uma renda universal."

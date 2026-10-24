@@ -13,7 +13,7 @@
 # Encerramento. Duração: 45 a 90 s, mirando em 60 a 75 s (CLAUDE.md, seção 3).
 
 titulo = "E se o aluguel tivesse um teto?"
-versao = 3
+versao = 4
 
 [[bloco]]
 nome = "Gancho"
@@ -68,7 +68,7 @@ cena = "O Zé tranquilo na sala, com a conta do aluguel subindo devagar, colada 
   fontes = ["F6", "F8", "F9"]
 
   [[bloco.frase]]
-  fala = "Quem procura casa acharia menos opções; quanto, ninguém sabe: os estudos são de fora."
+  fala = "Quem procura casa tenderia a achar menos opções; quanto, ninguém sabe: os estudos são de fora."
   marcacao = "PROJEÇÃO"
   fontes = ["F6", "F8", "F9"]
 

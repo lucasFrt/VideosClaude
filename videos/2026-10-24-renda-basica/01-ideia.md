@@ -3,7 +3,7 @@
 ## A pergunta exata
 Uma lei federal passa a valer num 1º de janeiro (o vídeo não fixa o ano) e, a partir daí, o governo federal deposita **R$ 500 por mês para cada pessoa que mora no Brasil**, de qualquer idade e de qualquer renda, do bebê ao bilionário. É **universal** (todo mundo recebe, inclusive quem é rico) e **incondicional** (ninguém precisa estar no Cadastro Único, provar renda, mandar filho para a escola ou procurar emprego). O valor é igual para todos, corrigido pela inflação, e não entra no Imposto de Renda, como manda a Lei 10.835/2004. Começa de uma vez, sem as etapas que essa lei prevê.
 
-**Escala** (conta no `02-fontes.md`, seção "Contas do canal"): 214,2 milhões de pessoas (IBGE, 2026) × R$ 500 × 12 meses = cerca de R$ 1,29 trilhão por ano. É cerca de 10% do PIB de 2025 e umas oito vezes a verba do Bolsa Família em 2026. Cada R$ 100 por pessoa custa cerca de R$ 257 bilhões por ano (2% do PIB), para quem quiser refazer a conta com outro valor.
+**Escala** (conta no `02-fontes.md`, seção "Contas do canal"): 214,2 milhões de pessoas (IBGE, 2026) × R$ 500 × 12 meses = cerca de R$ 1,29 trilhão por ano. É cerca de 10% do PIB de 2025, quase metade de tudo que o governo federal arrecadou em 2025 (R$ 2,89 trilhões) e umas oito vezes a verba do Bolsa Família em 2026. A carga tributária iria de 32,4% para cerca de 42,5% do PIB. Cada R$ 100 por pessoa custa cerca de R$ 257 bilhões por ano (2% do PIB), para quem quiser refazer a conta com outro valor.
 
 **Como seria pago:** com impostos novos, no tamanho do custo. O vídeo não escolhe quais (renda, consumo ou patrimônio); diz só que viriam de mais impostos.
 
@@ -21,8 +21,8 @@ Uma lei federal passa a valer num 1º de janeiro (o vídeo não fixa o ano) e, a
 ## Simplificações (o vídeo precisa dizer quais são)
 - **O valor de R$ 500 é uma suposição do vídeo**, não uma proposta real. Dito na frase "Aqui, vamos supor R$ 500 por mês para cada pessoa...".
 - **O dinheiro sai de mais impostos**, sem dizer quais. Dito na mesma frase.
-- **O custo é a conta direta** (população × valor × 12), sem considerar como as pessoas e a economia reagiriam; o efeito de longo prazo é incerto. Dito em "Isso dá cerca de 10%..." (a conta) e "No longo prazo, ninguém sabe ao certo como a economia reagiria...".
-- **"Quem ganha acima da média tenderia a pagar mais imposto do que recebe"** depende de como os impostos seriam cobrados. O vídeo fala em tendência, não em certeza.
+- **O custo é a conta direta** (população × valor × 12), sem considerar como as pessoas e a economia reagiriam; o efeito de longo prazo é incerto. Dito em "Isso é cerca de 10% de tudo que o país produz, quase metade do que o governo federal arrecada" (a conta) e "No longo prazo, ninguém sabe ao certo como a economia reagiria".
+- **Quem paga a conta depende de quais impostos.** O vídeo diz que uma família comum "poderia devolver parte em impostos" e que "quem ganha acima da média tenderia a devolver mais do que recebe": tendência, não certeza.
 
 ## Perguntas que o vídeo precisa responder
 - Quanto custaria, comparado com tudo que o país produz (PIB) e com o Bolsa Família?
@@ -35,5 +35,6 @@ Uma lei federal passa a valer num 1º de janeiro (o vídeo não fixa o ano) e, a
 ## Por que este cenário é plausível no Brasil real
 - **A ideia já está na lei.** A Lei 10.835/2004 institui uma renda básica de cidadania para todos os residentes, "não importando sua condição socioeconômica", a ser implantada em etapas, começando pelos mais necessitados. A Lei 14.601/2023 diz que o Bolsa Família é uma etapa desse processo. Em 2021, o STF (Mandado de Injunção 7.300) reconheceu a omissão do Executivo e mandou fixar o valor para a população em pobreza e extrema pobreza, e a Emenda Constitucional 114/2021 pôs na Constituição uma renda básica familiar para quem está em vulnerabilidade. A versão para todos nunca foi implantada.
 - **A logística existe em boa parte:** o país já paga benefício todo mês a cerca de 19 milhões de famílias.
+- **Já houve pagamentos universais nacionais:** o Irã (2010) deu dinheiro a quase todas as famílias, num valor alto, pago com o corte de subsídios de energia, sem queda no emprego; a Mongólia (2010–2012) pagou todos os cidadãos com receita futura da mineração e parou por falta de dinheiro. Nenhum dos dois foi pago com impostos novos, como no cenário.
 - **Há um exemplo municipal:** Maricá (RJ) paga uma renda em moeda local, mas só para quem tem renda baixa e mora na cidade há três anos, com dinheiro dos royalties do petróleo. Não é universal.
-- **O ponto menos plausível é o custo:** cerca de 10% do PIB por ano em impostos novos é um aumento enorme, que exigiria mudar as regras fiscais e enfrentaria muita resistência. O vídeo mostra isso pela conta, logo no gancho, e pelo lado "contra" da balança, e trata o cenário como hipótese.
+- **O ponto menos plausível é o custo:** cerca de 10% do PIB por ano em impostos novos (quase metade da arrecadação federal) é um aumento enorme, que exigiria mudar as regras fiscais e enfrentaria muita resistência. O vídeo mostra isso pela conta, logo no gancho, e pelo lado "contra" da balança, e trata o cenário como hipótese.

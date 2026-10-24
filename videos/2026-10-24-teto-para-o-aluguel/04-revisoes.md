@@ -58,6 +58,54 @@ Nenhuma objeção CRÍTICA. Uma IMPORTANTE nova (R2.1), que se corrige com "esti
 - 02-fontes: F6 separa o medido do estimado; F9 com o motivo e o número da decisão; F13 novo; ressalvas do termômetro atualizadas.
 - Duração estimada: cerca de 79 s (221 palavras), 2 s a mais que a versão 2. Se for preciso chegar mais perto de 75 s, o próximo corte é "que varia de lugar para lugar" (−2 s).
 
+## Rodada 3
+
+> Registro feito a partir do resumo da resposta do crítico que o coordenador me mandou; não recebi o texto completo desta rodada.
+
+### O que o crítico considerou sólido
+- As correções da rodada 2 (R2.1 a R2.4) ficaram certas e não criaram erro novo.
+
+### Objeções
+| # | Trecho | Nível | Objeção | Base | Resposta do autor | Decisão |
+|---|--------|-------|---------|------|-------------------|---------|
+| R3.1 | "Quem procura casa acharia menos opções..." | MENOR | A projeção pode ser mais calibrada: "tenderia a achar menos opções". | F6 e F8 mostram a direção do efeito, não um resultado certo para cada pessoa. | Procede. Agora: "Quem procura casa tenderia a achar menos opções; quanto, ninguém sabe: os estudos são de fora." São 2 palavras a mais (menos de 1 s). | aceita |
+| R3.2 | 02-fontes, "Posições de especialistas", Contra: "mediram ... o aluguel mais alto para quem chegou depois" | MENOR | Pela R2.1, o efeito no preço é estimado, não medido. | F6 (resumos do AER e do NBER). | Procede. Agora: "mediram a queda de 15% ... e estimam o aluguel mais alto para quem chegou depois". | aceita |
+| R3.3 | Duração estimada (~79 s) | MENOR | Fica como está; o corte previsto ("que varia de lugar para lugar") só se a narração real passar de 75 s. | CLAUDE.md, seção 3 (mirar em 60–75 s; máximo 90 s). | De acordo. Com a R3.1, a estimativa passou a ~80 s (223 palavras); o corte continua previsto para depois da narração real. | aceita (sem mudança agora) |
+| R3.4 | F6, "quase 20% mais chance de ficar no endereço" | MENOR | O mesmo achado tem duas redações: o AER publicado diz "mobilidade 20% menor" e o rascunho do NBER diz "chance de ficar no endereço quase 20% maior". | Resumos do AER 109(9) e do NBER w24181. | Procede. As duas redações estão registradas em F6; o roteiro usa a do NBER, mais fácil de entender e equivalente no sentido. | aceita |
+
+### Veredito do crítico
+Nenhuma objeção CRÍTICA ou IMPORTANTE nova. O roteiro está pronto para a revisão humana, restando as incertezas naturais sobre o futuro e a confirmação humana do contexto de campanha.
+
 ## Resumo final para a revisão humana
-- O que mudou:
-- O que ficou em aberto:
+
+**Roteiro final:** versão 4, cerca de 80 s estimados (223 palavras; a duração real sai da narração). O exemplo real foi cortado por tempo.
+
+### O que mudou (versões 1 a 4)
+- **Aluguel anunciado × quem já mora (R1.1):** o dado do FipeZAP é o preço anunciado de contratos novos. A tela diz isso, a frase sobre a lei fala da renovação ("o dono pode pedir o preço de mercado"), e o benefício virou "previsibilidade na renovação".
+- **Termômetro (R1.2, R2.2):** saiu o painel de 2012 da tela, porque ele perguntou outra coisa; agora a base é a revisão de estudos (12 de 16 acham menos oferta). A fala diz que os estudos mostram os dois efeitos, que a maioria vê a oferta cair, que pesquisas com economistas nos EUA vão na mesma linha e que o tamanho varia de lugar para lugar.
+- **Estimativa × medida (R2.1, R3.2):** os 5% do lado contra são estimativa dos autores, na fala, na tela e no 02-fontes.
+- **Equilíbrio (R2.3):** o bloco 3 ganhou "menos risco de ter que se mudar"; os dois pratos da balança usam o mesmo verbo, a mesma cidade e o mesmo estudo.
+- **Calibração e consequências (R1.4, R3.1):** entrou "cuidar menos do imóvel" nas reações do dono; "tenderia a achar menos opções".
+- **Fontes (R1.3, R2.4, R3.4):** IPCA com fonte própria (F13); números de F10 corrigidos; art. 46 da Lei 8.245 e o motivo da decisão sobre Berlim conferidos; as duas redações de F6 registradas.
+
+### O que ficou em aberto
+- **Contexto de campanha:** as buscas (minhas e do crítico) não acharam candidatura de 2026 com proposta de teto de aluguel, mas não foram exaustivas. Uma candidatura ao governo de SP defende o "fim de despejos", e Nova York congelou aluguéis em 2026 por promessa de campanha; o vídeo não usa "despejo" nem fala de Nova York. **Precisa de confirmação humana.**
+- **Painel de 2024 (F10) no rodapé:** é o mais recente e o mais próximo do desenho do cenário (62% contra 7%), mas avaliou uma proposta de campanha nos EUA, por isso ficou fora. **Decida se "Clark Center, 2024" pode entrar no rodapé do termômetro.**
+- **Duração:** ~80 s estimados. Se a narração real passar de 75 s, o corte previsto é "que varia de lugar para lugar".
+- **Não conferido por busca:** o número ponderado de F10 (72%, segundo o crítico) e a divisão do custo em F6 (58% e 42%, via Cato); nenhum dos dois entra no roteiro.
+- **Evidência de fora:** os efeitos vêm de San Francisco e da Alemanha; não há estudo recente com dados do Brasil, e o vídeo diz isso.
+- Nenhum documento foi aberto; tudo foi conferido pelo texto das buscas.
+
+### Links principais para abrir
+- F1 (FipeZAP, set./2026): https://diariodocomercio.com.br/economia/aluguel-sobe-dobro-inflacao-2026/
+- F5 (Lei 8.245/1991): https://www.planalto.gov.br/ccivil_03/leis/l8245.htm
+- F6 (Diamond, McQuade e Qian): https://www.nber.org/papers/w24181 e https://www.gsb.stanford.edu/insights/rent-controls-winners-losers
+- F7 (Painel IGM, 2012): https://kentclarkcenter.org/us-economic-experts-panel/page/30
+- F8 (Kholodilin, 2024): https://www.diw.de/de/diw_01.c.893635.de/publikationen/externe_referierte_aufsaetze/2024_0000/rent_control_effects_through_the_lens_of_empirical_research__an_almost_complete_review_of_the_literature.html
+- F13 (IPCA, set./2026): https://bpmoney.com.br/?p=425837
+
+### As quatro perguntas da revisão humana 1
+- **Os dois lados têm o mesmo espaço e o mesmo tom?** Sim. Os dois pratos começam com "Quem defende/critica aponta que, em San Francisco", citam o mesmo estudo e têm 30 e 35 palavras (razão de 0,86, dentro da regra). Cada lado tem um número medido; o 5% do lado contra está marcado como estimativa. No bloco 3, o benefício (previsibilidade e menos risco de mudança) e os custos (donos saindo do aluguel, menos opções) aparecem no condicional.
+- **O termômetro reflete onde os especialistas estão, com fonte?** Sim, com ressalvas. Há consenso sobre a direção (a maioria dos estudos acha menos oferta, F8; os painéis com economistas nos EUA vão no mesmo sentido, F11 e F7) e disputa sobre o tamanho (F8). Os painéis são dos EUA e antigos (1992 e 2012), e as datas aparecem só no rodapé. O painel mais recente (F10) depende da sua decisão acima.
+- **Alguma frase pode ser recortada e circular com sentido distorcido?** O maior risco era "quase o dobro da inflação" ser lido como valendo para todo inquilino: o gancho diz "aluguel anunciado" e a tela diz "contratos novos". As premissas começam com "Aqui, vamos supor". Os números da balança vêm sempre com "em San Francisco", e o 5% com "os autores estimam". Não vejo outra frase com risco relevante.
+- **Todo número tem fonte e está atualizado?** Sim. FipeZAP e IPCA de setembro de 2026 (F1, F13); estudo de San Francisco publicado em 2019 com dados de 1994–2010 (F6); revisão de 2024 (F8). Os painéis de 1992 e 2012 são antigos e estão marcados assim no 02-fontes.

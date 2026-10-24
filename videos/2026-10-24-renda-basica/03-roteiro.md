@@ -1,6 +1,6 @@
 <!-- Gerado pelo scripts/roteiro.py a partir do 03-roteiro.toml. Não edite este arquivo. -->
 # Roteiro — E se todo brasileiro recebesse uma renda básica?
-Versão: 2 · Duração estimada: ~78 s (219 palavras faladas)
+Versão: 2 · Duração estimada: ~78 s (217 palavras faladas)
 
 ## Bloco 1 — Gancho (~8 s)
 Cena: Primeiro quadro já com o contador enorme parando em 'quase R$ 1,3 trilhão por ano', sobre uma pilha alta de notas low-poly genéricas (sem o desenho das cédulas reais); embaixo, menor, a conta '214 milhões × R$ 500 × 12'. O Zé olha para cima, boquiaberto, enquanto a câmera sobe devagar pela pilha.
@@ -26,14 +26,14 @@ Cena: A mesma rua: agora todas as casas acendem, da casinha do Zé a uma mansão
   - Voz: "Uma família de quatro receberia dois mil reais por mês, mas poderia devolver parte em impostos; quem ganha acima da média tenderia a devolver mais do que recebe."
 - **[PROJEÇÃO · F8, F9, F13, F14, F18, F21]** No longo prazo, ninguém sabe ao certo como a economia reagiria.
 
-## Bloco 4 — A balança (~31 s)
+## Bloco 4 — A balança (~30 s)
 Cena: Balança 3D equilibrada: prato verde (a favor) à esquerda e coral (contra) à direita. Na frase a favor, o prato verde acende com o Zé passando direto por uma mesa de formulários e uma vila low-poly genérica com bancas de pequenos negócios; na frase contra, o prato coral acende com as notas de todas as casas da rua se juntando numa pilha só, que vai para as casas de baixa renda. No termômetro, os dois pratos apagam e ela termina equilibrada.
 
 - **[BORDÃO]** Agora, vamos colocar na balança.
-- **[ARGUMENTO A FAVOR · F5, F9]** Quem defende aponta que ninguém precisaria provar que é pobre, e que, num teste em vilas pobres do Quênia, o trabalho não caiu.
-  - Tela: Teste no Quênia: o total de trabalho não caiu (rodapé: Fonte: Lei 10.835, 2004; Banerjee e outros, 2023)
-- **[ARGUMENTO CONTRA · F1, F4]** Quem critica aponta que é caro demais: se fosse só para aqueles 19 milhões de famílias, daria mais de R$ 5.000 por mês a cada uma.
-  - Tela: Só para 19 milhões de famílias: mais de R$ 5.000 por mês a cada uma (rodapé: Fonte: IBGE, 2026; MDS, 2026) · Voz: "Quem critica aponta que é caro demais: se fosse só para aqueles dezenove milhões de famílias, daria mais de cinco mil reais por mês a cada uma."
+- **[ARGUMENTO A FAVOR · F9]** Quem defende aponta que ninguém precisaria provar que é pobre, e que, num teste em vilas pobres do Quênia, o trabalho total não caiu.
+  - Tela: Teste no Quênia: o total de trabalho não caiu (rodapé: Fonte: Banerjee e outros, 2023)
+- **[ARGUMENTO CONTRA · F1, F4]** Quem critica aponta que é caro demais: se fosse só para aquelas famílias, daria mais de R$ 5.000 por mês a cada uma.
+  - Tela: Só para 19 milhões de famílias: mais de R$ 5.000 por mês a cada uma (rodapé: Fonte: IBGE, 2026; MDS, 2026) · Voz: "Quem critica aponta que é caro demais: se fosse só para aquelas famílias, daria mais de cinco mil reais por mês a cada uma."
 - **[TERMÔMETRO · F12, F9, F13, F14, F18, F15]** Lá fora, a maioria dos estudos vê pouco efeito no trabalho; no Brasil, eles divergem. Nos Estados Unidos, a maioria dos economistas consultados rejeitou trocar até a aposentadoria por uma renda universal.
   - Tela: Economistas nos EUA (2016): 58% contra · 19% em dúvida · 2% a favor. No Brasil, não achamos pesquisa assim. (rodapé: Fonte: Banerjee e outros, 2017, 2023; Vivalt e outros, 2020–2023; Ipea, 2026; FGV IBRE, 2025; Painel IGM, 2016)
 
@@ -43,5 +43,5 @@ Cena: Zé de frente para a câmera, segurando um envelope, ombros levantados, es
 - **[BORDÃO]** E aí, você toparia? Me conta nos comentários.
 
 ## Equilíbrio da balança
-- A favor: 1 frase(s), 23 palavras
-- Contra: 1 frase(s), 27 palavras
+- A favor: 1 frase(s), 24 palavras
+- Contra: 1 frase(s), 24 palavras

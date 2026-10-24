@@ -1,9 +1,9 @@
 # E se o Brasil tivesse um imposto único?
 
 ## A pergunta exata
-**Versão escolhida:** o imposto único sobre movimentação financeira, a mais conhecida no Brasil. Cada vez que o dinheiro passa de uma conta para outra (pagamento, transferência, salário que cai na conta, compra no cartão), o banco desconta na hora uma alíquota fixa de quem paga e outra de quem recebe, e repassa ao governo. Esse imposto substitui todos os tributos de hoje, da União, dos estados e dos municípios.
+**Versão escolhida:** o imposto único sobre movimentação financeira, a mais conhecida no Brasil. Cada vez que o dinheiro passa de uma conta para outra (pagamento, transferência, salário que cai na conta, compra no cartão), o banco desconta na hora uma alíquota fixa de quem paga e outra de quem recebe, e repassa ao governo. Esse imposto substitui quase todos os tributos de hoje, da União, dos estados e dos municípios (a lista do manifesto de 2019 está em F13; na conta do proponente, os tributos extintos somavam cerca de 27% do PIB, F1).
 
-**Alíquota usada:** cerca de 2,81% de quem paga e 2,81% de quem recebe, ou seja, 5,62% por operação, quase 15 vezes a CPMF (0,38%). É a conta de quem defende a ideia (manifesto de 2019, F13; o número já circulava em 2009) para manter a arrecadação total, que os proponentes põem em cerca de 35% do PIB; a carga oficial de 2025 foi de 32,4% (F15). Na proposta de 2019, o saque em dinheiro pagaria o dobro. Não foi encontrada estimativa independente da alíquota para substituir tudo; o vídeo diz que a conta é de quem defende, e críticos de 2019 acharam a alíquota insuficiente (02-fontes, "Posições").
+**Alíquota usada:** cerca de 2,81% de quem paga e 2,81% de quem recebe, ou seja, 5,62% por operação, quase 15 vezes a CPMF (0,38%). É a conta de quem defende a ideia (manifesto de 2019, F13; o número já circulava em 2009): com a carga total da época, de cerca de 35% do PIB, os 5,62% repõem os tributos extintos, que somavam cerca de 27% do PIB; o resto fica com os tributos mantidos (F1). A carga oficial de 2025 foi de 32,4% (F15); não refizemos a conta com os dados de hoje, e a base financeira mudou desde 2009. Na proposta de 2019, o saque em dinheiro pagaria o dobro. Não foi encontrada estimativa independente da alíquota para substituir tudo; o vídeo diz que a conta é de quem defende, e críticos de 2019 acharam a alíquota insuficiente (02-fontes, "Posições").
 
 **Desde quando e em que escala:** a partir de uma mudança na Constituição, em todo o país. O vídeo olha para a situação depois que o imposto já está valendo e não detalha a transição.
 
@@ -23,7 +23,7 @@
 ## Simplificações (o vídeo precisa dizer quais são)
 Ditas na frase [PREMISSA] do bloco 2:
 - que a Constituição muda;
-- que o imposto único substitui todos os outros (os da União, dos estados e dos municípios);
+- que o imposto único substitui quase todos os outros (os principais da União, dos estados e dos municípios);
 - que ele arrecada o mesmo que hoje;
 - que a alíquota é a conta de quem defende (a do gancho, marcada como [PREMISSA], com a tela "Conta de quem defende" e o rodapé "Fonte: Proponentes do imposto único, 2019"; a fala atribui a conta logo depois: "Pelo cálculo de quem defende...").
 
