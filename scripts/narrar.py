@@ -17,7 +17,16 @@ import sys
 import tempfile
 from pathlib import Path
 
-import edge_tts
+try:
+    import edge_tts
+except ImportError:
+    # Sem edge-tts neste Python: usa o ambiente virtual criado pelo scripts/instalar.sh.
+    if sys.prefix == sys.base_prefix:
+        raiz = Path(__file__).resolve().parent.parent
+        for py in (raiz / ".venv" / "bin" / "python", raiz / ".venv" / "Scripts" / "python.exe"):
+            if py.is_file():
+                os.execv(str(py), [str(py), *sys.argv])
+    sys.exit("ERRO: edge-tts não instalado. Rode ./scripts/instalar.sh")
 
 # Fixos por decisão do canal. Não mudar sem autorização.
 VOZ = "pt-BR-AntonioNeural"
@@ -116,23 +125,28 @@ def associar_blocos(eventos, blocos, texto_completo):
 
 
 def normalizar(origem, destino):
-    """Loudnorm em duas passagens (modo linear): só muda o ganho, não o tempo."""
+    """Loudnorm em duas passagens (modo linear): só muda o ganho, não o tempo.
+
+    Sai em estéreo: o HyperFrames mixa em estéreo, e um MP3 mono ficaria cerca de
+    3 dB mais alto no vídeo final.
+    """
+    estereo = "aformat=channel_layouts=stereo"
     medicao = subprocess.run(
         ["ffmpeg", "-hide_banner", "-nostats", "-i", str(origem), "-af",
-         f"loudnorm=I={LUFS_ALVO}:TP={PICO_MAXIMO}:LRA=11:print_format=json",
+         f"{estereo},loudnorm=I={LUFS_ALVO}:TP={PICO_MAXIMO}:LRA=11:print_format=json",
          "-f", "null", "-"],
         capture_output=True, text=True, check=True,
     ).stderr
     m = json.loads(medicao[medicao.rindex("{"):medicao.rindex("}") + 1])
     filtro = (
-        f"loudnorm=I={LUFS_ALVO}:TP={PICO_MAXIMO}:LRA=11"
+        f"{estereo},loudnorm=I={LUFS_ALVO}:TP={PICO_MAXIMO}:LRA=11"
         f":measured_I={m['input_i']}:measured_TP={m['input_tp']}"
         f":measured_LRA={m['input_lra']}:measured_thresh={m['input_thresh']}"
         f":offset={m['target_offset']}:linear=true"
     )
     subprocess.run(
         ["ffmpeg", "-hide_banner", "-loglevel", "error", "-y", "-i", str(origem),
-         "-af", filtro, "-ar", "48000", "-ac", "1", "-c:a", "libmp3lame", "-b:a", "128k",
+         "-af", filtro, "-ar", "48000", "-ac", "2", "-c:a", "libmp3lame", "-b:a", "192k",
          str(destino)],
         check=True,
     )

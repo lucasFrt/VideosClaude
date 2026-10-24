@@ -1,0 +1,9 @@
+# Scripts precisam de LF, senão o bash do Windows (Git Bash) quebra.
+* text=auto eol=lf
+*.ttf binary
+*.woff2 binary
+*.mp3 binary
+*.wav binary
+*.mp4 binary
+*.png binary
+*.jpg binary

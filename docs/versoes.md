@@ -1,25 +1,28 @@
 # Versões
 
-Versões fixas usadas no projeto. Ao atualizar qualquer item, registre aqui a nova versão, a data e o motivo, e rode o vídeo de teste de novo.
+Versões fixas usadas no projeto. Ao atualizar qualquer item, registre aqui a nova versão, a data e o motivo, atualize `assets/SHA256SUMS` quando for o caso, rode `./scripts/instalar.sh` e refaça o vídeo de teste.
 
 ## Ferramentas
 
-| Ferramenta | Versão | Observação |
+| Ferramenta | Versão | Onde é fixada |
 |---|---|---|
-| Node.js | 22.22.0 | npm 10.9.4 |
-| Python | 3.13.17 | |
-| FFmpeg | 6.1.1 (Ubuntu 6.1.1-3ubuntu5) | do sistema |
-| edge-tts | 7.3.1 | `pip install edge-tts==7.3.1` |
-| HyperFrames | — | pendente: instalação ainda não autorizada (ver `aprendizados.md`) |
-| Skills do HyperFrames | — | pendente |
+| HyperFrames (CLI) | 0.8.192 | `package.json` / `package-lock.json` (`npm ci`) |
+| Skills do HyperFrames | tag `v0.8.192` (`c16b783`) de github.com/heygen-com/hyperframes | `.claude/skills/` (`hyperframes`, `hyperframes-cli`, `hyperframes-registry`, `media-use`) |
+| Chrome Headless Shell | 152.0.7977.30 | escolhida pelo HyperFrames 0.8.192 (`browser ensure`) |
+| edge-tts | 7.3.1 | `requirements.txt` (instalado em `.venv/`) |
+| Node.js | 22 ou mais novo | exigência do HyperFrames; testado com 22.22.0 |
+| Python | 3.10 ou mais novo | testado com 3.13.17 |
+| FFmpeg | do sistema | testado com 6.1.1 |
 
-## Bibliotecas e fontes (em `assets/`)
+## Bibliotecas e fontes (em `assets/`, conferidas por `assets/SHA256SUMS`)
 
-| Arquivo | Versão | Origem | Licença | SHA-256 |
-|---|---|---|---|---|
-| `libs/gsap.min.js` | GSAP 3.15.0 | npm `gsap@3.15.0`, `dist/gsap.min.js` | GSAP Standard "no charge" (gsap.com/standard-license) | `92bb9a96476f983d212a2bc4f54c889039c1696dd4461d40a736860938570fbb` |
-| `libs/three.min.js` | Three.js r159 (0.159.0) | npm `three@0.159.0`, `build/three.min.js` | MIT (`libs/LICENSE-three.txt`) | `7b1c5d75b28d9de15042e2b374f83566d8c7146697af8fdeb4558b0fb528a585` |
-| `fontes/Montserrat-ExtraBold.ttf` | Montserrat v9.000 | github.com/JulietaUla/Montserrat, tag `v9.000` (`f1f4e9b`) | OFL 1.1 (`fontes/OFL.txt`) | `17179ec056b9392fe8ec5711c05c3355b05f240fdeb5ef9af4205663e6cab3ce` |
-| `fontes/Montserrat-SemiBold.ttf` | Montserrat v9.000 | idem | OFL 1.1 | `7e9bf248f9662d2b6a191a41ed1d7a8a12aefcf677c906f0535bbdd4ddc6acb4` |
+| Arquivo | Versão | Origem | Licença |
+|---|---|---|---|
+| `libs/gsap.min.js` | GSAP 3.15.0 | npm `gsap@3.15.0`, `dist/gsap.min.js` | GSAP Standard "no charge" (gsap.com/standard-license) |
+| `libs/three.module.js` + `libs/three.core.js` | Three.js r186 (0.186.1) | npm `three@0.186.1`, `build/` | MIT (`libs/LICENSE-three.txt`) |
+| `fontes/Montserrat-ExtraBold.ttf` | Montserrat v9.000 | github.com/JulietaUla/Montserrat, tag `v9.000` (`f1f4e9b`) | OFL 1.1 (`fontes/OFL.txt`) |
+| `fontes/Montserrat-SemiBold.ttf` | Montserrat v9.000 | idem | OFL 1.1 |
 
-Registrado em 2026-10-24.
+## Histórico
+
+- 2026-10-24: instalação inicial. Three.js começou na r159 (`three.min.js`) e foi trocado no mesmo dia pela r186 em módulo ES (ver `aprendizados.md`, item 9).

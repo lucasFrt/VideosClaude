@@ -1,4 +1,17 @@
 node_modules/
 __pycache__/
 *.pyc
+.venv/
 .DS_Store
+Thumbs.db
+
+# Estado local do HyperFrames (snapshots, histórico, caches)
+.hyperframes/
+
+# Links (ou cópias, no Windows) criados pelo scripts/hf.sh dentro de cada composição
+videos/*/composicao/assets
+videos/*/composicao/componentes
+videos/*/composicao/narracao
+
+# Saídas do scripts/instalar.sh
+videos/.teste-ambiente/

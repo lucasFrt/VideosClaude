@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "env": {
+    "HYPERFRAMES_NO_TELEMETRY": "1",
+    "HYPERFRAMES_NO_UPDATE_CHECK": "1",
+    "HYPERFRAMES_SKIP_SKILLS": "1"
+  },
+  "permissions": {
+    "allow": [
+      "Bash(./scripts/hf.sh:*)",
+      "Bash(./scripts/novo-video.sh:*)",
+      "Bash(./scripts/verificar.sh:*)",
+      "Bash(./scripts/instalar.sh:*)",
+      "Bash(./scripts/narrar.py:*)",
+      "Bash(python3 scripts/narrar.py:*)",
+      "Bash(python scripts/narrar.py:*)",
+      "Bash(ffprobe:*)",
+      "WebSearch"
+    ],
+    "deny": [
+      "Bash(npx hyperframes publish:*)",
+      "Bash(npx hyperframes cloud:*)",
+      "Bash(npx hyperframes lambda:*)",
+      "Bash(npx hyperframes cloudrun:*)",
+      "Bash(npx hyperframes auth:*)",
+      "Bash(npx hyperframes feedback:*)",
+      "Bash(npx hyperframes upgrade:*)",
+      "Bash(npx hyperframes skills:*)",
+      "Bash(npx hyperframes@latest:*)",
+      "Bash(npx skills:*)",
+      "Bash(heygen:*)"
+    ]
+  }
+}

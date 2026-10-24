@@ -1,0 +1,11 @@
+{
+  "name": "videos-claude",
+  "private": true,
+  "description": "Canal \"E se...?\": composições HyperFrames e scripts de produção",
+  "engines": {
+    "node": ">=22"
+  },
+  "devDependencies": {
+    "hyperframes": "0.8.192"
+  }
+}

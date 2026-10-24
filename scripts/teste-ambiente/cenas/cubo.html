@@ -1,0 +1,56 @@
+<template>
+  <style>
+    #root {
+      position: absolute;
+      inset: 0;
+    }
+    #cubo-palco {
+      position: absolute;
+      inset: 0;
+    }
+    #cubo-titulo {
+      position: absolute;
+      top: 1200px;
+      left: 0;
+      width: calc(var(--largura) - var(--seguro-direita));
+      text-align: center;
+      color: var(--destaque);
+      font-family: var(--fonte);
+      font-weight: var(--peso-titulo);
+      font-size: var(--tamanho-titulo);
+    }
+  </style>
+  <div id="root" data-composition-id="cubo" data-width="1080" data-height="1920">
+    <canvas id="cubo-palco" class="clip" data-start="0" data-duration="3"></canvas>
+    <div id="cubo-titulo" class="clip" data-start="0" data-duration="3">Ação: R$ 15,00</div>
+  </div>
+  <script type="module">
+    import * as THREE from "./assets/libs/three.module.js";
+
+    const renderer = new THREE.WebGLRenderer({ canvas: document.getElementById("cubo-palco"), antialias: true });
+    renderer.setSize(1080, 1920, false);
+    renderer.setClearColor(0x1b2a41);
+    const cena = new THREE.Scene();
+    const camera = new THREE.PerspectiveCamera(40, 1080 / 1920, 0.1, 100);
+    camera.position.set(0, 0, 9);
+    const cubo = new THREE.Mesh(
+      new THREE.BoxGeometry(2, 2, 2),
+      new THREE.MeshStandardMaterial({ color: 0x3ddc97, flatShading: true }),
+    );
+    const luz = new THREE.DirectionalLight(0xffffff, 2);
+    luz.position.set(3, 4, 5);
+    cena.add(cubo, luz, new THREE.AmbientLight(0xffffff, 0.5));
+
+    // Cada quadro é calculado só a partir do tempo t (ESTRUTURA.md, regra 6.3).
+    function desenhar(t) {
+      cubo.rotation.set(t * 0.6, t * 0.9, 0);
+      renderer.render(cena, camera);
+    }
+    window.addEventListener("hf-seek", (e) => desenhar(e.detail.time));
+    desenhar(0);
+
+    const tl = gsap.timeline({ paused: true });
+    tl.fromTo("#cubo-titulo", { y: 40 }, { y: 0, duration: 0.8, ease: "power3.out" }, 0);
+    window.__timelines["cubo"] = tl;
+  </script>
+</template>

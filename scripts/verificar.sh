@@ -27,7 +27,17 @@ if [ ! -f "$PASTA/final.mp4" ]; then
   exit 1
 fi
 
-exec python3 - "$PASTA" "$DURACAO_MIN" "$DURACAO_MAX" <<'PY'
+PY=""
+for candidato in python3 python; do
+  if command -v "$candidato" >/dev/null 2>&1 &&
+     "$candidato" -c 'import sys; sys.exit(sys.version_info < (3, 10))' 2>/dev/null; then
+    PY="$candidato"
+    break
+  fi
+done
+[ -n "$PY" ] || { echo "Python 3.10+ não encontrado." >&2; exit 1; }
+
+exec "$PY" - "$PASTA" "$DURACAO_MIN" "$DURACAO_MAX" <<'PY'
 import json
 import math
 import re

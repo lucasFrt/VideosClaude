@@ -19,8 +19,11 @@ if ! [[ "$SLUG" =~ ^[a-z0-9]+(-[a-z0-9]+)*$ ]]; then
   exit 1
 fi
 
-HOJE="$(TZ="$FUSO" date +%F)"
-AGORA="$(TZ="$FUSO" date '+%F %H:%M')"
+# Horário de Brasília quando o sistema conhece o fuso; senão, o relógio local
+# (o Git Bash do Windows não traz a base de fusos).
+if [ -e "/usr/share/zoneinfo/$FUSO" ]; then export TZ="$FUSO"; fi
+HOJE="$(date +%F)"
+AGORA="$(date '+%F %H:%M')"
 PASTA="$RAIZ/videos/$HOJE-$SLUG"
 
 if [ -e "$PASTA" ]; then
