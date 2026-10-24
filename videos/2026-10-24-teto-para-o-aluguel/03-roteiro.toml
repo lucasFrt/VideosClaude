@@ -95,11 +95,11 @@ cena = "Balança 3D equilibrada: prato verde (a favor) à esquerda e coral (cont
   voz = "Quem critica aponta que, em San Francisco, a oferta de aluguel nos prédios com teto caiu quinze por cento, e os autores estimam que quem chegou depois pagou cerca de cinco por cento a mais."
 
   [[bloco.frase]]
-  fala = "Os estudos mostram as duas coisas, mas a maioria deles vê a oferta cair com o tempo, e pesquisas com economistas nos EUA também; a dúvida é o tamanho, que muda de lugar para lugar."
+  fala = "Os estudos mostram as duas coisas, mas a maioria vê a oferta cair com o tempo, e pesquisas com economistas nos EUA também; a dúvida é o tamanho, que varia de lugar para lugar."
   marcacao = "TERMÔMETRO"
   fontes = ["F8", "F11", "F7"]
   tela = "12 de 16 estudos: menos oferta de aluguel"
-  voz = "Os estudos mostram as duas coisas, mas a maioria deles vê a oferta cair com o tempo, e pesquisas com economistas nos Estados Unidos também; a dúvida é o tamanho, que muda de lugar para lugar."
+  voz = "Os estudos mostram as duas coisas, mas a maioria vê a oferta cair com o tempo, e pesquisas com economistas nos Estados Unidos também; a dúvida é o tamanho, que varia de lugar para lugar."
 
 # Exemplo real cortado por tempo (CLAUDE.md, seção 3): San Francisco já aparece,
 # com fonte, nos dois lados da balança. Berlim (F9) e o congelamento de 1942 (F12) estão

@@ -77,12 +77,12 @@ cena = "Balança 3D equilibrada: prato verde (a favor) à esquerda e coral (cont
   fontes = ["F24", "F19", "F9"]
 
   [[bloco.frase]]
-  fala = "Quem critica aponta que, nos anos oitenta, Estados Unidos, Canadá e Inglaterra tentaram controlar a quantidade de dinheiro e desistiram: a ligação com os preços mudava."
+  fala = "Quem critica aponta que, nos anos oitenta, Estados Unidos, Canadá e Inglaterra tentaram controlar a quantidade de dinheiro e desistiram: a ligação com os preços falhava."
   marcacao = "ARGUMENTO CONTRA"
   fontes = ["F11", "F17", "F18"]
 
   [[bloco.frase]]
-  fala = "Num painel de economistas americanos, ninguém achou que dá para gastar sem limite criando dinheiro. Sobre congelar esse dinheiro, não achamos pesquisa; os grandes bancos centrais preferem os juros."
+  fala = "Num painel de economistas americanos, ninguém achou que dá para gastar sem limite criando dinheiro. Sobre congelar, não achamos pesquisa; os grandes bancos centrais preferem os juros."
   marcacao = "TERMÔMETRO"
   fontes = ["F10", "F8", "F11", "F16"]
   tela = "Ninguém a favor (painel de economistas dos EUA, 2019)"

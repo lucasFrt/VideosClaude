@@ -1,6 +1,6 @@
 <!-- Gerado pelo scripts/roteiro.py a partir do 03-roteiro.toml. Não edite este arquivo. -->
 # Roteiro — E se o governo congelasse o preço da comida?
-Versão: 2 · Duração estimada: ~80 s (225 palavras faladas)
+Versão: 2 · Duração estimada: ~79 s (222 palavras faladas)
 
 ## Bloco 1 — Gancho (~6 s)
 Cena: Primeiro quadro: numa prateleira de mercado, etiquetas de preço presas dentro de blocos de gelo, com '1986' enorme em amarelo; o Zé surpreso, de lado. Na pergunta, o gelo some e a câmera passa para um carrinho de compras de hoje.
@@ -26,14 +26,14 @@ Cena: Zé feliz diante das etiquetas paradas; depois uma barra de custo (diesel,
   - Voz: "Em oitenta e seis, com tudo congelado e consumo em alta, faltou carne e leite; na Argentina, com controles focados, não, mas surgiram versões mais caras."
 - **[PROJEÇÃO · F8, F12, F13]** Quando o congelamento acabasse, os preços tenderiam a pular para alcançar os custos.
 
-## Bloco 4 — A balança (~29 s)
+## Bloco 4 — A balança (~28 s)
 Cena: Balança 3D equilibrada: prato verde (a favor) à esquerda e coral (contra) à direita; cada prato acende na sua frase; no termômetro, os dois pratos apagam, aparece o resultado da pesquisa em dois números e ela termina equilibrada.
 
 - **[BORDÃO]** Agora, vamos colocar na balança.
 - **[ARGUMENTO A FAVOR · F11]** Quem defende aponta que, numa emergência, segurar por pouco tempo o preço do essencial alivia e evita que a alta se espalhe.
-- **[ARGUMENTO CONTRA · F16, F9, F8]** Quem critica aponta que preço travado abaixo do custo desestimula quem produz e que, na Argentina, o efeito na inflação foi pequeno e passageiro.
-- **[TERMÔMETRO · F18]** Numa pesquisa nos EUA, quase 6 em 10 economistas disseram que controlar preços não baixaria a inflação em um ano; menos de 1 em 4 disseram que sim.
-  - Tela: Controlar preços baixaria a inflação? Não: 58% · Sim: 23% (rodapé: Fonte: Painel IGM, 2022) · Voz: "Numa pesquisa nos Estados Unidos, quase seis em dez economistas disseram que controlar preços não baixaria a inflação em um ano; menos de um em quatro disseram que sim."
+- **[ARGUMENTO CONTRA · F16, F9, F8]** Quem critica aponta que preço travado abaixo do custo desestimula quem produz e que, na Argentina, o efeito foi pequeno e passageiro.
+- **[TERMÔMETRO · F18]** Numa pesquisa nos EUA, quase 6 em 10 economistas disseram que controlar preços não baixaria a inflação em um ano; menos de um quarto disse que sim.
+  - Tela: Controlar preços baixaria a inflação? Não: 58% · Sim: 23% (rodapé: Fonte: Painel IGM, 2022) · Voz: "Numa pesquisa nos Estados Unidos, quase seis em dez economistas disseram que controlar preços não baixaria a inflação em um ano; menos de um quarto disse que sim."
 
 ## Bloco 5 — Encerramento (~3 s)
 Cena: Zé de frente para a câmera, segurando uma etiqueta dentro de um cubo de gelo, ombros levantados, esperando a resposta.
@@ -42,4 +42,4 @@ Cena: Zé de frente para a câmera, segurando uma etiqueta dentro de um cubo de 
 
 ## Equilíbrio da balança
 - A favor: 1 frase(s), 22 palavras
-- Contra: 1 frase(s), 24 palavras
+- Contra: 1 frase(s), 22 palavras

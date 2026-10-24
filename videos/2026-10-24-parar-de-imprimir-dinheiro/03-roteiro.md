@@ -1,6 +1,6 @@
 <!-- Gerado pelo scripts/roteiro.py a partir do 03-roteiro.toml. Não edite este arquivo. -->
 # Roteiro — E se o Brasil parasse de imprimir dinheiro?
-Versão: 2 · Duração estimada: ~82 s (231 palavras faladas)
+Versão: 2 · Duração estimada: ~82 s (229 palavras faladas)
 
 ## Bloco 1 — Gancho (~6 s)
 Cena: Primeiro quadro já com o número '1,35 bilhão de notas' enorme sobre uma impressora low-poly que solta maços de notas genéricas (sem o desenho das cédulas reais); o Zé surpreso, olhando a pilha crescer.
@@ -25,13 +25,13 @@ Cena: O cofre 'Banco Central' com o contador 'R$ 447 bilhões' trava com um cade
 - **[PROJEÇÃO · F8, F9, F13]** No longo prazo, com esse dinheiro parado, os bancos emprestariam mais devagar, e o pão tenderia a subir menos ou até baixar. Ninguém sabe quanto.
 - **[PROJEÇÃO · F22, F14]** Mas salário quase não cai junto: pode custar empregos, e as dívidas pesariam mais.
 
-## Bloco 4 — A balança (~31 s)
+## Bloco 4 — A balança (~30 s)
 Cena: Balança 3D equilibrada: prato verde (a favor) à esquerda e coral (contra) à direita; cada prato acende na sua frase; no termômetro, os dois apagam e ela termina equilibrada.
 
 - **[BORDÃO]** Agora, vamos colocar na balança.
 - **[ARGUMENTO A FAVOR · F24, F19, F9]** Quem defende aponta que uma regra fixa tira a tentação de criar dinheiro, e que, em mais de cem países, mais dinheiro veio com mais inflação.
 - **[ARGUMENTO CONTRA · F11, F17, F18]** Quem critica aponta que, nos anos oitenta, Estados Unidos, Canadá e Inglaterra tentaram controlar a quantidade de dinheiro e desistiram: a ligação com os preços mudava.
-- **[TERMÔMETRO · F10, F8, F11, F16]** Num painel de economistas americanos, ninguém achou que dá para gastar sem limite criando dinheiro. Sobre congelar esse dinheiro, não achamos pesquisa; os grandes bancos centrais preferem os juros.
+- **[TERMÔMETRO · F10, F8, F11, F16]** Num painel de economistas americanos, ninguém achou que dá para gastar sem limite criando dinheiro. Sobre congelar, não achamos pesquisa; os grandes bancos centrais preferem os juros.
   - Tela: Ninguém a favor (painel de economistas dos EUA, 2019) (rodapé: Fonte: Clark Center, 2019; Banco da Inglaterra, 2014; Fed, 1979–1982; Banco Central, 2025–2026)
 
 ## Bloco 5 — Encerramento (~3 s)

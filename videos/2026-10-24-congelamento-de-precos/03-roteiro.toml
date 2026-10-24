@@ -79,16 +79,16 @@ cena = "Balança 3D equilibrada: prato verde (a favor) à esquerda e coral (cont
   fontes = ["F11"]
 
   [[bloco.frase]]
-  fala = "Quem critica aponta que preço travado abaixo do custo desestimula quem produz e que, na Argentina, o efeito na inflação foi pequeno e passageiro."
+  fala = "Quem critica aponta que preço travado abaixo do custo desestimula quem produz e que, na Argentina, o efeito foi pequeno e passageiro."
   marcacao = "ARGUMENTO CONTRA"
   fontes = ["F16", "F9", "F8"]
 
   [[bloco.frase]]
-  fala = "Numa pesquisa nos EUA, quase 6 em 10 economistas disseram que controlar preços não baixaria a inflação em um ano; menos de 1 em 4 disseram que sim."
+  fala = "Numa pesquisa nos EUA, quase 6 em 10 economistas disseram que controlar preços não baixaria a inflação em um ano; menos de um quarto disse que sim."
   marcacao = "TERMÔMETRO"
   fontes = ["F18"]
   tela = "Controlar preços baixaria a inflação? Não: 58% · Sim: 23%"
-  voz = "Numa pesquisa nos Estados Unidos, quase seis em dez economistas disseram que controlar preços não baixaria a inflação em um ano; menos de um em quatro disseram que sim."
+  voz = "Numa pesquisa nos Estados Unidos, quase seis em dez economistas disseram que controlar preços não baixaria a inflação em um ano; menos de um quarto disse que sim."
 
 # Exemplo real cortado na versão 2 para manter a duração perto de 75 s (CLAUDE.md, seção 3):
 # 1986 e a Argentina entram, com as diferenças (congelamento geral × controles focados), numa
