@@ -15,7 +15,7 @@
 
 ## Premissas assumidas
 - A Constituição é emendada: o ICMS, o ISS, o imposto de renda e as contribuições estão previstos nela, e a reforma do consumo em transição (EC 132/2023 e LC 214/2025, de 2026 a 2033, F11) seria trocada pelo imposto único.
-- A arrecadação total fica igual à de hoje, com a alíquota calculada pelos proponentes (F1). A alíquota real pode ter que ser maior: nos países que usaram esse tipo de imposto, a arrecadação caía com o tempo e cada aumento da alíquota encolhia o que passava pelos bancos (F7, F6).
+- A arrecadação total fica igual à de hoje, com a alíquota calculada pelos proponentes (F1). A alíquota real pode ter que ser maior: nos seis países latino-americanos estudados pela OCDE, cada aumento da alíquota encolhia o que passava pelos bancos (F7), e a CPMF corroeu a própria base (F6). No Brasil, com a alíquota parada em 0,38%, a arrecadação da CPMF ficou estável de 2001 a 2007 (F14).
 - O dinheiro é dividido entre União, estados e municípios por alguma regra de partilha; o vídeo não diz qual.
 - Os bancos cobram e repassam automaticamente, como na CPMF (1997–2007, F2).
 - O vídeo não trata de isenções (por exemplo, transferências entre contas da mesma pessoa).
@@ -24,7 +24,8 @@
 Ditas na frase [PREMISSA] do bloco 2:
 - que a Constituição muda;
 - que o imposto único substitui todos os outros (os da União, dos estados e dos municípios);
-- que ele arrecada o mesmo que hoje, pelo cálculo de quem defende (a alíquota do gancho, com o rodapé "Fonte: Proponentes do imposto único, 2019").
+- que ele arrecada o mesmo que hoje;
+- que a alíquota é a conta de quem defende (a do gancho, marcada como [PREMISSA], com a tela "Conta de quem defende" e o rodapé "Fonte: Proponentes do imposto único, 2019"; a fala atribui a conta logo depois: "Pelo cálculo de quem defende...").
 
 Ditas no bloco 3:
 - que o tamanho exato dos efeitos é incerto ("ninguém sabe quanto").
@@ -41,6 +42,6 @@ Não detalhadas no vídeo (ficam aqui): a regra de partilha entre os governos, a
 - Onde estão os estudos?
 
 ## Por que este cenário é plausível no Brasil real
-O mecanismo já existiu: a CPMF foi cobrada pelos bancos sobre o dinheiro que saía das contas de 1997 a 2007, chegando a 0,38% (F2, F3). A ideia de um imposto único sobre movimentação financeira circula no debate brasileiro desde os anos 1990 e foi apresentada de novo em 2019, com a alíquota de 2,81% de cada lado (F1).
+O mecanismo já existiu: a CPMF foi cobrada pelos bancos sobre o dinheiro que saía das contas de 1997 a 2007, chegando a 0,38% (F2, F3, F12). A ideia de um imposto único sobre movimentação financeira circula no debate brasileiro desde os anos 1990 e foi apresentada de novo em 2019, com a alíquota de 2,81% de cada lado (F1).
 
 O ponto menos plausível é trocar todos os impostos de uma vez: exigiria mudar a Constituição, um acordo entre União, estados e municípios e abandonar a reforma do consumo que acabou de começar, que foi na direção oposta (um imposto sobre valor adicionado, que não se acumula na cadeia, F11). O vídeo diz isso como premissa, não como algo provável.
