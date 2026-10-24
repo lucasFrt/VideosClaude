@@ -10,7 +10,7 @@ Cena: Primeiro quadro já com o número +9% enorme sobre uma placa genérica de 
 - **[BORDÃO]** E se o aluguel tivesse um teto? Vamos imaginar.
 
 ## Bloco 2 — Contexto (~18 s)
-Cena: Duas barras animadas lado a lado, aluguel (9,13%) e inflação (4,58%); depois um contrato de papel com o carimbo 'valor livre'. Na premissa, uma linha amarela marcada 'inflação' trava a seta de aumento do aluguel do Zé; quando uma caixa de mudança sai pela porta, a seta do contrato seguinte fica solta.
+Cena: Duas barras animadas lado a lado, aluguel anunciado (9,13%) e inflação (4,58%); depois um contrato de papel com o carimbo 'valor livre'. Na premissa, uma linha amarela marcada 'inflação' trava a seta de aumento do aluguel do Zé; quando uma caixa de mudança sai pela porta, a seta do contrato seguinte fica solta.
 
 - **[FATO · F1]** É quase o dobro da inflação.
   - Tela: aluguel anunciado (contratos novos) 9,13% × inflação 4,58% (rodapé: Fonte: FipeZAP, 2026)

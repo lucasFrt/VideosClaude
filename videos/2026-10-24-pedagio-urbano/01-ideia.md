@@ -15,14 +15,14 @@
 **O que fica igual:** as tarifas de ônibus, metrô e trem; o IPVA e os impostos sobre combustível; as regras para motos e caminhões; o resto da cidade, sem cobrança; a rede de transporte que existe hoje (no começo).
 
 ## Premissas assumidas
-- A Câmara Municipal aprova a lei e ela resiste a contestações na Justiça. Há debate sobre a natureza da cobrança (tributo ou preço público); não foi conferido nesta onda.
+- A Câmara Municipal aprova a lei e ela resiste a contestações na Justiça. Esta é uma premissa dita no vídeo ("e que a Justiça aceita"), porque a natureza da cobrança não está resolvida: a Lei 12.587 fala em "tributos", o STF tratou o pedágio de rodovia como preço público (ADI 800, 2014), juristas apontaram em 2012 risco de inconstitucionalidade se a cobrança virar só arrecadação, e não foi encontrada decisão judicial sobre pedágio urbano municipal (F16).
 - Pagam os carros de passeio, inclusive os de aplicativo. Ônibus, veículos de emergência e de pessoas com deficiência ficam isentos. Os detalhes de isenções e descontos (para moradores, por exemplo) não entram no vídeo.
-- A cobrança substitui o rodízio, em vez de se somar a ele. O efeito líquido no trânsito depende do valor: o rodízio tira parte dos carros por placa, e a cobrança tira por preço. As simulações com dados de São Paulo (F11, F12) apontam queda no uso do carro com valores nessa faixa, mas são modelos, não medições.
+- A cobrança substitui o rodízio, em vez de se somar a ele. O efeito líquido no trânsito é incerto: quem tem a placa restrita no dia voltaria a poder entrar, pagando, e todos os outros passariam a pagar. As simulações com dados de São Paulo (F11, F12) apontam queda no uso do carro com cobranças nessa faixa, mas são modelos e não simulam a troca pelo rodízio. Por isso o vídeo diz que o trânsito só melhoraria se a cobrança tirasse mais carros do que o rodízio, e que ninguém sabe ao certo se tiraria (rodada 1, objeção 1).
 - O dinheiro é usado como a lei manda, e o vídeo diz que o resultado no longo prazo depende de a cidade gastar bem.
 
 ## Simplificações (o vídeo precisa dizer quais são)
-- O valor, a área e o horário são uma hipótese: "Aqui, vamos supor que o rodízio vira uma cobrança de dez reais por dia, na mesma área e horário." [PREMISSA]
-- O tamanho do efeito é incerto: "quantos, ninguém sabe." [PROJEÇÃO]
+- O valor e a regra são uma hipótese, e a Justiça teria de aceitar: "Aqui, vamos supor que o rodízio vira uma cobrança de dez reais por dia, e que a Justiça aceita." [PREMISSA] A mesma área e o mesmo horário do rodízio aparecem na cena.
+- O efeito no trânsito é incerto: "Se a cobrança tirasse mais carros do que o rodízio, o trânsito melhoraria; ninguém sabe ao certo se tiraria." [PROJEÇÃO]
 - O efeito no longo prazo depende do uso do dinheiro: "se a cidade gastasse bem." [PROJEÇÃO]
 
 ## Perguntas que o vídeo precisa responder
@@ -35,7 +35,7 @@
 - O que os economistas acham?
 
 ## Por que este cenário é plausível no Brasil real
-- **A lei federal já prevê:** a Lei 12.587/2012 (art. 23, III) diz que os entes federativos "poderão" cobrar tributos pelo uso da infraestrutura urbana para desestimular certos modos de transporte, com a receita vinculada ao transporte público coletivo e ao não motorizado (F3). A Lei 15.432/2026 mudou a redação desse inciso a partir de 14/06/2027, ainda com a receita indo para o transporte público coletivo e o não motorizado.
+- **A lei federal prevê:** a Lei 12.587/2012 (art. 23, III) diz que os entes federativos "poderão" cobrar tributos pelo uso da infraestrutura urbana para desestimular certos modos de transporte, com a receita vinculada ao transporte público coletivo e ao não motorizado (F3). A Lei 15.432/2026 mudou a redação desse inciso a partir de 14/06/2027, ainda com a receita indo para o transporte público coletivo e o não motorizado.
 - **A estrutura já existe:** o rodízio funciona desde 1997 na mesma área e no mesmo horário, fiscalizado por câmeras (F2).
 - **O tema já foi debatido na cidade:** a Câmara Municipal de São Paulo já discutiu projetos de pedágio urbano e fez audiências com especialistas; o vídeo não cita projetos nem autores (seção 5 do CLAUDE.md).
 - **Há casos reais:** Londres (desde 2003), Estocolmo (teste em 2006, permanente desde 2007) e Nova York (desde janeiro de 2025) (F5, F9, F10).

@@ -23,7 +23,7 @@
 Nenhuma objeção CRÍTICA; duas IMPORTANTES (R1.1 e R1.2), ambas de calibração e recorte, e três MENORES opcionais. "Com O1 e O2 resolvidas, o roteiro fica pronto, restando só as incertezas naturais sobre o futuro." O roteiro ainda não estava pronto na rodada 1.
 
 ### O que mudou na versão 2
-- Bloco 2: a tela diz "aluguel anunciado (contratos novos)", e a frase de fato passou a ser sobre a renovação.
+- Bloco 2: a tela diz "aluguel anunciado (contratos novos)", e a frase [FATO] sobre a lei passou a falar da renovação.
 - Bloco 3: previsibilidade "na hora de renovar"; a qualidade do imóvel entrou nas reações do dono; a incerteza ("quanto, ninguém sabe: os estudos são de fora") passou para a última frase.
 - Balança: "continuar no mesmo endereço" virou "ficar no mesmo endereço" (só para encurtar).
 - Termômetro: baseado na revisão de estudos (F8), com "economistas ouvidos nos EUA" e "a dúvida é o tamanho"; a tela mostra o dado de F8.
