@@ -1,13 +1,56 @@
+> **Como foi conferido:** o ambiente na nuvem não abre páginas (o WebFetch e o curl falham), só faz buscas. Cada dado abaixo foi confirmado pelo texto que as buscas trazem das fontes, mas os documentos não foram abertos. **Além disso, o limite de buscas da sessão acabou no meio da pesquisa**: os dados que eu ainda ia conferir (carga tributária de 2025, horas gastas pelas empresas com impostos, estado atual da reforma em 2026, se o tema está em alguma campanha de 2026) ficaram de fora do vídeo e estão listados no fim. Na revisão humana, abra os links principais: **F1, F4, F6, F7 e F8**.
+>
+> A coluna "Fonte" é curta porque vira o rodapé do vídeo ("Fonte: OCDE, 2006"); o ano sai da coluna "Data do dado".
+
 | # | Dado | Valor | Fonte | Link | Data do dado | Acessado em |
 |---|------|-------|-------|------|--------------|-------------|
-| F1 | ... | ... | ... | ... | ... | ... |
+| F1 | Alíquota de um imposto único sobre movimentação financeira para substituir todos os tributos e manter a arrecadação (estimativa de quem defende a ideia; a mesma alíquota aparece na proposta de 2019 de um instituto empresarial, noticiada pelo Jornal do Brasil, ver "Posições") | 2,81% de quem paga e 2,81% de quem recebe, para arrecadar cerca de 35% do PIB (a carga de referência é a dos proponentes; não foi conferida contra a carga oficial) | Proponentes do imposto único | https://www.marcoscintra.org/iuperguntasfrequentes | 2019 | 2026-10-24 |
+| F2 | Período em que a CPMF vigorou (capítulo 8 do livro "Tributação no Brasil", sobre imposto sobre movimentação financeira) | de 1997 a 2007 | Ipea | https://repositorio.ipea.gov.br/bitstream/11058/8992/1/Novas%20formas.pdf | 2017 | 2026-10-24 |
+| F3 | Alíquota da CPMF depois da prorrogação de 1999 (Informe-SF nº 10, março de 2000); pelas buscas, ficou nesse valor na maior parte do tempo até 2007. A cobrança sobre o dinheiro que sai da conta (débitos) é o que define os impostos sobre débitos bancários estudados em F6 e F8, dos quais a CPMF é o caso brasileiro | 0,38% sobre os débitos em conta | BNDES | https://web.bndes.gov.br/bib/jspui/bitstream/1408/16437/1/PRPer125237_Informe-SF_n10_compl.PDF | 2000 | 2026-10-24 |
+| F4 | Efeitos de impostos sobre movimentação financeira (mesmo capítulo de F2) | causam perda de bem-estar mesmo com alíquota baixa; por serem cumulativos, pesam mais sobre bens de cadeias produtivas longas; para ser viável, a alíquota teria de ficar abaixo de 1% e o tributo vir junto com outros impostos (este último ponto veio de um resumo de busca: conferir no documento) | Ipea | https://repositorio.ipea.gov.br/bitstream/11058/8992/1/Novas%20formas.pdf | 2017 | 2026-10-24 |
+| F5 | Tributação em cascata de Cofins, PIS e CPMF, medida pela matriz insumo-produto de 1996 (Informe-SF nº 27, junho de 2001; o próprio texto se diz uma simulação preliminar) | quanto mais longa a cadeia produtiva, maior a alíquota efetiva paga pelo consumidor final; a cascata incentiva as empresas a juntar etapas (verticalização) | BNDES | https://web.bndes.gov.br/bib/jspui/bitstream/1408/16402/1/PRPer138774_Informe-SF_n.27_compl.PDF | 2001 | 2026-10-24 |
+| F6 | Efeitos da CPMF na intermediação financeira (Koyama e Nakane, Trabalho para Discussão nº 23, julho de 2001) | a CPMF corroeu a própria base de arrecadação, reduziu o uso de cheques, deslocou aplicações de depósitos a prazo para fundos e aumentou o spread bruto; tomadores, poupadores e bancos saíram perdendo | Banco Central | https://www.bcb.gov.br/pec/wps/port/wps23.pdf | 2001 | 2026-10-24 |
+| F7 | Arrecadação de impostos sobre transações bancárias em seis países da América Latina: Argentina, Brasil, Colômbia, Equador, Peru e Venezuela (Baca-Campodónico, de Mello e Kirilenko, Economics Department Working Paper nº 494) | com a alíquota fixa, a arrecadação cai com o tempo, e manter a receita exige subir a alíquota várias vezes; "successive increases in the tax rate erode the tax base by more than they raise revenue yield"; não são fonte confiável de receita, sobretudo no médio prazo | OCDE | https://www.oecd.org/en/publications/the-rates-and-revenue-of-bank-transaction-taxes_652416621832.html | 2006 | 2026-10-24 |
+| F8 | Impostos sobre débitos bancários nos mesmos seis países (Coelho, Ebrill e Summers, IMF Working Paper 01/67; o catálogo do FMI lista Perry no lugar de Summers) | arrecadaram com sucesso no curto prazo, mas os efeitos negativos sobre a alocação de recursos provavelmente foram significativos; funcionam melhor em crise fiscal, com sistema financeiro profundo e com alíquota modesta | FMI | https://www.imf.org/en/publications/wp/issues/2016/12/30/bank-debit-taxes-in-latin-america-an-analysis-of-recent-trends-4083 | 2001 | 2026-10-24 |
+| F9 | Argumentos a favor de um imposto sobre movimentação financeira (Carlos Paiva e Newton Marques, economistas do Ipea e do Banco Central; texto levado a uma audiência na Câmara; a mesma dupla assina o Texto para Discussão nº 649 do Ipea) | alíquota única, proporcional (nem regressivo nem progressivo, na visão dos autores); cobrança automática que minimiza a sonegação | Paiva e Marques | https://www2.camara.leg.br/atividade-legislativa/comissoes/comissoes-permanentes/cft/arquivos/ipea-bacen/view | sem data confirmada | 2026-10-24 |
+| F10 | Análise da proposta de 2020 de recriar um imposto sobre transações (notícia do Insper, agosto de 2020) | o imposto distorce escolhas econômicas, pune cadeias produtivas complexas e inibe o crédito; com 0,4% por operação, arrecadaria cerca de R$ 120 bilhões por ano | Insper | https://www.insper.edu.br/pt/noticias/2020/8/estudos-detectam-vulnerabilidades-da-cpmf | 2020 | 2026-10-24 |
+| F11 | Reforma tributária do consumo (EC 132/2023 e LC 214/2025): a CBS substitui PIS e Cofins, o IBS substitui ICMS e ISS, o IPI é zerado na maior parte dos produtos; transição de 2026 a 2033; IVA que não se acumula na cadeia. **Não conferido por busca nesta sessão** (limite atingido): vem do texto das leis conhecido antes. Usado só no 01-ideia, não no vídeo | 5 tributos sobre consumo trocados por 2 (mais o Imposto Seletivo) até 2033 | Planalto | https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc132.htm | 2023–2025 | não acessado nesta sessão |
 
 ## Posições de especialistas
-- A favor: [quem, o quê, link]
-- Contra: [quem, o quê, link]
-- Onde há consenso: ...
-- Onde há disputa: ...
+- **A favor:**
+  - Os proponentes do imposto único (F1): uma alíquota de 2,81% de cada lado manteria a arrecadação, com mais gente pagando valores menores. A proposta de 2019 com a mesma alíquota foi noticiada em https://www.jb.com.br/economia/2019/07/amp/1009940-empresarios-bolsonaristas-defendem-reforma-com-tributo-semelhante-a-cpmf.html (o título rotula o grupo politicamente; por isso o vídeo não usa essa fonte no rodapé, ver "Contexto que o vídeo evita").
+  - Paiva e Marques (F9), economistas do Ipea e do Banco Central: tributo proporcional, de cobrança automática, que minimiza a sonegação.
+  - O FMI (F8), mesmo crítico, reconhece que esses impostos arrecadaram bem no curto prazo, e que funcionam melhor com alíquota modesta e sistema financeiro desenvolvido.
+- **Contra:**
+  - Ipea (F4): perda de bem-estar mesmo com alíquota baixa; peso maior nas cadeias longas.
+  - BNDES (F5): a cascata aumenta a alíquota efetiva das cadeias longas e estimula a verticalização.
+  - Banco Central (F6): a CPMF corroeu a própria base e encareceu a intermediação.
+  - OCDE (F7) e FMI (F8): a arrecadação cai com o tempo, aumentos da alíquota encolhem a base e os efeitos sobre a alocação de recursos são significativos.
+  - Insper (F10): distorce escolhas, pune cadeias complexas e inibe o crédito.
+  - Outra estimativa de alíquota, de um tributarista ligado a uma associação empresarial (cerca de 5,89% para substituir a tributação atual, com o alerta de que uma alíquota assim estimularia fugir do sistema bancário), apareceu nas buscas sem fonte clara; ficou de fora.
+- **Onde há consenso:** o imposto é cobrado de forma automática e barata pelos bancos; ele incide de novo em cada etapa da cadeia (é cumulativo); a base tende a encolher quando a alíquota sobe (F6, F7, F8).
+- **Onde há disputa:** o tamanho da distorção com alíquotas baixas; se uma base mais ampla (inclusive quem hoje sonega) compensaria; se o imposto é proporcional ou pesa mais sobre os mais pobres (F9 contra críticos); qual seria a alíquota real depois que as pessoas mudassem de comportamento.
 
 ## Termômetro
-Onde os especialistas estão, de verdade: consenso para um lado, divisão real ou falta de evidência. Base: pesquisa com economistas (ex.: Clark Center, antigo IGM Forum) ou revisão da literatura, com código na tabela acima (F...).
-- ...
+A maior parte dos estudos encontrados vai para o mesmo lado: um imposto sobre movimentação financeira arrecada quando a alíquota é baixa e ele vem junto com outros impostos (F8, F4); como imposto único, com alíquota alta, tende a se acumular nos preços das cadeias longas e a afastar o dinheiro dos bancos, o que obriga a subir a alíquota (F4, F5, F6, F7, F10). Os proponentes (F1) e Paiva e Marques (F9) discordam.
+
+Frase do vídeo: "A maioria dos estudos concorda: baixo e junto com outros, esse imposto arrecada; alto e sozinho, tende a pesar nos preços e espantar o dinheiro dos bancos."
+
+Ressalvas:
+- não encontramos país que tenha usado esse imposto como imposto único: a evidência dos estudos vem do uso como imposto a mais, com alíquotas baixas (a da CPMF chegou a 0,38%, F3). A parte "alto e sozinho" é uma extrapolação dos estudos (a base encolhe quando a alíquota sobe, F6 e F7; a cascata pesa mais quanto maior a alíquota e mais longa a cadeia, F4 e F5), por isso a frase diz "tende a";
+- não foi encontrada pesquisa de opinião com economistas (Clark Center, Kent Centre ou brasileira) sobre esse imposto; as enquetes sobre "financial transaction tax" tratam de outro tributo (sobre compra e venda de ações e derivativos) e não servem aqui. Por isso o termômetro fala em "estudos", não em "economistas";
+- os estudos são de 2001 a 2017, quase todos da época da CPMF ou logo depois; não achamos estudo recente, nem da era do pagamento instantâneo;
+- vários vêm de órgãos de governo ou multilaterais (Banco Central, BNDES, Ipea, FMI, OCDE), assinados por pesquisadores; o lado a favor tem menos estudos acadêmicos e mais propostas;
+- a busca acabou antes de achar estudos de outras escolas econômicas a favor (por exemplo, trabalhos acadêmicos que defendam a eficiência de arrecadação desse imposto); a revisão humana pode querer completar.
+
+## Dados que ficaram de fora (sem fonte confirmada nesta sessão)
+- Carga tributária de 2025 (Tesouro ou Receita): a busca acabou antes. O vídeo não diz quanto o país arrecada.
+- Horas por ano que as empresas gastam com impostos (Doing Business, do Banco Mundial): a série foi descontinuada em 2021 e não houve tempo de conferir um substituto.
+- Número de tributos no Brasil: só achamos números de institutos privados, sem conferir.
+- Quanto a CPMF arrecadava (um resumo de busca fala em cerca de R$ 35 bilhões em 2007, mas sem fonte clara).
+
+## Contexto que o vídeo evita
+- **Nomes:** o principal formulador do imposto único no Brasil e o autor do capítulo do Ipea (F2, F4) ocuparam depois cargos no governo federal. O vídeo e esta tabela citam só a instituição ou "os proponentes" (CLAUDE.md, seção 5). O link de F1 é a página de perguntas frequentes da proposta, que leva o nome do formulador no endereço; ele não aparece no vídeo.
+- **Rodapé de F1:** a proposta de 2019 veio de um instituto empresarial que a imprensa associou a um grupo político (ver o título do link do Jornal do Brasil). Por isso o rodapé diz "Proponentes do imposto único" em vez do nome do instituto.
+- **Transferências pelo celular:** em janeiro de 2025 circulou o boato de que o governo ia "taxar o Pix" (conhecimento prévio, não conferido por busca nesta sessão). Uma frase como "um imposto em cada transferência", recortada, poderia ser lida como notícia. Por isso o vídeo não mostra celular, aplicativo de banco nem o símbolo do Pix (que também é uma marca), fala em "dinheiro que passa de uma conta para outra" e deixa claro que é uma hipótese no lugar de todos os impostos.
+- **Campanha de 2026:** não consegui conferir (buscas esgotadas) se o imposto único ou uma nova CPMF estão em algum plano de governo deste segundo turno. O vídeo trata a ideia geral, sem candidato ou partido; a revisão humana deve conferir antes de seguir.

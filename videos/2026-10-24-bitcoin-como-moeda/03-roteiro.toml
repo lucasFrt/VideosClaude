@@ -1,94 +1,96 @@
 # Roteiro: a fonte da verdade do vídeo. Edite este arquivo; o 03-roteiro.md é gerado
 # a partir dele pelo scripts/roteiro.py (não edite o .md à mão).
 #
-# Cada frase tem:
-#   fala      o texto do narrador, como deve ser lido no roteiro (pode ter algarismos)
-#   marcacao  FATO, PROJEÇÃO, PREMISSA, ARGUMENTO A FAVOR, ARGUMENTO CONTRA, TERMÔMETRO ou BORDÃO
-#             (PREMISSA: uma simplificação do cenário, dita no vídeo; vem do 01-ideia.md)
-#   fontes    códigos do 02-fontes.md (obrigatório em tudo, menos BORDÃO e PREMISSA)
-#   tela      (opcional) número ou texto que aparece na tela; o rodapé de fonte sai das fontes
-#   voz       (opcional) a fala escrita como a voz deve ler, com números por extenso
-#
-# Blocos, nesta ordem: Gancho, Contexto, O que mudaria, A balança, Exemplo real (opcional),
-# Encerramento. Duração: 45 a 90 s, mirando em 60 a 75 s (CLAUDE.md, seção 3).
+# Versão 1: ondas 1 e 2. Ainda não passou pelo crítico.
+# Atenção: F4 (frase do Contexto) e F16 (argumento a favor) não foram conferidas por busca
+# (limite de buscas da sessão esgotado); ver nota no topo do 02-fontes.md.
 
-titulo = "E se [pergunta]?"
+titulo = "E se o Brasil adotasse o Bitcoin como moeda?"
 versao = 1
 
 [[bloco]]
 nome = "Gancho"
-cena = "O número ou a imagem de impacto já no primeiro quadro; o que acontece e quais componentes aparecem."
+cena = "Primeiro quadro já com o contador '4,6 milhões' enorme sobre uma nuvem de celulares low-poly; o Zé, surpreso, segura um celular onde gira uma moeda dourada genérica (sem o logotipo oficial do Bitcoin). Na pergunta, a moeda dourada pousa no balcão ao lado de uma moeda de real."
 
   [[bloco.frase]]
-  fala = "[número ou fato de impacto]"
+  fala = "Num só mês, mais de 4,6 milhões de brasileiros usaram criptomoedas."
   marcacao = "FATO"
   fontes = ["F1"]
-  tela = "[o número como aparece na tela]"
-  voz = "[o número por extenso, como a voz deve ler]"
+  tela = "4,6 milhões em um mês (jun. 2026)"
+  voz = "Num só mês, mais de quatro vírgula seis milhões de brasileiros usaram criptomoedas."
 
   [[bloco.frase]]
-  fala = "E se [tema]? Vamos imaginar."
+  fala = "E se o Brasil adotasse o Bitcoin como moeda? Vamos imaginar."
   marcacao = "BORDÃO"
 
 [[bloco]]
 nome = "Contexto"
-cena = "..."
+cena = "Balcão da padaria do Zé: etiqueta do pão em R$ e uma plaquinha 'Bitcoin? Se a loja quiser.'; na premissa, a plaquinha vira 'Obrigatório aceitar' e a moeda dourada entra no caixa ao lado das moedas de real, com uma etiqueta 'como em El Salvador'."
 
   [[bloco.frase]]
-  fala = "[como é hoje, em uma frase, com um dado real]"
+  fala = "Hoje, o Bitcoin não é moeda oficial: cada loja aceita se quiser."
   marcacao = "FATO"
-  fontes = ["F2"]
+  fontes = ["F4", "F3"]
+
+  [[bloco.frase]]
+  fala = "Aqui, vamos supor uma lei como a de El Salvador: o Bitcoin vira moeda ao lado do real, e toda loja tem que aceitar."
+  marcacao = "PREMISSA"
 
 [[bloco]]
 nome = "O que mudaria"
-cena = "..."
+cena = "O Zé paga o pão pelo celular e a maquininha aceita a moeda dourada, mas a etiqueta continua em R$; cartão '9 em cada 10 não usaram (El Salvador, 2024)' sobre um mapa simplificado sem bandeira; por fim, uma alavanca de juros num painel genérico 'Banco Central' fica mais leve à medida que moedas douradas substituem as de real, e o Zé fica preocupado."
 
   [[bloco.frase]]
-  fala = "[consequência no curto prazo, do ponto de vista do cidadão comum]"
+  fala = "No curto prazo, a padaria aceitaria, mas o preço do pão provavelmente seguiria em real."
   marcacao = "PROJEÇÃO"
-  fontes = ["F3"]
+  fontes = ["F6", "F10"]
 
   [[bloco.frase]]
-  fala = "[consequência no longo prazo]"
+  fala = "Em El Salvador, que usa o dólar, mais de 9 em cada 10 pessoas não usaram Bitcoin em 2024."
+  marcacao = "FATO"
+  fontes = ["F8", "F6"]
+  tela = "9 em cada 10 não usaram (2024)"
+  voz = "Em El Salvador, que usa o dólar, mais de nove em cada dez pessoas não usaram Bitcoin em dois mil e vinte e quatro."
+
+  [[bloco.frase]]
+  fala = "No longo prazo, ninguém sabe quanta gente trocaria de moeda; se fosse muita, o Banco Central perderia força contra a inflação."
   marcacao = "PROJEÇÃO"
-  fontes = ["F4"]
+  fontes = ["F11"]
 
 [[bloco]]
 nome = "A balança"
-cena = "Balança 3D equilibrada no começo; só inclina se houver marcação explícita."
+cena = "Balança 3D equilibrada: no prato verde, um cadeado sobre uma pilha de moedas douradas com '21 milhões (limite)'; no prato coral, um gráfico de linha que despenca '−64%' e dispara '+155%'; cada prato acende na sua frase; no termômetro, os dois apagam, aparece o cartão 'FMI: não dar status de moeda oficial' e a balança termina equilibrada."
 
   [[bloco.frase]]
   fala = "Agora, vamos colocar na balança."
   marcacao = "BORDÃO"
 
   [[bloco.frase]]
-  fala = "[o argumento mais forte de quem defende]"
+  fala = "Quem defende aponta que nenhum governo pode imprimir Bitcoin, que tem limite de 21 milhões, e que isso protegeria a poupança da inflação."
   marcacao = "ARGUMENTO A FAVOR"
-  fontes = ["F5"]
+  fontes = ["F16", "F21"]
+  tela = "21 milhões (limite)"
+  voz = "Quem defende aponta que nenhum governo pode imprimir Bitcoin, que tem limite de vinte e um milhões, e que isso protegeria a poupança da inflação."
 
   [[bloco.frase]]
-  fala = "[o argumento mais forte de quem critica, com o mesmo tamanho e o mesmo tom]"
+  fala = "Quem critica aponta que salário e aluguel pedem preço estável, e o Bitcoin perdeu quase dois terços do valor num ano e, no seguinte, mais que dobrou."
   marcacao = "ARGUMENTO CONTRA"
-  fontes = ["F6"]
+  fontes = ["F14"]
+  tela = "−64% em 2022 · +155% em 2023"
 
   [[bloco.frase]]
-  fala = "[onde os especialistas estão: consenso para um lado, divisão real ou falta de evidência]"
+  fala = "O FMI recomenda que nenhum país dê ao Bitcoin papel de moeda, e a maioria dos economistas consultados vê pouca utilidade nele como dinheiro. Como investimento, há mais incerteza."
   marcacao = "TERMÔMETRO"
-  fontes = ["F7"]
+  fontes = ["F11", "F17", "F18"]
+  voz = "O efe eme i recomenda que nenhum país dê ao Bitcoin papel de moeda, e a maioria dos economistas consultados vê pouca utilidade nele como dinheiro. Como investimento, há mais incerteza."
 
-# Exemplo real é opcional: apague este bloco se não houver um bom paralelo.
-[[bloco]]
-nome = "Exemplo real"
-cena = "..."
-
-  [[bloco.frase]]
-  fala = "[país ou período parecido, sem exagerar a comparação]"
-  marcacao = "FATO"
-  fontes = ["F8"]
+# Exemplo real: El Salvador entrou no bloco "O que mudaria" (é a única evidência direta do cenário),
+# com a diferença principal (lá se usa o dólar). Um bloco próprio passaria de 75 s; a República
+# Centro-Africana (F13) e o recuo de El Salvador em 2025 (F7, F12) ficam no 01-ideia e no 02-fontes.
 
 [[bloco]]
 nome = "Encerramento"
-cena = "..."
+cena = "Zé de frente para a câmera, com uma moeda de real numa mão e a moeda dourada na outra, ombros levantados, esperando a resposta."
 
   [[bloco.frase]]
   fala = "E aí, você toparia? Me conta nos comentários."

@@ -1,94 +1,104 @@
-# Roteiro: a fonte da verdade do vídeo. Edite este arquivo; o 03-roteiro.md é gerado
-# a partir dele pelo scripts/roteiro.py (não edite o .md à mão).
-#
-# Cada frase tem:
-#   fala      o texto do narrador, como deve ser lido no roteiro (pode ter algarismos)
-#   marcacao  FATO, PROJEÇÃO, PREMISSA, ARGUMENTO A FAVOR, ARGUMENTO CONTRA, TERMÔMETRO ou BORDÃO
-#             (PREMISSA: uma simplificação do cenário, dita no vídeo; vem do 01-ideia.md)
-#   fontes    códigos do 02-fontes.md (obrigatório em tudo, menos BORDÃO e PREMISSA)
-#   tela      (opcional) número ou texto que aparece na tela; o rodapé de fonte sai das fontes
-#   voz       (opcional) a fala escrita como a voz deve ler, com números por extenso
-#
-# Blocos, nesta ordem: Gancho, Contexto, O que mudaria, A balança, Exemplo real (opcional),
-# Encerramento. Duração: 45 a 90 s, mirando em 60 a 75 s (CLAUDE.md, seção 3).
+# Roteiro: a fonte da verdade do vídeo. O 03-roteiro.md é gerado pelo scripts/roteiro.py.
+# Fontes marcadas com ⚠ no 02-fontes.md (F1, F4, F6, F11, F12, F13) não foram conferidas nesta
+# sessão (limite de buscas): confirmar na onda 3 ou na revisão humana.
 
-titulo = "E se [pergunta]?"
+titulo = "E se o governo congelasse o preço da comida?"
 versao = 1
 
 [[bloco]]
 nome = "Gancho"
-cena = "O número ou a imagem de impacto já no primeiro quadro; o que acontece e quais componentes aparecem."
+cena = "Primeiro quadro: numa prateleira de mercado, etiquetas de preço presas dentro de blocos de gelo, com '1986' enorme em amarelo; o Zé surpreso, de lado. Na pergunta, o gelo some e a câmera passa para um carrinho de compras de hoje."
 
   [[bloco.frase]]
-  fala = "[número ou fato de impacto]"
+  fala = "1986: preços congelados."
   marcacao = "FATO"
   fontes = ["F1"]
-  tela = "[o número como aparece na tela]"
-  voz = "[o número por extenso, como a voz deve ler]"
+  tela = "1986: preços congelados"
+  voz = "Oitenta e seis: preços congelados."
 
   [[bloco.frase]]
-  fala = "E se [tema]? Vamos imaginar."
+  fala = "E se o governo congelasse o preço da comida? Vamos imaginar."
   marcacao = "BORDÃO"
 
 [[bloco]]
 nome = "Contexto"
-cena = "..."
+cena = "Contador da comida no mercado subindo até +4,2% em 12 meses (rodapé IBGE); depois um livro genérico escrito 'Constituição' ao lado de uma etiqueta com 'preço livre'; por fim o Zé põe etiquetas congeladas só no arroz, no feijão e no leite, e o resto da prateleira continua com etiquetas normais."
 
   [[bloco.frase]]
-  fala = "[como é hoje, em uma frase, com um dado real]"
+  fala = "Hoje, o preço é livre, e a comida do mercado subiu cerca de 4% em doze meses."
   marcacao = "FATO"
-  fontes = ["F2"]
+  fontes = ["F2", "F4"]
+  tela = "Comida no mercado: +4,2% em 12 meses (até set/2026)"
+  voz = "Hoje, o preço é livre, e a comida do mercado subiu cerca de quatro por cento em doze meses."
+
+  [[bloco.frase]]
+  fala = "Congelar exigiria mudar a lei, e a Constituição protege a livre iniciativa."
+  marcacao = "FATO"
+  fontes = ["F5", "F4", "F6"]
+
+  [[bloco.frase]]
+  fala = "Aqui, vamos supor que a lei congela, por um ano, o preço de alimentos básicos no mercado; o resto segue livre."
+  marcacao = "PREMISSA"
 
 [[bloco]]
 nome = "O que mudaria"
-cena = "..."
+cena = "Zé feliz diante das etiquetas paradas; depois uma barra de custo (diesel, adubo) sobe e passa da etiqueta congelada, um espaço vazio aparece na prateleira e uma etiqueta extra 'por fora' surge ao lado; por fim o gelo derrete e as etiquetas pulam para cima, com o Zé preocupado."
 
   [[bloco.frase]]
-  fala = "[consequência no curto prazo, do ponto de vista do cidadão comum]"
+  fala = "No começo, arroz, feijão e leite parariam de subir."
   marcacao = "PROJEÇÃO"
-  fontes = ["F3"]
+  fontes = ["F8", "F12"]
 
   [[bloco.frase]]
-  fala = "[consequência no longo prazo]"
+  fala = "Mas, se o custo passasse do preço, vender daria prejuízo: o produto poderia faltar ou sair com ágio, um extra cobrado por fora."
   marcacao = "PROJEÇÃO"
-  fontes = ["F4"]
+  fontes = ["F13", "F9"]
+
+  [[bloco.frase]]
+  fala = "Ninguém sabe o tamanho exato, mas, no fim do congelamento, os preços tenderiam a pular."
+  marcacao = "PROJEÇÃO"
+  fontes = ["F8", "F12"]
 
 [[bloco]]
 nome = "A balança"
-cena = "Balança 3D equilibrada no começo; só inclina se houver marcação explícita."
+cena = "Balança 3D equilibrada: prato verde (a favor) à esquerda e coral (contra) à direita; cada prato acende na sua frase, com um mapa simples da Argentina, sem bandeira, nos dois lados; no termômetro, os dois pratos apagam e ela termina equilibrada."
 
   [[bloco.frase]]
   fala = "Agora, vamos colocar na balança."
   marcacao = "BORDÃO"
 
   [[bloco.frase]]
-  fala = "[o argumento mais forte de quem defende]"
+  fala = "Quem defende aponta que o alívio chega na hora e que, na Argentina, os produtos controlados continuaram nas prateleiras."
   marcacao = "ARGUMENTO A FAVOR"
-  fontes = ["F5"]
+  fontes = ["F8", "F11"]
 
   [[bloco.frase]]
-  fala = "[o argumento mais forte de quem critica, com o mesmo tamanho e o mesmo tom]"
+  fala = "Quem critica aponta que, na Argentina, o efeito na inflação foi pequeno e passageiro, e surgiram versões novas mais caras."
   marcacao = "ARGUMENTO CONTRA"
-  fontes = ["F6"]
+  fontes = ["F8"]
 
   [[bloco.frase]]
-  fala = "[onde os especialistas estão: consenso para um lado, divisão real ou falta de evidência]"
+  fala = "Em pesquisas nos Estados Unidos, a maioria dos economistas é contra limitar preços por lei. Uma minoria defende controles breves e focados, em emergências."
   marcacao = "TERMÔMETRO"
-  fontes = ["F7"]
+  fontes = ["F9", "F10", "F11"]
 
-# Exemplo real é opcional: apague este bloco se não houver um bom paralelo.
 [[bloco]]
 nome = "Exemplo real"
-cena = "..."
+cena = "Calendário de 1986; a prateleira com etiquetas congeladas e, em seguida, espaços vazios nas seções de carne e leite; sem pessoas reais e sem cédulas da época. Termina com um contraste lado a lado: '1986: tudo congelado' × 'cenário: só alimentos básicos'."
 
   [[bloco.frase]]
-  fala = "[país ou período parecido, sem exagerar a comparação]"
+  fala = "No Plano Cruzado, a inflação despencou no começo, mas meses depois faltavam carne e leite, e no ano seguinte ela voltou."
   marcacao = "FATO"
-  fontes = ["F8"]
+  fontes = ["F1", "F12", "F13"]
+
+  [[bloco.frase]]
+  fala = "Só que lá tudo foi congelado, com inflação bem maior e consumo em alta."
+  marcacao = "FATO"
+  fontes = ["F1", "F12", "F13", "F2"]
 
 [[bloco]]
 nome = "Encerramento"
-cena = "..."
+cena = "Zé de frente para a câmera, segurando uma etiqueta dentro de um cubo de gelo, ombros levantados, esperando a resposta."
 
   [[bloco.frase]]
   fala = "E aí, você toparia? Me conta nos comentários."
