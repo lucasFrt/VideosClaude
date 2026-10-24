@@ -7,7 +7,7 @@
 # Versão 2: rodada 1 do crítico; versão 3: rodada 2 (04-revisoes.md).
 
 titulo = "E se o dinheiro em papel acabasse no Brasil?"
-versao = 3
+versao = 4
 
 [[bloco]]
 nome = "Gancho"
@@ -91,6 +91,7 @@ cena = "Balança 3D equilibrada: prato verde (a favor) à esquerda com um cofre 
   marcacao = "TERMÔMETRO"
   fontes = ["F22", "F13", "F21", "F23"]
   tela = "2% a favor de acabar de vez (economistas alemães, 2016)"
+  rodape = ["F22"]
   voz = "Numa pesquisa com economistas alemães, em dois mil e dezesseis, só dois por cento apoiaram acabar de vez com o dinheiro vivo. Já o efeito sobre crime e sonegação num país inteiro é incerto: parte do crime pode virar golpe digital."
 
 [[bloco]]

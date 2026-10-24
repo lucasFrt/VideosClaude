@@ -4,7 +4,7 @@
 # Versão 3: depois das rodadas 1 e 2 do crítico (04-revisoes.md).
 
 titulo = "E se o Brasil adotasse o Bitcoin como moeda?"
-versao = 3
+versao = 4
 
 [[bloco]]
 nome = "Gancho"
@@ -51,6 +51,7 @@ cena = "O Zé paga o pão pelo celular e a maquininha aceita a moeda dourada, ma
   marcacao = "FATO"
   fontes = ["F24", "F6"]
   tela = "Inflação em 2025: EUA 2,7% · Brasil 4,26%"
+  rodape = ["F24"]
 
   [[bloco.frase]]
   fala = "No longo prazo, se muitos trocassem de moeda, os juros do Banco Central perderiam força contra a inflação."
@@ -79,11 +80,11 @@ cena = "Balança 3D equilibrada: no prato verde, um cadeado sobre uma pilha de m
   tela = "−64% em 2022 · +155% em 2023"
 
   [[bloco.frase]]
-  fala = "O FMI recomenda que nenhum país faça do Bitcoin moeda oficial, e na única pesquisa com economistas sobre o Bitcoin como dinheiro que achei, de 2013, a maioria viu utilidade limitada nele."
+  fala = "O FMI recomenda que nenhum país faça do Bitcoin moeda oficial, e na única pesquisa com economistas sobre o Bitcoin como dinheiro que achamos, de 2013, a maioria viu utilidade limitada nele."
   marcacao = "TERMÔMETRO"
   fontes = ["F11", "F17"]
   tela = "FMI, 2023 · economistas dos EUA, 2013"
-  voz = "O efe eme i recomenda que nenhum país faça do Bitcoin moeda oficial, e na única pesquisa com economistas sobre o Bitcoin como dinheiro que achei, de dois mil e treze, a maioria viu utilidade limitada nele."
+  voz = "O efe eme i recomenda que nenhum país faça do Bitcoin moeda oficial, e na única pesquisa com economistas sobre o Bitcoin como dinheiro que achamos, de dois mil e treze, a maioria viu utilidade limitada nele."
 
 # Exemplo real: El Salvador está no bloco "O que mudaria" (uso em 2024 e a diferença do dólar).
 # O recuo de 2025, num acordo de empréstimo com o FMI (F7), saiu da fala na versão 2 (R1.2) e

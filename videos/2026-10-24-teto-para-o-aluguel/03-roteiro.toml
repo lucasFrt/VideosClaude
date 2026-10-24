@@ -13,7 +13,7 @@
 # Encerramento. Duração: 45 a 90 s, mirando em 60 a 75 s (CLAUDE.md, seção 3).
 
 titulo = "E se o aluguel tivesse um teto?"
-versao = 4
+versao = 5
 
 [[bloco]]
 nome = "Gancho"
@@ -99,6 +99,7 @@ cena = "Balança 3D equilibrada: prato verde (a favor) à esquerda e coral (cont
   marcacao = "TERMÔMETRO"
   fontes = ["F8", "F11", "F7"]
   tela = "12 de 16 estudos: menos oferta de aluguel"
+  rodape = ["F8"]
   voz = "Os estudos mostram as duas coisas, mas a maioria vê a oferta cair, e pesquisas com economistas nos Estados Unidos também; a dúvida é o tamanho, que varia de lugar para lugar."
 
 # Exemplo real cortado por tempo (CLAUDE.md, seção 3): San Francisco já aparece,

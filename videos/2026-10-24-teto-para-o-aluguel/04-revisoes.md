@@ -79,6 +79,9 @@ Nenhuma objeção CRÍTICA. Uma IMPORTANTE nova (R2.1), que se corrige com "esti
 ### Veredito do crítico
 Nenhuma objeção CRÍTICA ou IMPORTANTE nova. O roteiro está pronto para a revisão humana, restando as incertezas naturais sobre o futuro e a confirmação humana do contexto de campanha.
 
+## Ajuste do coordenador (versão 5)
+- Termômetro: o rodapé da tela ("12 de 16 estudos") passou a citar só a revisão que sustenta esse número (Kholodilin, F8); os painéis (F7, F11) continuam na frase e no 02-fontes. Fala sem mudança.
+
 ## Resumo final para a revisão humana
 
 **Roteiro final:** versão 4, cerca de 80 s estimados (223 palavras; a duração real sai da narração). O exemplo real foi cortado por tempo.

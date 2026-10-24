@@ -54,4 +54,5 @@ python3 scripts/narrar.py videos/<pasta>                # narração + palavras.
 - Roteiro estruturado com checagem automática (`scripts/roteiro.py`), gerador de composição (`scripts/montar.py`) e critérios de validação (`docs/validacao.md`).
 - Componentes prontos: Zé, balança, contador, legendas, rodapé de fonte, selo de IA, palco 3D, objetos e cartões.
 - **Protótipo completo** em `videos/2026-10-24-fim-das-tarifas-de-importacao/`: tema real com fontes, uma rodada do crítico e prévia de 81 s **com a voz oficial** (narração gerada pelo GitHub Actions, já que o edge-tts não funciona na nuvem).
+- **Dez roteiros na revisão humana 1** (ondas 1 a 4 completas, sem vídeo): resumo e decisões pendentes em `docs/revisao-humana-1.md`.
 - Propostas esperando decisão: `docs/aprendizados.md`, itens marcados **[proposta]**.

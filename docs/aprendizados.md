@@ -125,3 +125,21 @@ Na primeira narração real (via GitHub Actions), o `normalize-audio` só pôde 
 ### 27. Tempos estimados × voz real
 O ritmo estimado (`narrar.py --estimar`) ficou perto do real: 225 palavras em 79,6 s de fala real (2,83 palavras/s), contra 79 s estimados. As cenas se ajustaram sozinhas aos tempos novos porque usam `TEMPOS`. Só uma coisa quebrou: com as frases em outros momentos, o `check` mostrou os rótulos "a favor"/"contra" da balança em cima das legendas.
 **Resolvido:** a cena da balança desloca a imagem 3D 200 px para cima (`camera.setViewOffset`, sem mudar a perspectiva), e os rótulos somem junto com o destaque dos pratos quando o termômetro entra. Regra para as próximas cenas: nada de texto da cena na faixa das legendas (de cerca de y = 1050 a 1260).
+
+### 28. Dez roteiros em paralelo: o limite de buscas
+Cada roteiro teve um agente autor (ondas 1, 2 e 4) e rodadas do crítico (onda 3). A busca na web tem um limite de cerca de 200 buscas por turno, dividido entre todos os agentes. Escrevendo dez roteiros ao mesmo tempo, esse limite acabou no meio da pesquisa, e alguns autores anotaram fontes de memória (marcadas como "não conferido").
+**Resolvido:** o `roteiro.py` passou a exigir que "Acessado em" seja só a data, e fonte não conferida não entra no roteiro. Os autores conferiram tudo no turno seguinte, antes do crítico. Para os próximos lotes: no máximo cinco roteiros ao mesmo tempo, ou começar a pesquisa em turnos diferentes.
+
+### 29. O que o crítico mais pegou
+Nas 30 rodadas, nenhuma objeção CRÍTICA. As IMPORTANTES se repetiram em quatro tipos:
+- termômetro apoiado numa pesquisa que perguntou outra coisa, ou sem data, país ou fonte na tela;
+- elo de causa e efeito faltando;
+- lado a favor mais fraco que o contra;
+- número com escopo errado (contratos novos contra quem já mora, M2 contra "contas e poupança", estimativa apresentada como medida).
+
+Também apareceu muito: correções que encurtam o texto criam problemas novos. Daí as rodadas 3 "de conferência".
+**[proposta]** Levar esses quatro pontos para o brief do autor e para o `critico.md` como lista de conferência de saída.
+
+### 30. Duração depois do debate
+Todos os roteiros terminaram entre 79 e 86 s estimados, acima da meta de 60 a 75 s, porque as correções somam palavras ("em média", "segundo um estudo preliminar", "vamos supor...").
+**[proposta]** Ou a meta passa a ser 75 a 85 s, ou o autor escreve a primeira versão mirando 65 s, para sobrar espaço para as ressalvas.

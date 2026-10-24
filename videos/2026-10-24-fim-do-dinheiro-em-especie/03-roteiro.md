@@ -1,6 +1,6 @@
 <!-- Gerado pelo scripts/roteiro.py a partir do 03-roteiro.toml. Não edite este arquivo. -->
 # Roteiro — E se o dinheiro em papel acabasse no Brasil?
-Versão: 3 · Duração estimada: ~80 s (225 palavras faladas)
+Versão: 4 · Duração estimada: ~80 s (225 palavras faladas)
 
 ## Bloco 1 — Gancho (~6 s)
 Cena: Primeiro quadro já com o contador '7 bilhões de Pix por mês' girando sobre um celular low-poly (a palavra Pix em texto simples, sem o logotipo oficial); ao lado, o Zé segura uma carteira aberta com notas genéricas low-poly (sem reproduzir as cédulas do real) e olha de uma para o outro.
@@ -34,7 +34,7 @@ Cena: Balança 3D equilibrada: prato verde (a favor) à esquerda com um cofre fe
 - **[ARGUMENTO CONTRA · F14, F24]** Quem critica aponta que, sem dinheiro vivo, some o plano B: no apagão da Espanha, as transações com cartão caíram mais da metade enquanto faltou luz.
   - Tela: cartão −55% durante o apagão (Espanha, 2025) (rodapé: Fonte: Banco de España, 2025; BCE, 2025)
 - **[TERMÔMETRO · F22, F13, F21, F23]** Numa pesquisa com economistas alemães, em 2016, só 2% apoiaram acabar de vez com o dinheiro vivo. Já o efeito sobre crime e sonegação num país inteiro é incerto: parte do crime pode virar golpe digital.
-  - Tela: 2% a favor de acabar de vez (economistas alemães, 2016) (rodapé: Fonte: ifo, 2016; Wright et al., 2017; VoxEU, 2016; FBSP, 2025) · Voz: "Numa pesquisa com economistas alemães, em dois mil e dezesseis, só dois por cento apoiaram acabar de vez com o dinheiro vivo. Já o efeito sobre crime e sonegação num país inteiro é incerto: parte do crime pode virar golpe digital."
+  - Tela: 2% a favor de acabar de vez (economistas alemães, 2016) (rodapé: Fonte: ifo, 2016) · Voz: "Numa pesquisa com economistas alemães, em dois mil e dezesseis, só dois por cento apoiaram acabar de vez com o dinheiro vivo. Já o efeito sobre crime e sonegação num país inteiro é incerto: parte do crime pode virar golpe digital."
 
 ## Bloco 5 — Encerramento (~3 s)
 Cena: O Zé de frente para a câmera, com o celular numa mão e uma nota genérica na outra, ombros levantados, esperando a resposta.

@@ -50,6 +50,10 @@ Nenhuma objeção CRÍTICA nem IMPORTANTE nova. O roteiro está pronto, com as i
 - Cartão de El Salvador com a nota do recuo e a causa (R2.2), sem mudar a fala.
 - Duração estimada: cerca de 82 s (231 palavras), abaixo do máximo de 90 s e acima da meta de 75 s.
 
+## Ajuste do coordenador (versão 4)
+- Tela da inflação (bloco 3): rodapé só com a fonte dos dois números (BLS e IBGE, F24); a F6 continua na frase. Fala sem mudança.
+- Termômetro: "que achei" virou "que achamos", para seguir a voz do canal (os outros roteiros dizem "não achamos pesquisa"). Sem mudança de conteúdo.
+
 ## Resumo final para a revisão humana
 - **O que mudou (versão 1 → 3):**
   - argumento a favor com base numérica (teto de 21 milhões, F22; real com mais de 85% de perda de poder de compra desde 1994, F23), antes da onda 3;

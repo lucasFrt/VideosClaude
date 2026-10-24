@@ -49,6 +49,9 @@ Nenhuma objeção CRÍTICA nem IMPORTANTE nova; três MENORES, das quais R2.1 e 
 ### Resultado da rodada
 Três objeções aceitas e nenhuma rejeitada. Versão 3 do roteiro: 225 palavras, cerca de 80 s. Fim das ondas 3 e 4 (duas rodadas, sem objeção CRÍTICA ou IMPORTANTE pendente).
 
+## Ajuste do coordenador (versão 4)
+- Termômetro: o rodapé da tela passou a citar só a pesquisa que a tela mostra (ifo, 2016); as outras fontes da frase continuam no 02-fontes. Fala sem mudança.
+
 ## Resumo final para a revisão humana
 
 ### O que mudou (versão 1 → versão 3)
