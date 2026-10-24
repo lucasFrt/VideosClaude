@@ -7,6 +7,7 @@
 #             (PREMISSA: uma simplificação do cenário, dita no vídeo; vem do 01-ideia.md)
 #   fontes    códigos do 02-fontes.md (obrigatório em tudo, menos BORDÃO e PREMISSA)
 #   tela      (opcional) número ou texto que aparece na tela; o rodapé de fonte sai das fontes
+#             (numa PREMISSA, a tela pode ficar sem fonte: é hipótese do cenário, sem rodapé)
 #   rodape    (opcional) só os códigos, entre as fontes da frase, que sustentam o texto da tela
 #   voz       (opcional) a fala escrita como a voz deve ler, com números por extenso
 #

@@ -148,7 +148,7 @@ def gerar_sobreposicoes(blocos, fontes, total):
     n = 0
     for bloco in blocos:
         for frase in bloco["frases"]:
-            if not frase["tela"]:
+            if not frase["tela"] or not frase["rodape"]:  # premissa na tela não tem rodapé
                 continue
             n += 1
             # Fica visível da frase até o fim do bloco: o número continua na tela nesse tempo.

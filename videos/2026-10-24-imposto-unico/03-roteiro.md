@@ -1,6 +1,6 @@
 <!-- Gerado pelo scripts/roteiro.py a partir do 03-roteiro.toml. Não edite este arquivo. -->
 # Roteiro — E se o Brasil tivesse um imposto único?
-Versão: 4 · Duração estimada: ~79 s (220 palavras faladas)
+Versão: 5 · Duração estimada: ~79 s (220 palavras faladas)
 
 ## Bloco 1 — Gancho (~6 s)
 Cena: Primeiro quadro já com dois cofrinhos ligados por uma seta: uma moeda sai do cofrinho do Zé e vai para o da padaria, e cada cofrinho perde uma fatia amarela com o número 2,81%; o Zé olha surpreso. Sem celular, aplicativo ou símbolo de pagamento.
@@ -32,6 +32,7 @@ Cena: Balança 3D equilibrada: prato verde (a favor) à esquerda e coral (contra
 - **[ARGUMENTO A FAVOR · F1, F13, F9]** Quem defende aponta que, com todo mundo pagando, inclusive quem hoje sonega, quem já paga pagaria menos; e sacar dinheiro vivo custaria o dobro.
 - **[ARGUMENTO CONTRA · F6, F3]** Quem critica aponta que até a CPMF, muito menor, fez cair o uso de cheques e deixou o crédito mais caro.
 - **[TERMÔMETRO · F8, F7, F6, F4]** Estudos do FMI, da OCDE e do Banco Central concordam: baixo como a CPMF, esse imposto arrecada, mas cada aumento afasta dinheiro dos bancos. Como imposto único, que se saiba, nenhum país testou.
+  - Tela: Baixo, arrecada; cada aumento afasta dinheiro dos bancos. Como imposto único: sem teste conhecido. (rodapé: Fonte: FMI, 2001; OCDE, 2006; Banco Central, 2001; Ipea, 2017)
 
 ## Bloco 5 — Encerramento (~3 s)
 Cena: Zé de frente para a câmera, de mãos vazias, ombros levantados, esperando a resposta.

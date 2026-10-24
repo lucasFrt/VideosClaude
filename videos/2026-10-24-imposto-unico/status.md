@@ -1,7 +1,7 @@
 etapa_atual: revisao-humana-1
 aprovado_roteiro: nao
 aprovado_previa: nao
-ultima_atualizacao: 2026-10-24 16:37
+ultima_atualizacao: 2026-10-24 16:43
 pendencias:
   - revisão humana 1: decidir se o tema pode ir ao ar perto do segundo turno (04-revisoes.md, "Resumo final", e 02-fontes.md, "Contexto que o vídeo evita": o manifesto de 2019 foi associado a um dos candidatos do segundo turno)
   - abrir os documentos principais (F1 e o artigo do Jus.com.br, F13, F6, F7, F8); tudo foi conferido só por resumos de busca
@@ -17,4 +17,5 @@ historico:            # uma linha por mudança de etapa, para medir o tempo de p
   - 2026-10-24 16:34 onda-4-rodada-2 concluída
   - 2026-10-24 16:35 onda-3-rodada-3 (crítico, conferência; hora aproximada do recebimento)
   - 2026-10-24 16:37 onda-4-rodada-3 concluída
-  - 2026-10-24 16:37 revisao-humana-1
+  - 2026-10-24 16:43 ajuste do coordenador: tela e rodapé no termômetro (versão 5)
+  - 2026-10-24 16:43 revisao-humana-1

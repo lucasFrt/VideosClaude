@@ -81,7 +81,7 @@ Nenhuma objeção CRÍTICA ou IMPORTANTE nova. As três são MENORES, de ajuste 
 
 ## Resumo final para a revisão humana
 
-> ### ⚠ Contexto de campanha: transferência de renda
+> ### ATENÇÃO: contexto de campanha (transferência de renda)
 > O vídeo sairia (se fosse publicado) a um dia do segundo turno de 2026, e transferência de renda é tema central da campanha. Em outubro de 2026, o Bolsa Família teve reajuste de 15,04% (piso de R$ 600 para R$ 691), anunciado a poucos dias da votação. O roteiro trata só da ideia geral de renda universal e:
 > - não cita valor médio, reajuste, fila nem número de famílias cortadas, só as cerca de 19 milhões de famílias atendidas (F4);
 > - não compara governos, não usa nomes de políticos, nem o autor da lei de 2004, nem o nome antigo do programa;

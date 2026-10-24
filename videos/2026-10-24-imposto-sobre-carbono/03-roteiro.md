@@ -1,6 +1,6 @@
 <!-- Gerado pelo scripts/roteiro.py a partir do 03-roteiro.toml. Não edite este arquivo. -->
 # Roteiro — E se o Brasil cobrasse um imposto sobre carbono?
-Versão: 2 · Duração estimada: ~82 s (229 palavras faladas)
+Versão: 3 · Duração estimada: ~82 s (229 palavras faladas)
 
 ## Bloco 1 — Gancho (~8 s)
 Cena: Primeiro quadro já com uma bomba de combustível low-poly cujo visor marca '+R$ 0,33 por litro? (cenário)' em amarelo; o Zé, surpreso, segura a mangueira; do escapamento de um carro sai uma nuvem cinza de cubos.
@@ -29,12 +29,13 @@ Cena: Etiqueta 'R$ 200 por tonelada (suposição)' sobre a nuvem de cubos; conta
 - **[PROJEÇÃO · F4]** Mas, sem alcançar o desmatamento nem as emissões do gado e do solo, o corte teria limite.
 
 ## Bloco 4 — A balança (~31 s)
-Cena: Balança 3D equilibrada: prato verde (a favor) à esquerda e coral (contra) à direita; o verde acende com o Zé recebendo um envelope de moedas; o coral acende com um carro numa estrada longa, um caminhão e uma fábrica com chaminé; no termômetro, os dois apagam e ela termina equilibrada.
+Cena: Balança 3D equilibrada: prato verde (a favor) à esquerda e coral (contra) à direita; o verde acende com o Zé recebendo um envelope de moedas; o coral acende com um carro numa estrada longa, um caminhão e uma fábrica com chaminé; no termômetro, os dois apagam, o texto do consenso aparece acima da balança, com o rodapé de fonte, e ela termina equilibrada.
 
 - **[BORDÃO]** Agora, vamos colocar na balança.
 - **[ARGUMENTO A FAVOR · F9, F10, F32, F16, F18, F20]** Quem defende aponta que cada um cortaria emissões do jeito mais barato e que, com a devolução, os mais pobres tenderiam a ganhar, segundo estudos.
 - **[ARGUMENTO CONTRA · F18, F26, F23]** Quem critica aponta que, mesmo com a devolução, perderia quem depende muito do carro ou do frete, inclusive parte dos mais pobres, e a indústria pesada.
 - **[TERMÔMETRO · F9, F10, F27, F24, F11, F12]** Entre economistas, há amplo consenso, medido sobretudo nos Estados Unidos, de que cobrar pelo carbono corta emissões mais barato que impor regras. Já o tamanho do corte varia muito entre estudos.
+  - Tela: Amplo consenso, medido sobretudo nos EUA: cobrar pelo carbono corta emissões mais barato que regras (rodapé: Fonte: Painel IGM/Clark Center (EUA), 2011; Declaração de economistas (EUA), 2019; IPCC, 2022)
 
 ## Bloco 5 — Encerramento (~3 s)
 Cena: Zé de frente para a câmera, ao lado da bomba, ombros levantados, esperando a resposta.

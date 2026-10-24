@@ -131,7 +131,7 @@ def checar(pasta):
             if re.search(r"\d", frase.get("fala", "")) and not frase.get("voz"):
                 avisos.append(f"{onde}: a fala tem algarismos e não tem 'voz'; "
                               "escreva como a voz deve ler, por extenso")
-            if frase.get("tela") and not codigos:
+            if frase.get("tela") and not codigos and marcacao != "PREMISSA":
                 erros.append(f"{onde}: texto na tela sem fonte para o rodapé")
             # "rodape" escolhe, entre as fontes da frase, só as que sustentam o texto da tela.
             if "rodape" in frase:
@@ -241,8 +241,9 @@ def gerar_md(pasta, roteiro):
             linhas.append(f"- **[{etiqueta}]** {frase.get('fala', '')}")
             detalhes = []
             if frase.get("tela"):
-                detalhes.append(f"Tela: {frase['tela']} "
-                                f"(rodapé: {rodape(frase.get('rodape', codigos), roteiro['_fontes'])})")
+                nota = (f"rodapé: {rodape(frase.get('rodape', codigos), roteiro['_fontes'])}" if codigos
+                        else "hipótese do cenário, sem rodapé")
+                detalhes.append(f"Tela: {frase['tela']} ({nota})")
             if frase.get("voz"):
                 detalhes.append(f"Voz: \"{frase['voz']}\"")
             if detalhes:

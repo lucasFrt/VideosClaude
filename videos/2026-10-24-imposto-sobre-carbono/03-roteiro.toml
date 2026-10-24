@@ -1,9 +1,9 @@
 # Roteiro: a fonte da verdade do vídeo. O 03-roteiro.md é gerado pelo scripts/roteiro.py.
-# Versão 2 (onda 4, rodada 1): mudanças registradas no 04-revisoes.md. Fontes conferidas por
+# Versão 3 (onda 4, rodada 2): mudanças registradas no 04-revisoes.md. Fontes conferidas por
 # busca em 2026-10-24 (ver o 02-fontes.md).
 
 titulo = "E se o Brasil cobrasse um imposto sobre carbono?"
-versao = 2
+versao = 3
 
 [[bloco]]
 nome = "Gancho"
@@ -71,7 +71,7 @@ cena = "Etiqueta 'R$ 200 por tonelada (suposição)' sobre a nuvem de cubos; con
 
 [[bloco]]
 nome = "A balança"
-cena = "Balança 3D equilibrada: prato verde (a favor) à esquerda e coral (contra) à direita; o verde acende com o Zé recebendo um envelope de moedas; o coral acende com um carro numa estrada longa, um caminhão e uma fábrica com chaminé; no termômetro, os dois apagam e ela termina equilibrada."
+cena = "Balança 3D equilibrada: prato verde (a favor) à esquerda e coral (contra) à direita; o verde acende com o Zé recebendo um envelope de moedas; o coral acende com um carro numa estrada longa, um caminhão e uma fábrica com chaminé; no termômetro, os dois apagam, o texto do consenso aparece acima da balança, com o rodapé de fonte, e ela termina equilibrada."
 
   [[bloco.frase]]
   fala = "Agora, vamos colocar na balança."
@@ -91,6 +91,8 @@ cena = "Balança 3D equilibrada: prato verde (a favor) à esquerda e coral (cont
   fala = "Entre economistas, há amplo consenso, medido sobretudo nos Estados Unidos, de que cobrar pelo carbono corta emissões mais barato que impor regras. Já o tamanho do corte varia muito entre estudos."
   marcacao = "TERMÔMETRO"
   fontes = ["F9", "F10", "F27", "F24", "F11", "F12"]
+  tela = "Amplo consenso, medido sobretudo nos EUA: cobrar pelo carbono corta emissões mais barato que regras"
+  rodape = ["F10", "F9", "F24"]
 
 # Exemplo real cortado para ficar perto de 80 s (CLAUDE.md, seção 3). As fontes da Suécia, da
 # França e do Canadá estão conferidas no 02-fontes (F13 a F17). Se voltar, a ideia é uma frase

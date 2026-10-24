@@ -82,6 +82,9 @@ Nenhuma objeção CRÍTICA nem IMPORTANTE nova. As correções da rodada 2 ficar
 - F1 e 01-ideia com as séries de carga explicadas e a dedução marcada.
 - Duração: cerca de 79 s (220 palavras).
 
+### Ajuste do coordenador
+Ajuste do coordenador depois da rodada 3: tela e rodapé no termômetro (mesma objeção R2.1 do roteiro do carbono); fala sem mudança. Tela: "Baixo, arrecada; cada aumento afasta dinheiro dos bancos. Como imposto único: sem teste conhecido." Rodapé: FMI, OCDE, Banco Central e Ipea (F8, F7, F6, F4). Versão 5.
+
 ## Resumo final para a revisão humana
 
 ### Contexto de campanha (ler antes de tudo)
