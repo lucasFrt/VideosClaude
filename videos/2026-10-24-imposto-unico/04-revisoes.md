@@ -35,8 +35,71 @@ Nenhuma objeção CRÍTICA; cinco IMPORTANTES (termômetro, "caía com o tempo",
 - Duração mantida em cerca de 78 s (218 palavras): as correções somaram palavras, compensadas com frases mais curtas nos blocos 2 e 3 e no lado contra.
 
 ## Rodada 2
-...
+
+### O que o crítico considerou sólido
+- 218 palavras, que batem com os blocos; cerca de 78 s é plausível (as siglas faladas podem somar uns 3 s) e fica abaixo de 90 s.
+- 5,62 ÷ 0,38 = 14,8: "quase quinze vezes" está certo e atribuído na mesma frase.
+- F15 (32,4% do PIB em 2025), F6, F7 e F13 conferem. "Crédito mais caro" é leitura razoável de F6.
+- As correções da rodada 1 ficaram certas e não criaram contradição; a balança tem 24 e 21 palavras; o termômetro separa o observado do não testado.
+- Conta de coerência do crítico (aproximada): a CPMF a 0,38% rendia cerca de 1,3% a 1,4% do PIB (F14), uma base de uns 3,5 vezes o PIB; a 5,62%, daria cerca de 20% do PIB. "A alíquota subiria, ninguém sabe quanto" está bem calibrada.
+
+### Objeções
+| # | Trecho | Nível | Objeção | Base | Resposta do autor | Decisão |
+|---|--------|-------|---------|------|-------------------|---------|
+| R2.1 | 01-ideia: "que os proponentes põem em cerca de 35% do PIB"; F1: "a carga de referência da conta é mais alta que a real" | IMPORTANTE (só documentação) | Base nova: o texto de 2009 do Jornal do Brasil diz que 5,62% arrecadaria cerca de 27% do PIB, "referente apenas aos tributos a serem extintos"; o crítico só achou o 35% numa ideia legislativa do Senado de 2016, que não é do formulador. Se a referência é 27%, a inferência se inverte: a conta foi feita para um valor menor que os 32,4% de hoje. | JB, 2009; ideia legislativa do Senado, 2016. | Procede, com um ajuste. Busquei de novo: um artigo do Jus.com.br cita o site do proponente com os dois números juntos ("com uma carga tributária de 35% do PIB", 2,81% de cada lado substituiria tributos que representam 27% do PIB). Então o 35% é a carga total da época e o 27% é o que os tributos extintos somavam; o resto ficaria com tributos mantidos. A frase "mais alta que a real" saiu, e F1 e o 01-ideia agora dizem isso, mais que não sabemos quanto esses tributos somam hoje nem se 5,62% ainda bastaria. Disso saiu uma mudança de uma palavra no vídeo: a premissa dizia "substitui todos os outros", mas a conta de quem defende repõe só os tributos extintos. Agora diz "substitui quase todos os outros, arrecadando o mesmo", fiel à proposta. | aceita (com uma palavra a mais no vídeo) |
+| R2.2 | "mais gente usaria dinheiro vivo" [PROJEÇÃO · F5, F6, F7] | MENOR | Nenhuma das três fontes mede dinheiro vivo. A base real é F13 (os proponentes dobram o saque porque esperam a fuga) e F8 (desintermediação). Sugere F13, F6 e F8. | Resumos de F5, F6 e F7. | Procede. As fontes agora são F5, F13, F6, F8 e F7. Mantive F5 porque a mesma frase diz "algumas empresas juntariam etapas" (verticalização, que é de F5), e F7 porque ela diz que "a alíquota subiria". A seção "Base das projeções do bloco 3", no 02-fontes, registra que a evidência sobre dinheiro vivo é indireta. A frase falada não muda. | aceita em parte (F5 e F7 ficam pelas outras partes da frase) |
+| R2.3 | "com todo mundo pagando, até quem hoje sonega, quem já paga pagaria menos" | MENOR | Na voz, a vírgula dupla com dois "quem" fica ambígua. Sugere "inclusive quem hoje sonega", com o mesmo número de palavras. | Leitura em voz alta. | Procede. Trocado "até" por "inclusive". | aceita |
+
+### Veredito do crítico
+Nenhuma objeção CRÍTICA; uma IMPORTANTE nova (R2.1), só de documentação, e duas MENORES. "Com R2.1 corrigida e as duas MENORES ajustadas, o roteiro está pronto." Nenhuma objeção da rodada 1 foi reaberta.
+
+### O que mudou na versão 3
+- Premissa: "substitui quase todos os outros" (era "todos").
+- Lado a favor: "inclusive quem hoje sonega".
+- Fontes da projeção de longo prazo: F5, F13, F6, F8 e F7.
+- F1 e 01-ideia com o 35% e o 27% explicados; nova seção "Base das projeções do bloco 3" no 02-fontes.
+- Duração: cerca de 78 s (219 palavras).
 
 ## Resumo final para a revisão humana
-- O que mudou:
-- O que ficou em aberto:
+
+### Contexto de campanha (ler antes de tudo)
+- **É véspera do segundo turno.** O manifesto de 2019 com os 2,81% (F13) foi noticiado na época como iniciativa que **um dos candidatos deste segundo turno** apresentaria no Congresso (outra reportagem diz que ele recuou). O crítico não achou programa de governo de 2026 que proponha imposto único; a plataforma tributária desse candidato é suspender a reforma do consumo e baixar o IVA para 20%.
+- O boato de "taxar o Pix" voltou na campanha de 2026 (manchete de 26/06/2026, só o título confirmado), depois do episódio de janeiro de 2025.
+- O vídeo não cita ninguém, usa o rodapé "Proponentes do imposto único", diz "pelo cálculo de quem defende", não usa a palavra "proposta" e não mostra celular, aplicativo de banco nem o símbolo do Pix. Mesmo assim, **cabe à revisão humana decidir se o tema pode ir ao ar agora** ou se espera passar a eleição. Detalhes: 02-fontes.md, "Contexto que o vídeo evita".
+
+### O que mudou nas duas rodadas
+- O termômetro deixou de extrapolar ("alto e sozinho") e passou a nomear quem concorda e o que foi observado; diz que o imposto único nunca foi testado.
+- Entrou a escala: 5,62% por operação, quase 15 vezes a CPMF, com a conta atribuída a quem defende.
+- Saiu a frase "a arrecadação caía com o tempo", que generalizava uma média de seis países (no Brasil, a CPMF ficou estável).
+- O efeito cascata passou a comparar produtos ("quanto mais etapas, mais imposto no preço"), em vez de sugerir que tudo encarece.
+- O lado a favor ganhou o argumento central dos proponentes (base ampla, saque em dobro); o lado contra passou a usar a evidência brasileira da CPMF (Banco Central).
+- O gancho virou [PREMISSA], com a tela "Conta de quem defende"; a premissa diz "quase todos os outros", fiel à conta dos proponentes.
+- Fontes confirmadas ou trocadas: F4 perdeu a passagem não encontrada; F9 é o TD 1649 (2011); entraram F12 a F15 (Senado, manifesto de 2019, CPMF em % do PIB, carga de 2025).
+
+### O que ficou em aberto
+- Nenhum documento foi aberto: tudo foi conferido por resumos de busca.
+- A alíquota é só a dos proponentes, com cálculo de 2009, sobre uma carga e uma base financeira que mudaram. Não há estimativa independente, e não refizemos a conta com dados de hoje.
+- Não há pesquisa de opinião com economistas sobre esse imposto; o termômetro se apoia em estudos de 2001 a 2017, quase todos de órgãos oficiais ou multilaterais.
+- O efeito sobre o uso de dinheiro vivo tem base só indireta (R2.2).
+- Duração de cerca de 78 s, acima da meta de 75 s e abaixo do máximo de 90 s.
+
+### Links principais para abrir
+- F1, página do proponente (2,81% de cada lado, 35% e 27% do PIB) e o artigo que a cita: https://jus.com.br/artigos/32770/imposto-unico-reflexoes
+- F13, manifesto de 2019 (saque em dobro, lista de tributos): https://www.jb.com.br/economia/2019/07/1009940-empresarios-bolsonaristas-defendem-reforma-com-tributo-semelhante-a-cpmf.html
+- F6, Banco Central, TD 23: https://www.bcb.gov.br/pec/wps/port/wps23.pdf
+- F7, OCDE, WP 494: https://www.oecd.org/en/publications/the-rates-and-revenue-of-bank-transaction-taxes_652416621832.html
+- F8, FMI, WP 01/67: https://www.imf.org/en/publications/wp/issues/2016/12/30/bank-debit-taxes-in-latin-america-an-analysis-of-recent-trends-4083
+
+### As quatro perguntas (CLAUDE.md, seção 6)
+- **Os dois lados têm o mesmo espaço e o mesmo tom?** Sim. São 24 palavras a favor e 21 contra, com o mesmo verbo ("Quem defende aponta que..." / "Quem critica aponta que..."), sem adjetivo e com base concreta dos dois lados. O lado a favor se apoia no desenho da proposta (F1, F13) e o contra num estudo (F6). Essa assimetria é a da literatura, e o termômetro a deixa clara.
+- **O termômetro reflete onde os especialistas estão, com fonte?** Sim, com ressalvas. FMI, OCDE e Banco Central (F8, F7, F6) concordam no que foi observado: com alíquota baixa, esse imposto arrecada, mas cada aumento encolhe a base. Sobre o imposto único, a frase diz que falta evidência ("que se saiba, nenhum país testou", com o Ipea, F4). Não há pesquisa com economistas, e os estudos são antigos (02-fontes, "Termômetro").
+- **Alguma frase pode ser recortada e circular com sentido distorcido?**
+  - O gancho "Quase três por cento, duas vezes" sozinho não diz de quem é a conta. A tela e o rodapé dizem, e a fala atribui uns 8 s depois.
+  - "O banco descontaria o imposto único na hora" leva o nome do imposto para não parecer notícia sobre transferências, mas o risco ligado ao boato do Pix existe.
+  - As demais frases estão no condicional ou atribuídas.
+- **Todo número tem fonte e está atualizado?** Sim, com uma ressalva. Os números do vídeo são:
+  - 2,81% (F1, F13);
+  - 0,38% e 1997–2007 (F3, F12);
+  - 5,62% e "quase 15 vezes" (conta com F1 e F3).
+
+  Todos têm fonte e rodapé. A ressalva é que os 2,81% são um cálculo dos proponentes de 2009, repetido em 2019, e o vídeo não diz que ele continua válido. O vídeo não usa a carga atual; ela está em F15 (32,4% do PIB em 2025).
